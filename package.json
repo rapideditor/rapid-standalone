@@ -1,7 +1,7 @@
 {
   "name": "@rapideditor/rapid-standalone",
   "version": "2.4.2",
-  "description": "An AI-enhanced editor for OpenStreetMap",
+  "description": "Rapid, but packaged with all dependencies included",
   "repository": "github:rapideditor/rapid-standalone",
   "homepage": "https://rapideditor.org",
   "keywords": [
