@@ -1,0 +1,37 @@
+{
+  "name": "@rapideditor/rapid-standalone",
+  "version": "2.4.2",
+  "description": "An AI-enhanced editor for OpenStreetMap",
+  "repository": "github:rapideditor/rapid-standalone",
+  "homepage": "https://rapideditor.org",
+  "keywords": [
+    "editor",
+    "openstreetmap"
+  ],
+  "license": "ISC",
+  "type": "module",
+  "main": "dist/rapid.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "all": "npm run build",
+    "build": "node scripts/build.js",
+    "start": "node scripts/server.js"
+  },
+  "dependencies": {
+    "@rapideditor/rapid": "2.4.2",
+    "@openstreetmap/id-tagging-schema": "~6.6.0",
+    "mapillary-js": "^4.1.2",
+    "maplibre-gl": "^3.6.2",
+    "name-suggestion-index": "~6.0.20240909",
+    "osm-community-index": "~5.8.1",
+    "pannellum": "^2.5.6",
+    "wmf-sitematrix": "^0.1.5"
+  },
+  "devDependencies": {
+    "chalk": "^5.3.0",
+    "shelljs": "^0.8.5",
+    "static-server": "^3.0.0"
+  }
+}

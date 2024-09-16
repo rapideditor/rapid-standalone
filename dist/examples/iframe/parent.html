@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--
+This file is an example of how to load and interact with Rapid in an `iframe`.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
+Because of browser's Same Origin policy, the parent and child files should be served from the same server.
+The child code can still fetch the latest published Rapid bundle from a CDN.
+-->
+    <meta charset='utf-8'/>
+    <title>Rapid iframe example</title>
+    <link rel='icon' type='image/svg' href='https://cdn.jsdelivr.net/npm/@rapideditor/rapid/dist/img/rapid_favicon.svg'>
+    <link rel='stylesheet' href='./parent.css'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'/>
+    <meta name='mobile-web-app-capable' content='yes'/>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'/>
+  </head>
+
+  <body>
+    <script>var $buoop={required:{i:15,e:-4,f:-3,o:-3,s:-1,c:-3},reminder:0,noclose:true,no_permanent_hide:true,insecure:true,api:2021.06};</script>
+    <script src='https://browser-update.org/update.js'></script>
+
+    <div id='wrap'>
+      <div id='viewer'>
+      </div>
+
+      <div id='sidebar'>
+        <h1><img src="./rapid-logo.svg"/> iframe demo</h1>
+
+        <div id='rapid-info'>
+          Waiting for the iframe to be ready...
+        </div>
+
+        <div id='map-info'>
+        </div>
+
+        <div id='tour'>
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+const DEG2RAD = Math.PI / 180;
+const RAD2DEG = 180 / Math.PI;
+
+// DOM elements
+const viewer = document.getElementById('viewer');
+const rapidInfo = document.getElementById('rapid-info');
+const mapInfo = document.getElementById('map-info');
+const tour = document.getElementById('tour');
+
+
+// We will watch the url hash to keep it in sync between parent and child
+let _currhash = window.location.hash;
+window.addEventListener('hashchange', syncHashes);
+
+// Create the iframe, inject it into document
+// If the parent has a hash, share it with the child.
+const iframe = document.createElement('iframe');
+iframe.setAttribute('allowfullscreen', 'true');
+iframe.setAttribute('frameborder', '0');
+iframe.onload = iframeLoaded;
+iframe.src = './child.html' + _currhash;
+viewer.appendChild(iframe);
+
+// Properties in the inner iframe
+let _innerDocument;
+let _innerWindow
+let _rapidStarted = false;
+
+// Rapid systems we can work with
+let _context;
+let _editor;
+let _map;
+let _imagery;
+
+
+// When the iframe is available,
+// 1. Get the Rapid context from the iframe window
+// 2. Wait for Rapid to finish initializing
+// 3. Perform setup steps on the parent document
+function iframeLoaded() {
+  // Access stuff in the iframe
+  _innerDocument = iframe.contentDocument || iframe.contentWindow.document;
+  _innerWindow = iframe.contentWindow;
+  _context = window.rapidContext = _innerWindow.rapidContext;
+  updateSidebar();
+
+  // Rapid should already be initting.
+  // We can chain off that Promise to know when it's done.
+  _context.initAsync()
+    .then(() => {
+      _rapidStarted = true;
+      _editor = _context.systems.editor;
+      _map = _context.systems.map;
+      _imagery = _context.systems.imagery;
+
+      _map.on('draw', () => {
+        syncHashes();
+        updateSidebar()
+      });
+
+      setupTour();
+      updateSidebar();
+    });
+}
+
+
+// Keep the url hashes in sync between parent and child
+function syncHashes() {
+  // Parent hash changed, push change to child
+  if (window.location.hash !== _currhash) {
+    _currhash = window.location.hash;
+    if (_innerWindow) {
+      _innerWindow.location.hash = _currhash;
+    }
+  }
+
+  // Child hash has changed, update parent
+  // This updates the URL hash without affecting the browser navigation stack.
+  if (_innerWindow && _innerWindow.location.hash !== _currhash) {
+    _currhash = _innerWindow.location.hash;
+    window.history.replaceState(null, '', _currhash);
+  }
+}
+
+
+// Redraw the info in the sidebar
+function updateSidebar() {
+  let rapidInfoHTML = '';
+
+  if (!_context) {
+    rapidInfoHTML = 'Waiting for the iframe to be ready...';
+  } else {
+    rapidInfoHTML = 'Rapid is ' + (_rapidStarted ? 'started' : 'starting up') + '.'
+      + ' Loaded version <b>' + _context.version + '</b>';
+  }
+  rapidInfo.innerHTML = rapidInfoHTML;
+
+
+  let mapInfoHTML = '<table>';
+
+  if (_map) {
+    const viewport = _context.viewport;
+    const transform = viewport.transform;
+    const [lon, lat] = viewport.centerLoc();
+    const zoom = transform.zoom;
+    // Why a '-' here?  Because "bearing" is the angle that the user points, not the angle that north points.
+    const ang = numWrap(-transform.r * RAD2DEG, 0, 360);
+    const precision = Math.max(0, Math.ceil(Math.log(zoom) / Math.LN2));
+    const EPSILON = 0.1;
+
+    const zoomStr = zoom.toFixed(2);
+    const latStr = lat.toFixed(precision);
+    const lonStr = lon.toFixed(precision);
+    const angStr = ang.toFixed(1);  // degrees
+
+    let mapParam = `${zoomStr}/${latStr}/${lonStr}`;
+    if (Math.abs(ang) > EPSILON) {
+      mapParam += `/${angStr}`;
+    }
+
+    mapInfoHTML += '<tr><td><b>Map:</b></td><td>' + mapParam + '</td></tr>';
+  }
+
+  if (_imagery) {
+    const source = _imagery.baseLayerSource();
+    mapInfoHTML += '<tr><td><b>Imagery:</b></td><td>' + source.name + '</td></tr>';
+  }
+
+  if (_editor) {
+    const editCount = _editor.difference().summary().size;
+    mapInfoHTML += '<tr><td><b>Edits:</b></td><td>' + editCount;
+    if (editCount) {
+      mapInfoHTML += "<a class='save-link' href='javascript:clickSave()'>save</a>";
+    }
+    mapInfoHTML += '</td></tr>';
+  }
+
+  mapInfoHTML += '</table>'
+  mapInfo.innerHTML = mapInfoHTML;
+}
+
+
+// When user clicks save, try to enter save mode
+function clickSave() {
+  if (!_context.inIntro && _context.mode?.id !== 'save' && _editor.hasChanges()) {
+    _context.enter('save');
+  }
+}
+
+
+// Wrap a number around a min..max range
+// Similar to modulo, but works for negative numbers too.
+function numWrap(num, min, max) {
+  const d = max - min;
+  return ((num - min) % d + d) % d + min;
+}
+
+
+const landmarks = [
+  {
+    name: "Lucy the Elephant",
+    mapParams: [-74.51161, 39.32085, 19, 53],
+    osmID: 'n367683980',
+    wikipedia: "https://wikipedia.org/wiki/Lucy_the_Elephant"
+  },
+  { name: "Sandy Hook Lighthouse",
+    mapParams: [-74.00202, 40.46173, 20, 356],
+    osmID: "w411135029",
+    wikipedia: "https://wikipedia.org/wiki/Sandy_Hook_Light"
+  },
+  { name: "USS New Jersey",
+    mapParams: [-75.13306, 39.93946, 18.5, 20],
+    osmID: "w29667862",
+    wikipedia: "https://wikipedia.org/wiki/USS_New_Jersey_(BB-62)"
+  },
+  { name: "High Point Monument",
+    mapParams: [-74.66162, 41.32095, 19.5, 23],
+    osmID: "w236342206",
+    wikipedia: "https://wikipedia.org/wiki/High_Point_(New_Jersey)"
+  },
+  { name: "The Stone Pony",
+    mapParams: [-74.00096, 40.21998, 19, 15],
+    osmID: "w266206944",
+    wikipedia: "https://wikipedia.org/wiki/The_Stone_Pony"
+  },
+  { name: "The Steel Pier",
+    mapParams: [-74.41917, 39.35752, 18, 20],
+    osmID: "w229939911",
+    wikipedia: "https://wikipedia.org/wiki/Steel_Pier"
+  }
+];
+
+
+function chooseLandmark(index) {
+  const landmark = landmarks[index];
+  if (_map && landmark) {
+    const [lon, lat, zoom, bearing] = landmark.mapParams;
+    const rot = -bearing * DEG2RAD;
+    _map.setMapParams([lon, lat], zoom, rot, 0);
+    _map.selectEntityID(landmark.osmID);   // OSM IDs can change, but we can try.
+  }
+}
+
+
+function setupTour() {
+  const h3 = document.createElement('h3');
+  h3.appendChild(document.createTextNode('Take a tour of New Jersey! 💪'));
+  tour.appendChild(h3);
+
+  for (let i = 0; i < landmarks.length; i++) {
+    const landmark = landmarks[i];
+    const choose = document.createElement('a');
+    choose.appendChild(document.createTextNode(landmark.name));
+    choose.setAttribute('class', 'choose-link');
+    choose.setAttribute('href', 'javascript:chooseLandmark(' + i + ')');
+
+    const about = document.createElement('a');
+    about.appendChild(document.createTextNode('[info]'));
+    about.setAttribute('class', 'about-link');
+    about.setAttribute('target', '_blank');
+    about.setAttribute('href', landmark.wikipedia);
+
+    tour.appendChild(choose);
+    tour.appendChild(about);
+    tour.appendChild(document.createElement('br'));
+  }
+}
+
+    </script>
+  </body>
+</html>
