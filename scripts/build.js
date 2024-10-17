@@ -71,7 +71,7 @@ shell.mkdir('-p', 'dist/data/modules/pannellum');
 console.log(chalk.yellow('⌛️ Copying wmf-sitematrix…'));
 shell.mkdir('-p', 'dist/data/modules/wmf-sitematrix');
 for (const file of ['wikipedia']) {
-  const source = `node_modules/wmf-sitematrix/${file}.min.json`;
+  const source = `node_modules/wmf-sitematrix/data/${file}.min.json`;
   const destination = `dist/data/modules/wmf-sitematrix/${file}.min.json`;
   shell.cp('-rf', source, destination);
 }
