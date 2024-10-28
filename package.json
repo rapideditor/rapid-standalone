@@ -1,6 +1,6 @@
 {
   "name": "@rapideditor/rapid-standalone",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "Rapid, but packaged with all dependencies included",
   "repository": "github:rapideditor/rapid-standalone",
   "homepage": "https://rapideditor.org",
