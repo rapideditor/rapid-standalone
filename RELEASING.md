@@ -24,5 +24,5 @@ npm publish
 Set as latest release on GitHub:
 - Because this project is just a copy of Rapid, we can just copy Rapid's changelog link here.
 - Open https://github.com/facebook/Rapid/blob/main/CHANGELOG.md and copy the URL to the new release
-- Open https://github.com/@rapideditor/rapid-standalone/tags and pick the new tag you just pushed
+- Open https://github.com/rapideditor/rapid-standalone/tags and pick the new tag you just pushed
 - There should be a link like "create a release from the tag", click that, and paste in the link to the changelog.
