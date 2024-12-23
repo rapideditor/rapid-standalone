@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.048Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.750Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.bs.json",
-    "hash": "7fbb82a14d1aab0c5a96c2518cb0fd12"
+    "hash": "fd43364dea41c7dea39dfb001980a875"
   },
   "bs": {
     "modes": {
@@ -57,8 +57,7 @@
         "title": "Kvadrat"
       },
       "straighten": {
-        "title": "Ispraviti",
-        "key": "Oblikovati"
+        "title": "Ispraviti"
       },
       "delete": {
         "title": "Izbrišite",
@@ -169,7 +168,7 @@
         }
       }
     },
-    "feature": {
+    "filters": {
       "points": {
         "description": "Tačke"
       }
@@ -186,21 +185,18 @@
       "cancel": "Otkažite"
     },
     "source_switch": {
+      "dev": "razvojno",
       "live": "uživo",
-      "lose_changes": "Imate nespremljenih promjena. Mijenjanje servera karte će ih odbaciti. Sigurni ste da želite promijeniti servere?",
-      "dev": "razvojno"
+      "lose_changes": "Imate nespremljenih promjena. Mijenjanje servera karte će ih odbaciti. Sigurni ste da želite promijeniti servere?"
     },
-    "rapid_feature_toggle": {
-      "esri": {
-        "remove": "Uklonite"
-      }
+    "rapid_menu": {
+      "remove": "Uklonite"
     },
     "tag_reference": {
       "description": "Opis",
       "on_wiki": "{tag} na wiki.osm.org",
       "used_with": "Korišteno sa {type}"
     },
-    "cannot_zoom": "Ne može se umanjiti više u trenutnom načinu.",
     "QA": {
       "keepRight": {
         "detail_description": "Opis"
@@ -228,9 +224,7 @@
       }
     },
     "issues": {
-      "warnings": {
-        "list_title": "Upozorenja"
-      }
+      "warnings": "Upozorenja"
     },
     "intro": {
       "graph": {
@@ -259,12 +253,14 @@
       "key": {
         "delete": "Izbrišite"
       },
-      "browsing": {
-        "navigation": {
-          "title": "Navigacija"
+      "navigation": "Navigacija",
+      "help": "Pomoć",
+      "command": {
+        "straighten": {
+          "key": "Oblikovati"
         },
-        "help": {
-          "title": "Pomoć"
+        "toggle_streetside": {
+          "key": "Oblikovati"
         }
       }
     },
@@ -330,6 +326,7 @@
       "bin": "bini",
       "bkm": "kom",
       "bla": "siksika",
+      "blo": "anii",
       "bm": "bambara",
       "bn": "bengalski",
       "bo": "tibetanski",
@@ -542,6 +539,7 @@
       "kv": "komi",
       "kw": "kornski",
       "kwk": "kvakvala",
+      "kxv": "kuvi",
       "ky": "kirgiški",
       "la": "latinski",
       "lad": "ladino",
@@ -568,7 +566,6 @@
       "lua": "luba-lulua",
       "lui": "luiseno",
       "lun": "lunda",
-      "luo": "luo",
       "lus": "mizo",
       "luy": "luhija",
       "lv": "latvijski",
@@ -745,6 +742,7 @@
       "swb": "komorski",
       "syc": "klasični sirijski",
       "syr": "sirijski",
+      "szl": "šleski",
       "ta": "tamilski",
       "tce": "južni tučoni",
       "te": "telugu",
@@ -790,10 +788,10 @@
       "umb": "umbundu",
       "ur": "urdu",
       "uz": "uzbečki",
-      "vai": "vai",
       "ve": "venda",
       "vec": "venecijanski",
       "vi": "vijetnamski",
+      "vmw": "makua",
       "vo": "volapuk",
       "vot": "votski",
       "vun": "vunjo",
@@ -807,6 +805,7 @@
       "wuu": "Wu kineski",
       "xal": "kalmik",
       "xh": "hosa",
+      "xnr": "kangri",
       "xog": "soga",
       "yao": "jao",
       "yap": "japeški",

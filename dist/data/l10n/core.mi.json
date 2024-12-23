@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.959Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.722Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.mi.json",
-    "hash": "3acfb106607dc0b3aef1eae7cdc1cab2"
+    "hash": "622dff55e2a30a37d8c015604d80e32f"
   },
   "mi": {
     "icons": {
@@ -36,9 +36,9 @@
       }
     },
     "shortcuts": {
-      "editing": {
-        "commands": {
-          "save": "Pupuri"
+      "command": {
+        "save": {
+          "label": "Pupuri"
         }
       }
     },
@@ -57,7 +57,7 @@
       "ann": "Ōporo",
       "anp": "Anahika",
       "ar": "Ārapi",
-      "ar-001": "Ārapi Moroko",
+      "ar-001": "Ārapi Moroki",
       "arn": "Mapūte",
       "ars": "Arapika Nahāri",
       "as": "Āhamēhi",

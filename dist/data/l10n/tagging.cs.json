@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.774Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.674Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.cs.json",
-    "hash": "2fecb21da2b1a681b49b6901c74f6a47"
+    "hash": "f57a87d561a7dd3e0c2744bddab7c058"
   },
   "cs": {
     "presets": {
@@ -103,7 +103,7 @@
             }
           },
           "placeholder": "Není známo",
-          "terms": "vstup povolen,povolení ke vstupu,přístup,veřejné,soukromí,privátní,veřejné,zákaz vstupu,soukromý pozemek",
+          "terms": "vstup povolen,povolení ke vstupu,přístup,veřejné,soukromé,privátní,veřejné,zákaz vstupu,soukromý pozemek",
           "types": {
             "access": "Všem",
             "bicycle": "Jízdní kola",
@@ -113,7 +113,7 @@
           }
         },
         "access_aisle": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "access_simple": {
           "label": "Povolený vstup/vjezd",
@@ -139,7 +139,7 @@
           }
         },
         "addr/interpolation": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "all": "Vše",
             "alphabetic": "Abecední",
@@ -153,30 +153,30 @@
             "block_number": "Číslo bloku",
             "block_number!jp": "Č. bloku",
             "city": "Město",
-            "city!cn": "Město/Prefektura/Společenství",
-            "city!jp": "Velkoměsto/Město/Vesnice/Tokijský zvláštní okrsek",
+            "city!cn": "Město/prefektura/společenství",
+            "city!jp": "Velkoměsto/město/vesnice/tokijský zvláštní okrsek",
             "city!vn": "Obec",
             "country": "Stát (země)",
             "county": "Kraj",
             "county!jp": "Distrikt",
             "district": "Okres",
-            "district!cn": "Okres/Kraj/Územní jednotka (Banner)",
-            "district!vn": "Okolí/Město/Okres",
+            "district!cn": "Okres/kraj/územní jednotka (banner)",
+            "district!vn": "Obec/město/okres",
             "floor": "Patro",
             "hamlet": "Osada",
             "housename": "Název domu",
-            "housenumber!jp": "Číslo budovy/Číslo parcely",
+            "housenumber!jp": "Číslo budovy/číslo parcely",
             "neighbourhood": "Část městské čtvrti, obce",
             "place": "Místo",
             "postcode": "PSČ",
             "province": "Provincie",
-            "province!cn": "Provincie/Obec/Administrativní oblast/Zvláštní admin. oblast",
+            "province!cn": "Provincie/obec/administrativní oblast/zvláštní admin. oblast",
             "province!jp": "Prefektura",
             "quarter": "Čtvrť",
             "state": "Stát (v rámci federace)",
             "street": "Ulice",
             "subdistrict": "Subdistrikt",
-            "subdistrict!vn": "Okrsek/Komuna/Městys",
+            "subdistrict!vn": "Okrsek/komuna/městys",
             "suburb": "Městská část (obvod)",
             "unit": "Jednotka"
           },
@@ -186,10 +186,10 @@
           "label": "Administrativní úroveň"
         },
         "advertising": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "aerialway": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "aerialway/access": {
           "label": "Přístup",
@@ -223,7 +223,7 @@
           }
         },
         "aeroway": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "agrarian": {
           "label": "Výrobky"
@@ -232,8 +232,12 @@
           "label": "Klimatizace",
           "terms": "chladící systém,chlazení"
         },
+        "alt_name": {
+          "label": "Alternativní název",
+          "terms": "Alternativní název,Jiný název,Náhradní název"
+        },
         "amenity": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "animal_boarding": {
           "label": "Pro zvířata"
@@ -245,7 +249,7 @@
           "label": "Pro zvířata"
         },
         "archaeological_site": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "baths": "Vany",
             "city": "Historické město",
@@ -264,16 +268,24 @@
         },
         "architect": {
           "label": "Architekt",
-          "terms": "stavební projektant"
+          "terms": "stavební projektant,architekt"
         },
         "area/highway": {
-          "label": "Typ"
+          "label": "Druh"
+        },
+        "armrest": {
+          "label": "Područky",
+          "options": {
+            "no": "Bez područek",
+            "undefined": "Neznámý",
+            "yes": "Jedna, nebo více područek"
+          }
         },
         "artist": {
           "label": "Umělec"
         },
         "artwork_type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "bust": "Busta",
             "installation": "Umělecká instalace",
@@ -317,7 +329,7 @@
           "label": "Bankomat"
         },
         "attraction": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "alpine_coaster": "Alpská dráha",
             "amusement_ride": "Atrakce",
@@ -366,7 +378,7 @@
           "terms": "pivo,drink,klub,hospoda,alkohol,noční,noc"
         },
         "barrier": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "block": "Velký blok",
             "bollard": "Sloupek",
@@ -401,7 +413,7 @@
           }
         },
         "basin": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "detention": "Vsakovací",
             "evaporation": "Vypařovácí",
@@ -439,10 +451,10 @@
         },
         "bench": {
           "label": "Lavička",
-          "terms": "místo k sezení"
+          "terms": "místo k sezení,lavička"
         },
         "bicycle_parking": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "building": "V budově",
             "handlebar_holder": "Držák na řídítka",
@@ -466,7 +478,7 @@
         },
         "bin": {
           "label": "Odpadkový koš",
-          "terms": "popelnice,koš"
+          "terms": "popelnice,koš,odpadkový koš,odpaďák"
         },
         "blind": {
           "label": "Přístup pro nevidomé",
@@ -475,7 +487,7 @@
             "no": "Ne",
             "yes": "Ano"
           },
-          "terms": "nevidomí,slepí,slepec,slepce,slepci,hendikep,přístupné"
+          "terms": "nevidomí,slepí,slepec,slepce,slepci"
         },
         "blood_components": {
           "label": "Odebírané složky",
@@ -487,7 +499,7 @@
           }
         },
         "board_type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "art": "Umění",
             "astronomy": "Astronomie",
@@ -501,7 +513,7 @@
           }
         },
         "bollard": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "fixed": "Pevný sloupek",
             "flexible": "Flexibilní sloupek",
@@ -511,7 +523,7 @@
           }
         },
         "books": {
-          "label": "Typ knih",
+          "label": "Druh knih",
           "terms": "žánr knih,knižní žánr,určení knihy,kniha"
         },
         "booth": {
@@ -523,10 +535,10 @@
           "terms": "stáčení do lahví,stáčení do flašek,plnění flašek"
         },
         "boules": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "boundary": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "branch_brand": {
           "label": "Pobočka",
@@ -541,7 +553,7 @@
           "terms": "značka piva,výčep piva,lahvové pivo,točené pivo,točené,čepované pivo"
         },
         "bridge": {
-          "label": "Typ",
+          "label": "Druh",
           "placeholder": "Výchozí"
         },
         "bridge/ref": {
@@ -549,10 +561,10 @@
           "terms": "označení mostu,most,označení,číslo"
         },
         "bridge/support": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "bridge_combo": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "aqueduct": "Akvadukt",
             "boardwalk": "Chodník z prken",
@@ -584,7 +596,7 @@
             "construction": "Budova ve výstavbě",
             "cowshed": "Kravín",
             "detached": "Samostatný rodinný dům",
-            "dormitory": "Kolej / internát",
+            "dormitory": "Kolej/internát",
             "farm": "Zemědělský dům",
             "farm_auxiliary": "Zemědělská budova",
             "fire_station": "Budova požární zbrojnice",
@@ -658,7 +670,7 @@
           "terms": "vyrobený,modulární,přenosný"
         },
         "bunker_type": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "button_operated": {
           "label": "Volací tlačítko"
@@ -685,11 +697,32 @@
           "label": "Připevnění kamery"
         },
         "camera/type": {
-          "label": "Typ kamery",
+          "label": "Druh kamery",
           "options": {
             "dome": "V kupoli",
             "fixed": "Pevná",
             "panning": "Otočná"
+          }
+        },
+        "camp_site": {
+          "label": "Druh",
+          "options": {
+            "basic": {
+              "description": "Nic než místo, kde lze postavit stan nebo zaparkovat vozidlo",
+              "title": "Základní (pouze místa pro stany/vozidla)"
+            },
+            "deluxe": {
+              "description": "Plně servisované a s dalším vybavením, jako je prádelna, bazén nebo podobná rekreační zařízení.",
+              "title": "Deluxe (nabízí prádelnu nebo bazén atd.)"
+            },
+            "serviced": {
+              "description": "K dispozici jsou toalety, voda, sprchy a elektřina.",
+              "title": "Obsluhované (nabízí sprchy a elektřinu)"
+            },
+            "standard": {
+              "description": "V blízkosti jsou k dispozici toalety a voda.",
+              "title": "Standardní (nabízí toalety a vodu)"
+            }
           }
         },
         "capacity": {
@@ -725,7 +758,7 @@
           "label": "Vklady"
         },
         "castle_type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "castrum": "Castrum",
             "defensive": "Hrad",
@@ -783,7 +816,7 @@
           "terms": "šaty,textil,oděv"
         },
         "club": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "collection_times": {
           "label": "Čas výběru",
@@ -806,17 +839,29 @@
           "placeholder": "Stručný popis vašich úprav (povinné)"
         },
         "communication_multi": {
-          "label": "Typ komunikace",
+          "label": "Druh komunikace",
           "terms": "druh komunikace,cesta,typ,druh,druhy,silnice,cesty"
+        },
+        "community_centre": {
+          "label": "Druh",
+          "options": {
+            "club_home": "Domácí klub",
+            "community_hall": "Společenský sál",
+            "cultural_centre": "Kulturní centrum",
+            "family_centre": "Rodinné centrum",
+            "parish_hall": "Farní síň",
+            "village_hall": "Obecní úřad",
+            "youth_centre": "Centrum pro mládež"
+          }
         },
         "connectivity": {
           "label": "Připojení"
         },
         "construction": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "consulate": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "consular_agency": "Úřad pro konzulární služby",
             "consular_office": "Kancelář konzulárních služeb",
@@ -876,7 +921,7 @@
           }
         },
         "craft": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "agricultural_engines": "Výrobce zemědělských strojů",
             "basket_maker": "Košíkář",
@@ -937,7 +982,7 @@
           }
         },
         "crane/type": {
-          "label": "Typ jeřábu",
+          "label": "Druh jeřábu",
           "options": {
             "floor-mounted_crane": "Sloupový jeřáb",
             "gantry_crane": "Portálový jeřáb",
@@ -978,7 +1023,7 @@
           }
         },
         "crossing": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "traffic_signals": "Přechod se semafory",
             "uncontrolled": "Pouze silniční značení",
@@ -1116,11 +1161,11 @@
           "terms": "strava,druhy jídel"
         },
         "currency_multi": {
-          "label": "Typy měn",
+          "label": "Druhy měn",
           "terms": "bankovky,hotovost,mince,peníze"
         },
         "cutting": {
-          "label": "Typ",
+          "label": "Druh",
           "placeholder": "Výchozí"
         },
         "cycle_network": {
@@ -1206,7 +1251,7 @@
           "label": "Vklad"
         },
         "depot": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "depth": {
           "label": "Hloubka (v metrech)"
@@ -1244,7 +1289,7 @@
           "terms": "průměr,velikost koruny,šířka koruny"
         },
         "diet_multi": {
-          "label": "Typy diet",
+          "label": "Druhy diet",
           "options": {
             "gluten_free": "Bezlepková",
             "kosher": "Košer",
@@ -1256,7 +1301,7 @@
           "terms": "bezlepkové,ovocné,halal,košer,bez laktózy,maso,pescovegetariánské,syrové,veganské,vegetariánské"
         },
         "diplomatic": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "consulate": "Konzulát",
             "embassy": "Velvyslanectví",
@@ -1313,16 +1358,16 @@
           "terms": "délka,ujeté kilometry"
         },
         "disused/amenity": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "disused/railway": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "disused/shop": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "dock": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "drydock": "Suchý dok",
             "floating": "Plovoucí suchý dok",
@@ -1359,7 +1404,7 @@
           "terms": "šířka v metrech,rozměr dveří,dveře,šířka,rozměr,velikost,metr,velikost dveří"
         },
         "door_type": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "drink_multi": {
           "label": "Nápoje"
@@ -1401,11 +1446,11 @@
           "terms": "adresa,pošta,elektronická,email,e mail,mail,zpráva,poslat,komunikace"
         },
         "embankment": {
-          "label": "Typ",
+          "label": "Druh",
           "placeholder": "Výchozí"
         },
         "embassy": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "branch_embassy": "Pobočka velvyslanectví",
             "delegation": "Delegace",
@@ -1421,16 +1466,16 @@
           "label": "Pohotovost"
         },
         "emergency_combo": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "emergency_ward_entrance": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "enforcement": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "entrance": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "emergency": "Únikový východ",
             "entrance": "Pouze vchod",
@@ -1470,7 +1515,7 @@
           "terms": "cena,sazba,platit,zaplatit,zpoplatněno,placené,zdarma,neplacené"
         },
         "fence_type": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "fhrs/id-GB": {
           "terms": "schéma hodnocení hygieny potravin,systém hodnocení hygieny potravin,agentura pro potravinářské standardy"
@@ -1503,12 +1548,12 @@
           }
         },
         "fire_mains": {
-          "label": "Typ sítě",
+          "label": "Druh sítě",
           "options": {
             "dry": "Vyhrazená síť (normálně suchá)",
             "no": "Ne",
             "wet": "Připojeno k síti (trvale připojeno)",
-            "yes": "Neznámý typ"
+            "yes": "Neznámý druh"
           }
         },
         "fire_service_inlet": {
@@ -1528,7 +1573,7 @@
             "no": "Ne",
             "pre-action": "Připojeno k síti (systém před akcí)",
             "wet": "Připojeno k síti (trvale připojeno)",
-            "yes": "Neznámý typ"
+            "yes": "Neznámý druh"
           }
         },
         "fireplace": {
@@ -1539,7 +1584,7 @@
           "terms": "ryby,rybařit,rybník,k rybaření,ryba,prut,muškaření,lovení,chytání ryb,kapr"
         },
         "fitness_station": {
-          "label": "Typ zařízení"
+          "label": "Druh zařízení"
         },
         "fixme": {
           "label": "Opravit",
@@ -1549,7 +1594,7 @@
           "label": "Jméno vlajky"
         },
         "flag/type": {
-          "label": "Typ vlajky"
+          "label": "Druh vlajky"
         },
         "flag/wikidata": {
           "label": "Wikidata vlajky"
@@ -1589,14 +1634,14 @@
           "label": "Opěrka nohy"
         },
         "ford": {
-          "label": "Typ",
+          "label": "Druh",
           "placeholder": "Výchozí"
         },
         "fortification_type": {
-          "label": "Typ opevnění"
+          "label": "Druh opevnění"
         },
         "fountain": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "frequency": {
           "label": "Provozní frekvence",
@@ -1609,7 +1654,7 @@
           "label": "Palivo"
         },
         "fuel/fuel_multi": {
-          "label": "Typy paliv",
+          "label": "Druhy paliv",
           "options": {
             "GTL_diesel": "Syntetická nafta GTL",
             "HGV_diesel": "Nafta pro těžká nákladní vozidla",
@@ -1644,7 +1689,7 @@
           "label": "Hry"
         },
         "garden/type": {
-          "label": "Typ zahrady"
+          "label": "Druh zahrady"
         },
         "gauge": {
           "label": "Rozchod"
@@ -1704,7 +1749,7 @@
           }
         },
         "generator/type": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "genus": {
           "label": "Rod",
@@ -1718,7 +1763,7 @@
           "terms": "informační služba o federálních zeměpisných názvech,deska spojených států pro zeměpisná jména,usa"
         },
         "government": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "grades": {
           "label": "Stupně studia"
@@ -1731,7 +1776,7 @@
           "terms": "pouze skupinové,jen pro skupiny,seskupení,skupina,více lidí,mnoho,osob"
         },
         "guest_house": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "handrail": {
           "label": "Zábradlí",
@@ -1759,7 +1804,7 @@
           }
         },
         "healthcare": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "alternative": "Alternativní medicína",
             "audiologist": "Ušní",
@@ -1901,17 +1946,17 @@
           "terms": "rychlá,rychlost,svižný,dráha,VRT,železnice,vlak,dálkový"
         },
         "highway": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "highway_cartpath": {
-          "label": "Typ cesty",
+          "label": "Druh cesty",
           "options": {
             "path": "Stezka pro vozítka",
             "service": "Účelová komunikace, příjezd"
           }
         },
         "historic": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "archaeological_site": "Archeologické naleziště",
             "bomb_crater": "Kráter po bombě",
@@ -1952,7 +1997,7 @@
           "label": "Viditelné při odlivu"
         },
         "holding_position/type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "intermediate": "Křížení pojezdových drah",
             "runway": "Vzletová a přistávací dráha"
@@ -1985,7 +2030,7 @@
           "label": "Horká voda"
         },
         "house": {
-          "label": "Typ domu"
+          "label": "Druh domu"
         },
         "iata": {
           "label": "IATA Kód letiště "
@@ -2013,17 +2058,17 @@
           "terms": "vnitřní,vnitřek,zastřešeno,v domě,v budově,budova,dům,chodba"
         },
         "indoor_type": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "industrial": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "informal": {
           "label": "Neformální",
           "terms": "nelegální,vyšlapaná,vyježděná,neoficiální"
         },
         "information": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "inscription": {
           "label": "Nápis",
@@ -2044,13 +2089,13 @@
           "terms": "wifi,wlan"
         },
         "internet_access/fee": {
-          "label": "Připojení k internetu",
+          "label": "Poplatek za přístup k internetu",
           "options": {
             "customers": "Pouze pro zákazníky",
             "no": "Zdarma",
             "yes": "Placené"
           },
-          "terms": "poplatek za wifi"
+          "terms": "internetový poplatek,poplatez za wifi,poplatek za internet,cena,částka,zpoplatněno,zpoplatněný internet,přístup k internetu zpoplatněn"
         },
         "internet_access/ssid": {
           "label": "Název WiFi sítě",
@@ -2106,14 +2151,14 @@
           "label": "Výška"
         },
         "kerb/kerb_barrier": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "kitchen": {
           "label": "Kuchyně",
           "terms": "kuchyň,kuchyńská,kuchyňská linka,místo na vaření,vaření"
         },
         "kneipp_water_cure_multi": {
-          "label": "Typy nádrží",
+          "label": "Druhy nádrží",
           "options": {
             "arm": "Lázeň pro paže",
             "face": "Lázeň pro obličej",
@@ -2127,10 +2172,10 @@
           "label": "Způsob připevnění"
         },
         "lamp_type": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "landuse": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "lane_markings": {
           "label": "Značení jízdních pruhů",
@@ -2159,21 +2204,21 @@
           "terms": "list,cyklus,růst,opad"
         },
         "leaf_type": {
-          "label": "Typ listí",
+          "label": "Druh listí",
           "options": {
             "broadleaved": "Listnaté",
             "leafless": "Bezlisté",
             "mixed": "Smíšené",
             "needleleaved": "Jehličnaté"
           },
-          "terms": "typ,listí,jehličnaté,listnaté"
+          "terms": "typ listí,druh listí"
         },
         "leaf_type_singular": {
-          "label": "Typ listí",
-          "terms": "typ,listí,jehličnaté,listnaté"
+          "label": "Druh listí",
+          "terms": "typ listí,druh listí"
         },
         "leisure": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "length": {
           "label": "Délka (v metrech)",
@@ -2188,14 +2233,14 @@
           "terms": "patra,pater,výška,úroveň,budovy,poschodí,podlaží,úrovně"
         },
         "liaison": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "license_classes": {
           "label": "Třídy řidičského průkazu",
           "terms": "jízda,průkaz,dopis,řízení,škola,učení,vzdělávání"
         },
         "lifeguard": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "base": "Základna plavčíků",
             "tower": "Věž plavčíka"
@@ -2205,7 +2250,7 @@
           "label": "Záchranný kruh"
         },
         "lift_gate/type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "double": "Protichůdné tyče",
             "single": "Samostatná tyč"
@@ -2222,6 +2267,10 @@
         "lit": {
           "label": "Osvětlení",
           "terms": "lampa,osvětlení"
+        },
+        "loc_name": {
+          "label": "Místní název",
+          "terms": "hovorový název,obecný název,neformální název,přezdívka"
         },
         "location": {
           "label": "Umístění",
@@ -2245,10 +2294,10 @@
           "label": "Zamčeno"
         },
         "man_made": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "manhole": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "manufacturer": {
           "label": "Výrobce",
@@ -2258,14 +2307,20 @@
           "label": "Pokrytí"
         },
         "map_type": {
-          "label": "Typ"
+          "label": "Druh",
+          "options": {
+            "scheme": "Schematická mapa",
+            "street": "Silniční mapa",
+            "topo": "Topografická mapa",
+            "toposcope": "Toposkop"
+          }
         },
         "mapillary": {
           "label": "ID obrázku z Mapillary",
           "terms": "id,identifikace,číslo obrázku,kód,označení,značka,mapillary,obrázek,fotografie,fotka,zdroj"
         },
         "marker": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "aerial": {
               "description": "Navržené tak, aby bylo viditelné ze vzduchu.",
@@ -2310,6 +2365,7 @@
             "marble": "Mramor",
             "metal": "Kov",
             "plastic": "Plast",
+            "reinforced_concrete": "Železobeton",
             "rock": "Skála",
             "sand": "Písek",
             "sandstone": "Pískovec",
@@ -2367,11 +2423,12 @@
           "terms": "maximální šířka,limit,šířka"
         },
         "memorial": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "blue_plaque": "Modrá plaketa",
             "bust": "Busta",
             "cross": "Pamětní kříž",
+            "ghost_bike": "Kolo duchů",
             "plaque": "Pamětní deska",
             "sculpture": "Socha",
             "statue": "Socha (osoba nebo zvíře)",
@@ -2476,12 +2533,16 @@
           "terms": "horská kola,hory,kolo,cyklista,cyklistika,obtížnost,jízda na kole,náročnost,do kopce,jízda nahoru,jízda do kopce,proti svahu"
         },
         "museum": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "name": {
           "label": "Název",
           "placeholder": "Název prvku (existuje-li)",
           "terms": "štítek,jméno"
+        },
+        "nat_name": {
+          "label": "Národní název",
+          "terms": "národní jméno"
         },
         "natural": {
           "label": "Přírodní objekt"
@@ -2491,7 +2552,7 @@
           "terms": "síťový,soubor,propojení,trasy,cesty"
         },
         "network/type": {
-          "label": "Typ sítě"
+          "label": "Druh sítě"
         },
         "network_bicycle": {
           "label": "Třída sítě",
@@ -2547,7 +2608,7 @@
           "terms": "naturismus,naturista,nudapláž,nudista"
         },
         "office": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "accountant": "Účetnictví",
             "adoption_agency": "Adopční agentura",
@@ -2598,6 +2659,10 @@
             "water_utility": "Vodohospodářská kancelář"
           }
         },
+        "official_name": {
+          "label": "Oficiální název",
+          "terms": "formální název,plný název,právní název"
+        },
         "oneway": {
           "label": "Jednosměrka",
           "options": {
@@ -2645,7 +2710,7 @@
           "terms": "operátor,majitel,správce,správa,provozní"
         },
         "operator/type": {
-          "label": "Typ provozovatele"
+          "label": "Druh provozovatele"
         },
         "organic": {
           "label": "Bioprodukty",
@@ -2679,21 +2744,60 @@
           "terms": "p+r,p a r,zaparkuj a jeď,mhd,přestup,dojíždějící,kapacitní,odstavné,hromadná doprava,na kraji města,p + r,parkandride,p/r,parkuj a jeď,městská,metro,tram,bus"
         },
         "parking": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
-            "carports": "Přístřešek",
-            "garage_boxes": "Garáž",
-            "half_on_kerb": "Polovinou na obrubníku",
-            "lane": "Pruh na straně silnice",
-            "layby": "Volební účast / Odstávka",
-            "multi-storey": "Víceúrovňové",
-            "on_kerb": "Na obrubníku",
-            "rooftop": "Na střeše",
-            "sheds": "Lehký přístřešek",
-            "shoulder": "Na krajnici",
-            "street_side": "Podél ulice",
-            "surface": "Povrchové",
-            "underground": "Podzemní"
+            "carports": {
+              "description": "Struktura používaná k poskytování omezené ochrany vozidlům, obvykle bez stěn.",
+              "title": "Přístřešek"
+            },
+            "garage_boxes": {
+              "description": "Soukromá garáž s více samostatnými boxy pro každý vůz.",
+              "title": "Garáž"
+            },
+            "half_on_kerb": {
+              "description": "Parkování částečně na chodníku.",
+              "title": "Polovinou na obrubníku"
+            },
+            "lane": {
+              "description": "Parkování na ulici (kterou lze snadno předělat na jízdní pruh).",
+              "title": "Pruh na straně silnice"
+            },
+            "layby": {
+              "description": "Parkování na odpočívadle u silnice.",
+              "title": "Volební účast / Odstávka"
+            },
+            "multi-storey": {
+              "description": "Dvě nebo více úrovní parkovacích ploch v konstrukci budovy.",
+              "title": "Vícepatrové"
+            },
+            "on_kerb": {
+              "description": "Parkování na chodníku.",
+              "title": "Na obrubníku"
+            },
+            "rooftop": {
+              "description": "Jedna úroveň parkovací plochy na vrcholu budovy.",
+              "title": "Na střeše"
+            },
+            "sheds": {
+              "description": "Soukromé hangáry pro vozidla.",
+              "title": "Lehký přístřešek"
+            },
+            "shoulder": {
+              "description": "Parkování na krajnici.",
+              "title": "Na krajnici"
+            },
+            "street_side": {
+              "description": "Parkování přímo na ulici (ale ne na ní).",
+              "title": "Podél ulice"
+            },
+            "surface": {
+              "description": "Jedna úroveň parkování na pozemku.",
+              "title": "Povrch"
+            },
+            "underground": {
+              "description": "Podzemní parkoviště.",
+              "title": "Podzemní"
+            }
           }
         },
         "parking/side/orientation": {
@@ -2728,10 +2832,10 @@
           }
         },
         "parking_entrance": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "parking_space": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "payment_multi": {
           "label": "Platební možnosti",
@@ -2769,7 +2873,7 @@
           "terms": "venkovní stůl,lavička"
         },
         "pipeline": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "piste/difficulty": {
           "label": "Obtížnost",
@@ -2851,7 +2955,7 @@
           }
         },
         "piste/type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "connection": "Spojení",
             "downhill": "Sjezd",
@@ -2859,6 +2963,7 @@
             "ice_skate": "Bruslení na ledu",
             "nordic": "Běžky",
             "playground": "Dětský ski park",
+            "ski_jump": "Skok na lyžích",
             "skitour": "Skialpinismus",
             "sled": "Sportovní saně",
             "sleigh": "Tažené saně",
@@ -2866,7 +2971,7 @@
           }
         },
         "place": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "plant": {
           "label": "Elektrárna"
@@ -2895,7 +3000,7 @@
           "label": "Zdroj energie"
         },
         "playground": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "playground/theme": {
           "label": "Motiv",
@@ -2923,16 +3028,16 @@
           "label": "Poštovní adresa"
         },
         "post_box/type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "lamp": "Připojena ke sloupu",
             "pillar": "Volně stojící schránka",
             "wall": "Namontovaná na zdi"
           },
-          "terms": "lampa,pilíř,komunita,zeď,metr"
+          "terms": "Druh,Typ"
         },
         "power": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "power_supply": {
           "label": "Elektrická přípojka",
@@ -2949,7 +3054,7 @@
           "terms": "produkt,produkty,výstup,produkce,zboží,předměty"
         },
         "public_bookcase/type": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "pump": {
           "label": "Pumpa",
@@ -2961,7 +3066,7 @@
           }
         },
         "railway": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "railway/position": {
           "label": "Pozice milníku",
@@ -2976,7 +3081,7 @@
           }
         },
         "railway/switch": {
-          "label": "Typ výhybky",
+          "label": "Druh výhybky",
           "options": {
             "abt": "Abtova výhybka",
             "default": "Normální výhybka",
@@ -3029,7 +3134,7 @@
           }
         },
         "recycling_type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "centre": "Centrum",
             "container": "Kontejner"
@@ -3104,8 +3209,12 @@
           "label": "Jméno pojezdové dráhy",
           "placeholder": "např. A5"
         },
+        "reg_name": {
+          "label": "Regionální název",
+          "terms": "regionální název,místní název"
+        },
         "relation": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "religion": {
           "label": "Náboženství",
@@ -3144,10 +3253,10 @@
           "terms": "objednání,objednávka,rezervování,stůl,přijímá rezervace,zamluvit,zamluvení,objednání"
         },
         "residential": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "resort": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "resource": {
           "label": "Zdroje",
@@ -3164,13 +3273,13 @@
           }
         },
         "restriction": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "restrictions": {
           "label": "Omezení odbočování"
         },
         "roller_coaster/track": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "brake_run": {
               "description": "Část tratě určená k zpomalení nebo zastavení vozíků",
@@ -3189,7 +3298,7 @@
               "title": "Údržba"
             },
             "moving": {
-              "description": "Jakýkoli typ pohyblivého kolejového systému, jako jsou výhybkové koleje",
+              "description": "Jakýkoli druh pohyblivého kolejového systému, jako jsou výhybkové koleje",
               "title": "Pohyblivé"
             },
             "station": {
@@ -3207,7 +3316,7 @@
           "terms": "barva,krytina,tašky,plechová střecha,šindele,došky,slaměná"
         },
         "room": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "rooms": {
           "label": "Pokojů"
@@ -3221,10 +3330,10 @@
           "terms": "kruhový,uzavřený,smyčkový,okružní"
         },
         "route": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "route_master": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "royal_cypher-GB": {
           "label": "Královská šifra",
@@ -3241,7 +3350,7 @@
           }
         },
         "ruins": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "rwn_ref": {
           "label": "Číslo trasy"
@@ -3254,7 +3363,8 @@
             "demanding_mountain_hiking": "T3: Náročná horská turistika",
             "difficult_alpine_hiking": "T6: Těžká vysokohorská turistika",
             "hiking": "T1: Turistika",
-            "mountain_hiking": "T2: Horská turistika"
+            "mountain_hiking": "T2: Horská turistika",
+            "strolling": "Procházky"
           },
           "placeholder": "Horská turistika, vysokohorská turistika...",
           "terms": "náročnost,obtížnost,složitost,terén,chůze,hory"
@@ -3395,13 +3505,14 @@
           "terms": "prodává použité,prodej použitého,použitý,z druhé ruky,bazarové,bazar,sekáč,second-hand,není nové,nové,zašlé,staré,antikvariát,veteš"
         },
         "segregated": {
-          "label": "Oddělení chodců od cyklistů"
+          "label": "Oddělení chodců od cyklistů",
+          "terms": "jízdní kolo,kolo,chodník,cyklostezka,cyklotrasa,oddělení,čára"
         },
         "self_service": {
           "label": "Samoobsluha"
         },
         "service": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "alley": "Ulička",
             "drive-through": "Drive-through",
@@ -3418,7 +3529,7 @@
           "label": "Služby"
         },
         "service_rail": {
-          "label": "Typ manipulační koleje",
+          "label": "Druh manipulační koleje",
           "options": {
             "crossover": "Kolejová spojka",
             "siding": "Výhybna",
@@ -3434,13 +3545,17 @@
           "label": "Přístřešek"
         },
         "shelter_type": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "shoes": {
           "label": "Boty"
         },
         "shop": {
-          "label": "Typ"
+          "label": "Druh"
+        },
+        "short_name": {
+          "label": "Krátký název",
+          "terms": "zkratka,akronym,iniciály"
         },
         "shower": {
           "label": "Sprchy",
@@ -3457,7 +3572,7 @@
           "label": "Účel"
         },
         "siren/type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "electronic": "Elektronická",
             "other": "Ostatní",
@@ -3465,7 +3580,7 @@
           }
         },
         "site": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "smoking": {
           "label": "Kouření",
@@ -3499,7 +3614,7 @@
           "terms": "textová zpráva,zpráva,esemeska,mobilní zpráva,text,smska,textově,zprávou,mobilem"
         },
         "social_facility": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "ambulatory_care": "Ambulantní péče",
             "assisted_living": "Asistované bydlení",
@@ -3596,6 +3711,7 @@
             "running": "Běh",
             "scuba_diving": "Potápění",
             "shooting": "Střelba",
+            "ski_jumping": "Skoky na lyžích",
             "skiing": "Lyžování",
             "soccer": "Fotbal",
             "speedway": "Motocyklová rychlostní dráha",
@@ -3636,17 +3752,17 @@
           "terms": "počet schodů,velikost schodiště,schody,výška,délka,délka schodů,kolik schodů,jeden schod"
         },
         "stile": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "stop": {
-          "label": "Typ stopky",
+          "label": "Druh stopky",
           "options": {
             "all": "Ze všech směrů",
             "minor": "Z vedlejších"
           }
         },
         "street_cabinet": {
-          "label": "Typ",
+          "label": "Druh",
           "terms": "pouliční skříň,elektřina,plyn,pouliční osvětlení,semafory,monitorování dopravy,správa věřejné dopravy,správa vody,voda,odpad,poštovní schránka,telefon,kabelová televize"
         },
         "stroller": {
@@ -3686,7 +3802,7 @@
           "placeholder": "Neznámé"
         },
         "studio": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "subject": {
           "label": "Předmět",
@@ -3709,7 +3825,7 @@
           }
         },
         "substation": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "compensation": "Kompenzace reaktivní síly",
             "converter": "AC/DC konvertor vysokého napětí",
@@ -3723,7 +3839,7 @@
           }
         },
         "substation_pipeline": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "compression": "Kompresní",
             "distribution": "Regionální distribuce",
@@ -3754,17 +3870,22 @@
           "options": {
             "artificial_turf": "Umělý trávník",
             "asphalt": "Asfalt",
+            "clay": "Jíl",
             "compacted": "Zhutněný",
             "concrete": "Beton",
+            "concrete:lanes": "Betonové jízdní pruhy",
+            "concrete:plates": "Betonové panely",
             "dirt": "Hlína",
             "fine_gravel": "Jemný štěrk",
             "grass": "Tráva",
+            "grass_paver": "Zatravňovací dlažba",
             "gravel": "Štěrk",
             "ground": "Země",
             "metal": "Kov",
             "mud": "Vytrvale zablácená",
             "paved": "Zpevněný",
             "paving_stones": "Dlažba",
+            "pebblestone": "Oblázková dlažba",
             "salt": "Sůl",
             "sand": "Písek",
             "sett": "Dlažební kostky",
@@ -3780,7 +3901,7 @@
           "terms": "druh bezpečnosti,druh ostrahy,bezpečnost,ostraha,zabezpečení,druh"
         },
         "surveillance/type": {
-          "label": "Typ zabezpečení",
+          "label": "Druh zabezpečení",
           "options": {
             "ALPR": "Automatická čtečka SPZ",
             "camera": "Kamera",
@@ -3823,7 +3944,7 @@
           }
         },
         "swimming_pool": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "kids": "Dětský bazének",
             "lazy_river": "Pomalý tekoucí proud",
@@ -3836,7 +3957,7 @@
           }
         },
         "switch": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "circuit_breaker": "Zkratovač",
             "disconnector": "Odpojovač",
@@ -3862,7 +3983,7 @@
           "label": "Cílová země"
         },
         "taxi_vehicle": {
-          "label": "Typ vozidla",
+          "label": "Druh vozidla",
           "options": {
             "auto_rickshaw": {
               "description": "Motorizované rikši (např. bajaj, tříkolka, tuk-tuk atd.)",
@@ -3874,7 +3995,7 @@
             },
             "motorcar": {
               "description": "Běžné auto (implicitně výchozí)",
-              "title": "Motokára"
+              "title": "Automobil"
             },
             "motorcycle": {
               "description": "S cestujícími 'jezdeckým pilónem' (např. mototaxi atd.)",
@@ -3887,10 +4008,10 @@
           "terms": "druh,čeleď,řád,třída,rod,kmen,říše,doména,život"
         },
         "tee": {
-          "label": "Barva/typ odpaliště"
+          "label": "Barva/druh odpaliště"
         },
         "telecom": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "connection_point": "Bod spojení",
             "data_center": "Datové centrum",
@@ -3903,7 +4024,7 @@
           "label": "Materiál"
         },
         "telescope/type": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "optical": "Optický teleskop",
             "radio": "Radiový teleskop"
@@ -3963,7 +4084,7 @@
           "terms": "zpoplatněno,mýto,mýtné,placené,placený úsek,úsek,dálnice,silnice,kamion,platba,cena,poplatek"
         },
         "tomb": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "columbarium": "Kolumbárium",
             "crypt": "Krypta",
@@ -3978,7 +4099,7 @@
           }
         },
         "tourism": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "tower/construction": {
           "label": "Konstrukce",
@@ -3988,10 +4109,10 @@
           "label": "Plošiny"
         },
         "tower/type": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "townhall/type": {
-          "label": "Typ radnice/obecního úřadu"
+          "label": "Druh radnice/obecního úřadu"
         },
         "tracktype": {
           "label": "Klasifikace povrchu",
@@ -4005,10 +4126,10 @@
           "placeholder": "Pevný, převážně pevný, měkký povrch"
         },
         "trade": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "traffic_calming": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "bump": "Úzký příčný práh",
             "chicane": "Šikana",
@@ -4040,7 +4161,7 @@
           }
         },
         "traffic_signals": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "traffic_signals/arrow": {
           "label": "Taktilní šipka",
@@ -4094,7 +4215,7 @@
           "terms": "viditelnost cesty,jasnost trasy,čitelnost,snadnost,orientace,nápadnost"
         },
         "transformer": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "auxiliary": "Pomocné: Napájí vnitřní systémy v rozvodnách",
             "converter": "Převodník: Napájí převody energie",
@@ -4109,18 +4230,18 @@
           "label": "Stromy"
         },
         "trench": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "trolley_wire": {
           "label": "Trolejové vedení",
           "terms": "troleje,zadrátováno,dráty,šňůry,elektrifikováno,elektrifikace,trakce,trakční vedení"
         },
         "tunnel": {
-          "label": "Typ",
+          "label": "Druh",
           "placeholder": "Výchozí"
         },
         "tunnel_combo": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "avalanche_protector": "Lavinový protektor",
             "building_passage": "Průchod budovy",
@@ -4140,7 +4261,7 @@
           "terms": "dvojstranné"
         },
         "usage_rail": {
-          "label": "Typ použití",
+          "label": "Druh použití",
           "options": {
             "branch": "Vedlejší",
             "industrial": "Průmysl",
@@ -4151,7 +4272,7 @@
           "terms": "způsob,druh užití,využití,účel,použití"
         },
         "usage_waterway": {
-          "label": "Typ použití",
+          "label": "Druh použití",
           "options": {
             "headrace": "Hlavový závod",
             "irrigation": "Zavlažování",
@@ -4177,7 +4298,7 @@
           "label": "Služby"
         },
         "valve": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "vehicles": {
           "label": "Vozidla",
@@ -4192,7 +4313,7 @@
           }
         },
         "vending": {
-          "label": "Typy zboží",
+          "label": "Druhy zboží",
           "options": {
             "bicycle_tube": "Trubky pro jízdní kola",
             "bread": "Chleba",
@@ -4200,6 +4321,7 @@
             "coffee": "Káva",
             "condoms": "Kondomy",
             "drinks": "Nápoje",
+            "e-cigarettes": "E-cigarety",
             "eggs": "Vejce",
             "electronics": "Elektronika",
             "elongated_coin": "Mince jako suvenýr",
@@ -4248,7 +4370,7 @@
           }
         },
         "volcano/type": {
-          "label": "Typ sopky",
+          "label": "Druh sopky",
           "options": {
             "scoria": "Sypaný kužel",
             "shield": "Štít",
@@ -4271,7 +4393,7 @@
           "terms": "třetí,terciální,napětí,elektřina,síť,síťové,vedení,volt"
         },
         "wall": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "waste": {
           "label": "Odpad",
@@ -4283,7 +4405,7 @@
           }
         },
         "water": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "water_point": {
           "label": "Kohout s pitnou vodou"
@@ -4303,7 +4425,7 @@
           "terms": "litry,obsah,tekutina,mililitr,hektolitr,litr,kubík"
         },
         "waterway": {
-          "label": "Typ"
+          "label": "Druh"
         },
         "website": {
           "label": "Webová stránka",
@@ -4316,7 +4438,7 @@
           "terms": "online menu,uri menu,adresa URL menu,menu webu,nabídka"
         },
         "wetland": {
-          "label": "Typ",
+          "label": "Druh",
           "options": {
             "bog": "Vrchoviště",
             "fen": "Slatiniště",
@@ -4705,9 +4827,33 @@
           "name": "Komunitní centrum",
           "terms": "událost,hala"
         },
+        "amenity/community_centre/club_home": {
+          "name": "Domácí klub",
+          "terms": "klubovna,klubová místnost,klubové centrum"
+        },
+        "amenity/community_centre/community_hall": {
+          "name": "Společenský sál",
+          "terms": "komunitní sál"
+        },
+        "amenity/community_centre/cultural_centre": {
+          "name": "Kulturní středisko",
+          "terms": "centrum kultury"
+        },
+        "amenity/community_centre/family_centre": {
+          "name": "Rodinné středisko",
+          "terms": "centrum pro rodinu"
+        },
         "amenity/community_centre/lgbtq": {
           "name": "Komunitní centrum LGBTQ+",
           "terms": "lgbtq událost,lgbtq hala,lgbt událost,lgbt hala,lgb událost,lgb hala'"
+        },
+        "amenity/community_centre/parish_hall": {
+          "name": "Farní sál",
+          "terms": "sál fary"
+        },
+        "amenity/community_centre/village_hall": {
+          "name": "Obecní úřad",
+          "terms": "obecní sál"
         },
         "amenity/community_centre/youth_centre": {
           "name": "Centrum mládeže",
@@ -4910,6 +5056,10 @@
         "amenity/fast_food/chicken": {
           "name": "Kuřecí rychlé občerstvení",
           "terms": "snídaně,jídelna,stolovat,stolování,večeře,drive-in,jíst,gril,oběd,stůl"
+        },
+        "amenity/fast_food/chinese": {
+          "name": "Čínské rychlé občerstvení",
+          "terms": "čínská,čína,rychlé občerstvení,fast food,restaurace,jídlo,oběd,večeře"
         },
         "amenity/fast_food/donut": {
           "name": "Kiosek s donuty",
@@ -5477,6 +5627,10 @@
           "name": "Filmové studio",
           "terms": "filmová produkce,filmové studio,videoprodukce,videozáznam,videostudio"
         },
+        "amenity/swingerclub": {
+          "name": "Swingers klub",
+          "terms": "dospělý*,lifestyle club,porno*,sex,strip*,swinger"
+        },
         "amenity/taxi": {
           "name": "Stanoviště taxi",
           "terms": "taxi"
@@ -5503,7 +5657,7 @@
         },
         "amenity/theatre/type/amphi": {
           "name": "Amfiteátr",
-          "terms": "pod širým nebem,venkovní,řecký,ampi"
+          "terms": "otevřený,venkovní,řecký,amfitéatr"
         },
         "amenity/ticket_validator": {
           "name": "Ověřovač vstupenek",
@@ -5954,7 +6108,7 @@
           "terms": "dvěře,vchod,vstup"
         },
         "barrier/yes": {
-          "name": "Zábrana (nespecifikovaný typ)"
+          "name": "Zábrana (nespecifikovaný druh)"
         },
         "boundary": {
           "name": "Hranice"
@@ -6619,6 +6773,10 @@
           "name": "Hlavní vchod",
           "terms": "hlavní vchod,vchod,dveře,průchod,vstup,východ,hlavní vstup,vchodové dveře,vstupní dveře"
         },
+        "entrance/shop": {
+          "name": "Vchod do obchodu",
+          "terms": "dveře"
+        },
         "entrance/staircase": {
           "name": "Vstup na schodiště",
           "terms": "dveře,schody,schodiště,schodový"
@@ -6774,7 +6932,7 @@
           "terms": "řeč,terapeut,terapie,hlas"
         },
         "healthcare/yes": {
-          "name": "Zdravotní zařízení (nespecifikovaný typ)"
+          "name": "Zdravotní zařízení (nespecifikovaný druh)"
         },
         "highway": {
           "name": "Prvek cesty"
@@ -6953,6 +7111,18 @@
         "highway/path/boardwalk": {
           "name": "Chodník z prken",
           "terms": "dřevěný chodník,boardwalk,prkenný chodník,vyvýšený,nad terénem,vyvýšený chodník"
+        },
+        "highway/path/crossing": {
+          "name": "Přechod pro pěší a cyklisty"
+        },
+        "highway/path/crossing/traffic_signals": {
+          "name": "Přechod pro pěší a cyklisty se signály pro chodce"
+        },
+        "highway/path/crossing/uncontrolled": {
+          "name": "Označený přechod pro pěší a cyklisty"
+        },
+        "highway/path/crossing/unmarked": {
+          "name": "Neoznačený přechod pro pěší a cyklisty"
         },
         "highway/path/informal": {
           "name": "Neformální pěšina",
@@ -7288,7 +7458,7 @@
           "terms": "statek,farma,zemědělství,usedlost,jzd,družstvo"
         },
         "landuse/flowerbed": {
-          "name": "Květnatý pás",
+          "name": "Květinový záhon",
           "terms": "rostlinná zahrada,květinová zahrada"
         },
         "landuse/forest": {
@@ -7305,7 +7475,7 @@
         },
         "landuse/greenfield": {
           "name": "Zelená louka",
-          "terms": "vývoj,hodně"
+          "terms": "zelená louka"
         },
         "landuse/greenhouse_horticulture": {
           "name": "Skleníky",
@@ -7338,6 +7508,14 @@
         "landuse/meadow": {
           "name": "Louka",
           "terms": "louka,pastviny,tráva"
+        },
+        "landuse/meadow_orchard/meadow": {
+          "name": "Louka s ovocnými stromy",
+          "terms": "ovoce,louka"
+        },
+        "landuse/meadow_orchard/orchard": {
+          "name": "Sad vysazený na louce",
+          "terms": "ovoce,louka"
         },
         "landuse/military": {
           "name": "Vojenský prostor",
@@ -7448,8 +7626,13 @@
           "name": "Kryté pódium",
           "terms": "hudební pavilon,hudební altán,altán,pavilón,pavilon,pódium,podium"
         },
+        "leisure/bathing_place": {
+          "name": "Místo ke koupání",
+          "terms": "koupání,máčení,máchání,plavání,koupací díra,žebřík,molo,voda"
+        },
         "leisure/beach_resort": {
-          "name": "Spravovaná pláž"
+          "name": "Spravovaná pláž",
+          "terms": "Plážový resort"
         },
         "leisure/bird_hide": {
           "name": "Pozorovatelna zvěře",
@@ -7840,6 +8023,10 @@
           "name": "Kurz jízdy na koni",
           "terms": "jezdecká dostihová dráha,cval,sázení na dostihy,dostihy,dostihové,sázky,dostihová dráha,jezdecká dráha"
         },
+        "leisure/sports_centre/karting": {
+          "name": "Zařízení pro motokáry",
+          "terms": "jít na káru,motokáry,motokárové závody"
+        },
         "leisure/sports_centre/shooting": {
           "name": "Areál střelnice",
           "terms": "střelecký klub,střelnice,střelba,střelnit,cvičení se zbraní,střelba,cvičení na terč"
@@ -8011,7 +8198,8 @@
           "terms": "hráz,hráza,náplavka,doraz"
         },
         "man_made/embankment": {
-          "name": "Násyp"
+          "name": "Násyp",
+          "terms": "násyp,násep,hráz,bariéra"
         },
         "man_made/flagpole": {
           "name": "Vlajka",
@@ -8020,6 +8208,10 @@
         "man_made/flare": {
           "name": "Fléra",
           "terms": "plynový komín,plyn,olej,oheň,hořet"
+        },
+        "man_made/footwear_decontamination-AU-NZ": {
+          "name": "Dekontaminační stanice obuvi",
+          "terms": "čištění obuvi,boty čištění,čištění bot,kontaminační stanice,dekontaminační stanice"
         },
         "man_made/fuel_pump": {
           "name": "Čerpací stanice",
@@ -8159,6 +8351,10 @@
         },
         "man_made/silo": {
           "terms": "silo,zásobník,silážní,sýpka,špýchar,špejchar"
+        },
+        "man_made/ski_jump": {
+          "name": "Věž skoku na lyžích",
+          "terms": "skok,skokanský můstek,běh,náběh,struktura skokanského můstku,skokanská věž,věž skokanského můstku"
         },
         "man_made/storage_tank": {
           "name": "Zásobník",
@@ -8310,7 +8506,7 @@
           "terms": "alkohol,pivo,pivko,chlast,mošt"
         },
         "man_made/yes": {
-          "name": "Prvek vytvořený člověkem (nespecifikovaný typ)"
+          "name": "Prvek vytvořený člověkem (nespecifikovaný druh)"
         },
         "marker": {
           "name": "Značka/označník",
@@ -8346,6 +8542,10 @@
         },
         "natural": {
           "name": "Přírodní prvek"
+        },
+        "natural/arch": {
+          "name": "Přírodní oblouk",
+          "terms": "přírodní most,kamenný oblouk"
         },
         "natural/bare_rock": {
           "name": "Plochy jednolité skály",
@@ -8800,6 +9000,10 @@
           "name": "Terapeutická kancelář",
           "terms": "terapie"
         },
+        "office/translator": {
+          "name": "Překladatelská kancelář",
+          "terms": "překladatel,překlad,překladatelská agentura"
+        },
         "office/travel_agent": {
           "name": "Cestovní kancelář"
         },
@@ -8812,7 +9016,7 @@
           "terms": "vodohospodářství,služba"
         },
         "office/yes": {
-          "name": "Kancelář (nespecifikovaný typ)"
+          "name": "Kancelář (nespecifikovaný druh)"
         },
         "pipeline": {
           "name": "Prvek potrubní dopravy"
@@ -8846,8 +9050,11 @@
           "terms": "běžky,severské lyžování,sjezdovka,skate lyžování,lyžování,xc"
         },
         "piste/piste": {
-          "name": "Dráha pro zimní sporty",
-          "terms": "lyže,nordic,běh na lyžích,sjezd,alpský,snowboard,skitour,lyžařská turistika,sáňky,sáně,saně,sáňkování,ski-joring,husky,kůň,zimní turistika,sněžnice,výlety na sněžnicích,led,bruslení"
+          "name": "Stezka/sjezdovka pro sněžné sporty (nespecifikovaný druh)"
+        },
+        "piste/ski_jump": {
+          "name": "Sjezdovka pro skoky na lyžích",
+          "terms": "skok,skok na lyžích,skokanský můstek"
         },
         "piste/skitour": {
           "name": "Lyžařská turistická stezka",
@@ -8860,6 +9067,10 @@
         "piste/sleigh": {
           "name": "Zimní dráha pro spřežení",
           "terms": "psí spřežení,husky,kůň,sjezdovka,sáně,saně,ski-joring,skijoring"
+        },
+        "piste/take_off": {
+          "name": "Odrazová hrana skoku na lyžích",
+          "terms": "skok,skok na lyžích,start,odjezová,skok s lyžemi,hrana pro skoky na lyžích,hrana pro skoky s lyžemi"
         },
         "place": {
           "name": "Místo"
@@ -9815,6 +10026,9 @@
           "name": "Dárky, suvenýry",
           "terms": "obchod s dárky,suvenýry"
         },
+        "shop/gold_buyer": {
+          "name": "Zlatokupec"
+        },
         "shop/greengrocer": {
           "name": "Ovoce a zelenina",
           "terms": "zelinář,zelinářství,prodejna zeleniny,zelenina,ovoce,ovoce a zelenina"
@@ -9822,6 +10036,10 @@
         "shop/hairdresser": {
           "name": "Kadeřnictví",
           "terms": "kadeřník,holič,vizážista,kadeřnictví"
+        },
+        "shop/hairdresser/barber": {
+          "name": "Holičství",
+          "terms": "vousy,knír,holit,holení,kadeře,kadeřnictví,holicí strojek,kadeřník,stříhání vlasů"
         },
         "shop/hairdresser_supply": {
           "name": "Kadeřnické potřeby",
@@ -10144,7 +10362,8 @@
           "terms": "prodejna pneumatik,pneumatiky"
         },
         "shop/vacant": {
-          "name": "Neobsazený obchod"
+          "name": "Neobsazený obchod",
+          "terms": "prázdný obchod,neobsazený obchod"
         },
         "shop/vacuum_cleaner": {
           "name": "Obchod s vysavači",
@@ -10194,7 +10413,7 @@
           "terms": "vinotéka,víno,vinárna,vinařství,vino"
         },
         "shop/yes": {
-          "name": "Obchod (nespecifikovaný typ)"
+          "name": "Obchod (nespecifikovaný druh)"
         },
         "telecom": {
           "name": "Telekomunikační prvek"
@@ -10413,7 +10632,7 @@
           "terms": "zpomalovací stůl,rychlostní stůl"
         },
         "traffic_calming/yes": {
-          "name": "Zklidňování dopravy (nespecifikovaný typ)"
+          "name": "Zklidňování dopravy (nespecifikovaný druh)"
         },
         "traffic_sign": {
           "name": "Dopravní značka",

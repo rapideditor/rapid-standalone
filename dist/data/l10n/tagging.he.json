@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.704Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.640Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.he.json",
-    "hash": "1e0853fde4fb3ca2a10437d48e4b6a3d"
+    "hash": "cc937dc382993a430c661661363ac1a0"
   },
   "he": {
     "presets": {
@@ -288,6 +288,7 @@
         "artwork_type": {
           "label": "סוג",
           "options": {
+            "bust": "פרוטומה",
             "graffiti": "גרפיטי",
             "installation": "מיצג אומנותי",
             "mosaic": "פסיפס",
@@ -552,7 +553,12 @@
         "bridge_combo": {
           "label": "סוג",
           "options": {
-            "movable": "גשר נייד"
+            "aqueduct": "אמת מים",
+            "boardwalk": "גשר עץ",
+            "cantilever": "גשר תמוכות",
+            "covered": "גשר מקורה",
+            "movable": "גשר נייד",
+            "viaduct": "ויאדוקט"
           }
         },
         "building": {
@@ -804,7 +810,10 @@
           "terms": "תצורות שידור,תצורות תקשורת,שיטות תקשורת,שיטות התקשרות,טלקומניקציה"
         },
         "community_centre": {
-          "label": "סוג"
+          "label": "סוג",
+          "options": {
+            "youth_centre": "מרכז צעירים"
+          }
         },
         "connectivity": {
           "label": "חיבור"
@@ -895,6 +904,7 @@
             "glaziery": "זגגות",
             "handicraft": "עבודת יד",
             "hvac": "מיזוג אוויר",
+            "insulation": "בידוד",
             "jeweller": "תכשיטן",
             "joiner": "נגר",
             "key_cutter": "שכפול מפתחות",
@@ -905,18 +915,21 @@
             "parquet_layer": "הנחת פרקטים",
             "photographer": "צלם",
             "photographic_laboratory": "מעבדת צילום",
+            "plasterer": "עבודת גבס",
             "plumber": "שרברבות",
             "pottery": "קדרות",
             "rigger": "חבלאות",
             "roofer": "התקנת גגות",
             "saddler": "אוכפן",
             "sailmaker": "תפירת מפרשים",
+            "sawmill": "מנסרה",
             "scaffolder": "התקנת פיגומים",
             "sculptor": "פסל",
             "shoemaker": "סנדלר",
             "signmaker": "ייצור שלטים",
             "stonemason": "סיתות",
             "tailor": "חייט",
+            "tiler": "מתקין אריחים",
             "tinsmith": "פחחות",
             "upholsterer": "ריפוד",
             "watchmaker": "שענות",
@@ -1041,6 +1054,7 @@
             "lebanese": "לבנוני",
             "malaysian": "מלזי",
             "mexican": "מקסיקני",
+            "pancake": "פנקייק",
             "pasta": "פסטה",
             "peruvian": "פרואני",
             "pizza": "פיצה",
@@ -1055,6 +1069,7 @@
             "steak_house": "בית סטייק",
             "sushi": "סושי",
             "taiwanese": "טייוואני",
+            "tea": "תה",
             "tex-mex": "טקס-מקס",
             "thai": "תאילנדי",
             "turkish": "טורקי",
@@ -1423,6 +1438,7 @@
           }
         },
         "fire_service_inlet": {
+          "label": "צורה",
           "options": {
             "pillar": "עמוד/מעל האדמה",
             "pipe": "מכסה צינור",
@@ -1597,6 +1613,10 @@
         },
         "geyser/height": {
           "label": "גובה ההתפרצות"
+        },
+        "gnis/feature_id-US": {
+          "label": "מזהה תכונה במאגר GNIS",
+          "terms": "GNIS,ID,מערכת מידע גאוגרפית לשמות"
         },
         "government": {
           "label": "סוג"
@@ -1808,6 +1828,8 @@
             "ruins": "חורבות",
             "shieling": "מיגון",
             "tomb": "קבר",
+            "wayside_cross": "צלב נוצרי לצד הדרך",
+            "wayside_shrine": "קבר קדוש בצדי הדרך",
             "wreck": "ספינה טרופה"
           }
         },
@@ -1836,6 +1858,7 @@
           "placeholder": "1, 2, 4…"
         },
         "horse_riding": {
+          "label": "מרכז לרכיבה על סוסים",
           "options": {
             "horse_riding": "יש",
             "undefined": "אין"
@@ -1848,7 +1871,8 @@
             "critical": "גבולי: המעבר אפשרי לרוכבים ולסוסים מנוסים. מכשולים משמעותיים. כדאי לבחון את הגשרים היטב.",
             "dangerous": "מסוכן: המעבר אפשרי לרוכבים וסוים מנוסים מאוד ובמזג אוויר טוב. כנראה מוטב לרדת מהסוס בחלקים מהמסלול.",
             "demanding": "להשתמש בזהירות: דרך בלתי מאוזנת, מעבר קשה ברוב המקרים.",
-            "difficult": "קשה: הדרך צרה וחשופה. עשויה להכיל מכשולים שעשויים להפיל את הרוכב וגם מעברים צרים."
+            "difficult": "קשה: הדרך צרה וחשופה. עשויה להכיל מכשולים שעשויים להפיל את הרוכב וגם מעברים צרים.",
+            "impossible": "בלתי אפשרי: דרך או גשר שלא ניתן לעבור על גבי סוסים. צרה מדי, אין מספיק תמיכה, מכשולים כגון סולמות. סכנת חיים."
           },
           "placeholder": "קשה, מסוכן…"
         },
@@ -1910,13 +1934,12 @@
           "terms": "רשת,תקשורת,אינטרנט,נתונים,חיבור,וויי פיי"
         },
         "internet_access/fee": {
-          "label": "גישה לאינטרנט",
+          "label": "עמלת גישה לאינטרנט",
           "options": {
             "customers": "לקוחות בלבד",
             "no": "בחינם",
             "yes": "בתשלום"
-          },
-          "terms": "חיבור לאינטרנט,גישה לאינטרנט,התחברות לאינטרנט,תקשורת אינטרנט,אינטרנט,חיבור,התחברות"
+          }
         },
         "internet_access/ssid": {
           "label": "שם הרשת האלחוטית"
@@ -1937,10 +1960,35 @@
           "terms": "צמת,מפגש,מחלף"
         },
         "kerb": {
-          "label": "שפת מדרכה"
+          "label": "שפת מדרכה",
+          "options": {
+            "flush": {
+              "title": "הדחה"
+            },
+            "lowered": {
+              "title": "מונמך"
+            },
+            "no": {
+              "description": "אין מדרכה במקום הזה.",
+              "title": "אין"
+            },
+            "raised": {
+              "description": "שפת מדרכה מוגבהת שלא יכולה לשמש בקלות משתמשי כיסא גלגלים, גבוהה מסנטימטרים בודדים.",
+              "title": "מוגבה"
+            },
+            "rolled": {
+              "description": "מדרכה מוגבהת עם קצה מעוגל המקל על השימוש במכוניות או אופניים, אך לא לכיסאות גלגלים."
+            },
+            "yes": {
+              "title": "כן"
+            }
+          }
         },
         "kerb/height": {
           "label": "גובה"
+        },
+        "kerb/kerb_barrier": {
+          "label": "סוג"
         },
         "kitchen": {
           "label": "מטבח"
@@ -2007,10 +2055,21 @@
           "terms": "רמה,קומה,מפלס"
         },
         "level_semi": {
-          "label": "קומות"
+          "label": "קומות",
+          "terms": "קומות,דרגות,מפלסים,שלבים"
         },
         "liaison": {
           "label": "סוג"
+        },
+        "lifeguard": {
+          "label": "סוג",
+          "options": {
+            "base": "בסיס מצילים",
+            "tower": "מגדל מצילים"
+          }
+        },
+        "lifeguard_check": {
+          "label": "מציל"
         },
         "lift_gate/type": {
           "label": "סוג",
@@ -2074,6 +2133,9 @@
         "marker": {
           "label": "סוג",
           "options": {
+            "ground": {
+              "title": "אדמה"
+            },
             "stone": {
               "title": "אבן"
             }
@@ -2082,6 +2144,7 @@
         "material": {
           "label": "חומר",
           "options": {
+            "adobe": "טיט",
             "aluminium": "אלומיניום",
             "brass": "פליז",
             "brick": "לבנה",
@@ -2103,7 +2166,8 @@
             "steel": "פלדה",
             "stone": "אבן",
             "wood": "עץ"
-          }
+          },
+          "terms": "חומר,מקור"
         },
         "mattress": {
           "label": "מזרונים זמינים"
@@ -2146,7 +2210,10 @@
         "memorial": {
           "label": "סוג",
           "options": {
+            "bust": "פרוטומה",
+            "cross": "צלב זיכרון",
             "obelisk": "אובליסק",
+            "plaque": "לוחית זיכרון",
             "sculpture": "אנדרטה",
             "statue": "פסל",
             "stone": "אבן",
@@ -2435,7 +2502,9 @@
         "parcel_pickup": {
           "label": "תיבת איסוף טובין",
           "options": {
-            "undefined": "כנראה שכן"
+            "no": "אין",
+            "undefined": "כנראה שכן",
+            "yes": "כן"
           }
         },
         "park_ride": {
@@ -2445,18 +2514,42 @@
         "parking": {
           "label": "סוג",
           "options": {
-            "carports": "חניות מקורות",
-            "garage_boxes": "מוסך קופסה",
-            "half_on_kerb": "חצי על המדרכה",
-            "lane": "לצד הכביש",
-            "multi-storey": "רב־קומתי",
-            "on_kerb": "על המדרכה",
-            "rooftop": "גג",
-            "sheds": "מסוכך",
-            "shoulder": "בשוליים",
-            "street_side": "לצד-הכביש",
-            "surface": "משטח",
-            "underground": "תת־קרקעי"
+            "carports": {
+              "title": "חניות מקורות"
+            },
+            "garage_boxes": {
+              "title": "מוסך קופסה"
+            },
+            "half_on_kerb": {
+              "title": "חצי על המדרכה"
+            },
+            "lane": {
+              "title": "לצד הכביש"
+            },
+            "multi-storey": {
+              "title": "רב קומתי"
+            },
+            "on_kerb": {
+              "title": "על המדרכה"
+            },
+            "rooftop": {
+              "title": "גג"
+            },
+            "sheds": {
+              "title": "מסוכך"
+            },
+            "shoulder": {
+              "title": "בשוליים"
+            },
+            "street_side": {
+              "title": "לצידי-הכביש"
+            },
+            "surface": {
+              "title": "משטח"
+            },
+            "underground": {
+              "title": "תת־קרקעי"
+            }
           }
         },
         "parking/side/orientation": {
@@ -2747,7 +2840,8 @@
           "label": "קוד אופניים"
         },
         "real_fire-GB-IE": {
-          "label": "אש אמתית"
+          "label": "אש אמתית",
+          "terms": "שריפה,בערה,חום,תנור,אח"
         },
         "recycling_accepts": {
           "label": "מקבל",
@@ -2870,6 +2964,7 @@
           "label": "הגבלות פנייה"
         },
         "roller_coaster/track": {
+          "label": "סוג",
           "options": {
             "launch_straight": {
               "title": "מסלול האצה"
@@ -2897,6 +2992,14 @@
         },
         "route_master": {
           "label": "סוג"
+        },
+        "royal_cypher-GB": {
+          "options": {
+            "CIIIR": "CIIIR (צארלס השלישי)",
+            "EIIR": "EIIR (אליזבט השניה)",
+            "VR": "VR (ויקטוריה)",
+            "no": "אין"
+          }
         },
         "ruins": {
           "label": "סוג"
@@ -3055,6 +3158,7 @@
           "label": "סוג",
           "options": {
             "alley": "סמטה",
+            "drive-through": "הזמנה-דרך-אשנב",
             "driveway": "כביש גישה",
             "emergency_access": "גישת חירום",
             "parking_aisle": "מפרץ חניה"
@@ -3146,6 +3250,7 @@
             "ambulatory_care": "טיפול אמבולטורי",
             "assisted_living": "דיור מוגן",
             "food_bank": "בנק אוכל",
+            "nursing_home": "בית אבות",
             "shelter": "מחסה",
             "workshop": "סדנה"
           }
@@ -3212,6 +3317,7 @@
             "cricket": "קריקט",
             "curling": "קרלינג",
             "cycling": "רכיבה על אופניים",
+            "darts": "חצים",
             "disc_golf": "דיסק גולף",
             "dog_racing": "מרוץ כלבים",
             "equestrian": "רכיבה על סוסים",
@@ -3348,6 +3454,7 @@
           "label": "סוג",
           "options": {
             "converter": "שנאי מתח גבוה מ־AC ל־DC",
+            "distribution": "חלוקה אזורית",
             "industrial": "תעשייתי",
             "minor_distribution": "חלוקה מקומית",
             "traction": "אספקת מערכת הנע",
@@ -3367,6 +3474,9 @@
             "valve": "שסתום",
             "valve_group": "קבוצת שסתומים"
           }
+        },
+        "summit/cross": {
+          "label": "צלב פסגה"
         },
         "supervised": {
           "label": "פיקוח",
@@ -3433,7 +3543,10 @@
         "survey_point/structure": {
           "label": "מבנה",
           "options": {
+            "beacon": "משואה",
             "block": "לבנים",
+            "cairn": "גלעד",
+            "cut": "גזירה",
             "magnet": "מגנט",
             "pillar": "עמוד",
             "pin": "סיכה",
@@ -3541,6 +3654,11 @@
           "label": "שטיפת ידיים",
           "terms": "היגיינה,שטיפה,ברז,חיידקים,תחלואה,זיהום"
         },
+        "toilets/menstrual_products": {
+          "options": {
+            "no": "אין"
+          }
+        },
         "toilets/position": {
           "label": "מיקומים",
           "terms": "מקומות"
@@ -3580,6 +3698,9 @@
           "label": "בנייה",
           "placeholder": "כבלי עזר, סריג, חיפוי, …"
         },
+        "tower/platforms": {
+          "placeholder": "1, 2, 3…"
+        },
         "tower/type": {
           "label": "סוג"
         },
@@ -3614,6 +3735,9 @@
             "rumble_strip": "פס רעד",
             "table": "פס האטה משוטח"
           }
+        },
+        "traffic_calming_road": {
+          "label": "הקלת פקקי תנועה"
         },
         "traffic_sign": {
           "label": "תמרור"
@@ -3669,7 +3793,8 @@
         "transformer": {
           "label": "סוג",
           "options": {
-            "generator": "גנרטור: מגביר מתח בתחנות כוח"
+            "generator": "גנרטור: מגביר מתח בתחנות כוח",
+            "phase_angle_regulator": "שנאי משולש"
           }
         },
         "trees": {
@@ -3721,6 +3846,7 @@
           "options": {
             "headrace": "תעלת מים",
             "irrigation": "השקיה",
+            "transmission": "שידור",
             "transportation": "תחבורה"
           }
         },
@@ -3853,6 +3979,8 @@
           "label": "מקור מים",
           "options": {
             "main": "צינור הפצת מים",
+            "pond": "בריכת דגים/נוי",
+            "river": "נהר",
             "water_tank": "מיכל מים"
           }
         },
@@ -3874,7 +4002,8 @@
         "wetland": {
           "label": "סוג",
           "options": {
-            "mangrove": "מנגרוב"
+            "mangrove": "מנגרוב",
+            "wet_meadow": "אחו רטוב"
           }
         },
         "wheelchair": {
@@ -4327,7 +4456,8 @@
           "terms": "כירורג פלסטי"
         },
         "amenity/doctors/podiatry": {
-          "name": "פודיאטור"
+          "name": "פודיאטור",
+          "terms": "פודיאטורית"
         },
         "amenity/doctors/proctology": {
           "name": "מנתח המעי הגס"
@@ -4962,10 +5092,6 @@
           "name": "תאטרון",
           "terms": "תאטרון"
         },
-        "amenity/theatre/type/amphi": {
-          "name": "אמפיתאטרון",
-          "terms": "אמפיתיאטרון,אמפי"
-        },
         "amenity/toilets": {
           "name": "שירותים",
           "terms": "שירותים,בית שימוש,משתנה,00,אסלה"
@@ -5060,6 +5186,10 @@
         "amenity/vending_machine/food": {
           "name": "מכונת אוכל",
           "terms": "אוטומט אוכל"
+        },
+        "amenity/vending_machine/food/snacks": {
+          "name": "מכונת חטיפים",
+          "terms": "אוטומט מכירת חטיפים"
         },
         "amenity/vending_machine/ice_cream": {
           "name": "מכונת גלידה",
@@ -5519,6 +5649,9 @@
           "name": "בניין גן/גן חובה",
           "terms": "גן חובה"
         },
+        "building/manufacture": {
+          "name": "מבנה ייצור תעשייתי"
+        },
         "building/mosque": {
           "name": "מסגד",
           "terms": "מסגד"
@@ -5526,6 +5659,9 @@
         "building/office": {
           "name": "בניין משרדים",
           "terms": "מרכז תעשייתי,משרדים"
+        },
+        "building/outbuilding": {
+          "name": "אגף חיצוני"
         },
         "building/pavilion": {
           "name": "ביתן",
@@ -5610,6 +5746,10 @@
         },
         "building_point": {
           "name": "בניין"
+        },
+        "cemetery/sector": {
+          "name": "אזור בבית קברות",
+          "terms": "שטח בית קברות,אגף בית קברות,שטח בית עלמין,אגף בית עלמין"
         },
         "club": {
           "name": "מועדון",
@@ -6177,7 +6317,8 @@
           "name": "מעבר דו-גלגלי עם אותות תנועה"
         },
         "highway/cycleway/crossing/uncontrolled": {
-          "name": "מעבר דו־גלגליים מסומן"
+          "name": "מעבר דו־גלגליים מסומן",
+          "terms": "מעבר לאופניים,מעבר לאופנועים,מעבר לקורקינט"
         },
         "highway/cycleway/crossing/unmarked": {
           "name": "מעבר דו־גלגליים בלתי מסומן",
@@ -6223,7 +6364,8 @@
           "name": "מעבר מסומן"
         },
         "highway/footway/crossing/unmarked": {
-          "name": "מעבר לא מסומן"
+          "name": "מעבר לא מסומן",
+          "terms": "מעבר חציה לא מסומן,מעבר חצייה לא מסומן"
         },
         "highway/footway/informal": {
           "name": "שביל הולכי רגל לא מוכרז"
@@ -6274,6 +6416,9 @@
         "highway/path/boardwalk": {
           "name": "גשר עץ",
           "terms": "גשר קרשים,גשר חבלים,גשר תלוי,גשר קורות"
+        },
+        "highway/path/crossing": {
+          "name": "מעבר אופניים והולכי רגל"
         },
         "highway/path/informal": {
           "name": "שביל לא מוכרז",
@@ -7229,6 +7374,10 @@
           "name": "עמוד דגל",
           "terms": "תורן,תורן דגל"
         },
+        "man_made/fuel_pump": {
+          "name": "משאבת דלק",
+          "terms": "משאבת דלק"
+        },
         "man_made/gasometer": {
           "name": "מיכל גז",
           "terms": "מיכל גז"
@@ -7385,6 +7534,12 @@
         },
         "man_made/telescope": {
           "name": "טלסקופ"
+        },
+        "man_made/telescope/optical": {
+          "name": "טלסקופ אופטי"
+        },
+        "man_made/telescope/radio": {
+          "name": "רדיו טלסקופ"
         },
         "man_made/torii": {
           "name": "טוריאי",
@@ -7698,12 +7853,19 @@
           "name": "ביצה",
           "terms": "ביצה"
         },
+        "natural/wetland/mangrove": {
+          "name": "מנגרוב"
+        },
         "natural/wetland/wet_meadow": {
           "name": "אחו רטוב"
         },
         "natural/wood": {
           "name": "חורש טבעי",
           "terms": "עצים,חורשה,יער,עץ"
+        },
+        "network/type/node_network-DE-NL-BE-LU": {
+          "name": "מפרק מיועד לפנאי",
+          "terms": "מפרק פנאי"
         },
         "noexit/yes": {
           "name": "אין יציאה",
@@ -7737,7 +7899,8 @@
           "terms": "ארגון ללא מטרת רווח,מלכר,מלכ״ר,מלכ\"ר"
         },
         "office/bail_bond_agent-US-PH": {
-          "name": "סוכן שחרור בערבות"
+          "name": "סוכן שחרור בערבות",
+          "terms": "שחרור בערבות,שטר ערבות,משחרר בערבות"
         },
         "office/charity": {
           "name": "משרד צדקה",
@@ -7930,7 +8093,8 @@
           "name": "תחנת צינורות משנית"
         },
         "pipeline/valve": {
-          "name": "שסתום צינור"
+          "name": "שסתום צינור",
+          "terms": "ברז צינור,ברז"
         },
         "piste/downhill": {
           "name": "סקי אלפיני",
@@ -7951,10 +8115,6 @@
         "piste/nordic": {
           "name": "שביל סקי חורף",
           "terms": "שביל סקי חורף,שביל סקי נורדי"
-        },
-        "piste/piste": {
-          "name": "שבילי ספורט חורף",
-          "terms": "שבילי ספורט חורפי,שבילי טיולי חורף,מסלול טיול חורף,מסלול טיול שלג"
         },
         "piste/skitour": {
           "name": "מסלול סיורי סקי",
@@ -8038,7 +8198,8 @@
           "terms": "שיווי משקל,איזון,משחק"
         },
         "playground/basketrotator": {
-          "name": "סל מסתובב"
+          "name": "סל מסתובב",
+          "terms": "מסובב סלים,סלים מסתובבים"
         },
         "playground/basketswing": {
           "name": "נדנדת סל",
@@ -8184,7 +8345,8 @@
           "terms": "תחנת כוח מופעלת מים"
         },
         "power/plant/source/method/photovoltaic": {
-          "name": "חווה סולרית"
+          "name": "חווה סולרית",
+          "terms": "חווה סולרית"
         },
         "power/plant/source/nuclear": {
           "name": "תחנת כוח גרעיני",

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.643Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.614Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.or.json",
-    "hash": "bff1dd9ff0f14aa0169c51baba0a1615"
+    "hash": "f74a612331693a119df3b1eaca87dc2e"
   },
   "or": {
     "presets": {
@@ -82,6 +82,38 @@
               "title": "ନିଷିଦ୍ଧ"
             }
           }
+        },
+        "access_simple": {
+          "label": "ଅନୁମୋଦିତ "
+        },
+        "destination_waterway": {
+          "label": "ଗନ୍ତବ୍ୟସ୍ଥଳ"
+        },
+        "note": {
+          "label": "ଟିପ୍ପଣୀ"
+        },
+        "nudism": {
+          "options": {
+            "designated": "ନିର୍ଦ୍ଧାରିତ",
+            "no": "ନିଷିଦ୍ଧ"
+          }
+        }
+      },
+      "presets": {
+        "area": {
+          "name": "ସ୍ଥାନ"
+        },
+        "line": {
+          "name": "ରେଖା"
+        },
+        "place/square": {
+          "name": "ବର୍ଗ"
+        },
+        "playground": {
+          "name": "ଖେଳ ପଡ଼ିଆ ଉପକରଣ"
+        },
+        "point": {
+          "name": "ବିନ୍ଦୁ"
         }
       }
     }

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.816Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.686Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.tr.json",
-    "hash": "6018995cb245458db7811683c038e275"
+    "hash": "57630592e1afc2d9724cb51cdc30e32f"
   },
   "tr": {
     "imagery": {
@@ -114,6 +114,12 @@
         },
         "description": "İşlenmiş Sentinel Uydu görüntüleri",
         "name": "eox.at 2018 bulutsuz"
+      },
+      "EOXAT2019CLOUDLESS": {
+        "description": "Sonradan işlenmiş Sentinel Uydusu görüntüleri."
+      },
+      "EOXAT2020CLOUDLESS": {
+        "description": "Sonradan işlenmiş Sentinel Uydusu görüntüleri."
       },
       "EOXAT2021CLOUDLESS": {
         "description": "Sonradan işlenmiş Sentinel Uydusu görüntüleri."
@@ -233,7 +239,7 @@
       "Gliwice-buildings": {
         "name": "Gliwice: Binalar"
       },
-      "LSA-ATKIS_BU": {
+      "LSA-ALKIS_BU": {
         "description": "Saksonya-Anhalt'daki binaların biçimleri"
       },
       "Lodz-buildings": {
@@ -272,7 +278,8 @@
       "OSIP": {
         "attribution": {
           "text": "Ohio Eyalet Geneli Görüntüleme Programı"
-        }
+        },
+        "name": "Ohio Eyalet Geneli Görüntüleme Programı"
       },
       "OSIP_1ft": {
         "attribution": {

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.947Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.719Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.nn.json",
-    "hash": "eb1c9178f95509b3a75cf5a915010a0d"
+    "hash": "a039ef552060f7b924381cb1e26a0430"
   },
   "nn": {
     "icons": {
@@ -33,16 +33,13 @@
     },
     "modes": {
       "add_area": {
-        "title": "Område",
-        "filter_tooltip": "område"
+        "title": "Område"
       },
       "add_line": {
-        "title": "Linje",
-        "filter_tooltip": "linjer"
+        "title": "Linje"
       },
       "add_point": {
-        "title": "Punkt",
-        "filter_tooltip": "punkt"
+        "title": "Punkt"
       },
       "add_note": {
         "title": "Merknad"
@@ -133,7 +130,6 @@
       "list": "Redigeringar av {users}"
     },
     "info_panels": {
-      "key": "R",
       "background": {
         "title": "Bakgrunn",
         "vintage": "Årgang",
@@ -153,7 +149,6 @@
         "note_created_user": "Laga av"
       },
       "location": {
-        "key": "P",
         "title": "Plassering",
         "unknown_location": "Ukjend plassering"
       },
@@ -166,7 +161,6 @@
       }
     },
     "geolocate": {
-      "key": "P",
       "title": "Vis plasseringa mi"
     },
     "inspector": {
@@ -206,7 +200,7 @@
         }
       }
     },
-    "feature": {
+    "filters": {
       "rail": {
         "tooltip": "Jernbaner"
       },
@@ -273,13 +267,8 @@
       }
     },
     "issues": {
-      "key": "R",
-      "errors": {
-        "list_title": "Feil"
-      },
-      "warnings": {
-        "list_title": "Åtvaringar"
-      }
+      "errors": "Feil",
+      "warnings": "Åtvaringar"
     },
     "intro": {
       "graph": {
@@ -290,6 +279,17 @@
     "shortcuts": {
       "key": {
         "delete": "Slett"
+      },
+      "command": {
+        "toggle_issues": {
+          "key": "R"
+        },
+        "toggle_all_cards": {
+          "key": "R"
+        },
+        "toggle_location_card": {
+          "key": "P"
+        }
       }
     },
     "wikidata": {
@@ -364,6 +364,7 @@
       "bjn": "banjar",
       "bkm": "kom",
       "bla": "siksika",
+      "blo": "anii",
       "bm": "bambara",
       "bn": "bengali",
       "bo": "tibetansk",
@@ -462,7 +463,7 @@
       "fat": "fanti",
       "ff": "fulfulde",
       "fi": "finsk",
-      "fil": "filippinsk",
+      "fil": "filipino",
       "fit": "tornedalsfinsk",
       "fj": "fijiansk",
       "fo": "færøysk",
@@ -491,7 +492,6 @@
       "gmh": "mellomhøgtysk",
       "gn": "guarani",
       "goh": "gammalhøgtysk",
-      "gom": "goansk konkani",
       "gon": "gondi",
       "gor": "gorontalo",
       "got": "gotisk",
@@ -601,6 +601,7 @@
       "kv": "komi",
       "kw": "kornisk",
       "kwk": "kwak̓wala",
+      "kxv": "kuvi",
       "ky": "kirgisisk",
       "la": "latin",
       "lad": "ladino",
@@ -630,7 +631,6 @@
       "lua": "luba-lulua",
       "lui": "luiseno",
       "lun": "lunda",
-      "luo": "luo",
       "lus": "lushai",
       "luy": "olulujia",
       "lv": "latvisk",
@@ -886,13 +886,13 @@
       "umb": "umbundu",
       "ur": "urdu",
       "uz": "usbekisk",
-      "vai": "vai",
       "ve": "venda",
       "vec": "venetiansk",
       "vep": "vepsisk",
       "vi": "vietnamesisk",
       "vls": "vestflamsk",
       "vmf": "Main-frankisk",
+      "vmw": "makhuwa",
       "vo": "volapyk",
       "vot": "votisk",
       "vro": "sørestisk",
@@ -908,6 +908,7 @@
       "xal": "kalmykisk",
       "xh": "xhosa",
       "xmf": "mingrelsk",
+      "xnr": "kangri",
       "xog": "soga",
       "yao": "yao",
       "yap": "yapesisk",
@@ -1071,7 +1072,7 @@
       "Sora": "sora sompeng",
       "Sund": "sundanesisk",
       "Sylo": "syloti nagri",
-      "Syrc": "syriakisk",
+      "Syrc": "syrisk",
       "Syre": "syriakisk (estrangelo-variant)",
       "Syrj": "syriakisk (vestleg variant)",
       "Syrn": "syriakisk (austleg variant)",

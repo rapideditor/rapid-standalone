@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.106Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.771Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.ga.json",
-    "hash": "b7aff9aabe963221ef6f590bb3c2f2b6"
+    "hash": "e88c0e833bdc3b1962f75685e9c7c3c3"
   },
   "ga": {
     "_communities": {
@@ -35,7 +35,6 @@
       "openstreetmapchile": "OpenStreetMap an tSíle",
       "openstreetmapchina": "OpenStreetMap an tSín",
       "openstreetmapcologne": "OpenStreetMap Köln",
-      "openstreetmapcolombia": "OpenStreetMap an Cholóim",
       "openstreetmapcomunitatvalenciana": "OpenStreetMap an Comhphobal Vaileinseach",
       "openstreetmapcostarica": "OpenStreetMap Cósta Ríce",
       "openstreetmapcotedivoire": "OpenStreetMap an Cósta Eabhair",

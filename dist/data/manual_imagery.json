@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.462Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.524Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/manual_imagery.json",
-    "hash": "a0845fbc8a8059dc1c4ee5a51e588f50"
+    "hash": "e176d2d7c37223ec1d0b6f4affebc537"
   },
   "manualImagery": [
     {

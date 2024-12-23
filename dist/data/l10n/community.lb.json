@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.095Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.766Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.lb.json",
-    "hash": "f551dbb49bf51170a8aa45e0996c23ab"
+    "hash": "7630f2f9f7318d0f49419e682fdb1fc3"
   },
   "lb": {
     "_communities": {
@@ -26,7 +26,6 @@
       "openstreetmapcatalancountries": "OpenStreetMap Katalanesch Länner",
       "openstreetmapchad": "OpenStreetMap Tschad",
       "openstreetmapcologne": "OpenStreetMap Köln",
-      "openstreetmapcolombia": "OpenStreetMap Kolumbien",
       "openstreetmapcomunitatvalenciana": "OpenStreetMap Valencianescht Land",
       "openstreetmapcotedivoire": "OpenStreetMap Côte d'Ivoire",
       "openstreetmapcroatia": "OpenStreetMap Kroatien",
@@ -44,6 +43,7 @@
       "openstreetmapfrance": "OpenStreetMap Frankräich",
       "openstreetmapluxembourg": "OpenStreetMap Lëtzebuerg",
       "openstreetmapmexico": "OpenStreetMap Mexiko",
+      "openstreetmapmontenegro": "OpenStreetMap",
       "openstreetmapnorway": "OpenStreetMap Norwegen",
       "openstreetmappoland": "OpenStreetMap Polen",
       "openstreetmaprussia": "OpenStreetMap Russland",

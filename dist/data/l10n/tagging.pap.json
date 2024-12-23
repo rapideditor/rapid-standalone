@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.641Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.613Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.pap.json",
-    "hash": "1389084de9cc5bebce16d356405f9008"
+    "hash": "4e8e7dd1ff1ab709c3fd6dbda972f0ea"
   },
   "pap": {
     "presets": {
@@ -18,6 +18,12 @@
       "presets": {
         "address": {
           "name": "Adrès"
+        },
+        "area": {
+          "name": "Área"
+        },
+        "point": {
+          "name": "Punto"
         }
       }
     }

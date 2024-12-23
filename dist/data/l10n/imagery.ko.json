@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.843Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.691Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.ko.json",
-    "hash": "7d76e033d3b06d97a131cc60f13d2d24"
+    "hash": "b5ee76515dfa219d5c5cb6c7ebe9bc88"
   },
   "ko": {
     "imagery": {
@@ -419,7 +419,7 @@
         },
         "name": "글리비체: 건물들"
       },
-      "LSA-ATKIS_BU": {
+      "LSA-ALKIS_BU": {
         "description": "작센 안할트의 건물 형태"
       },
       "LSA-DOP20": {

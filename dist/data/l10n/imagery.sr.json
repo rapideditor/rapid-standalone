@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.822Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.687Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.sr.json",
-    "hash": "a1035242043943eba1759db62cff4538"
+    "hash": "ec81dc219bc6bb253bbca7fc8d576ac1"
   },
   "sr": {
     "imagery": {
@@ -55,6 +55,21 @@
       },
       "OSM_Inspector-Tagging": {
         "name": "ОСМ инспектор: Означавање"
+      },
+      "US-TIGER-Roads-2018": {
+        "description": "Жута = подаци мапе јавног домена из пописа становништва САД. Црвена = Подаци нису пронађени у OpenStreetMap-у"
+      },
+      "US-TIGER-Roads-2019": {
+        "description": "Жута = подаци мапе јавног домена из пописа становништва САД. Црвена = Подаци нису пронађени у OpenStreetMap-у"
+      },
+      "US-TIGER-Roads-2020": {
+        "description": "Жута = подаци мапе јавног домена из пописа становништва САД. Црвена = Подаци нису пронађени у OpenStreetMap-у"
+      },
+      "US-TIGER-Roads-2021": {
+        "description": "Жута = подаци мапе јавног домена из пописа становништва САД. Црвена = Подаци нису пронађени у OpenStreetMap-у"
+      },
+      "US-TIGER-Roads-2022": {
+        "description": "Жута = подаци мапе јавног домена из пописа становништва САД. Црвена = Подаци нису пронађени у OpenStreetMap-у"
       },
       "US-TIGER-Roads-2023": {
         "description": "Жута = подаци мапе јавног домена из пописа становништва САД. Црвена = Подаци нису пронађени у OpenStreetMap-у"

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.840Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.691Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.lt.json",
-    "hash": "f08aa97dad3be454f29e5e7a4c7e10bf"
+    "hash": "d0257a8517e145a7ee7237cd0b27146c"
   },
   "lt": {
     "imagery": {
@@ -14,6 +14,7 @@
         "attribution": {
           "text": "Sąlygos ir atsiliepimai"
         },
+        "description": "Esri Pasaulio Nuotraukos",
         "name": "Esri Pasaulio Nuotraukos"
       },
       "EsriWorldImageryClarity": {
@@ -29,6 +30,11 @@
           "text": "Sąlygos ir atsiliepimai"
         }
       },
+      "gsi<TX_DOT>go<TX_DOT>jp_airphoto": {
+        "attribution": {
+          "text": "GSI Japonija"
+        }
+      },
       "gsi<TX_DOT>go<TX_DOT>jp_std_map": {
         "attribution": {
           "text": "GSI Japonija"
@@ -38,6 +44,16 @@
       "mapbox_locator_overlay": {
         "attribution": {
           "text": "Sąlygos ir atsiliepimai"
+        }
+      },
+      "openpt_map": {
+        "attribution": {
+          "text": "© OpenStreetMap talkininkai, CC-BY-SA"
+        }
+      },
+      "osm-gps": {
+        "attribution": {
+          "text": "© OpenStreetMap talkininkai"
         }
       },
       "osm-mapnik-german_style": {

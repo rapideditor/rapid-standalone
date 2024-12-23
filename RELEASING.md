@@ -14,7 +14,7 @@ export VERSION=rapid-standalone-A.B.C-pre.D
 
 npm install
 npm run build
-git add . && git commit -m  "$VERSION"
+git add . && git commit -m "$VERSION"
 git tag "$VERSION"
 git push origin "$VERSION"
 npm publish

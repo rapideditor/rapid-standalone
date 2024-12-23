@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.057Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.753Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.ast.json",
-    "hash": "c60c06ad07bfad8e590d2f31fda16785"
+    "hash": "ef05a20262b0fe83b5928e666facb104"
   },
   "ast": {
     "modes": {
@@ -64,32 +64,12 @@
       },
       "delete": {
         "title": "Desaniciar",
-        "description": {
-          "single": "Desaniciar permanentemente esti oxetu.",
-          "multiple": "Desaniciar permanentemente estos oxetos"
-        },
         "annotation": {
           "point": "Desaniciáu un puntu.",
           "vertex": "Desaniciáu un nuedu d'una vía.",
           "line": "Desaniciada una llinia.",
           "area": "Dresaniciáu un área.",
           "relation": "Desaniciada una rellación."
-        },
-        "too_large": {
-          "single": "Nun pué desaniciase esta carauterística porque nun se ve abondo d'ella",
-          "multiple": "Nun pueden desaniciase estes carauterístiques porque nun se ve abondo d'elles"
-        },
-        "incomplete_relation": {
-          "single": "Esti oxetu nun pué desaniciase porque nun se descargó completamente.",
-          "multiple": "Estos oxetos nun pueden desaniciase porque nun se descargaron completamente."
-        },
-        "part_of_relation": {
-          "single": "Esti oxetu nun pué desaniciase porque ye parte d'una rellación mayor. Primero tienes de quitalu de la rellación.",
-          "multiple": "Estos oxetos nun pueden desaniciase porque son parte de rellaciones mayores. Primero tienes de quitalos de les rellaciones."
-        },
-        "connected_to_hidden": {
-          "single": "Esti oxetu nun pué desaniciase porque ta coneutáu con un elementu tapecíu.",
-          "multiple": "Estos oxetos nun pueden desaniciase porque tán coneutaos con elementos tapecíos."
         }
       },
       "disconnect": {
@@ -108,50 +88,18 @@
       },
       "move": {
         "title": "Mover",
-        "description": {
-          "single": "Mover esti oxetu a un llugar distintu.",
-          "multiple": "Mover estos oxetos a un llugar distintu."
-        },
         "annotation": {
           "point": "Movíu un puntu.",
           "vertex": "Movíu un nuedu d'una vía.",
           "line": "Movida una llinia.",
           "area": "Movíu un área."
-        },
-        "incomplete_relation": {
-          "single": "Esta carauterística nun puede movese porque nun se descargó completamente.",
-          "multiple": "Estes carauterístiques nun pueden movese porque nun se descargaron completamente."
-        },
-        "too_large": {
-          "single": "Nun pué movese esta carauterística porque nun se ve abondo d'ella",
-          "multiple": "Nun pueden movese estes carauterístiques porque nun se ve abondo d'elles"
-        },
-        "connected_to_hidden": {
-          "single": "Nun pué movese esta carauterística porque ta coneutada con una carauterística tapecida.",
-          "multiple": "Nun pueden movese estes carauterístiques porque dalgunes tán coneutaes con carauterístiques tapecíes."
         }
       },
       "rotate": {
         "title": "Xirar",
-        "description": {
-          "single": "Xirar esti elementu alredor del so puntu central.",
-          "multiple": "Xirar estos elementos alredor del so puntu central."
-        },
         "annotation": {
           "line": "Xirada una llinia.",
           "area": "Xiráu un área."
-        },
-        "incomplete_relation": {
-          "single": "Esti elementu nun puede xirase porque non se descargó dafechu.",
-          "multiple": "Estos elementos nun pueden xirase porque nun se descargaron dafechu."
-        },
-        "too_large": {
-          "single": "Esti elementu nun puede xirase porque nun se ve bastante d'el.",
-          "multiple": "Estos elementos nun pueden xirase porque nun se ve bastante d'ellos."
-        },
-        "connected_to_hidden": {
-          "single": "Esti elementu nun puede xirase porque ta conectáu con un elementu tapecíu.",
-          "multiple": "Estos elementos nun pueden xirase porque dellos tán conectaos con elementos tapecíos."
         }
       },
       "reverse": {
@@ -309,11 +257,10 @@
           "cancel": "Encaboxar"
         }
       },
-      "map_features": "Elementos del mapa",
       "autohidden": "Estos elementos tapeciéronse automáticamente porque s'amosaríen demasiaos en pantalla. Puedes averate pa editalos.",
       "osmhidden": "Estes carauterístiques tapeciéronse automáticamente porque la capa d'OpenStreetMap ta tapecida."
     },
-    "feature": {
+    "filters": {
       "points": {
         "description": "Puntos",
         "tooltip": "Puntos d'interés"
@@ -415,17 +362,14 @@
       "live": "en vivo",
       "lose_changes": "Tien cambios ensin guardar. Camudar el sirvidor de mapes descartarálos. ¿Ta seguru de que quier intercambiar de sirvidores?"
     },
-    "rapid_feature_toggle": {
-      "esri": {
-        "remove": "Desaniciar"
-      }
+    "rapid_menu": {
+      "remove": "Desaniciar"
     },
     "tag_reference": {
       "description": "Descripción",
       "on_wiki": "{tag} en wiki.osm.org",
       "used_with": "usada con {type}"
     },
-    "cannot_zoom": "Nun puede alloñase más nel mou actual.",
     "full_screen": "Conmutar pantalla completa",
     "QA": {
       "osmose": {
@@ -469,9 +413,7 @@
       }
     },
     "issues": {
-      "warnings": {
-        "list_title": "Avisos"
-      }
+      "warnings": "Avisos"
     },
     "intro": {
       "done": "fecho",
@@ -527,31 +469,24 @@
         "shift": "Mayús",
         "space": "Espaciu"
       },
-      "browsing": {
-        "navigation": {
-          "title": "Navegación"
+      "editing": "Editar",
+      "navigation": "Navegacion",
+      "drawing": "Dibuxar",
+      "commands": "Comandos",
+      "help": "Ayuda",
+      "info": "Información",
+      "command": {
+        "add_point": {
+          "label": "Mou «amestar puntu»"
         },
-        "help": {
-          "title": "Ayuda"
-        }
-      },
-      "editing": {
-        "title": "Editar",
-        "drawing": {
-          "title": "Dibuxar",
-          "add_point": "Mou «amestar puntu»",
-          "add_line": "Mou «amestar llinia»",
-          "add_area": "Mou «amestar área»"
+        "add_line": {
+          "label": "Mou «amestar llinia»"
         },
-        "commands": {
-          "title": "Comandos",
-          "save": "Guardar los cambios"
-        }
-      },
-      "tools": {
-        "title": "Ferramientes",
-        "info": {
-          "title": "Información"
+        "add_area": {
+          "label": "Mou «amestar área»"
+        },
+        "save": {
+          "label": "Guardar los cambios"
         }
       }
     },
@@ -751,7 +686,6 @@
       "gmh": "altualemán mediu",
       "gn": "guaraní",
       "goh": "altualemán antiguu",
-      "gom": "goan konkani",
       "gon": "gondi",
       "gor": "gorontalo",
       "got": "góticu",

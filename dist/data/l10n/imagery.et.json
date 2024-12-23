@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.857Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.694Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.et.json",
-    "hash": "8f745ffe706df3bd6ec87cdddd0c9471"
+    "hash": "2a2546d386dcf0f40e6badd590b5bb48"
   },
   "et": {
     "imagery": {
@@ -11,6 +11,10 @@
         "description": "Satelliidi- ja aerofotod."
       },
       "EsriWorldImagery": {
+        "attribution": {
+          "text": "Kasutustingimused ja tagasiside"
+        },
+        "description": "Esri Worldi pildimaterjal",
         "name": "Esri Worldi pildimaterjal"
       },
       "EsriWorldImageryClarity": {
@@ -43,6 +47,7 @@
         "attribution": {
           "text": "GeoScribble'i kaasautorid"
         },
+        "description": "Kuni kolm nädalat vanad märkused kohtvaatluse rakendusest Every Door",
         "name": "GeoScribble'i viimased märkused"
       },
       "maaamet<TX_DOT>ee-cir_ngr": {

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.855Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.694Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.fi.json",
-    "hash": "c59780bade90eada015a3419b9b6e875"
+    "hash": "8b5ce7e8d741c539a10a315396072f7d"
   },
   "fi": {
     "imagery": {
@@ -14,6 +14,7 @@
         "attribution": {
           "text": "Käyttöehdot ja palaute"
         },
+        "description": "Kansainväliset Esri-satelliittikuvat",
         "name": "Kansainväliset Esri-satelliittikuvat"
       },
       "EsriWorldImageryClarity": {
@@ -74,6 +75,27 @@
           "text": "© OpenStreetMapin tekijät, CC-BY-SA"
         },
         "name": "OSM Tarkastajat: Tagit"
+      },
+      "Riksantikvariambetet-archaeological": {
+        "description": "Muinaiset ja historialliset jäänteet ja monumentit"
+      },
+      "US-TIGER-Roads-2018": {
+        "description": "Keltainen = Tekijänoikeudeton kartta-aineisto Yhdysvaltain väestönlaskentaviranomaiselta. Punainen = Aineisto ei löydy OpenStreetMapista"
+      },
+      "US-TIGER-Roads-2019": {
+        "description": "Keltainen = Tekijänoikeudeton kartta-aineisto Yhdysvaltain väestönlaskentaviranomaiselta. Punainen = Aineisto ei löydy OpenStreetMapista"
+      },
+      "US-TIGER-Roads-2020": {
+        "description": "Keltainen = Tekijänoikeudeton kartta-aineisto Yhdysvaltain väestönlaskentaviranomaiselta. Punainen = Aineisto ei löydy OpenStreetMapista"
+      },
+      "US-TIGER-Roads-2021": {
+        "description": "Keltainen = Tekijänoikeudeton kartta-aineisto Yhdysvaltain väestönlaskentaviranomaiselta. Punainen = Aineisto ei löydy OpenStreetMapista"
+      },
+      "US-TIGER-Roads-2022": {
+        "description": "Keltainen = Tekijänoikeudeton kartta-aineisto Yhdysvaltain väestönlaskentaviranomaiselta. Punainen = Aineisto ei löydy OpenStreetMapista"
+      },
+      "US-TIGER-Roads-2023": {
+        "description": "Keltainen = Tekijänoikeudeton kartta-aineisto Yhdysvaltain väestönlaskentaviranomaiselta. Punainen = Aineisto ei löydy OpenStreetMapista"
       },
       "US_Forest_Service_roads_overlay": {
         "description": "Valtatie: Vihreä kehys = luokittelematon. Ruskea kehys = track. Pinta: gravel = vaaleanruskea täyttö, asfaltti = musta, pinnoitettu = harmaa, ground =white, concrete = blue, grass = green. Seasonal = white bars"
@@ -185,6 +207,16 @@
         },
         "name": "OpenStreetMap (saksalainen tyyli)"
       },
+      "osmse-ekonomiska": {
+        "attribution": {
+          "text": "© Ruotsin maanmittauslaitos, CC0"
+        }
+      },
+      "osmse-generalstab": {
+        "attribution": {
+          "text": "© Ruotsin maanmittauslaitos, CC0"
+        }
+      },
       "qa_no_address": {
         "attribution": {
           "text": "Simon Poole, aineisto ©OpenStreetMapin tekijät"
@@ -220,12 +252,17 @@
         },
         "name": "Thunderforest-maisema"
       },
+      "tf-outdoors": {
+        "attribution": {
+          "text": "Kartat © Thunderforest, Aineisto © OpenStreetMapin tekijät"
+        }
+      },
       "trafikverket-baninfo": {
         "attribution": {
           "text": "© Liikennevirasto, CC0"
         },
         "description": "Ruotsin rataverkko sivuraiteineen",
-        "name": "Liikenneviraston rataverkko"
+        "name": "Ruotsin Liikenneviraston rataverkko"
       },
       "trafikverket-baninfo-option": {
         "description": "Ruotsin rataverkko mukautettavilla asetusvalinnoilla",

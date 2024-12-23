@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.781Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.676Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.ca.json",
-    "hash": "8d2f9b22f8936fe62175d3e052cf9c0e"
+    "hash": "e0d1bfe0a7730bd54ff4762c499b9851"
   },
   "ca": {
     "presets": {
@@ -230,6 +230,9 @@
           "label": "Aire condicionat",
           "terms": "aire condicionat,  climatització, condicionament de l'aire, sistema de refredament, refrigeració"
         },
+        "alt_name": {
+          "label": "Nom Alternatiu"
+        },
         "amenity": {
           "label": "Tipus"
         },
@@ -265,6 +268,11 @@
         },
         "area/highway": {
           "label": "Tipus"
+        },
+        "armrest": {
+          "options": {
+            "undefined": "Desconegut"
+          }
         },
         "artist": {
           "label": "Artista"
@@ -662,6 +670,9 @@
             "panning": "Panoràmica"
           }
         },
+        "camp_site": {
+          "label": "Tipus"
+        },
         "capacity": {
           "label": "Capacitat",
           "terms": "capacitat"
@@ -774,6 +785,12 @@
         "communication_multi": {
           "label": "Tipus de comunicació",
           "terms": "mitjans, communicació, telèfon, correu, misstge, trucada, trucà, cridada, cridà, ,xat, chat, videotrucada, videotrucà, videocridada, videocridà, televisió, radio, fax, morse, telepatia, xifrat, reunions, braille, signes, sons, sorolls, carta, llenguatges, idiomes"
+        },
+        "community_centre": {
+          "label": "Tipus",
+          "options": {
+            "youth_centre": "Centre Juvenil"
+          }
         },
         "connectivity": {
           "label": "Connectivitat"
@@ -1959,13 +1976,12 @@
           "terms": "wifi, wlan, connexió a internet, router, internet, xarxa"
         },
         "internet_access/fee": {
-          "label": "Accés a internet",
+          "label": "Taxa d'accés a Internet",
           "options": {
             "customers": "Només per a clients",
             "no": "Gratuït",
             "yes": "De pagament"
-          },
-          "terms": "wifi, wlan, connexió a internet, router, internet, xarxa, taxa"
+          }
         },
         "internet_access/ssid": {
           "label": "Nom de la xarxa Wifi",
@@ -2175,6 +2191,9 @@
             "aerial": {
               "title": "Aeri"
             },
+            "ground": {
+              "title": "Terra"
+            },
             "stone": {
               "title": "Pedra"
             }
@@ -2195,6 +2214,7 @@
             "marble": "Marbre",
             "metal": "Metall",
             "plastic": "Plàstic",
+            "reinforced_concrete": "Ciment Reforçat",
             "rock": "Roca",
             "sand": "Sorra",
             "sandstone": "Gres",
@@ -2519,19 +2539,45 @@
         "parking": {
           "label": "Tipus",
           "options": {
-            "carports": "Aixoplucs",
-            "garage_boxes": "Boxs",
-            "half_on_kerb": "Parcialment en la vorera",
-            "lane": "Adossat a la carretera",
-            "layby": "Apartadero de descans",
-            "multi-storey": "Diversos nivells",
-            "on_kerb": "A la vorera",
-            "rooftop": "Terrat",
-            "sheds": "Garatges",
-            "shoulder": "Voral",
-            "street_side": "Adjacent a la carretera",
-            "surface": "Superfície",
-            "underground": "Subterrani"
+            "carports": {
+              "title": "Aixoplucs"
+            },
+            "garage_boxes": {
+              "title": "Boxs"
+            },
+            "half_on_kerb": {
+              "title": "Parcialment en la vorera"
+            },
+            "lane": {
+              "title": "Adossat a la carretera"
+            },
+            "layby": {
+              "title": "Apartadero de descans"
+            },
+            "multi-storey": {
+              "title": "Diversos nivells"
+            },
+            "on_kerb": {
+              "title": "A la vorera"
+            },
+            "rooftop": {
+              "title": "Terrat"
+            },
+            "sheds": {
+              "title": "Garatges"
+            },
+            "shoulder": {
+              "title": "Voral"
+            },
+            "street_side": {
+              "title": "Adjacent a la carretera"
+            },
+            "surface": {
+              "title": "Superfície"
+            },
+            "underground": {
+              "title": "Subterrani"
+            }
           }
         },
         "parking/side/orientation": {
@@ -2743,7 +2789,8 @@
           "options": {
             "lamp": " fixat a un pal",
             "wall": "fixat en una paret"
-          }
+          },
+          "terms": "tipo,tipus"
         },
         "power": {
           "label": "Tipus"
@@ -2953,6 +3000,7 @@
           "label": "Restriccions de gir"
         },
         "roller_coaster/track": {
+          "label": "Tipus",
           "options": {
             "brake_run": {
               "description": "Un tram dels raïls destinat a frenar o aturar els cotxes"
@@ -2991,6 +3039,19 @@
         },
         "route_master": {
           "label": "Tipus"
+        },
+        "royal_cypher-GB": {
+          "label": " Insígnia reial",
+          "options": {
+            "CIIIR": "CIIIR (Carles III)",
+            "EIIR": "EIIR (Elisabet II)",
+            "EVIIIR": "EVIIIR (Eduard VIII)",
+            "EVIIR": "EVIIR (Eduard VII)",
+            "GR": "GR (Jordi V)",
+            "GVIR": "GVIR (Jordi VI)",
+            "VR": "VR (Victòria)",
+            "scottish_crown": "Corona escocesa"
+          }
         },
         "ruins": {
           "label": "Tipus"
@@ -3060,7 +3121,8 @@
             "danger_right": "Perill a la dreta",
             "port": "Bavor",
             "preferred_channel_port": "Canal preferit a bavor",
-            "preferred_channel_starboard": "Canal preferit a estribord"
+            "preferred_channel_starboard": "Canal preferit a estribord",
+            "starboard": "Estribor"
           }
         },
         "seamark/buoy_lateral/colour": {
@@ -3326,6 +3388,7 @@
             "skateboard": "Monopatí de carrer",
             "skiing": "Esquí",
             "soccer": "Futbol",
+            "speedway": "Autòdrom per a moto cicletes",
             "swimming": "Natació",
             "table_tennis": "Ping-pong",
             "tennis": "Tenis",
@@ -3370,7 +3433,8 @@
           }
         },
         "street_cabinet": {
-          "label": "Tipus"
+          "label": "Tipus",
+          "terms": "tipo,tipus"
         },
         "stroller": {
           "label": "Accés de cotxets",
@@ -3457,6 +3521,7 @@
           "options": {
             "artificial_turf": "Gespa artificial",
             "asphalt": "Asfalt",
+            "clay": "Argila",
             "compacted": "Compactada",
             "concrete": "Formigó",
             "dirt": "Terra",
@@ -3495,14 +3560,19 @@
           "label": "Data de l'última inspecció"
         },
         "survey_point/purpose": {
+          "label": "Propòsit",
           "options": {
+            "both": "Ambdues",
             "vertical": "Alineació Veritcal"
           }
         },
         "survey_point/structure": {
           "label": "Estructura",
           "options": {
+            "beacon": "Balisa",
             "block": "Bloc",
+            "cairn": "Fita\nPila de pedres\nPila de rocs",
+            "cut": "Retalla",
             "magnet": "Iman",
             "plaque": "Placa",
             "pole": "Pal"
@@ -3549,6 +3619,9 @@
             "cycle_rickshaw": {
               "description": "Rickshaws a pedals (per exemple, padyak, tricitaxi, velotaxi, etc.)",
               "title": "Bicitaxi"
+            },
+            "motorcar": {
+              "title": "Cotxe de motor"
             },
             "motorcycle": {
               "title": "Motocicleta"
@@ -3621,7 +3694,9 @@
             "hypogeum": "Hipogeu",
             "mausoleum": "Mausoleu",
             "pyramid": "Piràmide",
-            "sarcophagus": "Sarcòfag"
+            "sarcophagus": "Sarcòfag",
+            "table": "Taula",
+            "tumulus": "Túmul"
           }
         },
         "tourism": {
@@ -3656,7 +3731,14 @@
         "traffic_calming": {
           "label": "Tipus",
           "options": {
+            "bump": "Ressalt",
+            "chicane": "Chicane",
+            "choker": "Reductor d'amplada",
+            "cushion": "Coixí Berlinès",
+            "dip": "Gual",
             "hump": "Esquena d'ase",
+            "mini_bumps": "Xinxeta reductora de velocitat",
+            "rumble_strip": "Bandes rugoses",
             "table": "Pas de vianants elevat"
           }
         },
@@ -3721,6 +3803,7 @@
         "transformer": {
           "label": "Tipus",
           "options": {
+            "phase_angle_regulator": "Regulador d'angle de fase",
             "yes": "Rol desconegut"
           }
         },
@@ -3811,7 +3894,10 @@
             "drinks": "Begudes",
             "eggs": "Ous",
             "food": "Menjar",
+            "fuel": "Combustible",
             "ice_cream": "Gelats",
+            "milk": "Llet",
+            "newspapers": "Premsa",
             "public_transport_tickets": "Bitllets de transport públic",
             "stamps": "Segells de correus",
             "sweets": "Llepolies",
@@ -3896,6 +3982,9 @@
           "label": "Lloc web",
           "placeholder": "https://example.cat"
         },
+        "website/menu": {
+          "placeholder": "https://example.cat"
+        },
         "wetland": {
           "label": "Tipus",
           "options": {
@@ -3903,7 +3992,11 @@
             "fen": "Mollera",
             "mangrove": "Manglar",
             "marsh": "Aiguamoll",
-            "swamp": "Pantà"
+            "saltmarsh": "marjal salada costanera",
+            "string_bog": "Aiguamoll en forma de filaments",
+            "swamp": "Pantà",
+            "tidalflat": "Plana de marea",
+            "wet_meadow": "prat humit"
           }
         },
         "wheelchair": {
@@ -3929,6 +4022,13 @@
         },
         "windings": {
           "label": "Bobines"
+        },
+        "windings/auto": {
+          "label": "Autotransformador",
+          "options": {
+            "undefined": "Suposat que és No",
+            "yes": "Sí"
+          }
         },
         "windings/configuration": {
           "label": "Configuració de bobines",
@@ -4018,6 +4118,9 @@
         "aeroway/runway": {
           "name": "Pista d'enlairament/aterratge",
           "terms": "Pista d'enlairament, Pista d'aterratge"
+        },
+        "aeroway/spaceport": {
+          "name": "Port espacial"
         },
         "aeroway/taxiway": {
           "name": "Carrer de rodada",
@@ -4135,6 +4238,9 @@
         "amenity/clinic/abortion": {
           "name": "Clínica d'avortament",
           "terms": "interrupció,salut de la dona"
+        },
+        "amenity/clinic/dialysis": {
+          "name": "Centre de diàlisi"
         },
         "amenity/clinic/fertility": {
           "name": "Clínica de fertilitat",
@@ -4411,6 +4517,9 @@
         "amenity/lounger": {
           "name": "Gandula"
         },
+        "amenity/love_hotel": {
+          "name": "Meublé"
+        },
         "amenity/marketplace": {
           "name": "Mercat",
           "terms": "Mercat, Mercat veïnal, Mercat de carrer"
@@ -4440,7 +4549,7 @@
           "name": "Llar d'avis"
         },
         "amenity/parcel_locker": {
-          "name": "Armari intel·ligent",
+          "name": "Bústia intel·ligent",
           "terms": "parcel locker,locker,parcel,paquets,bústia,comerç,comerç en línia,comerç online,bústia intel·ligent,casiller"
         },
         "amenity/parking": {
@@ -4725,15 +4834,15 @@
           "name": "Teatre",
           "terms": "Cinema, Sala de Cine, Complex de cines, edifici de cines, sala de cine"
         },
-        "amenity/theatre/type/amphi": {
-          "name": "Amfiteatre"
-        },
         "amenity/ticket_validator": {
           "name": "Validador de bitllets"
         },
         "amenity/toilets": {
           "name": "lavabo",
           "terms": "Lavabos, Serveis, Lavabos públics, W.C"
+        },
+        "amenity/toilets/disposal/pitlatrine": {
+          "name": "Latrina de Fossa"
         },
         "amenity/toilets/portable": {
           "name": "Lavabo portàtil"
@@ -4792,6 +4901,9 @@
         },
         "amenity/vending_machine/food": {
           "name": "Màquina expenedora de menjar"
+        },
+        "amenity/vending_machine/food/snacks": {
+          "name": "Màquina de vènding de comestibles"
         },
         "amenity/vending_machine/ice_cream": {
           "name": "Expenedora de gelats"
@@ -4865,6 +4977,12 @@
         "attraction/bungee_jumping": {
           "name": "Salt elàstic",
           "terms": "salt, botar, bot, bungee, puenting, pont, benji, corda elàstica, salt al buit, Bungee Jumping"
+        },
+        "attraction/carousel": {
+          "name": "Cavallets"
+        },
+        "attraction/dark_ride": {
+          "name": "Tren fantasma"
         },
         "attraction/drop_tower": {
           "name": "Torres de caiguda lliure",
@@ -5005,9 +5123,15 @@
           "name": "esgraons",
           "terms": "Escala de tanca"
         },
+        "barrier/swing_gate": {
+          "name": "Porta batent"
+        },
         "barrier/toll_booth": {
           "name": "Peatge",
           "terms": "Peatge, Autopista de peatge, Cabina de peatge, Estació de peatge, Punt de peatge"
+        },
+        "barrier/turnstile": {
+          "name": "Torniquet"
         },
         "barrier/wall": {
           "name": "Mur",
@@ -5030,6 +5154,9 @@
         "building": {
           "name": "Edifici",
           "terms": "Edifici, Bloc de pisos, Nau industrial, Centre comercial, Oficines, Bloc, Casa, Barraca"
+        },
+        "building/allotment_house": {
+          "name": "Casa de l'hort"
         },
         "building/apartments": {
           "name": "Edifici d'apartaments",
@@ -5079,6 +5206,9 @@
           "name": "Edifici en construcció",
           "terms": "edifici en construcció, edifici baix construcció"
         },
+        "building/cowshed": {
+          "name": "Estable de vaques"
+        },
         "building/detached": {
           "name": "Casa aïllada",
           "terms": "llar, casa, familiar, unifamiliar, residència, allotjament"
@@ -5118,6 +5248,9 @@
         "building/greenhouse": {
           "name": "Hivernacle"
         },
+        "building/hangar": {
+          "name": "Hangar"
+        },
         "building/hospital": {
           "name": "Edifici hospitalari",
           "terms": "Edifici hospitalari, hospital, urgències, planta, consultes externes, UCI, UVI, quiròfans"
@@ -5155,6 +5288,9 @@
         },
         "building/outbuilding": {
           "name": "Construcció annexa"
+        },
+        "building/pavilion": {
+          "name": "Pavelló"
         },
         "building/public": {
           "name": "Edifici públic",
@@ -5194,6 +5330,15 @@
         },
         "building/stadium": {
           "name": "Edifici d'un estadi"
+        },
+        "building/static_caravan": {
+          "name": "Autocaravana"
+        },
+        "building/sty": {
+          "name": "Porcellera"
+        },
+        "building/synagogue": {
+          "name": "Sinagoga"
         },
         "building/temple": {
           "name": "Edifici d'un temple"
@@ -5285,6 +5430,9 @@
           "name": "Botiga de reparacions electròniques ",
           "terms": "Tenda de reparacions electròniques, telèfon, reparació de mòbils, mòbil"
         },
+        "craft/floorer": {
+          "name": "Instal·lador de sòls"
+        },
         "craft/gardener": {
           "name": "Jardiner"
         },
@@ -5299,6 +5447,9 @@
           "name": "Aïllador",
           "terms": "Aïllant, isolador"
         },
+        "craft/joiner": {
+          "name": "Ebenista"
+        },
         "craft/key_cutter": {
           "name": "Fabricant de claus",
           "terms": "Duplicació de claus, copia de claus"
@@ -5312,6 +5463,9 @@
         "craft/painter": {
           "name": "Pintor",
           "terms": "Pintor"
+        },
+        "craft/parquet_layer": {
+          "name": "Instal·lador de parquet"
         },
         "craft/photographer": {
           "name": "Fotògraf",
@@ -5504,6 +5658,9 @@
         "golf/hole": {
           "name": "Forat"
         },
+        "golf/lateral_water_hazard": {
+          "name": "Obstacle d'aigua lateral"
+        },
         "golf/tee": {
           "name": "Àrea inicial"
         },
@@ -5552,11 +5709,18 @@
         "healthcare/physiotherapist": {
           "name": "Fisioterapeuta"
         },
+        "healthcare/podiatrist": {
+          "name": "Podòleg",
+          "terms": "peu, peus, cama, cames, podologia, taló, turmell"
+        },
         "healthcare/psychotherapist": {
           "name": "Psicoterapeuta"
         },
         "healthcare/rehabilitation": {
           "name": "Centre de reabilitació"
+        },
+        "healthcare/sample_collection": {
+          "name": "Instal·lació de col·leccions de mostres"
         },
         "healthcare/speech_therapist": {
           "name": "Logopeda"
@@ -5581,7 +5745,8 @@
           "name": "Corredor interior"
         },
         "highway/crossing": {
-          "name": "Pas de vianants"
+          "name": "Pas de vianants",
+          "terms": "Travessera, Cruïlla, Pas de Vianants, Pas Zebra, Pas de peatons, pas de transeünts"
         },
         "highway/crossing/traffic_signals": {
           "name": "Pas de vianants controlat per semàfors"
@@ -5631,6 +5796,9 @@
         "highway/footway/crossing": {
           "name": "Pas de vianants"
         },
+        "highway/footway/crossing/traffic_signals": {
+          "name": "Pas de vianants controlat per semàfors"
+        },
         "highway/footway/crossing/uncontrolled": {
           "name": "Pas de vianants uncontrolat"
         },
@@ -5670,9 +5838,15 @@
           "name": "Enllaç d'autopista",
           "terms": "Rampa, entrada, incorporació, baixada, addició, autopista, autovia, eix"
         },
+        "highway/passing_place": {
+          "name": "Lloc de pas"
+        },
         "highway/path": {
           "name": "Sender",
           "terms": "Sender,Corriol,Senda,Camí"
+        },
+        "highway/path/crossing": {
+          "name": "Pas per a vianants i bicicletes"
         },
         "highway/path/informal": {
           "name": "Camí informal",
@@ -5871,6 +6045,12 @@
         },
         "indoor": {
           "name": "Element d'interior"
+        },
+        "indoor/corridor": {
+          "name": "Corredor interior"
+        },
+        "indoor/corridor_line": {
+          "name": "Corredor interior"
         },
         "indoor/room": {
           "name": "Habitació"
@@ -6279,6 +6459,13 @@
           "name": "Piscina",
           "terms": "Piscina"
         },
+        "leisure/track/athletics/running": {
+          "name": "Pista atlètica"
+        },
+        "leisure/track/running": {
+          "name": "Pista atlètica",
+          "terms": "Pista per córrer, Pista d'atletisme, Pista, Córrer, Atlètic, Atlètica, Atletisme"
+        },
         "leisure/trampoline_park": {
           "name": "Parc de Trampolins"
         },
@@ -6336,6 +6523,12 @@
         "man_made/crane": {
           "name": "Grua"
         },
+        "man_made/crane/gantry_crane": {
+          "name": "Grua pòrtic"
+        },
+        "man_made/crane/portal_crane": {
+          "name": "Pont Grua"
+        },
         "man_made/cross": {
           "name": "Creu",
           "terms": "creu, creueta"
@@ -6357,6 +6550,9 @@
         "man_made/flagpole": {
           "name": "Màstil",
           "terms": "màstil"
+        },
+        "man_made/fuel_pump": {
+          "name": "Sortidor de benzina"
         },
         "man_made/gasometer": {
           "name": "Gasòmetre"
@@ -6433,6 +6629,12 @@
         "man_made/survey_point": {
           "name": "Punt referencial",
           "terms": "Punt de salvació,Punt de salvament,Punt d'evacuació"
+        },
+        "man_made/telescope/optical": {
+          "name": "Telescopi òptic"
+        },
+        "man_made/telescope/radio": {
+          "name": "Radiotelescopi"
         },
         "man_made/tower": {
           "name": "Torre",
@@ -6608,7 +6810,8 @@
           "terms": "Aigua"
         },
         "natural/water/basin": {
-          "name": "Conca"
+          "name": "Conca",
+          "terms": "Conca"
         },
         "natural/water/canal": {
           "name": "Àrea de canal"
@@ -6716,6 +6919,9 @@
         "office/company": {
           "name": "Oficina corporativa"
         },
+        "office/consulting": {
+          "name": "Oficina d'una consultoria"
+        },
         "office/coworking": {
           "name": "Espai de cotreball\nEspai de coworking\nEspai de treball compartit"
         },
@@ -6799,6 +7005,9 @@
         "office/lawyer/notary": {
           "name": "Notaria"
         },
+        "office/moving_company": {
+          "name": "Companyia de mudances"
+        },
         "office/newspaper": {
           "name": "Oficines d'un Diari",
           "terms": "sala de premsa, redacció, diari, periòdic, premsa"
@@ -6808,7 +7017,8 @@
           "terms": "ong, organització no governamental, organització"
         },
         "office/notary": {
-          "name": "Notaria"
+          "name": "Notaria",
+          "terms": "Oficina del notari"
         },
         "office/physician": {
           "name": "Metge"
@@ -6864,14 +7074,17 @@
         "pipeline": {
           "name": "Element de canalització"
         },
+        "pipeline/substation": {
+          "name": "Subestació de gasoductes"
+        },
+        "pipeline/valve": {
+          "name": "Vàlvula de canonada"
+        },
         "piste/ice_skate": {
           "name": "Camí per patinatge sobre gel"
         },
         "piste/nordic": {
           "name": "Camí per esquí de muntanya"
-        },
-        "piste/piste": {
-          "name": "Camí / pista per esports de neu"
         },
         "place": {
           "name": "Lloc"
@@ -7088,7 +7301,8 @@
           "name": "Andana d'autobús\nAndana de bus"
         },
         "public_transport/platform/bus_point": {
-          "name": "Parada d'autobús\nParada de bus"
+          "name": "Parada d'autobús\nParada de bus",
+          "terms": "Parada de bus, Parada"
         },
         "public_transport/platform/bus_tram_point": {
           "name": "Parada de tramvia i autobús\nParada de tramvia i bus"
@@ -7319,6 +7533,9 @@
         },
         "seamark/beacon_lateral": {
           "name": "Far de canal"
+        },
+        "seamark/mooring": {
+          "name": "Amarrament"
         },
         "shop": {
           "name": "Botiga",
@@ -8069,7 +8286,8 @@
           "name": "Control del límit de velocitat"
         },
         "type/multipolygon": {
-          "name": "Multipolígon"
+          "name": "Multipolígon",
+          "terms": "Multipolígon"
         },
         "type/restriction": {
           "name": "Restricció",

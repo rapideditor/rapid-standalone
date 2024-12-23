@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.860Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.695Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.en.json",
-    "hash": "33ae753f4d501f90d130f2d6fb53897f"
+    "hash": "5ba31addf2fb4b2139d60d6efd0f928c"
   },
   "en": {
     "imagery": {
@@ -75,9 +75,11 @@
       "Gliwice-2020": {"attribution": {"text": "Urząd Miasta Gliwice"}, "name": "Gliwice: Orthophotomap 2020 (aerial image)"},
       "Gliwice-2021": {"attribution": {"text": "Urząd Miasta Gliwice"}, "name": "Gliwice: Orthophotomap 2021 (aerial image)"},
       "Gliwice-buildings": {"attribution": {"text": "Urząd Miasta Gliwice"}, "name": "Gliwice: Buildings"},
-      "LSA-ATKIS_BU": {"attribution": {"text": "© GeoBasis-DE/LVermGeo LSA"}, "description": "Shape of buildings in saxony-anhalt", "name": "© GeoBasis-DE/LVermGeo LSA, ATKIS_BU"},
+      "LSA-ALKIS-CP": {"attribution": {"text": "© GeoBasis-DE/LVermGeo LSA"}, "description": "Vectorial recording of parcels from the official real estate cadastre.", "name": "© GeoBasis-DE/LVermGeo LSA, ALKIS Cadastre parcels"},
+      "LSA-ALKIS_BU": {"attribution": {"text": "© GeoBasis-DE/LVermGeo LSA"}, "description": "Shape of buildings in saxony-anhalt", "name": "© GeoBasis-DE/LVermGeo LSA, ALKIS Building Outlines"},
+      "LSA-ATKIS-HYN": {"attribution": {"text": "© GeoBasis-DE/LVermGeo LSA"}, "description": "Recording of water networks (may differ in accuracy from reality, always consider in connection with orthophoto)", "name": "© GeoBasis-DE/LVermGeo LSA, ATKIS Hydro Network"},
       "LSA-DOP20": {"attribution": {"text": "© GeoBasis-DE/LVermGeo LSA"}, "description": "aerial image of the state Saxony-Anhalt, 20 cm resolution", "name": "© GeoBasis-DE/LVermGeo LSA, DOP20"},
-      "LSA-DVG": {"attribution": {"text": "© GeoBasis-DE/LVermGeo LSA"}, "description": "Vector recording of administrative boundaries. The boundaries of the federal state, district, municipality and parts of the municipality are given. ", "name": "© GeoBasis-DE/LVermGeo LSA, DVG"},
+      "LSA-DVG": {"attribution": {"text": "© GeoBasis-DE/LVermGeo LSA"}, "description": "Vector recording of administrative boundaries. The boundaries of the federal state, district, municipality and parts of the municipality are given. ", "name": "© GeoBasis-DE/LVermGeo LSA, Digital administrative boundaries"},
       "LocalAuthorities_RightsOfWay": {"attribution": {"text": "Contains public sector information licensed under the Open Government Licence v3.0."}, "description": "Public rights of way data released by local authorities, as collated at rowmaps.com", "name": "Public Rights of Way"},
       "Lodz-2015": {"attribution": {"text": "Urząd Miasta Łodzi"}, "name": "Łódź: Orthophotomap 2015 (aerial image)"},
       "Lodz-2017": {"attribution": {"text": "Urząd Miasta Łodzi"}, "name": "Łódź: Orthophotomap 2017 (aerial image)"},

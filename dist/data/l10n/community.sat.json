@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.082Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.762Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.sat.json",
-    "hash": "cb663855ed5b48b67617b05e2691ccef"
+    "hash": "da01391c3c961d2f7d53fc310aa8b7c6"
   },
   "sat": {
     "_communities": {
@@ -15,6 +15,12 @@
     "Bay-Area-OpenStreetMappers": {
       "name": "ᱵᱮᱞ ᱡᱟᱭᱜᱟ OpenStreetMappers",
       "description": "ᱵᱮᱭ ᱡᱟᱭᱜᱟ ᱨᱮ OpenStreetMap ᱵᱮᱥ ᱛᱮᱭᱟᱨ ᱯᱮ"
+    },
+    "Galicia-Xeoinquedos-Twitter": {
+      "description": "ᱟᱞᱮ Twitter {url} ᱨᱮ ᱯᱟᱸᱡᱚ ᱞᱮᱢ"
+    },
+    "PHXGeo-twitter": {
+      "description": "ᱟᱞᱮ Twitter {url} ᱨᱮ ᱯᱟᱸᱡᱚ ᱞᱮᱢ"
     }
   }
 }

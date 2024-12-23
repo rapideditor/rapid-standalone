@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.738Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.658Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.es.json",
-    "hash": "047071e4d097f1395e81009b431fcd8c"
+    "hash": "fe2fa738eff37ec26091cd3d243b8d31"
   },
   "es": {
     "presets": {
@@ -1075,7 +1075,7 @@
             "caribbean": "Caribeña",
             "chicken": "Pollo",
             "chinese": "China",
-            "coffee_shop": "Cafetería",
+            "coffee_shop": "Cafetería especializada",
             "dessert": "Postre",
             "diner": "Cena",
             "donut": "Dona / Rosquilla",
@@ -2054,13 +2054,13 @@
           "terms": "internet, wifi, wlan, local, público, privado, red, Wi-Fi, fibra, router, antena, cable coaxial, lan, ISP, conexión, protocolo, http, ftp, ssh, TCP, IP, enrutamiento, dns, dhcp, mac, dirección, 4G, 5G"
         },
         "internet_access/fee": {
-          "label": "Acceso a Internet",
+          "label": "Tarifa de acceso a Internet",
           "options": {
             "customers": "Solo clientes",
             "no": "Gratis",
             "yes": "Pago"
           },
-          "terms": "tarifa wifi, acceso, punto de acceso, conexión, wifi, wi-fi, acceso gratuito, precio wifi"
+          "terms": "Tarifa de acceso a Internet, costo de acceso a Internet, cargo por conexión a Internet, cuota de acceso a Internet"
         },
         "internet_access/ssid": {
           "label": "Nombre de la red wifi",
@@ -2272,7 +2272,13 @@
           "label": "Cobertura"
         },
         "map_type": {
-          "label": "Tipo"
+          "label": "Tipo",
+          "options": {
+            "scheme": "Mapa esquemático",
+            "street": "Mapa de carreteras",
+            "topo": "Mapa topográfico",
+            "toposcope": "Toposcopio"
+          }
         },
         "mapillary": {
           "label": "ID de imagen de Mapillary",
@@ -2684,19 +2690,58 @@
         "parking": {
           "label": "Tipo",
           "options": {
-            "carports": "Cochera abierta",
-            "garage_boxes": "Garaje en cubículos",
-            "half_on_kerb": "La mitad en la acera",
-            "lane": "Carril al borde de la calzada",
-            "layby": "Área de descanso",
-            "multi-storey": "Multinivel",
-            "on_kerb": "En la acera",
-            "rooftop": "Techo",
-            "sheds": "Galpones",
-            "shoulder": "Arcén / banquina",
-            "street_side": "Adyacente a la calzada",
-            "surface": "Superficie",
-            "underground": "Subterráneo"
+            "carports": {
+              "description": "Estructura utilizada para ofrecer protección limitada a vehículos, típicamente sin paredes.",
+              "title": "Cochera abierta"
+            },
+            "garage_boxes": {
+              "description": "Garaje privado con múltiples compartimientos individuales para un vehículo cada uno.",
+              "title": "Garaje en cubículos"
+            },
+            "half_on_kerb": {
+              "description": "Estacionamiento parcialmente en la acera.",
+              "title": "La mitad en la acera"
+            },
+            "lane": {
+              "description": "Estacionamiento en la calle (que podría ser fácilmente convertido en un carril de circulación).",
+              "title": "Carril al borde de la calzada"
+            },
+            "layby": {
+              "description": "Estacionamiento en un área de descanso, al costado de una vía.",
+              "title": "Área de descanso"
+            },
+            "multi-storey": {
+              "description": "Dos o más niveles de estacionamiento en una estructura de edificio.",
+              "title": "Multinivel"
+            },
+            "on_kerb": {
+              "description": "Estacionamiento sobre la acera.",
+              "title": "En la acera"
+            },
+            "rooftop": {
+              "description": "Un nivel de estacionamiento en la parte superior de un edificio.",
+              "title": "Techo"
+            },
+            "sheds": {
+              "description": "Hangares privados para vehículos.",
+              "title": "Galpones"
+            },
+            "shoulder": {
+              "description": "Estacionamiento al costado de la vía.",
+              "title": "Arcén / Banquina"
+            },
+            "street_side": {
+              "description": "Estacionamiento directamente adyacente a la calle (pero no sobre ella).",
+              "title": "Adyacente a la calzada"
+            },
+            "surface": {
+              "description": "Un nivel de estacionamiento a nivel del suelo.",
+              "title": "Superficie"
+            },
+            "underground": {
+              "description": "Estacionamiento subterráneo.",
+              "title": "Subterráneo"
+            }
           }
         },
         "parking/side/orientation": {
@@ -3250,7 +3295,8 @@
             "demanding_mountain_hiking": "T3: Senderismo de montaña exigente",
             "difficult_alpine_hiking": "T6: Senderismo alpino difícil",
             "hiking": "T1: Senderismo",
-            "mountain_hiking": "T2: Senderismo de montaña"
+            "mountain_hiking": "T2: Senderismo de montaña",
+            "strolling": "Paseo"
           },
           "placeholder": "Caminata de montaña, caminata alpina...",
           "terms": "Excursionismo, hiking, dificultad, senderismo, caminata"
@@ -3386,7 +3432,8 @@
           "terms": "venta de usados, usada, usados"
         },
         "segregated": {
-          "label": "Separación de bicicletas y peatones"
+          "label": "Separación de bicicletas y peatones",
+          "terms": "Separación bici-peatón, división ciclista-peatonal, carril de separación peatonal y ciclista"
         },
         "self_service": {
           "label": "Autoservicio"
@@ -3923,7 +3970,7 @@
           "label": "Hasta"
         },
         "toilets": {
-          "label": "Baños",
+          "label": "Baños/Aseos/Servicios",
           "terms": "baño, baños, servicio, servicios, aseo, aseos, lavabo, tocador, inodoro, taza, letrina, retrete, toilette"
         },
         "toilets/disposal": {
@@ -4200,6 +4247,7 @@
             "coffee": "Café",
             "condoms": "Condones",
             "drinks": "Bebidas",
+            "e-cigarettes": "Cigarrillos electrónicos",
             "eggs": "Huevos",
             "electronics": "Electrónica",
             "elongated_coin": "Monedas de recuerdo",
@@ -5526,7 +5574,7 @@
         },
         "amenity/theatre/type/amphi": {
           "name": "Anfiteatro",
-          "terms": "aire libre, al aire libre, griego, ampi, anfi, anfiteatro"
+          "terms": "Anfiteatro, teatro al aire libre, arena, auditorio abierto, recinto exterior, espacio escénico al aire libre"
         },
         "amenity/ticket_validator": {
           "name": "Validador de boletos",
@@ -6641,6 +6689,10 @@
           "name": "Entrada principal",
           "terms": "entrada, ingreso, puerta, portón, acceso, principal, vestíbulo"
         },
+        "entrance/shop": {
+          "name": "Entrada de tienda",
+          "terms": "Entrada de tienda, acceso comercial, entrada de comercio."
+        },
         "entrance/staircase": {
           "name": "Escalera de entrada",
           "terms": "Escalera de entrada, puerta, escaleras"
@@ -6979,6 +7031,18 @@
         "highway/path/boardwalk": {
           "name": "Pasarela de tablones",
           "terms": "muelle, pasarela de tablones, sendero elevado de madera, paseo de tablas, tablas, madera, tarima, entarimado, paseo marítimo, puente"
+        },
+        "highway/path/crossing": {
+          "name": "Cruce para ciclistas y peatones"
+        },
+        "highway/path/crossing/traffic_signals": {
+          "name": "Cruce para ciclistas y peatones con señales peatonales"
+        },
+        "highway/path/crossing/uncontrolled": {
+          "name": "Cruce marcado para ciclistas y peatones"
+        },
+        "highway/path/crossing/unmarked": {
+          "name": "Cruce no marcado para ciclistas y peatones"
         },
         "highway/path/informal": {
           "name": "Camino informal",
@@ -7367,6 +7431,14 @@
         "landuse/meadow": {
           "name": "Prado",
           "terms": "prado, pradera, campo, mies, braniza, braña"
+        },
+        "landuse/meadow_orchard/meadow": {
+          "name": "Prado con árboles frutales",
+          "terms": "Prado con árboles frutales, campo con árboles frutales, área verde con frutales, campo frutal, área verde con árboles de frutas"
+        },
+        "landuse/meadow_orchard/orchard": {
+          "name": "Huerto en pradera",
+          "terms": "Huerto en pradera, plantación de frutales en campo, frutales en campo abierto, frutales en campo, plantación de frutales en pradera"
         },
         "landuse/military": {
           "name": "Área militar",
@@ -8410,6 +8482,10 @@
         "natural": {
           "name": "Elemento natural"
         },
+        "natural/arch": {
+          "name": "Arco natural",
+          "terms": "Arco natural, puente de roca, formación rocosa arqueada."
+        },
         "natural/bare_rock": {
           "name": "Roca desnuda",
           "terms": "roca, roca desnuda, roca descubierta, costa rocosa, montaña"
@@ -8487,7 +8563,7 @@
           "terms": "roca, piedra"
         },
         "natural/saddle": {
-          "name": "Collado",
+          "name": "Collado / Abra",
           "terms": "collado,depresión,paso de montaña,portillo,punto de silla,abra, ensillada, cañada"
         },
         "natural/sand": {
@@ -8919,8 +8995,7 @@
           "terms": "esquí de fondo, esqui de fondo, esquí nórdico, esqui nordico, pista, esquí, esqui, xc"
         },
         "piste/piste": {
-          "name": "Pista / Sendero de deportes de nieve",
-          "terms": "esquí, esqui, nórdico, nordico, crosscountry, de fondo, cuesta abajo, alpino, snowboard, skitour, esquí de travesía, trineo, luge, trineo, trineo, esquí de travesía, husky, caballo, senderismo de invierno, raquetas de nieve, raquetas de nieve, hielo, patinaje"
+          "name": "Sendero / Pista de deportes de nieve (tipo no especificado)"
         },
         "piste/ski_jump": {
           "name": "Pista de salto en esquí",
@@ -9100,8 +9175,8 @@
           "terms": "Columpio, hamaca, hamacarse, amaca"
         },
         "playground/teenshelter": {
-          "name": "Refugio para jóvenes",
-          "terms": "refugio, abrigo, albergue, amparo, joven, adolescente"
+          "name": "Refugio para jugar",
+          "terms": "refugio, abrigo, albergue, amparo, joven, adolescente, juvenil, juegos"
         },
         "playground/tetherball": {
           "name": "Poste de Tetherball",
@@ -9915,8 +9990,12 @@
           "name": "Tienda de regalos",
           "terms": "regalo, obsequio, presentes, recuerdo, souvenir, regaleria, regionales"
         },
+        "shop/gold_buyer": {
+          "name": "Comprador de oro",
+          "terms": "Comprador de oro, adquisición de metales preciosos, casa de empeño"
+        },
         "shop/greengrocer": {
-          "name": "Verdulería / Frutería",
+          "name": "Tienda de frutas y verduras",
           "terms": "hortaliza, verdura, fruta, verdulería, frutería, legumbre, vegetal, verdulero, frutero"
         },
         "shop/hairdresser": {
@@ -10183,8 +10262,8 @@
           "terms": "deporte, deportivo"
         },
         "shop/stationery": {
-          "name": "Artículos de papelería y oficina",
-          "terms": "papel, papelería, escritorio, oficina, artículos de papelería, material de papelería, material de escritorio, papel de escribir, artículos de oficina, librería, libreria, artículos escolares, papelera"
+          "name": "Papelería/Librería",
+          "terms": "papel, papelería, escritorio, oficina, artículos de papelería, material de papelería, material de escritorio, papel de escribir, artículos de oficina, librería, libreria, artículos escolares, papelera, artículos de papelería y oficina"
         },
         "shop/storage_rental": {
           "name": "Alquiler de espacios para almacenaje",

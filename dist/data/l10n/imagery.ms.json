@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.836Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.690Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.ms.json",
-    "hash": "8c1a108715ef72fb63c4ea5b36d07dcb"
+    "hash": "5ff9c74dd74a79fa165fe673ac35c3c9"
   },
   "ms": {
     "imagery": {
@@ -69,6 +69,24 @@
           "text": "© Geofabrik GmbH, penyumbang-penyumbang OpenStreetMap, CC-BY-SA"
         },
         "name": "OSM Inspector: Penandaan"
+      },
+      "US-TIGER-Roads-2018": {
+        "description": "Kuning = Data peta domain awam daripada Banci AS. Merah = Data tidak ditemui dalam OpenStreetMap"
+      },
+      "US-TIGER-Roads-2019": {
+        "description": "Kuning = Data peta domain awam daripada Banci AS. Merah = Data tidak ditemui dalam OpenStreetMap"
+      },
+      "US-TIGER-Roads-2020": {
+        "description": "Kuning = Data peta domain awam daripada Banci AS. Merah = Data tidak ditemui dalam OpenStreetMap"
+      },
+      "US-TIGER-Roads-2021": {
+        "description": "Kuning = Data peta domain awam daripada Banci AS. Merah = Data tidak ditemui dalam OpenStreetMap"
+      },
+      "US-TIGER-Roads-2022": {
+        "description": "Kuning = Data peta domain awam daripada Banci AS. Merah = Data tidak ditemui dalam OpenStreetMap"
+      },
+      "US-TIGER-Roads-2023": {
+        "description": "Kuning = Data peta domain awam daripada Banci AS. Merah = Data tidak ditemui dalam OpenStreetMap"
       },
       "Waymarked_Trails-Cycling": {
         "name": "Waymarked Trails: Berbasikal"
@@ -140,6 +158,11 @@
           "text": "Peta © Thunderforest, Data © penyumbang-penyumbang OpenStreetMap"
         },
         "name": "Landskap Thunderforest"
+      },
+      "tf-outdoors": {
+        "attribution": {
+          "text": "Peta © Thunderforest, Data © penyumbang-penyumbang OpenStreetMap"
+        }
       }
     }
   }

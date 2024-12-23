@@ -1,14 +1,24 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.827Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.688Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.ro.json",
-    "hash": "4f5c0942b8e8c26282110275cbb93d17"
+    "hash": "3e7498b006b4786f25c99b5040300e77"
   },
   "ro": {
     "imagery": {
       "Bing": {
         "description": "Imagini aeriane și de satelit."
+      },
+      "EsriWorldImagery": {
+        "attribution": {
+          "text": "Termeni & Feedback"
+        }
+      },
+      "EsriWorldImageryClarity": {
+        "attribution": {
+          "text": "Termeni & Feedback"
+        }
       },
       "MAPNIK": {
         "description": "Stratul OpenStreetMap implicit."
@@ -131,6 +141,11 @@
           "text": "Hărți © Thunderforest, Date © Contribuitori OpenStreetMap"
         },
         "name": "Peisaj Thunderforest "
+      },
+      "tf-outdoors": {
+        "attribution": {
+          "text": "Hărți © Thunderforest, Date © Contribuitori OpenStreetMap"
+        }
       }
     }
   }

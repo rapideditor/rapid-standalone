@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.662Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.623Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.mi.json",
-    "hash": "4208c47fcaabd261a35d0e9250de7df6"
+    "hash": "55d582512d2ff0950c488bc80a1ef769"
   },
   "mi": {
     "presets": {
@@ -32,7 +32,10 @@
           "label": "Pūrere Pūtea"
         },
         "building": {
-          "label": "Whare"
+          "label": "Whare",
+          "options": {
+            "church": "Whare hāhi"
+          }
         },
         "cuisine": {
           "options": {
@@ -178,6 +181,9 @@
         "amenity/waste_basket": {
           "name": "Rapihi"
         },
+        "area": {
+          "name": "Pae"
+        },
         "building": {
           "name": "Whare"
         },
@@ -186,6 +192,9 @@
         },
         "building/entrance": {
           "name": "Putanga"
+        },
+        "building_point": {
+          "name": "Whare"
         },
         "entrance": {
           "name": "Putanga"
@@ -202,6 +211,12 @@
         "highway/construction": {
           "name": "Mahinga Rori"
         },
+        "highway/cycleway": {
+          "name": "Ngā ara paihikara"
+        },
+        "highway/cycleway/bicycle_foot": {
+          "name": "Ngā Ara mō te Paihikara me te Hīkoi"
+        },
         "highway/living_street": {
           "name": "Ara Wātea"
         },
@@ -213,6 +228,9 @@
         },
         "landuse/cemetery": {
           "name": "Urupā"
+        },
+        "landuse/construction": {
+          "name": "He Wāhi Whaihanga Tēnei"
         },
         "landuse/harbour": {
           "name": "Te Taunga"
@@ -226,6 +244,9 @@
         "leisure/swimming_pool": {
           "name": "Hōpua"
         },
+        "line": {
+          "name": "Ara"
+        },
         "natural/beach": {
           "name": "Tātahi"
         },
@@ -237,6 +258,9 @@
         },
         "place/town": {
           "name": "Tāone"
+        },
+        "point": {
+          "name": "Ira"
         },
         "public_transport/platform/bus_point": {
           "name": "Tūnga Pahi"
@@ -288,6 +312,9 @@
         },
         "type/route/detour": {
           "name": "Otinga"
+        },
+        "waterway/river": {
+          "name": "Awa"
         }
       }
     }

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.062Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.755Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.af.json",
-    "hash": "97f97909491984c7f57f091db4c10e7c"
+    "hash": "0a235df89d8093648a555676767cfeeb"
   },
   "af": {
     "icons": {
@@ -34,16 +34,13 @@
     },
     "modes": {
       "add_area": {
-        "title": "Gebied",
-        "filter_tooltip": "gebiede"
+        "title": "Gebied"
       },
       "add_line": {
-        "title": "Lyn",
-        "filter_tooltip": "lyne"
+        "title": "Lyn"
       },
       "add_point": {
-        "title": "Punt",
-        "filter_tooltip": "punte"
+        "title": "Punt"
       },
       "add_note": {
         "title": "Nota",
@@ -113,10 +110,6 @@
       },
       "circularize": {
         "title": "Maak rond",
-        "description": {
-          "single": "Maak diehier baken rond.",
-          "multiple": "Maak diehier bakens rond."
-        },
         "annotation": {
           "feature": {
             "one": "Maak 'n baken rond.",
@@ -332,15 +325,14 @@
         "osmose": {
           "title": "Osmose-probleme"
         }
-      },
-      "map_features": "Kaartbakens"
+      }
     },
     "photo_overlays": {
       "username_filter": {
         "title": "Gebruikernaam"
       }
     },
-    "feature": {
+    "filters": {
       "points": {
         "description": "punte"
       },
@@ -393,17 +385,14 @@
       "live": "lewendig",
       "lose_changes": "Jy het ongebêrede verandering, as jy die van kaart server verander gaan jy die veranderings weggooi. Is jy seker jy wil van kaart server verander?"
     },
-    "rapid_feature_toggle": {
-      "esri": {
-        "remove": "Verwyder"
-      }
+    "rapid_menu": {
+      "remove": "Verwyder"
     },
     "tag_reference": {
       "description": "Beskrywing",
       "on_wiki": "{tag} op wiki.osm.org",
       "used_with": "gebruik met {type}"
     },
-    "cannot_zoom": "Kan nie verder uitzoom in die huidige mode nie.",
     "QA": {
       "osmose": {
         "elems_title": "Bakens"
@@ -468,10 +457,7 @@
     },
     "issues": {
       "title": "Probleme",
-      "list_title": "Probleme",
-      "warnings": {
-        "list_title": "Waarskuwings"
-      },
+      "warnings": "Waarskuwings",
       "options": {
         "what": {
           "edited": "My Wysigings"
@@ -531,17 +517,16 @@
       "key": {
         "delete": "Verwyder"
       },
-      "editing": {
-        "commands": {
-          "undo": "Maak meest onlangse aktie ongedaan",
-          "redo": "Herstel meest onlangse wysiging",
-          "save": "Stoor wysigings"
-        }
-      },
-      "tools": {
-        "title": "Gereedskappe",
-        "info": {
-          "title": "Inligting"
+      "info": "Inligting",
+      "command": {
+        "undo": {
+          "label": "Maak meest onlangse aktie ongedaan"
+        },
+        "redo": {
+          "label": "Herstel meest onlangse wysiging"
+        },
+        "save": {
+          "label": "Stoor wysigings"
         }
       }
     },
@@ -597,7 +582,7 @@
       "dak": "Dakotaans",
       "dar": "Dakota",
       "de": "Duits",
-      "dsb": "Benedesorbies",
+      "dsb": "Nedersorbies",
       "egy": "Antieke Egipties",
       "el": "Grieks",
       "en": "Engels",
@@ -654,7 +639,7 @@
       "koi": "Komi-Permyaks",
       "kpe": "Kpellees",
       "krl": "Karelies",
-      "ks": "Kasjmirs",
+      "ks": "Kasjmiri",
       "ksh": "Keuls",
       "ku": "Koerdies",
       "kw": "Kornies",
@@ -664,6 +649,8 @@
       "lb": "Luxemburgs",
       "lez": "Lezghies",
       "li": "Limburgs",
+      "lij": "Liguries",
+      "lmo": "Lombardies",
       "ln": "Lingaals",
       "lou": "Louisiana Kreool",
       "lrc": "Noord-Luri",
@@ -722,7 +709,7 @@
       "rup": "Aromanies",
       "rw": "Rwandees",
       "sad": "Sandawees",
-      "sah": "Sakhaans",
+      "sah": "Jakoeties",
       "sat": "Santalies",
       "sc": "Sardinies",
       "scn": "Sisiliaans",
@@ -747,10 +734,12 @@
       "sv": "Sweeds",
       "swb": "Comoraans",
       "syr": "Siries",
+      "szl": "Silesies",
       "tce": "Suid-Tutchone",
       "te": "Teloegoe",
       "tet": "Tetoem",
       "tg": "Tadjiks",
+      "ti": "Tigrinja",
       "tk": "Turkmeens",
       "to": "Tongaans",
       "tr": "Turks",
@@ -763,14 +752,16 @@
       "ug": "Uighur",
       "uk": "Oekraïens",
       "ur": "Oerdoe",
-      "uz": "Oezbeeks",
+      "uz": "Oesbekies",
+      "vec": "Venesiaans",
       "vi": "Viëtnamees",
       "wuu": "Wu-Sjinees",
       "yi": "Jiddisj",
+      "yo": "Joroeba",
       "yue": "Kantonese Chinees",
       "zgh": "Standaard Marokkaanse Tamazight",
       "zh": "Mandarynse Chinees",
-      "zh-Hans": "Mandarynse Chinees (Vereenvoudigd)",
+      "zh-Hans": "Mandarynse Chinees (Vereenvoudig)",
       "zh-Hant": "Mandarynse Chinees (Tradisioneel)",
       "zu": "Zoeloe"
     },
@@ -779,11 +770,11 @@
       "Armn": "Armeens",
       "Beng": "Bengaals",
       "Cans": "Verenigde Kanadese Inheemse Lettergreepskrif",
-      "Cyrl": "Sirillies",
+      "Cyrl": "Cyrillies",
       "Ethi": "Etiopies",
       "Geor": "Georgies",
       "Grek": "Grieks",
-      "Gujr": "Gudjarati",
+      "Gujr": "Goedjarati",
       "Hanb": "Han met Bopomofo",
       "Hans": "Vereenvoudigde Han",
       "Hant": "Tradisionele Han",
@@ -805,7 +796,7 @@
       "Zmth": "Wiskundige notasie",
       "Zsym": "Simbole",
       "Zxxx": "Ongeskrewe",
-      "Zyyy": "Gemeenskaplik",
+      "Zyyy": "Algemeen",
       "Zzzz": "Onbekende skryfstelsel"
     }
   }

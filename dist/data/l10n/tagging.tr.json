@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.582Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.587Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.tr.json",
-    "hash": "d3216c6ab8cf866f4fac4ea7f5dd4a5f"
+    "hash": "1a84902b207c97056e210652a9207f95"
   },
   "tr": {
     "presets": {
@@ -271,6 +271,11 @@
         "area/highway": {
           "label": "Tür"
         },
+        "armrest": {
+          "options": {
+            "undefined": "Bilinmiyor"
+          }
+        },
         "artist": {
           "label": "Sanatçı"
         },
@@ -503,7 +508,10 @@
           "label": "Tür"
         },
         "bridge_combo": {
-          "label": "Tür"
+          "label": "Tür",
+          "options": {
+            "boardwalk": "Kaldırım"
+          }
         },
         "building": {
           "label": "Bina",
@@ -1313,7 +1321,25 @@
           "placeholder": "#örnek"
         },
         "healthcare": {
-          "label": "Tür"
+          "label": "Tür",
+          "options": {
+            "alternative": "Alternatif Tıp",
+            "audiologist": "Ses Uzmanı",
+            "birthing_centre": "Doğum Merkezi",
+            "clinic": "Klinik",
+            "counselling": "Danışmanlık Merkezi",
+            "dentist": "Dişçi",
+            "doctor": "Doktor",
+            "hospice": "Darülaceze",
+            "laboratory": "Tıbbi Laboratuvar",
+            "midwife": "Ebe",
+            "occupational_therapist": "Tedavi Uzmanı",
+            "optometrist": "Göz Doktoru",
+            "physiotherapist": "Fizik Tedavi Uzmanı",
+            "psychotherapist": "Ruh Sağlıkları Uzmanı",
+            "rehabilitation": "Rehabilitasyon Merkezi, İyileştirme Merkezi",
+            "speech_therapist": "Konuşma Terapisti"
+          }
         },
         "healthcare/speciality": {
           "label": "Uzmanlık"
@@ -1439,13 +1465,12 @@
           "terms": "['İnternet Bağlantısı' için eş anlamlı veya benzer terimler ile çeviri yapın, virgülle ayırın]"
         },
         "internet_access/fee": {
-          "label": "İnternet Erişimi",
+          "label": "İnternet Erişim Ücreti",
           "options": {
             "customers": "Sadece Müşteriler",
             "no": "Ücretsiz",
             "yes": "Ödemeli"
-          },
-          "terms": "['İnternet Erişimi' için eş anlamlı veya benzer terimler ile çeviri yapın, virgülle ayırın]"
+          }
         },
         "internet_access/ssid": {
           "label": "Wifi Ağı İsmi",
@@ -1469,7 +1494,12 @@
           "terms": "['Kavşak' için eş anlamlı veya benzer terimler ile çeviri yapın, virgülle ayırın]"
         },
         "kerb": {
-          "label": "Kaldırım Taşı"
+          "label": "Kaldırım Taşı",
+          "options": {
+            "flush": {
+              "title": "Sifon"
+            }
+          }
         },
         "kerb/height": {
           "label": "Yükseklik"
@@ -1589,7 +1619,12 @@
           "terms": "['Mapillary Resim No' için virgülle ayırarak eş anlamlılar veya ilgili terimlerle çevirin]"
         },
         "marker": {
-          "label": "Tür"
+          "label": "Tür",
+          "options": {
+            "ground": {
+              "title": "Zemin"
+            }
+          }
         },
         "material": {
           "label": "Materyal",
@@ -1789,14 +1824,24 @@
         "parking": {
           "label": "Tür",
           "options": {
-            "carports": "Kenarları Açık Park Alanı",
-            "garage_boxes": "Park Kutuları",
-            "lane": "Yol Kenarı Park Şeridi",
-            "multi-storey": "Çokkatlı",
-            "rooftop": "Çatı",
-            "sheds": "Gölgelik",
-            "surface": "Yüzey",
-            "underground": "Yeraltı"
+            "carports": {
+              "title": "Kenarları Açık Park Alanı"
+            },
+            "garage_boxes": {
+              "title": "Park Kutuları"
+            },
+            "multi-storey": {
+              "title": "Seviyeli"
+            },
+            "rooftop": {
+              "title": "Çatı"
+            },
+            "sheds": {
+              "title": "Gölgelik"
+            },
+            "surface": {
+              "title": "Yüzey"
+            }
           }
         },
         "parking_entrance": {
@@ -2091,6 +2136,13 @@
         },
         "restrictions": {
           "label": "Dönüş Kısıtlamaları"
+        },
+        "roller_coaster/track": {
+          "options": {
+            "station": {
+              "title": "İstasyon"
+            }
+          }
         },
         "roof/colour": {
           "label": "Çatı Rengi",
@@ -2488,8 +2540,21 @@
         "target": {
           "label": "Hedef"
         },
+        "taxi_vehicle": {
+          "options": {
+            "motorcar": {
+              "title": "Otomobil"
+            },
+            "motorcycle": {
+              "title": "Motosiklet"
+            }
+          }
+        },
         "telecom": {
-          "label": "Tip"
+          "label": "Tip",
+          "options": {
+            "data_center": "Veri Merkezi"
+          }
         },
         "telecom/medium": {
           "label": "Orta"
@@ -2570,6 +2635,9 @@
         },
         "traffic_calming": {
           "label": "Tür"
+        },
+        "traffic_calming_road": {
+          "label": "Trafiği Yavaşlatma"
         },
         "traffic_sign": {
           "label": "Trafik Işığı"
@@ -2660,7 +2728,11 @@
           }
         },
         "vending": {
-          "label": "Mal Türleri"
+          "label": "Mal Türleri",
+          "options": {
+            "drinks": "İçecekler",
+            "ice_cream": "Dondurma"
+          }
         },
         "vhf": {
           "label": "VHF Kanalı",
@@ -3564,9 +3636,6 @@
           "name": "Tiyatro",
           "terms": "Tiyatro"
         },
-        "amenity/theatre/type/amphi": {
-          "name": "Amfitiyatro"
-        },
         "amenity/toilets": {
           "terms": "Tuvalet"
         },
@@ -3642,6 +3711,10 @@
         },
         "amenity/vending_machine/food": {
           "name": "Yemek Otomatı"
+        },
+        "amenity/vending_machine/food/snacks": {
+          "name": "Yiyecek Otomatı",
+          "terms": "Yiyecek Otomatı"
         },
         "amenity/vending_machine/ice_cream": {
           "name": "Dondurma Otomatı"
@@ -4645,6 +4718,9 @@
         "highway/path/boardwalk": {
           "name": "Kaldırım"
         },
+        "highway/path/crossing": {
+          "name": "Bisiklet ve Yaya Geçidi"
+        },
         "highway/path/informal": {
           "name": "Gayri Resmi Yol"
         },
@@ -5436,6 +5512,9 @@
           "name": "Bayrak Direği",
           "terms": "Bayrak Direği"
         },
+        "man_made/fuel_pump": {
+          "name": "Gaz Pompası"
+        },
         "man_made/gasometer": {
           "name": "Gazölçer",
           "terms": "Gazölçer"
@@ -5997,9 +6076,6 @@
         },
         "piste/nordic": {
           "name": "Kros-Kayağı Kayak Patikası"
-        },
-        "piste/piste": {
-          "name": "Kar Sporları Yolu / Piste"
         },
         "piste/skitour": {
           "name": "Kayak Turu Yolu"

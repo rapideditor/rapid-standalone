@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.870Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.697Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.br.json",
-    "hash": "d8ba9dfedbbd19b7a6240d6340d06895"
+    "hash": "b12c772f2dc7596f1efe4d5713c932c2"
   },
   "br": {
     "imagery": {
@@ -335,7 +335,7 @@
         },
         "name": "Gliwice: Savadurioù"
       },
-      "LSA-ATKIS_BU": {
+      "LSA-ALKIS_BU": {
         "description": "Furm savadurioù e Saks-Anhalt"
       },
       "LSA-DOP20": {
@@ -592,6 +592,11 @@
       "debicki-buildings": {
         "name": "Kontelezh Dębica: Savadurioù"
       },
+      "geoscribble-latest": {
+        "attribution": {
+          "text": "Kenlabourerien GeoScribble"
+        }
+      },
       "gothenburg-citymap": {
         "attribution": {
           "text": "© kumun Göteborg, CC0"
@@ -619,6 +624,7 @@
         "attribution": {
           "text": "© kumun Göteborg, CC0"
         },
+        "description": "Orthophoto kumun Göteborg",
         "name": "Orthophoto Göteborg 2021"
       },
       "gothenburg-ortho_latest": {

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.845Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.692Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.it.json",
-    "hash": "cd8276d0154881a12b49fb9426cc1b6b"
+    "hash": "d578e577377eccae0f0eb918b40544e5"
   },
   "it": {
     "imagery": {
@@ -98,6 +98,9 @@
         "attribution": {
           "text": "Sentinel-2 cloudless - https://s2maps.eu by EOX IT Services GmbH (Contiene anche dati di Copernicus Sentinel modificati 2021)"
         },
+        "description": "Immagini satellitari Sentinel post-elaborate."
+      },
+      "EOXAT2022CLOUDLESS": {
         "description": "Immagini satellitari Sentinel post-elaborate."
       },
       "EsriWorldImagery": {
@@ -350,7 +353,7 @@
         },
         "name": "Gliwice: Edifici"
       },
-      "LSA-ATKIS_BU": {
+      "LSA-ALKIS_BU": {
         "description": "Forma degli edifici in Sassonia-Anhalt"
       },
       "LSA-DOP20": {
@@ -519,6 +522,9 @@
         "description": "Giallo = dati cartografici di pubblico dominio dal censimento USA. Rosso = dati non presenti in OpenStreetMap"
       },
       "US-TIGER-Roads-2022": {
+        "description": "Giallo = dati della mappa di pubblico dominio provenienti dal Censimento US. Rosso = dati non trovati su OpenStreetMap"
+      },
+      "US-TIGER-Roads-2023": {
         "description": "Giallo = dati della mappa di pubblico dominio provenienti dal Censimento US. Rosso = dati non trovati su OpenStreetMap"
       },
       "USDA-NAIP": {

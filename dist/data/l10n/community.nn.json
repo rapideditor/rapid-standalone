@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.090Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.765Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.nn.json",
-    "hash": "5655ab7f79376e1de20d9023b35044a4"
+    "hash": "b5743195bdbaaff050eedb149e5af1d7"
   },
   "nn": {
     "_communities": {
@@ -14,8 +14,14 @@
     "cape-coast-youthmappers": {
       "description": "Følg oss på Twitter: {url}"
     },
+    "Galicia-Xeoinquedos-Twitter": {
+      "description": "Følg oss på Twitter på {url}"
+    },
     "Maptime-Oceania-Slack": {
       "description": "Registrer deg på {signupUrl}"
+    },
+    "PHXGeo-twitter": {
+      "description": "Følg oss på Twitter på {url}"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.025Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.743Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.en.json",
-    "hash": "3a20e43e57f96c210b7c9fbfbce133fb"
+    "hash": "966737e1fc8a71736e1856cc6cbdbe14"
   },
   "en": {
     "icons": {
@@ -42,23 +42,19 @@
     "modes": {
       "add_area": {
         "title": "Area",
-        "description": "Add buildings, parks, lakes, or other areas to the map.",
-        "filter_tooltip": "areas"
+        "description": "Add buildings, parks, lakes, or other areas to the map."
       },
       "add_line": {
         "title": "Line",
-        "description": "Add roads, walking paths, streams, or other lines to the map.",
-        "filter_tooltip": "lines"
+        "description": "Add roads, walking paths, streams, or other lines to the map."
       },
       "add_point": {
         "title": "Point",
-        "description": "Add businesses, waste baskets, post boxes, or other points to the map.",
-        "filter_tooltip": "points"
+        "description": "Add businesses, waste baskets, post boxes, or other points to the map."
       },
       "add_note": {
         "title": "Note",
-        "description": "Spotted an issue? Let other mappers know.",
-        "key": "N"
+        "description": "Spotted an issue? Let other mappers know."
       },
       "add_preset": {
         "title": "Add {feature}"
@@ -87,7 +83,6 @@
         }
       },
       "continue": {
-        "key": "A",
         "title": "Continue",
         "description": "Continue this line.",
         "not_eligible": "No line can be continued here.",
@@ -139,10 +134,9 @@
       "circularize": {
         "title": "Circularize",
         "description": {
-          "single": "Make this feature circular.",
-          "multiple": "Make these features circular."
+          "one": "Make this feature circular.",
+          "other": "Make these features circular."
         },
-        "key": "O",
         "annotation": {
           "feature": {
             "one": "Made a feature circular.",
@@ -150,42 +144,42 @@
           }
         },
         "multiple_blockers": {
-          "multiple": "These can't be made circular for multiple reasons."
+          "one": "This can't be made circular for multiple reasons.",
+          "other": "These can't be made circular for multiple reasons."
         },
         "not_closed": {
-          "single": "This can't be made circular because it's not a loop.",
-          "multiple": "These can't be made circular because they aren't loops."
+          "one": "This can't be made circular because it's not a loop.",
+          "other": "These can't be made circular because they aren't loops."
         },
         "too_large": {
-          "single": "This can't be made circular because not enough of it is currently visible.",
-          "multiple": "These can't be made circular because not enough of them are currently visible."
+          "one": "This can't be made circular because not enough of it is currently visible.",
+          "other": "These can't be made circular because not enough of them are currently visible."
         },
         "connected_to_hidden": {
-          "single": "This can't be made circular because it is connected to a hidden feature.",
-          "multiple": "These can't be made circular because some are connected to hidden features."
+          "one": "This can't be made circular because it is connected to a hidden feature.",
+          "other": "These can't be made circular because some are connected to hidden features."
         },
         "not_downloaded": {
-          "single": "This can't be made circular because parts of it have not yet been downloaded.",
-          "multiple": "These can't be made circular because parts of them have not yet been downloaded."
+          "one": "This can't be made circular because parts of it have not yet been downloaded.",
+          "other": "These can't be made circular because parts of them have not yet been downloaded."
         },
         "already_circular": {
-          "single": "This can't be made more circular than it already is.",
-          "multiple": "These can't be made more circular than they already are."
+          "one": "This can't be made more circular than it already is.",
+          "other": "These can't be made more circular than they already are."
         }
       },
       "orthogonalize": {
         "title": "Square",
         "description": {
           "corner": {
-            "single": "Square this corner.",
-            "multiple": "Square these corners."
+            "one": "Square this corner.",
+            "other": "Square these corners."
           },
           "feature": {
-            "single": "Square the corners of this feature.",
-            "multiple": "Square the corners of these features."
+            "one": "Square the corners of this feature.",
+            "other": "Square the corners of these features."
           }
         },
-        "key": "Q",
         "annotation": {
           "corner": {
             "one": "Squared a corner.",
@@ -197,31 +191,32 @@
           }
         },
         "multiple_blockers": {
-          "multiple": "These can't be squared for multiple reasons."
+          "one": "This can't be squared for multiple reasons.",
+          "other": "These can't be squared for multiple reasons."
         },
         "end_vertex": {
-          "single": "This can't be squared because it is an endpoint.",
-          "multiple": "These can't be squared because they are endpoints."
+          "one": "This can't be squared because it is an endpoint.",
+          "other": "These can't be squared because they are endpoints."
         },
         "square_enough": {
-          "single": "This can't be made more square than it already is.",
-          "multiple": "These can't be made more square than they already are."
+          "one": "This can't be made more square than it already is.",
+          "other": "These can't be made more square than they already are."
         },
         "not_squarish": {
-          "single": "This can't be made square because it is not squarish.",
-          "multiple": "These can't be made square because they are not squarish."
+          "one": "This can't be made square because it is not squarish.",
+          "other": "These can't be made square because they are not squarish."
         },
         "too_large": {
-          "single": "This can't be made square because not enough of it is currently visible.",
-          "multiple": "These can't be made square because not enough of them are currently visible."
+          "one": "This can't be made square because not enough of it is currently visible.",
+          "other": "These can't be made square because not enough of them are currently visible."
         },
         "connected_to_hidden": {
-          "single": "This can't be made square because it is connected to a hidden feature.",
-          "multiple": "These can't be made square because some are connected to hidden features."
+          "one": "This can't be made square because it is connected to a hidden feature.",
+          "other": "These can't be made square because some are connected to hidden features."
         },
         "not_downloaded": {
-          "single": "This can't be made square because parts of it have not yet been downloaded.",
-          "multiple": "These can't be made square because parts of them have not yet been downloaded."
+          "one": "This can't be made square because parts of it have not yet been downloaded.",
+          "other": "These can't be made square because parts of them have not yet been downloaded."
         }
       },
       "straighten": {
@@ -231,7 +226,6 @@
           "line": "Straighten this line.",
           "lines": "Straighten these lines."
         },
-        "key": "S",
         "annotation": {
           "point": {
             "one": "Straightened a point.",
@@ -243,31 +237,31 @@
           }
         },
         "too_bendy": {
-          "single": "This can't be straightened because it bends too much.",
-          "multiple": "These can't be straightened because they bend too much."
+          "one": "This can't be straightened because it bends too much.",
+          "other": "These can't be straightened because they bend too much."
         },
         "connected_to_hidden": {
-          "single": "This can't be straightened because it is connected to a hidden feature.",
-          "multiple": "These can't be straightened because some are connected to hidden features."
+          "one": "This can't be straightened because it is connected to a hidden feature.",
+          "other": "These can't be straightened because some are connected to hidden features."
         },
         "not_downloaded": {
-          "single": "This can't be straightened because parts of it have not yet been downloaded.",
-          "multiple": "These can't be straightened because parts of them have not yet been downloaded."
+          "one": "This can't be straightened because parts of it have not yet been downloaded.",
+          "other": "These can't be straightened because parts of them have not yet been downloaded."
         },
         "straight_enough": {
-          "single": "This can't be made straighter than it already is.",
-          "multiple": "These can't be made straighter than they already are."
+          "one": "This can't be made straighter than it already is.",
+          "other": "These can't be made straighter than they already are."
         },
         "too_large": {
-          "single": "This can't be straightened because not enough of it is currently visible.",
-          "multiple": "These can't be straightened because not enough of them are currently visible."
+          "one": "This can't be straightened because not enough of it is currently visible.",
+          "other": "These can't be straightened because not enough of them are currently visible."
         }
       },
       "delete": {
         "title": "Delete",
         "description": {
-          "single": "Delete this feature permanently.",
-          "multiple": "Delete these features permanently."
+          "one": "Delete this feature permanently.",
+          "other": "Delete these features permanently."
         },
         "annotation": {
           "point": "Deleted a point.",
@@ -281,28 +275,28 @@
           }
         },
         "too_large": {
-          "single": "This feature can't be deleted because not enough of it is currently visible.",
-          "multiple": "These features can't be deleted because not enough of them are currently visible."
+          "one": "This feature can't be deleted because not enough of it is currently visible.",
+          "other": "These features can't be deleted because not enough of them are currently visible."
         },
         "incomplete_relation": {
-          "single": "This feature can't be deleted because it hasn't been fully downloaded.",
-          "multiple": "These features can't be deleted because they haven't been fully downloaded."
+          "one": "This feature can't be deleted because it hasn't been fully downloaded.",
+          "other": "These features can't be deleted because they haven't been fully downloaded."
         },
         "part_of_relation": {
-          "single": "This feature can't be deleted because it is part of a larger relation. You must remove it from the relation first.",
-          "multiple": "These features can't be deleted because they are part of larger relations. You must remove them from the relations first."
+          "one": "This feature can't be deleted because it is part of a larger relation. You must remove it from the relation first.",
+          "other": "These features can't be deleted because they are part of larger relations. You must remove them from the relations first."
         },
         "connected_to_hidden": {
-          "single": "This feature can't be deleted because it is connected to a hidden feature.",
-          "multiple": "These features can't be deleted because some are connected to hidden features."
+          "one": "This feature can't be deleted because it is connected to a hidden feature.",
+          "other": "These features can't be deleted because some are connected to hidden features."
         },
         "not_downloaded": {
-          "single": "This feature can't be deleted because parts of it have not yet been downloaded.",
-          "multiple": "These features can't be deleted because parts of them have not yet been downloaded."
+          "one": "This feature can't be deleted because parts of it have not yet been downloaded.",
+          "other": "These features can't be deleted because parts of them have not yet been downloaded."
         },
         "has_wikidata_tag": {
-          "single": "This feature can't be deleted because it has a Wikidata tag.",
-          "multiple": "These features can't be deleted because some have Wikidata tags."
+          "one": "This feature can't be deleted because it has a Wikidata tag.",
+          "other": "These features can't be deleted because some have Wikidata tags."
         }
       },
       "downgrade": {
@@ -328,8 +322,8 @@
           }
         },
         "has_wikidata_tag": {
-          "single": "This feature can't be downgraded because it has a Wikidata tag.",
-          "multiple": "These features can't be downgraded because some have Wikidata tags."
+          "one": "This feature can't be downgraded because it has a Wikidata tag.",
+          "other": "These features can't be downgraded because some have Wikidata tags."
         }
       },
       "add_member": {
@@ -397,7 +391,6 @@
             "multiple_ways": "Disconnect the selected features at these points."
           }
         },
-        "key": "D",
         "annotation": {
           "features": "Disconnected features.",
           "from_each_other": "Disconnected features from each other."
@@ -414,7 +407,6 @@
       "merge": {
         "title": "Merge",
         "description": "Merge these features.",
-        "key": "C",
         "annotation": {
           "one": "Merged a feature.",
           "other": "Merged {n} features."
@@ -432,10 +424,9 @@
       "move": {
         "title": "Move",
         "description": {
-          "single": "Move this feature to a different location.",
-          "multiple": "Move these features to a different location."
+          "one": "Move this feature to a different location.",
+          "other": "Move these features to a different location."
         },
-        "key": "M",
         "annotation": {
           "point": "Moved a point.",
           "vertex": "Moved a node in a way.",
@@ -448,20 +439,20 @@
           }
         },
         "incomplete_relation": {
-          "single": "This feature can't be moved because it hasn't been fully downloaded.",
-          "multiple": "These features can't be moved because they haven't been fully downloaded."
+          "one": "This feature can't be moved because it hasn't been fully downloaded.",
+          "other": "These features can't be moved because they haven't been fully downloaded."
         },
         "too_large": {
-          "single": "This feature can't be moved because not enough of it is currently visible.",
-          "multiple": "These features can't be moved because not enough of them are currently visible."
+          "one": "This feature can't be moved because not enough of it is currently visible.",
+          "other": "These features can't be moved because not enough of them are currently visible."
         },
         "connected_to_hidden": {
-          "single": "This feature can't be moved because it is connected to a hidden feature.",
-          "multiple": "These features can't be moved because some are connected to hidden features."
+          "one": "This feature can't be moved because it is connected to a hidden feature.",
+          "other": "These features can't be moved because some are connected to hidden features."
         },
         "not_downloaded": {
-          "single": "This feature can't be moved because parts of it have not yet been downloaded.",
-          "multiple": "These features can't be moved because parts of them have not yet been downloaded."
+          "one": "This feature can't be moved because parts of it have not yet been downloaded.",
+          "other": "These features can't be moved because parts of them have not yet been downloaded."
         }
       },
       "reflect": {
@@ -471,17 +462,13 @@
         },
         "description": {
           "long": {
-            "single": "Flip this feature across its long axis.",
-            "multiple": "Flip these features across their long axis."
+            "one": "Flip this feature across its long axis.",
+            "other": "Flip these features across their long axis."
           },
           "short": {
-            "single": "Flip this feature across its short axis.",
-            "multiple": "Flip these features across their short axis."
+            "one": "Flip this feature across its short axis.",
+            "other": "Flip these features across their short axis."
           }
-        },
-        "key": {
-          "long": "T",
-          "short": "Y"
         },
         "annotation": {
           "long": {
@@ -498,29 +485,28 @@
           }
         },
         "incomplete_relation": {
-          "single": "This feature can't be flipped because it hasn't been fully downloaded.",
-          "multiple": "These features can't be flipped because they haven't been fully downloaded."
+          "one": "This feature can't be flipped because it hasn't been fully downloaded.",
+          "other": "These features can't be flipped because they haven't been fully downloaded."
         },
         "too_large": {
-          "single": "This feature can't be flipped because not enough of it is currently visible.",
-          "multiple": "These features can't be flipped because not enough of them are currently visible."
+          "one": "This feature can't be flipped because not enough of it is currently visible.",
+          "other": "These features can't be flipped because not enough of them are currently visible."
         },
         "connected_to_hidden": {
-          "single": "This feature can't be flipped because it is connected to a hidden feature.",
-          "multiple": "These features can't be flipped because some are connected to hidden features."
+          "one": "This feature can't be flipped because it is connected to a hidden feature.",
+          "other": "These features can't be flipped because some are connected to hidden features."
         },
         "not_downloaded": {
-          "single": "This feature can't be flipped because parts of it have not yet been downloaded.",
-          "multiple": "These features can't be flipped because parts of them have not yet been downloaded."
+          "one": "This feature can't be flipped because parts of it have not yet been downloaded.",
+          "other": "These features can't be flipped because parts of them have not yet been downloaded."
         }
       },
       "rotate": {
         "title": "Rotate",
         "description": {
-          "single": "Rotate this feature around its center point.",
-          "multiple": "Rotate these features around their center point."
+          "one": "Rotate this feature around its center point.",
+          "other": "Rotate these features around their center point."
         },
-        "key": "R",
         "annotation": {
           "line": "Rotated a line.",
           "area": "Rotated an area.",
@@ -531,20 +517,20 @@
           }
         },
         "incomplete_relation": {
-          "single": "This feature can't be rotated because it hasn't been fully downloaded.",
-          "multiple": "These features can't be rotated because they haven't been fully downloaded."
+          "one": "This feature can't be rotated because it hasn't been fully downloaded.",
+          "other": "These features can't be rotated because they haven't been fully downloaded."
         },
         "too_large": {
-          "single": "This feature can't be rotated because not enough of it is currently visible.",
-          "multiple": "These features can't be rotated because not enough of them are currently visible."
+          "one": "This feature can't be rotated because not enough of it is currently visible.",
+          "other": "These features can't be rotated because not enough of them are currently visible."
         },
         "connected_to_hidden": {
-          "single": "This feature can't be rotated because it is connected to a hidden feature.",
-          "multiple": "These features can't be rotated because some are connected to hidden features."
+          "one": "This feature can't be rotated because it is connected to a hidden feature.",
+          "other": "These features can't be rotated because some are connected to hidden features."
         },
         "not_downloaded": {
-          "single": "This feature can't be rotated because parts of it have not yet been downloaded.",
-          "multiple": "These features can't be rotated because parts of them have not yet been downloaded."
+          "one": "This feature can't be rotated because parts of it have not yet been downloaded.",
+          "other": "These features can't be rotated because parts of them have not yet been downloaded."
         }
       },
       "reverse": {
@@ -556,7 +542,6 @@
           "lines": "Make these lines go in the opposite direction.",
           "features": "Flip the directions of these features."
         },
-        "key": "V",
         "annotation": {
           "point": {
             "one": "Reversed a point.",
@@ -588,20 +573,20 @@
           }
         },
         "too_small": {
-          "single": "This feature can't be scaled down because it would become too small.",
-          "multiple": "These features can't be scaled down because they would become too small."
+          "one": "This feature can't be scaled down because it would become too small.",
+          "other": "These features can't be scaled down because they would become too small."
         },
         "too_large": {
-          "single": "This feature can't be scaled because not enough of it is currently visible.",
-          "multiple": "These features can't be scaled because not enough of them are currently visible."
+          "one": "This feature can't be scaled because not enough of it is currently visible.",
+          "other": "These features can't be scaled because not enough of them are currently visible."
         },
         "connected_to_hidden": {
-          "single": "This feature can't be scaled because it is connected to a hidden feature.",
-          "multiple": "These features can't be scaled because some are connected to hidden features."
+          "one": "This feature can't be scaled because it is connected to a hidden feature.",
+          "other": "These features can't be scaled because some are connected to hidden features."
         },
         "not_downloaded": {
-          "single": "This feature can't be scaled because parts of it have not yet been downloaded.",
-          "multiple": "These features can't be scaled because parts of them have not yet been downloaded."
+          "one": "This feature can't be scaled because parts of it have not yet been downloaded.",
+          "other": "These features can't be scaled because parts of them have not yet been downloaded."
         }
       },
       "split": {
@@ -634,7 +619,6 @@
             }
           }
         },
-        "key": "X",
         "annotation": {
           "line": {
             "one": "Split a line.",
@@ -660,22 +644,21 @@
       },
       "extract": {
         "title": "Extract",
-        "key": "E",
         "description": {
           "vertex": {
-            "single": "Extract this point from its parent lines/areas.",
-            "multiple": "Extract these points from their parent features."
+            "one": "Extract this point from its parent lines/areas.",
+            "other": "Extract these points from their parent features."
           },
           "line": {
-            "single": "Extract a point from this line.",
-            "multiple": "Extract points from these lines."
+            "one": "Extract a point from this line.",
+            "other": "Extract points from these lines."
           },
           "area": {
-            "single": "Extract a point from this area.",
-            "multiple": "Extract points from these areas."
+            "one": "Extract a point from this area.",
+            "other": "Extract points from these areas."
           },
           "feature": {
-            "multiple": "Extract points from these features."
+            "other": "Extract points from these features."
           }
         },
         "annotation": {
@@ -683,17 +666,16 @@
           "other": "Extracted {n} points."
         },
         "too_large": {
-          "single": "A point can't be extracted because not enough of this feature is visible.",
-          "multiple": "Points can't be extracted because not enough of these features are visible."
+          "one": "A point can't be extracted because not enough of this feature is visible.",
+          "other": "Points can't be extracted because not enough of these features are visible."
         },
         "connected_to_hidden": {
-          "single": "This point can't be extracted because it is connected to a hidden feature.",
-          "multiple": "Points can't be extracted from these features because some are connected to hidden features."
+          "one": "This point can't be extracted because it is connected to a hidden feature.",
+          "other": "Points can't be extracted from these features because some are connected to hidden features."
         }
       },
       "cycle_highway_tag": {
         "title": "Cycle Highway Tag",
-        "key": "C",
         "description": "Shortcut to cycle selected highway or crosswalk through several different tags.",
         "highway_annotation": "Changed highway tag of selected way.",
         "crosswalk_annotation": "Changed crosswalk tag of selected way."
@@ -806,13 +788,11 @@
       }
     },
     "info_panels": {
-      "key": "I",
       "selected": {
         "one": "{n} selected",
         "other": "{n} selected"
       },
       "background": {
-        "key": "B",
         "title": "Background",
         "zoom": "Zoom",
         "vintage": "Vintage",
@@ -824,7 +804,6 @@
         "hide_tiles": "Hide Tiles"
       },
       "history": {
-        "key": "H",
         "title": "History",
         "no_history": "No History (New Feature)",
         "version": "Version",
@@ -839,12 +818,10 @@
         "note_link_text": "Note on openstreetmap.org"
       },
       "location": {
-        "key": "L",
         "title": "Location",
         "unknown_location": "Unknown Location"
       },
       "measurement": {
-        "key": "M",
         "title": "Measurement",
         "geometry": "Geometry",
         "closed_line": "closed line",
@@ -874,16 +851,13 @@
       "no_results_worldwide": "No results found"
     },
     "geolocate": {
-      "key": "L",
       "title": "Show My Location",
       "locating": "Locating, please wait...",
       "location_unavailable": "Your location is unavailable."
     },
     "inspector": {
-      "key": "`",
       "tooltip": "Toggle the feature inspector.",
       "zoom_to": {
-        "key": "Z",
         "title": "Zoom To Selection",
         "no_selection": "Nothing to zoom to."
       },
@@ -917,10 +891,6 @@
       "multiple_values": "Multiple Values",
       "multiple_types": "Multiple Types",
       "unshared_value_tooltip": "not shared by all features",
-      "hidden_preset": {
-        "manual": "{features} are hidden. Enable them in the Map Data pane.",
-        "zoom": "{features} are hidden. Zoom in to enable them."
-      },
       "back_tooltip": "Change feature type",
       "type": "Type",
       "details": "Details",
@@ -976,7 +946,6 @@
     "background": {
       "title": "Background",
       "description": "Background Settings",
-      "key": "B",
       "backgrounds": "Backgrounds",
       "none": "None",
       "best_imagery": "Best known imagery source for this location",
@@ -1004,13 +973,11 @@
       "sharpness": "Sharpness",
       "3dmap": {
         "description": "Show 3D map",
-        "tooltip": "Show an inset 3D map.",
-        "key": "/"
+        "tooltip": "Show an inset 3D map."
       },
       "minimap": {
         "description": "Show Minimap",
-        "tooltip": "Show a zoomed out map to help locate the area currently displayed.",
-        "key": "/"
+        "tooltip": "Show a zoomed out map to help locate the area currently displayed."
       },
       "panel": {
         "description": "Show Background Panel",
@@ -1021,53 +988,51 @@
         "tooltip": "Show coordinates and regional details."
       },
       "fix_misalignment": "Imagery Offset",
-      "offset": "Drag anywhere in the gray area below to adjust the imagery offset, or enter the offset values in meters.",
-      "next_background": {
-        "key": "."
-      },
-      "previous_background": {
-        "key": ","
-      }
+      "offset": "Drag anywhere in the gray area below to adjust the imagery offset, or enter the offset values in meters."
     },
     "map_data": {
       "title": "Map Data",
       "description": "Map Data",
-      "key": "F",
       "data_layers": "Data Layers",
       "layers": {
         "osm": {
           "tooltip": "Map data from OpenStreetMap",
           "title": "OpenStreetMap Data",
-          "feature": "OpenStreetMap Feature",
-          "key": "O"
+          "feature": "OpenStreetMap Feature"
         },
         "notes": {
           "tooltip": "Note data from OpenStreetMap",
-          "title": "OpenStreetMap Notes",
-          "key": "N"
+          "title": "OpenStreetMap Notes"
         },
         "rapid": {
           "tooltip": "Suggested features detected from machine learning and open data that can be used to improve OpenStreetMap",
           "title": "Rapid Features",
-          "key": "R"
+          "license": "Facebook's Map With AI License"
         },
         "maproulette": {
-          "tooltip": "Tasks from maproulette.org",
-          "title": "MapRoulette Task",
+          "tooltip": "Tasks from maproulette.org.  You can also enter a comma-separated list of challenge IDs to filter.",
+          "title": {
+            "one": "MapRoulette Task",
+            "other": "MapRoulette Tasks"
+          },
           "loading_task_details": "Loading Task Details...",
           "detail_title": "Details",
           "id_title": "Challenge Id / Task Id",
+          "id_placeholder": "Challenge IDs",
           "instruction_title": "Instructions",
-          "fixedIt": "I fixed it!",
+          "fixed": "I fixed it!",
           "cantComplete": "Can't Complete",
           "alreadyFixed": "Already Fixed",
           "notAnIssue": "Not an Issue",
           "login": "You must log in to change MapRoulette challenge.",
-          "loginMaproulette": "You must log in to Maproulette to edit this task.",
+          "loginMaproulette": "You must log in to MapRoulette to edit this task.",
           "inputPlaceholder": "Change comment (optional)",
           "comment": "Please confirm",
           "cancel": "Cancel",
-          "submit": "Submit"
+          "submit": "Submit",
+          "nearbyTask": {
+            "title": "Jump to nearby task"
+          }
         },
         "keepRight": {
           "tooltip": "Data issues detected by keepright.at",
@@ -1097,10 +1062,6 @@
         "tooltip": "Show geometry values for the selection."
       },
       "style_options": "Style Options",
-      "highlight_edits": {
-        "key": "G"
-      },
-      "map_features": "Map Features",
       "autohidden": "These features have been automatically hidden because too many would be shown on the screen.  You can zoom in to edit them.",
       "osmhidden": "These features have been automatically hidden because the OpenStreetMap layer is hidden."
     },
@@ -1137,7 +1098,12 @@
         "tooltip": "Show only photos by this user"
       }
     },
-    "feature": {
+    "filters": {
+      "title": "Filters",
+      "active": "Some features are filtered:",
+      "hidden_preset": {
+        "manual": "{features} are filtered. Enable them in the Map Data pane."
+      },
       "points": {
         "description": "Points",
         "tooltip": "Points of Interest"
@@ -1206,8 +1172,7 @@
     "area_fill": {
       "wireframe": {
         "description": "No Fill (Wireframe)",
-        "tooltip": "Enabling wireframe mode makes it easy to see the background imagery.",
-        "key": "W"
+        "tooltip": "Enabling wireframe mode makes it easy to see the background imagery."
       },
       "partial": {
         "description": "Partial Fill",
@@ -1275,7 +1240,6 @@
     "preferences": {
       "title": "Preferences",
       "description": "Preferences",
-      "key": "P",
       "privacy": {
         "title": "Privacy",
         "privacy_link": "View the Rapid privacy policy",
@@ -1388,24 +1352,23 @@
       "cancel": "Cancel"
     },
     "splash": {
-      "welcome": "Welcome to {rapidicon}!",
-      "text": "Rapid is a friendly but powerful editor for OpenStreetMap, a free map of the world. If this is your first time here, click the button below to start the tutorial. Anyone can be a mapper!\n\nThis is Rapid version **{version}**. For more information visit our [changelog](https://github.com/facebook/Rapid/blob/main/CHANGELOG.md#whats-new) and [issue tracker](https://github.com/facebook/Rapid/issues) on GitHub. Happy Mapping! 👍",
+      "welcome": "Welcome to {rapidicon} {version}!",
+      "text": "Rapid is a friendly but powerful editor for OpenStreetMap, a free map of the world. If this is your first time here, click the button below to start the tutorial. Anyone can be a mapper!\n\nFor more information visit our [changelog](https://github.com/facebook/Rapid/blob/main/CHANGELOG.md#whats-new) and [issue tracker](https://github.com/facebook/Rapid/issues) on GitHub. Happy Mapping! 👍",
       "privacy_update": "*Our privacy policy has recently been updated.*",
       "privacy": "By using this software, you agree to do so in accordance with the [Rapid privacy policy](https://github.com/facebook/Rapid/blob/main/PRIVACY.md).",
       "walkthrough": "Start the Tutorial",
       "start": "Edit now"
     },
     "whats_new": {
-      "welcome_v23": "Welcome to {rapidicon} v2.3!",
-      "text_v23": "🌸 **Happy Spring 2024!**  We've added support for GeoScribble field notes, Esri Wayback Imagery, and completing MapRoulette tasks right from within Rapid. And, you can now rotate the map to make editing easier!\n\nFor all the details check out our [changelog](https://github.com/facebook/Rapid/blob/main/CHANGELOG.md#whats-new) and [issue tracker](https://github.com/facebook/Rapid/issues) on GitHub. Happy Mapping! 👍",
-      "welcome_v24": "Welcome to {rapidicon} v2.4!",
       "text_v24": "This release improves Rapid's text localization, and makes it easier to work with street-level data like Mapillary. Now you can inspect detected objects, such as traffic signs, crosswalks, bike racks, and more!\n\nFor all the details check out our [changelog](https://github.com/facebook/Rapid/blob/main/CHANGELOG.md#whats-new) and [issue tracker](https://github.com/facebook/Rapid/issues) on GitHub. Happy Mapping! 👍",
+      "text_v25": "This release includes a new validation to make mapping curbs easier, new datasets in the data catalog, and upgrades to the renderer for better performance.",
+      "project_links": "For all the details check out our [changelog](https://github.com/facebook/Rapid/blob/main/CHANGELOG.md#whats-new) and [issue tracker](https://github.com/facebook/Rapid/issues) on GitHub. Happy Mapping! 👍",
       "dontshowagain": "Hide this screen until the next version"
     },
     "source_switch": {
+      "dev": "dev",
       "live": "live",
-      "lose_changes": "You have unsaved changes. Switching the map server will discard them. Are you sure you want to switch servers?",
-      "dev": "dev"
+      "lose_changes": "You have unsaved changes. Switching the map server will discard them. Are you sure you want to switch servers?"
     },
     "rapid_splash": {
       "welcome": "Introducing AI-assisted mapping!",
@@ -1420,57 +1383,80 @@
       "exploring": "I'm just exploring",
       "login_with_osm": "Log in with OSM"
     },
-    "rapid_feature_inspector": {
+    "rapid_inspector": {
       "prompt": "How would you like to proceed with this selected feature?",
+      "notice": {
+        "open_data": "This dataset is comprised of open data. See our [license]({url}) for more details."
+      },
       "tags": "Tags",
       "option_accept": {
-        "label": "Use This Feature",
+        "label": "Add This Feature",
         "description": "Does this look like an accurate feature? Select this to start editing it so that you can connect, tag, and save it to OpenStreetMap. 👍",
         "annotation": "Added a Rapid feature.",
         "tooltip": "Add this feature to the map to begin editing.",
         "disabled": "To help improve OSM data quality, we only allow {n} AI features to be added in each mapping session. Please try to fix issues on your edits so far. You will be able to add more AI features after saving.",
-        "disabled_flash": "To help improve OSM data quality, we only allow {n} AI Features to be added in each mapping session.",
-        "key": "A"
+        "disabled_flash": "To help improve OSM data quality, we only allow {n} AI Features to be added in each mapping session."
       },
       "option_ignore": {
         "label": "Ignore This Feature",
         "description": "Ignoring this feature helps us improve our machine learning. If you are unsure whether or not this is an accurate feature, feel free to leave it as is, nothing will be saved or lost. 👍",
         "annotation": "Ignored a Rapid feature.",
-        "tooltip": "Ignore this feature.",
-        "key": "D"
+        "tooltip": "Ignore this feature."
       }
     },
-    "rapid_feature_license": "Facebook's Map With AI License",
-    "rapid_feature_toggle": {
-      "toggle_all": "Toggle all {rapidicon} features",
-      "view_manage_datasets": "Add/Manage Datasets",
+    "rapid_menu": {
+      "license": "License",
+      "toggle_all": "Toggle all {rapidicon} data",
+      "add_manage_datasets": "Add/Manage Datasets",
       "center_map": "Center map here",
       "worldwide": "Worldwide",
+      "no_datasets": "No datasets available.",
+      "remove": "Remove",
+      "add_dataset": "Add Dataset",
+      "dataset_added": "Dataset added",
+      "more_info": "More Info",
+      "about_the_catalog": "These datasets have been provided as open data by various organizations and the Esri user community for the purpose of improving OpenStreetMap.<br/>You can learn more by clicking the links below, or visiting [the Rapid Guide](https://github.com/facebookmicrosites/Open-Mapping-At-Facebook/wiki/Esri-ArcGIS-FAQ) or [Esri/ArcGIS dataset page on the OSM Wiki](https://wiki.openstreetmap.org/wiki/Esri/ArcGIS_Datasets).",
+      "clear_filters": "Clear Filters",
+      "filter_datasets": "filter datasets",
+      "any_type": "any type",
+      "datasets_found": {
+        "one": "{n} dataset found",
+        "other": "{gt}{n} datasets found"
+      },
+      "category": {
+        "addresses": "addresses",
+        "buildings": "buildings",
+        "esri": "Esri",
+        "featured": "featured",
+        "footways": "footways",
+        "meta": "Meta",
+        "microsoft": "Microsoft",
+        "overture": "Overture",
+        "places": "places",
+        "preview": "preview",
+        "roads": "roads",
+        "trees": "trees"
+      },
       "fbRoads": {
         "label": "Facebook Roads",
-        "license_markdown": "[license](https://rapideditor.org/doc/license/MapWithAILicense.pdf)"
+        "description": "AI predicted roads detected from Maxar Premium imagery and available in over 80 countries."
       },
       "msBuildings": {
         "label": "Microsoft Buildings",
-        "license_markdown": "[license](https://github.com/microsoft/USBuildingFootprints/blob/master/LICENSE-DATA)"
+        "description": "Open building footprints from around the world. Detected from Bing Maps imagery between 2014 and 2024 including Maxar, Airbus, and IGN France imagery."
       },
-      "esri": {
-        "title": "ArcGIS Datasets",
-        "about": "These datasets have been provided as open data by the ArcGIS user community for the purpose of improving OpenStreetMap.<br/>You can learn more by visiting [the Rapid Guide](https://github.com/facebookmicrosites/Open-Mapping-At-Facebook/wiki/Esri-ArcGIS-FAQ) or [Esri/ArcGIS dataset page on the OSM Wiki](https://wiki.openstreetmap.org/wiki/Esri/ArcGIS_Datasets).",
-        "filter_datasets": "filter datasets",
-        "any_type": "any type",
-        "clear_filters": "Clear Filters",
-        "datasets_found": "{num} dataset(s) found",
-        "featured": "featured",
-        "fetching_datasets": "Fetching available datasets...",
-        "no_datasets": "No datasets available.",
-        "remove": "Remove",
-        "add_to_map": "Add Dataset",
-        "more_info": "More Info",
-        "license_markdown": "[license](https://wiki.openstreetmap.org/wiki/Esri/ArcGIS_Datasets#License)"
+      "overture": {
+        "places": {
+          "label": "Overture Places",
+          "description": "Contains over 53 million point representations of real-world entities: schools, businesses, hospitals, religious organizations, landmarks, mountain peaks, and much more."
+        }
+      },
+      "omdFootways": {
+        "label": "Open Data Footways",
+        "description": "Open footways data collected from various local government entities."
       }
     },
-    "rapid_poweruser_features": {
+    "rapid_poweruser": {
       "beta": "Beta Feature",
       "heading": {
         "label": "Rapid Power User Features",
@@ -1518,7 +1504,6 @@
       "rotate_the_map": "Rotate the map:",
       "n": "N"
     },
-    "cannot_zoom": "Cannot zoom out further in current mode.",
     "full_screen": "Toggle Full Screen",
     "self_intersection": {
       "error": {
@@ -1976,7 +1961,6 @@
     },
     "help": {
       "title": "Help",
-      "key": "H",
       "help": {
         "title": "Help",
         "welcome": "Welcome to the {rapidicon} editor for [OpenStreetMap](https://www.openstreetmap.org/). With this editor you can update OpenStreetMap right from your web browser.",
@@ -2039,7 +2023,7 @@
         "title": "Points",
         "intro": "*Points* can be used to represent features such as shops, restaurants, and monuments. They mark a specific location, and describe what's there.",
         "add_point_h": "Adding Points",
-        "add_point": "To add a point, press the {point_icon} **{point}** button on the toolbar above the map, or press the shortcut key `1`.",
+        "add_point": "To add a point, press the {point_icon} **{point}** button on the toolbar above the map, or press the shortcut key `{add_point_key}`.",
         "add_point_finish": "Next, place the new point on the map. With a mouse, position the cursor where the point should go and {mouse_left_icon} left-click. On a touchscreen, {onefinger_tap_icon} tap the location.",
         "move_point_h": "Moving Points",
         "move_point": "To move a point, {mouse_left_icon} left-click and drag it with a mouse or {onefinger_tap_and_drag_icon} tap-and-drag it on a touchscreen.",
@@ -2051,7 +2035,7 @@
         "title": "Lines",
         "intro": "*Lines* are used to represent features such as roads, railroads, and rivers. Lines should be drawn down the center of the feature that they represent.",
         "add_line_h": "Adding Lines",
-        "add_line": "To add a line, press the {line_icon} **{line}** button on the toolbar above the map, or press the shortcut key `2`.",
+        "add_line": "To add a line, press the {line_icon} **{line}** button on the toolbar above the map, or press the shortcut key `{add_line_key}`.",
         "add_line_draw": "Next, mark the line's starting location. With a mouse, position the cursor where the line should begin and {mouse_left_icon} left-click to place a node. On a touchscreen, {onefinger_tap_icon} tap the location.",
         "add_line_continue": "Continue placing nodes by {mouse_left_icon} clicking or {onefinger_tap_icon} tapping along the shape of the line. While drawing, you can zoom in or drag the map in order to add more detail.",
         "add_line_finish": "To finish a line, click or tap on the last node again or press `{return}`.",
@@ -2078,7 +2062,7 @@
         "point_or_area_h": "Points or Areas?",
         "point_or_area": "Many features can be represented as points or areas. You should map buildings and property outlines as areas whenever possible. Place points inside a building area to represent businesses, amenities, and other features located inside the building.",
         "add_area_h": "Adding Areas",
-        "add_area_command": "To add an area, press the {area_icon} **{area}** button on the toolbar above the map, or press the shortcut key `3`.",
+        "add_area_command": "To add an area, press the {area_icon} **{area}** button on the toolbar above the map, or press the shortcut key `{add_area_key}`.",
         "add_area_draw": "Next, place the first corner of the area. With a mouse, position the cursor over any corner and {mouse_left_icon} left-click to place a node. On a touchscreen, {onefinger_tap_icon} tap the location.",
         "add_area_continue": "Continue placing nodes by {mouse_left_icon} clicking or {onefinger_tap_icon} tapping along the edge of the area. While drawing, you can zoom in or drag the map in order to add more detail.",
         "add_area_finish": "To finish an area, click or tap on the first or last node again or press `{return}`.",
@@ -2225,19 +2209,12 @@
     },
     "issues": {
       "title": "Issues",
-      "key": "I",
-      "list_title": "Issues",
-      "errors": {
-        "list_title": "Errors"
-      },
-      "warnings": {
-        "list_title": "Warnings"
-      },
-      "rules": {
-        "title": "Rules"
-      },
-      "user_resolved_issues": "Issues resolved by your edits",
-      "warnings_and_errors": "Warnings and errors",
+      "errors": "Errors",
+      "warnings": "Warnings",
+      "suggestions": "Suggestions",
+      "rules": "Rules",
+      "open_tooltip": "Detected errors, warnings, and suggestions",
+      "resolved_tooltip": "Issues resolved by your edits",
       "no_issues": {
         "message": {
           "everything": "Everything looks fine",
@@ -2334,6 +2311,23 @@
         "tip": "Find way segments that are duplicated (same node endpoints)",
         "message": "Two or more segments share the same pair of nodes",
         "reference": "Redundant way segments should be merged or moved apart."
+      },
+      "curb_nodes": {
+        "title": "Curb Nodes",
+        "message": "{feature} may be missing curb nodes.",
+        "footway-highway": "Footways crossing highways should have separately-mapped curb nodes.",
+        "reference": {
+          "text": "Crossing ways should have individual curb nodes (where appropriate). Use photo overlays to help determine curb type.",
+          "link_alt_text": "Kerb Tagging Guidelines",
+          "link_text": "More info",
+          "link_url": "https://wiki.openstreetmap.org/wiki/Key:kerb#Values"
+        },
+        "fix": {
+          "add_curb_nodes": "Add {type} curb nodes"
+        },
+        "annotation": {
+          "added_curb_nodes": "Added {type} curb nodes"
+        }
       },
       "crossing_ways": {
         "title": "Crossings Ways",
@@ -2453,8 +2447,10 @@
         "title": "Invalid Formatting",
         "tip": "Find tags with unexpected formats",
         "email": {
-          "message": "{feature} has an invalid email address",
-          "message_multi": "{feature} has multiple invalid email addresses",
+          "message": {
+            "one": "{feature} has an invalid email address",
+            "other": "{feature} has multiple invalid email addresses"
+          },
           "reference": "Email addresses must look like \"user@example.com\"."
         }
       },
@@ -2602,6 +2598,22 @@
         "add_a_tunnel": {
           "title": "Add a tunnel",
           "annotation": "Added a tunnel."
+        },
+        "add_curb_nodes_unspecified": {
+          "title": "Add unspecified curb nodes",
+          "annotation": "Added unspecified curb nodes."
+        },
+        "add_curb_nodes_flush": {
+          "title": "Add flush curb nodes",
+          "annotation": "Added flush curb nodes."
+        },
+        "add_curb_nodes_lowered": {
+          "title": "Add lowered curb nodes",
+          "annotation": "Added lowered curb nodes."
+        },
+        "add_curb_nodes_raised": {
+          "title": "Add raised curb nodes",
+          "annotation": "Added raised curb nodes."
         },
         "address_the_concern": {
           "title": "Address the concern"
@@ -3065,7 +3077,7 @@
         "ai_roads": "Rapid features are presented in a magenta-colored overlay. Press 'OK' to enable the Rapid features layer. (These feature layers can also be toggled with the {rapid} button up above).",
         "add_road_h": "Adding Rapid features",
         "select_road": "A single Rapid suggested road has shown up on the map. **Select the road with a left-click.**",
-        "add_road": "Click the 'Use this Feature' button to add the road to the working map.",
+        "add_road": "Click the 'Add this Feature' button to add the road to the working map.",
         "add_road_not_saved_yet": "The road has been added as a change to the map. Like any other map change, it will not show up for others until you save it.",
         "open_issues": "Now let's open up the issues panel.",
         "new_lints": "The addition of the road has caused a new issue to appear in the issues panel. Rapid has introduced several new validation checks to detect issues that can arise from merging these suggested features into OpenStreetMap.",
@@ -3086,9 +3098,6 @@
     "shortcuts": {
       "title": "Keyboard Shortcuts",
       "tooltip": "Show the keyboard shortcuts screen.",
-      "toggle": {
-        "key": "?"
-      },
       "key": {
         "alt": "Alt",
         "backspace": "Backspace",
@@ -3113,127 +3122,299 @@
         "drag": "drag"
       },
       "or": "-or-",
-      "browsing": {
-        "title": "Browsing",
-        "navigation": {
-          "title": "Navigation",
-          "pan": "Pan map",
-          "pan_more": "Pan map by a lot",
-          "zoom": "Zoom in / out",
-          "zoom_more": "Zoom in / out by a lot",
-          "rotate": "Rotate map",
-          "rotate_incremental": "Rotate Map Incrementally"
+      "browsing": "Browsing",
+      "editing": "Editing",
+      "tools": "Tools/Display",
+      "navigation": "Navigation",
+      "selecting_features": "Selecting features",
+      "with_features_selected": "With features selected",
+      "with_node_selected": "With node selected",
+      "with_way_selected": "With way selected",
+      "with_rapid_selected": "With Rapid feature selected",
+      "with_photo_selected": "With photo selected",
+      "drawing": "Drawing",
+      "commands": "Commands",
+      "operations": "Editing Operations",
+      "help": "Help",
+      "display_options": "Display options",
+      "viewers": "Viewers",
+      "layers": "Layers",
+      "info": "Information",
+      "command": {
+        "pan": {
+          "label": "Pan map"
         },
-        "help": {
-          "title": "Help",
-          "help": "Show help/documentation",
-          "keyboard": "Show keyboard shortcuts"
+        "pan_more": {
+          "label": "Pan map by a lot"
         },
-        "display_options": {
-          "title": "Display options",
-          "background": "Toggle background imagery pane",
-          "background_switch": "Switch back to last used background",
-          "background_previous": "Switch to previous background in list",
-          "background_next": "Switch to next background in list",
-          "map_data": "Toggle map data pane",
-          "issues": "Toggle validation issues pane",
-          "preferences": "Toggle user preferences pane",
-          "fullscreen": "Toggle full screen mode",
-          "inspector": "Toggle feature inspector",
-          "wireframe": "Toggle wireframe mode",
-          "osm_data": "Toggle OpenStreetMap data",
-          "osm_notes": "Toggle OpenStreetMap notes",
-          "rapid_features_data": "Toggle Rapid features",
-          "highlight_edits": "Highlight unsaved edits"
+        "zoom": {
+          "label": "Zoom in / out"
         },
-        "selecting": {
-          "title": "Selecting features",
-          "select_one": "Select a single feature",
-          "select_multi": "Select multiple features",
-          "lasso": "Draw a selection lasso around features",
-          "search": "Find features matching search text"
+        "zoom_more": {
+          "label": "Zoom in / out by a lot"
         },
-        "with_selected": {
-          "title": "With features selected",
-          "edit_menu": "Toggle edit menu",
-          "zoom_to": "Zoom in/out on selected features"
+        "rotate_map": {
+          "label": "Rotate map"
         },
-        "photo_selected": {
-          "title": "With photo selected",
-          "sequence": "Step to next / previous photo in sequence"
+        "rotate_incremental": {
+          "label": "Rotate map Incrementally"
         },
-        "vertex_selected": {
-          "title": "With node selected",
-          "previous": "Step to previous node",
-          "next": "Step to next node",
-          "first": "Jump to first node",
-          "last": "Jump to last node",
-          "change_parent": "Switch parent way",
-          "parent": "Select parent way"
+        "select_one": {
+          "label": "Select a single feature"
         },
-        "way_selected": {
-          "title": "With way selected",
-          "child": "Select child nodes"
-        }
-      },
-      "editing": {
-        "title": "Editing",
-        "drawing": {
-          "title": "Drawing",
-          "add_point": "'Add point' mode",
-          "add_line": "'Add line' mode",
-          "add_area": "'Add area' mode",
-          "add_note": "'Add note' mode",
-          "place_point": "Place a point or note",
-          "disable_snap": "Hold to disable point snapping",
-          "stop_line": "Finish drawing a line or area"
+        "select_multi": {
+          "label": "Select multiple features"
         },
-        "commands": {
-          "title": "Commands",
-          "copy": "Copy selected features",
-          "paste": "Paste copied features",
-          "undo": "Undo last action",
-          "redo": "Redo last action",
-          "save": "Save changes"
+        "lasso": {
+          "label": "Draw a selection lasso around features"
         },
-        "rapid": {
-          "title": "With Rapid feature selected",
-          "accept_feature": "Accept the feature",
-          "ignore_feature": "Ignore the feature"
+        "edit_menu": {
+          "label": "Toggle edit menu"
         },
-        "operations": {
-          "title": "Editing Operations",
-          "continue_line": "Continue a line at the selected endpoint",
-          "merge": "Combine (merge) selected features",
-          "disconnect": "Disconnect selected features",
-          "extract": "Extract a point from a feature",
-          "split": "Split features at the selected points",
-          "reverse": "Reverse selected features",
-          "move": "Move selected features",
-          "rotate": "Rotate selected features",
-          "orthogonalize": "Square corners of a line or area",
-          "straighten": "Straighten a line or points",
-          "circularize": "Circularize a closed line or area",
-          "reflect_long": "Flip features across the longer axis",
-          "reflect_short": "Flip features across the shorter axis",
-          "delete": "Delete selected features",
-          "cycle_highway_tag": "Cycle through common tags"
-        }
-      },
-      "tools": {
-        "title": "Tools",
-        "viewers": {
-          "title": "Viewers",
-          "minimap": "Toggle minimap",
-          "3dmap": "Toggle 3D map"
+        "zoom_to": {
+          "label": "Zoom in / out on selected features",
+          "key": "Z"
         },
-        "info": {
-          "title": "Information",
-          "all": "Toggle all information panels",
-          "background": "Toggle background panel",
-          "history": "Toggle history panel",
-          "location": "Toggle location panel",
-          "measurement": "Toggle measurement panel"
+        "previous_node": {
+          "label": "Step to previous node"
+        },
+        "next_node": {
+          "label": "Step to next node"
+        },
+        "first_node": {
+          "label": "Jump to first node"
+        },
+        "last_node": {
+          "label": "Jump to last node"
+        },
+        "change_parent": {
+          "label": "Switch parent way"
+        },
+        "select_parent": {
+          "label": "Select parent way"
+        },
+        "select_children": {
+          "label": "Select child nodes"
+        },
+        "accept_feature": {
+          "label": "Accept the feature",
+          "key": "A"
+        },
+        "ignore_feature": {
+          "label": "Ignore the feature",
+          "key": "D"
+        },
+        "follow_sequence": {
+          "label": "Step to next / previous photo in sequence"
+        },
+        "add_point": {
+          "label": "'Add point' mode",
+          "key": "1"
+        },
+        "add_line": {
+          "label": "'Add line' mode",
+          "key": "2"
+        },
+        "add_area": {
+          "label": "'Add area' mode",
+          "key": "3"
+        },
+        "add_note": {
+          "label": "'Add note' mode",
+          "key": "N"
+        },
+        "place_point": {
+          "label": "Place a point or note"
+        },
+        "disable_snap": {
+          "label": "Hold to disable point snapping"
+        },
+        "stop_line": {
+          "label": "Finish drawing a line or area"
+        },
+        "copy": {
+          "label": "Copy selected features"
+        },
+        "paste": {
+          "label": "Paste copied features"
+        },
+        "undo": {
+          "label": "Undo last action"
+        },
+        "redo": {
+          "label": "Redo last action"
+        },
+        "save": {
+          "label": "Save changes"
+        },
+        "find": {
+          "label": "Find features matching search text"
+        },
+        "continue_line": {
+          "label": "Continue a line at the selected endpoint",
+          "key": "A"
+        },
+        "merge": {
+          "label": "Combine (merge) selected features",
+          "key": "C"
+        },
+        "disconnect": {
+          "label": "Disconnect selected features",
+          "key": "D"
+        },
+        "extract": {
+          "label": "Extract a point from a feature",
+          "key": "E"
+        },
+        "split": {
+          "label": "Split features at the selected points",
+          "key": "X"
+        },
+        "reverse": {
+          "label": "Reverse selected features",
+          "key": "V"
+        },
+        "move": {
+          "label": "Move selected features",
+          "key": "M"
+        },
+        "rotate": {
+          "label": "Rotate selected features",
+          "key": "R"
+        },
+        "orthogonalize": {
+          "label": "Square corners of a line or area",
+          "key": "Q"
+        },
+        "straighten": {
+          "label": "Straighten a line or points",
+          "key": "S"
+        },
+        "circularize": {
+          "label": "Circularize a closed line or area",
+          "key": "O"
+        },
+        "reflect_long": {
+          "label": "Flip features across the longer axis",
+          "key": "T"
+        },
+        "reflect_short": {
+          "label": "Flip features across the shorter axis",
+          "key": "Y"
+        },
+        "delete": {
+          "label": "Delete selected features"
+        },
+        "cycle_highway_tag": {
+          "label": "Cycle through common tags",
+          "key": "C"
+        },
+        "toggle_background": {
+          "label": "Toggle background imagery pane",
+          "key": "B"
+        },
+        "background_switch": {
+          "label": "Switch back to last used background",
+          "key": "B"
+        },
+        "background_previous": {
+          "label": "Switch to previous background in list",
+          "key": ","
+        },
+        "background_next": {
+          "label": "Switch to next background in list",
+          "key": "."
+        },
+        "toggle_map_data": {
+          "label": "Toggle map data pane",
+          "key": "F"
+        },
+        "toggle_issues": {
+          "label": "Toggle validation issues pane",
+          "key": "I"
+        },
+        "toggle_preferences": {
+          "label": "Toggle user preferences pane",
+          "key": "P"
+        },
+        "toggle_help": {
+          "label": "Toggle help/documentation pane",
+          "key": "H"
+        },
+        "toggle_fullscreen": {
+          "label": "Toggle full screen mode"
+        },
+        "toggle_inspector": {
+          "label": "Toggle feature inspector",
+          "key": "`"
+        },
+        "wireframe": {
+          "label": "Toggle wireframe display",
+          "key": "W"
+        },
+        "highlight_edits": {
+          "label": "Highlight unsaved edits",
+          "key": "G"
+        },
+        "keyboard_shortcuts": {
+          "label": "Show keyboard shortcuts",
+          "key": "?"
+        },
+        "toggle_minimap": {
+          "label": "Toggle minimap",
+          "key": "/"
+        },
+        "toggle_3dmap": {
+          "label": "Toggle 3D map",
+          "key": "/"
+        },
+        "toggle_all_layers": {
+          "label": "Toggle all data layers",
+          "key": "D"
+        },
+        "toggle_osm_data": {
+          "label": "Toggle OpenStreetMap data",
+          "key": "O"
+        },
+        "toggle_osm_notes": {
+          "label": "Toggle OpenStreetMap notes",
+          "key": "N"
+        },
+        "toggle_rapid_data": {
+          "label": "Toggle Rapid features",
+          "key": "R"
+        },
+        "toggle_mapillary": {
+          "label": "Toggle Mapillary",
+          "key": "M"
+        },
+        "toggle_streetside": {
+          "label": "Toggle Bing Streetside",
+          "key": "S"
+        },
+        "toggle_kartaview": {
+          "label": "Toggle Kartaview",
+          "key": "K"
+        },
+        "toggle_all_cards": {
+          "label": "Toggle all information panels",
+          "key": "I"
+        },
+        "toggle_background_card": {
+          "label": "Toggle background panel",
+          "key": "B"
+        },
+        "toggle_history_card": {
+          "label": "Toggle history panel",
+          "key": "H"
+        },
+        "toggle_location_card": {
+          "label": "Toggle location panel",
+          "key": "L"
+        },
+        "toggle_measurement_card": {
+          "label": "Toggle measurement panel",
+          "key": "M"
         }
       }
     },
@@ -3476,7 +3657,6 @@
       "gmh": "Middle High German",
       "gn": "Guarani",
       "goh": "Old High German",
-      "gom": "Goan Konkani",
       "gon": "Gondi",
       "gor": "Gorontalo",
       "got": "Gothic",
@@ -3972,6 +4152,7 @@
       "Elba": "Elbasan",
       "Elym": "Elymaic",
       "Ethi": "Ethiopic",
+      "Gara": "Garay",
       "Geok": "Georgian Khutsuri",
       "Geor": "Georgian",
       "Glag": "Glagolitic",
@@ -3981,6 +4162,7 @@
       "Gran": "Grantha",
       "Grek": "Greek",
       "Gujr": "Gujarati",
+      "Gukh": "Gurung Khema",
       "Guru": "Gurmukhi",
       "Hanb": "Han with Bopomofo",
       "Hang": "Hangul",
@@ -4012,6 +4194,7 @@
       "Knda": "Kannada",
       "Kore": "Korean",
       "Kpel": "Kpelle",
+      "Krai": "Kirat Rai",
       "Kthi": "Kaithi",
       "Lana": "Lanna",
       "Laoo": "Lao",
@@ -4054,6 +4237,7 @@
       "Nshu": "Nüshu",
       "Ogam": "Ogham",
       "Olck": "Ol Chiki",
+      "Onao": "Ol Onal",
       "Orkh": "Orkhon",
       "Orya": "Odia",
       "Osge": "Osage",
@@ -4089,6 +4273,7 @@
       "Sora": "Sora Sompeng",
       "Soyo": "Soyombo",
       "Sund": "Sundanese",
+      "Sunu": "Sunuwar",
       "Sylo": "Syloti Nagri",
       "Syrc": "Syriac",
       "Syre": "Estrangelo Syriac",
@@ -4110,7 +4295,9 @@
       "Tibt": "Tibetan",
       "Tirh": "Tirhuta",
       "Tnsa": "Tangsa",
+      "Todr": "Todhri",
       "Toto": "Toto",
+      "Tutg": "Tulu-Tigalari",
       "Ugar": "Ugaritic",
       "Vaii": "Vai",
       "Visp": "Visible Speech",

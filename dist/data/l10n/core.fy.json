@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.004Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.735Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.fy.json",
-    "hash": "08bd4580faf281d38085c2ceb3141c8c"
+    "hash": "e5ceea810b7e917ec1992b5cc57fab6b"
   },
   "fy": {
     "toolbar": {
@@ -71,7 +71,7 @@
       "title": "Kaartdata",
       "description": "Kaartdata"
     },
-    "feature": {
+    "filters": {
       "points": {
         "description": "Punten"
       },
@@ -110,9 +110,7 @@
       }
     },
     "issues": {
-      "title": "Knyppunten",
-      "list_title": "Knyppunten",
-      "warnings_and_errors": "Warskôgings en flaters"
+      "title": "Knyppunten"
     },
     "intro": {
       "points": {

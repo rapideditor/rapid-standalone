@@ -1,18 +1,68 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.711Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.647Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.fy.json",
-    "hash": "8c12a716502871273986312af0fb8689"
+    "hash": "59ffe47100cf9191b50504b15c4c6f69"
   },
   "fy": {
     "presets": {
       "fields": {
+        "atm": {
+          "label": "Jildautomaat"
+        },
+        "bench": {
+          "label": "Bankje"
+        },
+        "building": {
+          "options": {
+            "college": "Hegeskoalle-gebou",
+            "hospital": "Sikehûsgebou",
+            "kindergarten": "Beukerskoallegebou"
+          }
+        },
+        "diplomatic": {
+          "options": {
+            "embassy": "Ambassade"
+          }
+        },
+        "embassy": {
+          "options": {
+            "yes": "Ambassade"
+          }
+        },
+        "fire_hydrant/position": {
+          "options": {
+            "parking_lot": "Parkearplak"
+          }
+        },
+        "healthcare": {
+          "options": {
+            "clinic": "Klinyk",
+            "dentist": "Toskedokter",
+            "doctor": "Dokter"
+          }
+        },
         "holding_position/type": {
           "options": {
             "ILS": "Ynstrumintlâningssysteem",
             "intermediate": "Taksybanekrusing",
             "runway": "Startbaan"
+          }
+        },
+        "social_facility": {
+          "options": {
+            "nursing_home": "Ferpleechhûs"
+          }
+        },
+        "substance": {
+          "options": {
+            "water": "Drinkwetter"
+          }
+        },
+        "vending": {
+          "options": {
+            "water": "Drinkwetter"
           }
         }
       },
@@ -278,6 +328,12 @@
         "amenity/post_office": {
           "name": "Postkantoar"
         },
+        "amenity/social_facility/nursing_home": {
+          "name": "Ferpleechhûs"
+        },
+        "area": {
+          "name": "Flak"
+        },
         "building/college": {
           "name": "Hegeskoalle-gebou"
         },
@@ -287,8 +343,20 @@
         "building/kindergarten": {
           "name": "Beukerskoallegebou"
         },
+        "office/diplomatic/embassy": {
+          "name": "Ambassade"
+        },
+        "point": {
+          "name": "Punt"
+        },
         "public_transport/station_aerialway": {
           "name": "Kabelbaanstasjon"
+        },
+        "public_transport/station_bus": {
+          "name": "Busstasjon"
+        },
+        "public_transport/station_ferry": {
+          "name": "Feardaam/-kade"
         }
       }
     }

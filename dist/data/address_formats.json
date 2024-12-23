@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.546Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.568Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/address_formats.json",
-    "hash": "82da1c8a121e5a4be3c9924627b670ff"
+    "hash": "f4c08b4f1b29bf7004309c79fbcc4310"
   },
   "addressFormats": [
     {

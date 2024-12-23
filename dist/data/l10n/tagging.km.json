@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.674Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.628Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.km.json",
-    "hash": "83cecafe6b612101597e4cfe09e34f5e"
+    "hash": "5d2322037c7199a73ca1ed7b492b0daa"
   },
   "km": {
     "presets": {
@@ -40,6 +40,25 @@
         },
         "category-road_minor": {
           "name": "ផ្លូវតូច"
+        }
+      },
+      "fields": {
+        "note": {
+          "label": "ចំណាំ"
+        }
+      },
+      "presets": {
+        "area": {
+          "name": "តំបន់"
+        },
+        "line": {
+          "name": "បន្ទាត់"
+        },
+        "playground": {
+          "name": "បរិក្ខារសួនកុមារ"
+        },
+        "point": {
+          "name": "ចំណុច"
         }
       }
     }

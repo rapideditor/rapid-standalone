@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.681Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.630Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.ja.json",
-    "hash": "db09f1b9ee82bc131c96a94982ed6a72"
+    "hash": "0cb9373b4ed4bc347fa76135e203d184"
   },
   "ja": {
     "presets": {
@@ -2306,7 +2306,13 @@
           "label": "地図の範囲"
         },
         "map_type": {
-          "label": "種類"
+          "label": "種類",
+          "options": {
+            "scheme": "概略図",
+            "street": "街路図",
+            "topo": "地形図",
+            "toposcope": "方角図"
+          }
         },
         "mapillary": {
           "label": "Mapillary画像ID",
@@ -2740,19 +2746,58 @@
         "parking": {
           "label": "種類",
           "options": {
-            "carports": "カーポート",
-            "garage_boxes": "箱型ガレージ",
-            "half_on_kerb": "片輪乗り上げ",
-            "lane": "路側帯",
-            "layby": "レイバイ（待避所）",
-            "multi-storey": "立体",
-            "on_kerb": "歩道縁石上",
-            "rooftop": "屋上",
-            "sheds": "小屋",
-            "shoulder": "路肩",
-            "street_side": "道路脇",
-            "surface": "地面",
-            "underground": "地下"
+            "carports": {
+              "description": "車両を限定的ながら風雨から保護するための構造物で、普通は壁がありません。",
+              "title": "カーポート"
+            },
+            "garage_boxes": {
+              "description": "それぞれ1台の自動車を格納できる複数の格納庫からなるガレージです。",
+              "title": "箱型ガレージ"
+            },
+            "half_on_kerb": {
+              "description": "歩道縁石へ半分乗り上げての駐車。",
+              "title": "片輪乗り上げ"
+            },
+            "lane": {
+              "description": "道路上にある駐車施設（容易に通行用レーンに転換できるようなもの）。",
+              "title": "駐車帯"
+            },
+            "layby": {
+              "description": "道路脇に設けられた休憩用の駐車施設。",
+              "title": "レイバイ（待避所）"
+            },
+            "multi-storey": {
+              "description": "建造物内にある2階建て以上の駐車デッキ。",
+              "title": "立体"
+            },
+            "on_kerb": {
+              "description": "歩道縁石上への駐車。",
+              "title": "歩道縁石上"
+            },
+            "rooftop": {
+              "description": "建物の屋上にある駐車デッキ。",
+              "title": "屋上"
+            },
+            "sheds": {
+              "description": "個人用の車両格納庫。",
+              "title": "小屋"
+            },
+            "shoulder": {
+              "description": "路肩への駐車。",
+              "title": "路肩"
+            },
+            "street_side": {
+              "description": "（道路上ではなく）道路のすぐ脇に設けられた駐車場。",
+              "title": "道路脇"
+            },
+            "surface": {
+              "description": "地面にある駐車場。 ",
+              "title": "表面の材質"
+            },
+            "underground": {
+              "description": "地下駐車場。",
+              "title": "地下式"
+            }
           }
         },
         "parking/side/orientation": {
@@ -3438,7 +3483,8 @@
           "terms": "中古, 古物"
         },
         "segregated": {
-          "label": "レーン分離"
+          "label": "レーン分離",
+          "terms": "歩行者レーン, 自転車用レーン, 共用レーン"
         },
         "self_service": {
           "label": "セルフサービス"
@@ -4262,6 +4308,7 @@
             "coffee": "コーヒー",
             "condoms": "コンドーム",
             "drinks": "飲料",
+            "e-cigarettes": "電子タバコ",
             "eggs": "卵",
             "electronics": "電子機器",
             "elongated_coin": "記念コイン",
@@ -5594,8 +5641,8 @@
           "terms": "劇場, ホール, 映画館, 娯楽, カルチャー, シアター, コンサートホール, オペラハウス"
         },
         "amenity/theatre/type/amphi": {
-          "name": " 野外劇場",
-          "terms": " 野外劇場, 円形演技場, ひな壇式客席, 階段式観覧席"
+          "name": "野外劇場",
+          "terms": "野外劇場, 円形演技場, ひな壇式客席, 階段式観覧席"
         },
         "amenity/ticket_validator": {
           "name": "改札機",
@@ -6711,6 +6758,10 @@
           "name": "出入口 (正面)",
           "terms": "正面玄関, 表玄関, 表口, ドア, 正面入口, 出入口"
         },
+        "entrance/shop": {
+          "name": "出入口（店舗）",
+          "terms": "店舗入口, ドア, 扉, 入口"
+        },
         "entrance/staircase": {
           "name": "出入口（階段）",
           "terms": "階段の入口, 階段, 出入口, 出入り口, 出口, 入口"
@@ -6920,14 +6971,14 @@
           "terms": "自転車道, サイクリング道路, 自転車"
         },
         "highway/cycleway/bicycle_foot": {
-          "name": "自転車歩行者道",
+          "name": "自転車専用道路(歩行者通行可)",
           "terms": "自転車歩行者道, 自歩道, 自転車, 歩道"
         },
         "highway/cycleway/crossing": {
           "name": "自転車横断道"
         },
         "highway/cycleway/crossing/bicycle_foot": {
-          "name": "横断歩道(自転車道内)",
+          "name": "自転車横断道(歩行者横断可)",
           "terms": "横断歩道(自転車道内), 横断歩道, 自転車道"
         },
         "highway/cycleway/crossing/traffic_signals": {
@@ -7052,6 +7103,18 @@
         "highway/path/boardwalk": {
           "name": "木道",
           "terms": "木道, ボードウォーク, 遊歩道, 歩道"
+        },
+        "highway/path/crossing": {
+          "name": "自転車横断道(歩行者横断可)"
+        },
+        "highway/path/crossing/traffic_signals": {
+          "name": "自転車横断道(歩行者横断可、信号あり)"
+        },
+        "highway/path/crossing/uncontrolled": {
+          "name": "自転車横断道(歩行者横断可、信号なし)"
+        },
+        "highway/path/crossing/unmarked": {
+          "name": "自転車横断道(歩行者横断可、マークなし)"
         },
         "highway/path/informal": {
           "name": "けもの道",
@@ -7441,6 +7504,14 @@
         "landuse/meadow": {
           "name": "牧草地",
           "terms": "牧草地"
+        },
+        "landuse/meadow_orchard/meadow": {
+          "name": "果樹のある牧草地",
+          "terms": "果樹, 牧草地"
+        },
+        "landuse/meadow_orchard/orchard": {
+          "name": "牧草地にある果樹園",
+          "terms": "果樹, 牧草地"
         },
         "landuse/military": {
           "name": "軍用地",
@@ -8488,6 +8559,10 @@
         "natural": {
           "name": "自然関連"
         },
+        "natural/arch": {
+          "name": "天然橋",
+          "terms": "岩門, 石門"
+        },
         "natural/bare_rock": {
           "name": "岩場",
           "terms": "岩場"
@@ -8995,10 +9070,6 @@
         "piste/nordic": {
           "name": "ノルディック/クロスカントリー",
           "terms": "ノルディック/クロスカントリー, ノルディック, クロスカントリー, スキーコース"
-        },
-        "piste/piste": {
-          "name": "スキーコースの種類",
-          "terms": "スキーコースの種類, スキーコース"
         },
         "piste/ski_jump": {
           "name": "スキージャンプ台",
@@ -9996,6 +10067,10 @@
         "shop/gift": {
           "name": "ギフト店",
           "terms": "ギフト店, ギフト用品店, 土産店, お土産, 贈答品, 店舗, お店, ギフト, プレゼント"
+        },
+        "shop/gold_buyer": {
+          "name": "金買取店",
+          "terms": "貴金属買取店"
         },
         "shop/greengrocer": {
           "name": "青果店",

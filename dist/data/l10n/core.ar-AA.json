@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.061Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.755Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.ar-AA.json",
-    "hash": "b76aa093bfa3b5448e7c0c9b17c07d05"
+    "hash": "8e7ef5aef7484e538256a4c8845935a5"
   },
   "ar-AA": {
     "modes": {
@@ -75,6 +75,7 @@
     },
     "commit": {
       "upload_explanation": "التغييرات التي قمتم بتحميلها ستكون مرئية على جميع الخرائط التي تستخدم بيانات خريطة الشارع المفتوح.",
+      "save": "الرفع",
       "modified": "تم التغيير",
       "deleted": "تم الحذف",
       "created": "تم الإنشاء"
@@ -83,8 +84,12 @@
       "list": "{users} تعديلات من قبل"
     },
     "info_panels": {
+      "location": {
+        "title": "مكان"
+      },
       "measurement": {
-        "area": "مساحة"
+        "area": "مساحة",
+        "location": "مكان"
       }
     },
     "geolocate": {
@@ -92,32 +97,60 @@
     },
     "inspector": {
       "view_on_osm": "openstreetmap.org شاهد على",
+      "feature_type": "نوع العنصر/الميزة",
+      "fields": "الحقول",
+      "features": "الميزات",
       "choose": "حدد نوع الميزة"
     },
     "background": {
       "reset": "أعد للوضع السابق"
     },
+    "map_data": {
+      "layers": {
+        "maproulette": {
+          "detail_title": "التفاصيل"
+        }
+      }
+    },
+    "preferences": {
+      "title": "التفضيلات"
+    },
     "save": {
       "no_changes": ".لا تغييرات للحفظ"
     },
+    "success": {
+      "help_link_text": "التفاصيل"
+    },
+    "QA": {
+      "keepRight": {
+        "errorTypes": {
+          "<70>": {
+            "description": "{var1} فيه وسم فارغ: \"{var2}\"."
+          }
+        }
+      }
+    },
     "help": {
+      "overview": {
+        "navigation_h": "التنقل",
+        "nodes_ways": "في خرائط الشارع المفتوحة، قد يُطلق على النقطة في بعض الأحيان مصطلح *عُقدة*، كما قد يطلق على الخطوط والمساحات مصطلح *طُرق*."
+      },
       "editing": {
         "save_h": "حفظ"
+      },
+      "qa": {
+        "tools_h": "أدوات"
       }
+    },
+    "issues": {
+      "title": "مشاكل"
     },
     "intro": {
       "graph": {
         "city": "ثلاثة الأنهار",
-        "state": "<value for addr:state>",
-        "countrycode": "sa",
         "name": {
           "three-rivers": "ثلاثة الأنهار"
         }
-      }
-    },
-    "shortcuts": {
-      "key": {
-        "delete": "حذف"
       }
     }
   }

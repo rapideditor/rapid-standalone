@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.081Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.762Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.sr.json",
-    "hash": "47b27b404b7c797314e1fd2ae2ccd006"
+    "hash": "7015fcb08ba3f666b45d56c8d164687d"
   },
   "sr": {
     "_communities": {
@@ -44,7 +44,6 @@
       "openstreetmapchile": "OpenStreetMap Чиле",
       "openstreetmapchina": "OpenStreetMap Кина",
       "openstreetmapcologne": "OpenStreetMap Келн",
-      "openstreetmapcolombia": "OpenStreetMap Колумбија",
       "openstreetmapcomunitatvalenciana": "OpenStreetMap Валенсијана",
       "openstreetmapcostarica": "OpenStreetMap Костарика",
       "openstreetmapcotedivoire": "OpenStreetMap Обала Слоноваче",
@@ -195,6 +194,9 @@
       "openstreetmapzimbabwe": "OpenStreetMap Зимбабве"
     },
     "_defaults": {
+      "discourse": {
+        "description": "Званичан форум за {community}"
+      },
       "facebook": {
         "name": "{community} на Фејсбуку",
         "description": "Придружи се нашој заједници на Фејсбуку"
@@ -216,6 +218,9 @@
       "reddit": {
         "name": "{community} на Reddit-у"
       }
+    },
+    "kosovo-flossk": {
+      "name": "Бесплатни софтвер отвореног кода Косова (FLOSSK)"
     },
     "Maptime-Oceania-Slack": {
       "description": "Пријавите се на {signupUrl}"

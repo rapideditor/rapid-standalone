@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.670Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.627Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.ko.json",
-    "hash": "ee37f8dc4a52d154a56edcd140c3ff80"
+    "hash": "6bbca8e8f489059d1767dbd1fb3b2dbd"
   },
   "ko": {
     "presets": {
@@ -840,7 +840,10 @@
           "terms": "공동체 유형"
         },
         "community_centre": {
-          "label": "유형"
+          "label": "유형",
+          "options": {
+            "youth_centre": "청소년 복지시설"
+          }
         },
         "connectivity": {
           "label": "연결성"
@@ -2098,13 +2101,12 @@
           "terms": "인터넷 접속"
         },
         "internet_access/fee": {
-          "label": "인터넷 접속",
+          "label": "인터넷 접속 요금",
           "options": {
             "customers": "고객 전용",
             "no": "무료",
             "yes": "유료"
-          },
-          "terms": "인터넷 접근,와이파이 요금"
+          }
         },
         "internet_access/ssid": {
           "label": "Wi-Fi 네트워크 이름",
@@ -2749,19 +2751,42 @@
         "parking": {
           "label": "유형",
           "options": {
-            "carports": "간이 차고",
-            "garage_boxes": "차고 상자",
-            "half_on_kerb": "연석에 걸친 주차",
-            "lane": "가로변 차로",
-            "layby": "임시 주차장 / 레이바이",
-            "multi-storey": "다층",
-            "on_kerb": "보도 주차",
-            "rooftop": "옥상 주차장",
-            "sheds": "개인 차고",
-            "shoulder": "갓길 주차",
-            "street_side": "갓길 주차장",
-            "surface": "지상",
-            "underground": "지하"
+            "carports": {
+              "title": "간이 차고"
+            },
+            "garage_boxes": {
+              "title": "차고 상자"
+            },
+            "half_on_kerb": {
+              "title": "연석에 걸친 주차"
+            },
+            "lane": {
+              "title": "가로변 차로"
+            },
+            "layby": {
+              "title": "임시 주차장 / 레이바이"
+            },
+            "multi-storey": {
+              "title": "다층"
+            },
+            "on_kerb": {
+              "title": "보도 주차"
+            },
+            "rooftop": {
+              "title": "옥상 주차장"
+            },
+            "sheds": {
+              "title": "개인 차고"
+            },
+            "shoulder": {
+              "title": "갓길 주차"
+            },
+            "street_side": {
+              "title": "갓길 주차장"
+            },
+            "underground": {
+              "title": "지하식 소화전"
+            }
           }
         },
         "parking/side/orientation": {
@@ -3854,6 +3879,7 @@
           "options": {
             "artificial_turf": "인공 잔디",
             "asphalt": "아스팔트",
+            "clay": "점토",
             "compacted": "압축됨",
             "concrete": "콘크리트",
             "dirt": "흙",
@@ -5607,10 +5633,6 @@
           "name": "극장",
           "terms": "공연,연극,뮤지컬"
         },
-        "amenity/theatre/type/amphi": {
-          "name": "원형극장",
-          "terms": "원형극장"
-        },
         "amenity/ticket_validator": {
           "name": "티켓 검사기",
           "terms": "티켓 검사기"
@@ -7066,6 +7088,9 @@
         "highway/path/boardwalk": {
           "name": "보드워크",
           "terms": "보드워크"
+        },
+        "highway/path/crossing": {
+          "name": "자전거 & 보행자 횡단보도"
         },
         "highway/path/informal": {
           "name": "비공식 도로",
@@ -8993,10 +9018,6 @@
         "piste/nordic": {
           "name": "크로스 컨트리 스키",
           "terms": "크로스 컨트리 스키"
-        },
-        "piste/piste": {
-          "name": "스노우 스포츠 트레일 / 피스트",
-          "terms": "스노우 스포츠 트레일 / 피스트"
         },
         "piste/skitour": {
           "name": "스키 관광",

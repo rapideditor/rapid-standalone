@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.813Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.686Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.uk.json",
-    "hash": "20ad2b5cfb618991ddc351ddd69b0324"
+    "hash": "e6bda34626eda84514436f5d1a5cbd1f"
   },
   "uk": {
     "imagery": {
@@ -420,7 +420,7 @@
         },
         "name": "Глівіце: Будинки"
       },
-      "LSA-ATKIS_BU": {
+      "LSA-ALKIS_BU": {
         "description": "Контури будівель Саксонія-Ангальт"
       },
       "LSA-DOP20": {

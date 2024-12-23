@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.867Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.697Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.cs.json",
-    "hash": "2cf79f14ac1a5080cf6b50fdec0d575d"
+    "hash": "bdb3a32d5ec91a3f6e4ec839391eb2e8"
   },
   "cs": {
     "imagery": {
@@ -161,6 +161,12 @@
         },
         "description": "Archivní snímky Esri, které mohou být čistší a přesnější jak výchozí vrstva.",
         "name": "Světové snímky Esri (Clarity) Beta"
+      },
+      "FOMI_2011_2014": {
+        "attribution": {
+          "text": "Znalostní centrum Lechner"
+        },
+        "description": "Vládní ortofotomapy s listovým pokrytím s rozlišením 40 cm/pixel pro celou zemi. Tato vrstva by měla být použita jako vyrovnávací základna v případě, že chybí přesnější reference. Obrázky ve formátu WEBP, JOSM pro ně potřebuje zásuvný modul WebP."
       },
       "Frankfurt-am-Main-2019": {
         "attribution": {
@@ -398,14 +404,24 @@
         },
         "name": "Hlivice: Budovy"
       },
-      "LSA-ATKIS_BU": {
-        "description": "Tvar budov v Sasku-Anhaltsku"
+      "LSA-ALKIS-CP": {
+        "description": "Vektorový záznam parcel z oficiálního katastru nemovitostí.",
+        "name": "© GeoBasis-DE/LVermGeo LSA, Katastrální parcely ALKIS"
+      },
+      "LSA-ALKIS_BU": {
+        "description": "Tvar budov v Sasku-Anhaltsku",
+        "name": "© GeoBasis-DE/LVermGeo LSA, Obrysy budov ALKIS"
+      },
+      "LSA-ATKIS-HYN": {
+        "description": "Záznam vodovodních sítí (přesnost se může lišit od skutečnosti, vždy uvažujte v souvislosti s ortofotem)",
+        "name": "© GeoBasis-DE/LVermGeo LSA, Vodovodní síť ATKIS"
       },
       "LSA-DOP20": {
         "description": "Letecký snímek spolkové země Sasko-Anhaltsko, rozlišení 20 cm"
       },
       "LSA-DVG": {
-        "description": "Vektorový záznam administrativních hranic. Jsou uvedeny hranice spolkové země, okresu, obce a části obce."
+        "description": "Vektorový záznam administrativních hranic. Jsou uvedeny hranice spolkové země, okresu, obce a části obce.",
+        "name": "© GeoBasis-DE/LVermGeo LSA, Digitální administrativní hranice"
       },
       "LocalAuthorities_RightsOfWay": {
         "attribution": {
@@ -456,6 +472,13 @@
       "Naturvardsverket-trails": {
         "description": "Denně aktualizované stezky v přírodních rezervacích nebo okolí zaznamenané švédskou agenturou pro ochranu životního prostředí",
         "name": "Agentura pro ochranu životního prostředí - Stezky"
+      },
+      "ODOT_TIMS_Road_Inventory": {
+        "attribution": {
+          "text": "Ohijské ministerstvo dopravy"
+        },
+        "description": "Ohijské ministerstvo dopravy (ODOT) - inventář silnic Dopravního informačního mapového systému (TIMS) vydaný v červnu 2024.",
+        "name": "Inventář silnic ODOT"
       },
       "OSIP": {
         "attribution": {
@@ -723,6 +746,13 @@
         },
         "description": "Fotografie se zeměpisnými souřadnicemi od Balaton Limnological Institute z roku 1940.",
         "name": "Ortofoto EUFAR Balaton"
+      },
+      "geoscribble-latest": {
+        "attribution": {
+          "text": "Přispěvatelé GeoScribble"
+        },
+        "description": "Poznámky z geometrického průzkumu editora Every Door, stáří maximálně tři týdny",
+        "name": "Poslední poznámky GeoScribble"
       },
       "gothenburg-citymap": {
         "attribution": {

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.122Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.777Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.da.json",
-    "hash": "bd2c393b70687fc25ebfc23a9e319932"
+    "hash": "f745d452b2311345a301a993c3a58371"
   },
   "da": {
     "_communities": {
@@ -42,6 +42,9 @@
     "bg-wiki": {
       "description": "Wikiprojektside for Bulgarien"
     },
+    "bo-matrix": {
+      "description": "Alle kortlæggere er velkomne!"
+    },
     "cape-coast-youthmappers": {
       "description": "Følg os på Twitter på {url}"
     },
@@ -57,11 +60,23 @@
     "Maptime-Oceania-Slack": {
       "description": "Tilmeld dig på  {signupUrl}"
     },
+    "me-telegram": {
+      "description": "Alle er velkomne! Tilmeld dig på {signupUrl}"
+    },
+    "nl-matrix": {
+      "description": "Alle kortlæggere er velkomne!"
+    },
     "Open-Source-San-Jose-Discord": {
       "description": "Kom i kontakt med andre kortlæggere på Discord! Når du har tilmeldt dig, kan du tilslutte dig #🗺openstreetmap-kanalen."
     },
     "OpenCleveland-meetup": {
       "description": "Forbedr OpenStreetMap i Cleveland området"
+    },
+    "osm-africa-matrix": {
+      "description": "Alle kortlæggere er velkomne!"
+    },
+    "osm-africa-slack": {
+      "description": "Alle er velkomne! Tilmeld dig på {signupUrl}"
     },
     "OSM-Chattanooga": {
       "name": "OpenStreetMap Colombia Twitter",
@@ -88,11 +103,17 @@
     "OSM-Rome-meetup": {
       "description": "Forbedr OpenStreetMap i Rom området"
     },
+    "OSM-US-Slack": {
+      "description": "Alle er velkomne! Tilmeld dig på {signupUrl}"
+    },
     "OSMF": {
       "description": "OSMF er en UK-baseret non-profit organisation der støtter OpenStreetMap projektet"
     },
     "PHXGeo-twitter": {
       "description": "Følg os på Twitter på {url}"
+    },
+    "tw-slack": {
+      "description": "Alle er velkomne! Tilmeld dig på {signupUrl}"
     },
     "uk-london-mastodon": {
       "name": "OpenStreetMap London på Mastodon"

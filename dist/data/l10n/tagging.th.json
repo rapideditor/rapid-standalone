@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.590Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.590Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.th.json",
-    "hash": "44c064b050c2729b91dbcd96814388e9"
+    "hash": "7f0a011609c29ef0cf0b4071fe29ce2c"
   },
   "th": {
     "presets": {
@@ -159,7 +159,7 @@
             "country": "ประเทศ",
             "county": "เขต/มณฑล",
             "county!jp": "เขต/ตำบล",
-            "district": "เขต/อำเภอ",
+            "district": "อำเภอ/เขต",
             "district!cn": "เขต/ตำบล/มณฑล/แบนเนอร์",
             "district!vn": "เขต/เมือง/อำเภอ",
             "floor": "ชั้น",
@@ -175,7 +175,7 @@
             "quarter": "ย่าน",
             "state": "รัฐ",
             "street": "ถนน",
-            "subdistrict": "แขวง/ตำบล",
+            "subdistrict": "ตำบล/แขวง",
             "subdistrict!vn": "วอร์ด/คอมมูน/ทาวน์เล็ต",
             "suburb": "ชานเมือง",
             "unit": "ยูนิต"
@@ -2109,13 +2109,13 @@
           "terms": "การเชื่อมต่ออินเตอร์เน็ต"
         },
         "internet_access/fee": {
-          "label": "การเข้าถึงอินเตอร์เน็ต",
+          "label": "ค่าธรรมเนียมการเข้าใช้อินเทอร์เน็ต",
           "options": {
             "customers": "เฉพาะลูกค้า",
             "no": "ฟรี",
             "yes": "เสียเงิน"
           },
-          "terms": "การเข้าถึงอินเตอร์เน็ต"
+          "terms": "ค่าธรรมเนียมการเข้าใช้อินเทอร์เน็ต"
         },
         "internet_access/ssid": {
           "label": "ชื่อเครือข่าย WiFi",
@@ -2328,7 +2328,13 @@
           "label": "ความครอบคลุม"
         },
         "map_type": {
-          "label": "ประเภท"
+          "label": "ประเภท",
+          "options": {
+            "scheme": "แผนที่แผนผัง",
+            "street": "แผนที่ถนน",
+            "topo": "แผนที่ภูมิประเทศ",
+            "toposcope": "หินบอกทิศ"
+          }
         },
         "mapillary": {
           "terms": "Mapillary Image ID"
@@ -2764,19 +2770,45 @@
         "parking": {
           "label": "ประเภท",
           "options": {
-            "carports": "โรงรถ",
-            "garage_boxes": "ตู้โรงรถ",
-            "half_on_kerb": "จอดครึ่งบนขอบถนน",
-            "lane": "ริมถนน",
-            "layby": "จุดพักรถ",
-            "multi-storey": "หลายชั้น",
-            "on_kerb": "จอดบนขอบถนน",
-            "rooftop": "ดาดฟ้า",
-            "sheds": "เพิง",
-            "shoulder": "ไหล่ทาง",
-            "street_side": "ริมถนน",
-            "surface": "ลานจอด",
-            "underground": "ใต้ดิน"
+            "carports": {
+              "title": "โรงรถ"
+            },
+            "garage_boxes": {
+              "title": "ตู้โรงรถ"
+            },
+            "half_on_kerb": {
+              "title": "จอดครึ่งบนขอบถนน"
+            },
+            "lane": {
+              "title": "ริมถนน"
+            },
+            "layby": {
+              "title": "จุดพักรถ"
+            },
+            "multi-storey": {
+              "title": "หลายชั้น"
+            },
+            "on_kerb": {
+              "title": "จอดบนขอบถนน"
+            },
+            "rooftop": {
+              "title": "ดาดฟ้า"
+            },
+            "sheds": {
+              "title": "เพิง"
+            },
+            "shoulder": {
+              "title": "ไหล่ทาง"
+            },
+            "street_side": {
+              "title": "ริมถนน"
+            },
+            "surface": {
+              "title": "ลานจอด"
+            },
+            "underground": {
+              "title": "ใต้ดิน"
+            }
           }
         },
         "parking/side/orientation": {
@@ -3480,7 +3512,8 @@
           "terms": "ขายของมือสอง"
         },
         "segregated": {
-          "label": "การแยกกันของทางจักรยาน-ทางเดินเท้า"
+          "label": "การแยกกันของทางจักรยาน-ทางเดินเท้า",
+          "terms": "การแยกกันของทางจักรยาน-ทางเดินเท้า"
         },
         "self_service": {
           "label": "บริการตนเอง"
@@ -4315,6 +4348,7 @@
             "coffee": "กาแฟ",
             "condoms": "ถุงยางอนามัย",
             "drinks": "เครื่องดื่ม",
+            "e-cigarettes": "บุหรี่ไฟฟ้า",
             "eggs": "ไข่",
             "electronics": "อุปกรณ์อิเล็กทรอนิกส์",
             "elongated_coin": "เหรียญที่ระลึก",
@@ -5650,8 +5684,8 @@
           "terms": "โรงละคร"
         },
         "amenity/theatre/type/amphi": {
-          "name": "อัฒจันทร์",
-          "terms": "อัฒจันทร์"
+          "name": "อัศจรรย์",
+          "terms": "อัศจรรย์"
         },
         "amenity/ticket_validator": {
           "name": "เครื่องตรวจสอบตั๋ว",
@@ -7109,6 +7143,18 @@
           "name": "สะพานยาว",
           "terms": "สะพานยาว"
         },
+        "highway/path/crossing": {
+          "name": "ทางข้ามจักรยานกับทางเท้า"
+        },
+        "highway/path/crossing/traffic_signals": {
+          "name": "ทางตัดทางเท้าทางจักรยานที่มีสัญญาณจราจร"
+        },
+        "highway/path/crossing/uncontrolled": {
+          "name": "ทางตัดทางเท้าทางจักรยานที่หมายสัญลักษณ์"
+        },
+        "highway/path/crossing/unmarked": {
+          "name": "ทางตัดทางเท้าทางจักรยานที่ไม่หมายสัญลักษณ์"
+        },
         "highway/path/informal": {
           "name": "ทางไม่เป็นทางการ",
           "terms": "ทางไม่เป็นทางการ"
@@ -7497,6 +7543,14 @@
         "landuse/meadow": {
           "name": "ทุ่ง",
           "terms": "ทุ่ง"
+        },
+        "landuse/meadow_orchard/meadow": {
+          "name": "สวนผลไม้",
+          "terms": "สวนผลไม้"
+        },
+        "landuse/meadow_orchard/orchard": {
+          "name": "สวนผลไม้บนทุ่ง",
+          "terms": "สวนผลไม้บนทุ่ง"
         },
         "landuse/military": {
           "name": "เขตทหาร",
@@ -9053,8 +9107,7 @@
           "terms": "เส้นทางสกีวิบาก"
         },
         "piste/piste": {
-          "name": "ทางกีฬาหิมะอัด",
-          "terms": "ทางกีฬาหิมะอัด"
+          "name": "ทางกีฬาหิมะอัด (ไม่ทราบประเภท)"
         },
         "piste/ski_jump": {
           "name": "สกีกระโดดหิมะอัด",

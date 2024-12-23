@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.865Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.696Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.cy.json",
-    "hash": "baea50cf5db827d0d05da201d327480d"
+    "hash": "ec17c23e44b0c0ecfc31bf1365a2b543"
   },
   "cy": {
     "imagery": {
@@ -106,6 +106,12 @@
       "Geodatastyrelsen_Denmark": {
         "name": "Delweddaeth SDFI"
       },
+      "Geoportal2-PL-HighResolution-aerial_archival_image_WMS": {
+        "name": "Geoportal 2: High Resolution Orthophotomap (delweddau archif) (WMS)"
+      },
+      "Geoportal2-PL-HighResolution-aerial_image_WMS": {
+        "name": "Geoportal 2: High Resolution Orthophotomap (delwedd archif) (WMS)"
+      },
       "Geoportal2-PL-aerial_archival_image_WMS": {
         "name": "Geoportal 2: Orthophotomap (delweddau archif) (WMS)"
       },
@@ -176,6 +182,11 @@
         },
         "name": "Lloeren Mapbox"
       },
+      "ODOT_TIMS_Road_Inventory": {
+        "attribution": {
+          "text": "Adran Drafnidiaeth Ohio"
+        }
+      },
       "OSMUK-Cadastral-Parcels": {
         "attribution": {
           "text": "Yn cynnwys gwybodaeth sector cyhoeddus sydd wedi'i drwyddedu o dan Drwydded Llywodraeth Agored v3.0."
@@ -231,6 +242,9 @@
       "Riksantikvariambetet-ruins": {
         "name": "Riksantikvarieämbetet - Adfeilion"
       },
+      "Siemianowice_Slaskie-aerial_image": {
+        "name": "Siemianowice Śląskie: Orthophotomap (delwedd o'r awyr)"
+      },
       "Siemianowice_Slaskie-buildings": {
         "name": "Siemianowice Śląskie: Adeiladau"
       },
@@ -254,6 +268,31 @@
       },
       "UrbisAdmFRNL": {
         "name": "UrbisAdm FR / NL"
+      },
+      "Waymarked_Trails-Cycling": {
+        "attribution": {
+          "text": "© waymarkedtrails.org, Cyfranwyr OpenStreetMap, CC by-SA 3.0"
+        }
+      },
+      "Waymarked_Trails-Hiking": {
+        "attribution": {
+          "text": "© waymarkedtrails.org, Cyfranwyr OpenStreetMap, CC by-SA 3.0"
+        }
+      },
+      "Waymarked_Trails-MTB": {
+        "attribution": {
+          "text": "© waymarkedtrails.org, Cyfranwyr OpenStreetMap, CC by-SA 3.0"
+        }
+      },
+      "Waymarked_Trails-Skating": {
+        "attribution": {
+          "text": "© waymarkedtrails.org, Cyfranwyr OpenStreetMap, CC by-SA 3.0"
+        }
+      },
+      "Waymarked_Trails-Winter_Sports": {
+        "attribution": {
+          "text": "© waymarkedtrails.org, Cyfranwyr OpenStreetMap, CC by-SA 3.0"
+        }
       },
       "Zabrze-2011": {
         "name": "Zabrze: Orthophotomap 2011 (delwedd o'r awyr)"
@@ -289,6 +328,9 @@
         },
         "name": "OpenPT Map (troshaen)"
       },
+      "openrailwaymap-signalling": {
+        "name": "OpenRailwayMap Signalau"
+      },
       "osm-gps": {
         "attribution": {
           "text": "© Cyfranwyr OpenStreetMap"
@@ -300,6 +342,9 @@
           "text": "© Cyfranwyr OpenStreetMap, CC-BY-SA"
         },
         "name": "OpenStreetMap (Almaenaidd)"
+      },
+      "osmse-generalstab": {
+        "description": "Sgan \"Generalstabskartan\" ca. 1859–1979"
       },
       "poznan-ortofotomapa2014": {
         "name": "Poznań: Orthophotomap 2014 (delwedd o'r awyr)"
@@ -373,7 +418,11 @@
       "tf-outdoors": {
         "attribution": {
           "text": "Mapiau © Thunderforest, Data © Cyfranwyr OpenStreetMap"
-        }
+        },
+        "name": "Thunderforest Awyr Agored"
+      },
+      "trafikverket-baninfo": {
+        "name": "Trafikverket Rhwydwaith Rheilffordd"
       },
       "wroclaw-orto2015": {
         "name": "Wrocław: Orthophotomap 2015 (delwedd o'r awyr)"

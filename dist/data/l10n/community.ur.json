@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.070Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.758Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.ur.json",
-    "hash": "8699ea69d6059f2434e57e94793740c2"
+    "hash": "ba042fcdaa34766cace04d10fb52548a"
   },
   "ur": {
     "_communities": {
@@ -30,7 +30,6 @@
       "openstreetmapchile": "اوپن اسٹریٹ میپس چِلی",
       "openstreetmapchina": "اوپن اسٹریٹ میپس چین",
       "openstreetmapcologne": "اوپن اسٹریٹ میپس کولون",
-      "openstreetmapcolombia": "اوپن اسٹریٹ میپس کولمبیا",
       "openstreetmapcostarica": "اوپن اسٹریٹ میپس کوستا ریکا",
       "openstreetmapcroatia": "اوپن اسٹریٹ میپس کرویشیا",
       "openstreetmapcuba": "اوپن اسٹریٹ میپس کوبا",
@@ -84,6 +83,7 @@
       "openstreetmapmichigan": "اوپن اسٹریٹ میپس مشگن",
       "openstreetmapmoldova": "اوپن اسٹریٹ میپس مالڈووا",
       "openstreetmapmongolia": "اوپن اسٹریٹ میپس منگولیا",
+      "openstreetmapmontenegro": "اوپن اسٹریٹ میپس مونٹینیگرو",
       "openstreetmapmorocco": "اوپن اسٹریٹ میپس مراکش",
       "openstreetmapmunchen": "اوپن اسٹریٹ میپس میونخ",
       "openstreetmapmyanmar": "اوپن اسٹریٹ میپس برما",
@@ -146,7 +146,8 @@
         "name": "{community} فیسبک پر"
       },
       "forum": {
-        "name": "{community} فارم"
+        "name": "{community} فارم",
+        "description": "{community} کا باضابطہ فارم"
       }
     }
   }

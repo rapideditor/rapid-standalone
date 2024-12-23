@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.082Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.762Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.sk.json",
-    "hash": "e9cbebf7f4d6fd09de62b2709f926b18"
+    "hash": "f3bac943a8696c5e433165f163794e4a"
   },
   "sk": {
     "_communities": {
@@ -30,7 +30,6 @@
       "openstreetmapchad": "OpenStreetMap Čad",
       "openstreetmapchile": "OpenStreetMap Čile",
       "openstreetmapchina": "OpenStreetMap Čína",
-      "openstreetmapcolombia": "OpenStreetMap Kolumbia",
       "openstreetmapcostarica": "OpenStreetMap Kostarika",
       "openstreetmapcotedivoire": "OpenStreetMap Pobrežie Slonoviny",
       "openstreetmapcroatia": "OpenStreetMap Chorvátsko",
@@ -82,6 +81,7 @@
       "openstreetmapmexico": "OpenStreetMap Mexiko",
       "openstreetmapmoldova": "OpenStreetMap Moldavsko",
       "openstreetmapmongolia": "OpenStreetMap Mongolsko",
+      "openstreetmapmontenegro": "OpenStreetMap Čierna Hora",
       "openstreetmapmorocco": "OpenStreetMap Maroko",
       "openstreetmapmyanmar": "OpenStreetMap Mjanmarsko",
       "openstreetmapnepal": "OpenStreetMap Nepál",
@@ -123,6 +123,9 @@
       "discord": {
         "name": "Discord {community} ",
         "description": "Skontaktujte sa s inými mapermi cez Discord"
+      },
+      "discourse": {
+        "description": "Oficiálne fórum {community}"
       },
       "facebook": {
         "name": "{community} na Facebooku",
@@ -201,8 +204,17 @@
     "be-matrix": {
       "description": "Všetci maperi sú vítaní!"
     },
+    "bo-matrix": {
+      "description": "Všetci maperi sú vítaní!"
+    },
     "czech-community": {
       "description": "Mapový portál, webová stránka a kontakty na členov OSM v Česku"
+    },
+    "hr-github": {
+      "description": "{community} na GitHube"
+    },
+    "ko-github": {
+      "description": "{community} na GitHube"
     },
     "lk-facebook": {
       "extendedDescription": "Mapujete na Srí Lanke? Máte otázky, chcete sa spojiť s miestnou komunitou? Pridajte sa k nám na {url}. Všetci sú vítaní!"
@@ -213,6 +225,12 @@
     "mailinglist-sk-googlegroups": {
       "name": "Slovenská mailovacia skupina na Google Groups",
       "description": "Oficiálna mailovacia skupina slovenskej komunity"
+    },
+    "nl-matrix": {
+      "description": "Všetci maperi sú vítaní!"
+    },
+    "osm-africa-matrix": {
+      "description": "Všetci maperi sú vítaní!"
     },
     "osm-at": {
       "description": "Platforma pre informácie o OpenStreetMap v Rakúsku"
@@ -225,6 +243,9 @@
     },
     "OSM-TH-CNX-meetup": {
       "extendedDescription": "Členovia OpenStreetMap komunity sa stretávajú každých pár mesiacov v meste Chiang Mai. Spojte sa a zistite {url} kedy je naplánované ďalšie stretnutie"
+    },
+    "si-github": {
+      "description": "{community} na GitHube"
     },
     "sk-freemap": {
       "description": "Pokročilý mapový portál OpenStreetMap pre Slovensko a okolité regióny"

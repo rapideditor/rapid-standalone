@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.863Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.696Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.de.json",
-    "hash": "74aaffe748e93f8619275fcd536390e4"
+    "hash": "6295dc0dbe0a1bda0e24c41bc40d91b0"
   },
   "de": {
     "imagery": {
@@ -254,14 +254,23 @@
       "Gliwice-buildings": {
         "name": "Gliwice: Gebäude"
       },
-      "LSA-ATKIS_BU": {
-        "description": "Gebäudeumrisse in Sachsen-Anhalt"
+      "LSA-ALKIS-CP": {
+        "description": "Vektorielle Erfassung von Parzellen aus dem amtlichen Liegenschaftskataster.",
+        "name": "© GeoBasis-DE/LVermGeo LSA, ALKIS-Katasterparzellen"
+      },
+      "LSA-ALKIS_BU": {
+        "description": "Gebäudeumrisse in Sachsen-Anhalt",
+        "name": "© GeoBasis-DE/LVermGeo LSA, ALKIS-Gebäudeumrisse"
+      },
+      "LSA-ATKIS-HYN": {
+        "description": "Aufzeichnung von Wassernetzen (kann von der Realität abweichen, immer in Verbindung mit Orthofoto betrachten)"
       },
       "LSA-DOP20": {
         "description": "Luftbild des Landes Sachsen-Anhalt, 20 cm Auflösung"
       },
       "LSA-DVG": {
-        "description": "Vektorisierte Erfassung von Verwaltungsgrenzen. Angegeben sind die Grenzen des Bundeslandes, des Kreises, der Gemeinde und der Gemeindeteile."
+        "description": "Vektorisierte Erfassung von Verwaltungsgrenzen. Angegeben sind die Grenzen des Bundeslandes, des Kreises, der Gemeinde und der Gemeindeteile.",
+        "name": "© GeoBasis-DE/LVermGeo LSA, Digitale Verwaltungsgrenzen"
       },
       "LocalAuthorities_RightsOfWay": {
         "attribution": {

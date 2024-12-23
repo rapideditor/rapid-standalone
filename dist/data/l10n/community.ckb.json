@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.126Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.778Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.ckb.json",
-    "hash": "0c9ebe82efa3e63dfc062a4b492bf2e1"
+    "hash": "fc523f0f6bf3a00835b4df762510e727"
   },
   "ckb": {
     "_communities": {
@@ -35,7 +35,6 @@
       "openstreetmapchad": "نەخشەی شەقامی کراوەی چاد",
       "openstreetmapchile": "نەخشەی شەقامی کراوەی چیلی",
       "openstreetmapchina": "نەخشەی شەقامی کراوەی چین",
-      "openstreetmapcolombia": "نەخشەی شەقامی کراوەی کۆڵۆمبیا",
       "openstreetmapcostarica": "نەخشەی شەقامی کراوەی کۆستەریکا",
       "openstreetmapcotedivoire": "نەخشەی شەقامی کراوەی کۆدیڤوار",
       "openstreetmapcroatia": "نەخشەی شەقامی کراوەی کڕواتیا",
@@ -195,6 +194,9 @@
         "name": "{community} لە یوتیوب"
       }
     },
+    "am-wiki": {
+      "description": "پەڕەی ویکیی {community}"
+    },
     "at-wiki": {
       "description": "پەڕەی ویکیی {community}"
     },
@@ -243,8 +245,23 @@
     "fr-montrouge-wiki": {
       "description": "پەڕەی ویکیی {community}"
     },
+    "Galicia-Xeoinquedos-Twitter": {
+      "description": "لەسەر تویتەر شوێنمان بکەوە {url}"
+    },
+    "hr-github": {
+      "description": "{community} گیتهەب"
+    },
     "hu-wiki": {
       "description": "پەڕەی ویکیی {community}"
+    },
+    "ko-github": {
+      "description": "{community} گیتهەب"
+    },
+    "nl-matrix": {
+      "description": "بۆ هەموو نەخشەسازان کراوەیە."
+    },
+    "osm-africa-matrix": {
+      "description": "بۆ هەموو نەخشەسازان کراوەیە."
     },
     "osm-deep-south-wiki": {
       "description": "پەڕەی ویکیی {community}"
@@ -255,6 +272,15 @@
     "osm-ohio-wiki": {
       "description": "پەڕەی ویکیی {community}"
     },
+    "PHXGeo-twitter": {
+      "description": "لەسەر تویتەر شوێنمان بکەوە {url}"
+    },
+    "sg-wiki": {
+      "description": "پەڕەی ویکیی {community}"
+    },
+    "si-github": {
+      "description": "{community} گیتهەب"
+    },
     "si-ljubljana-wiki": {
       "description": "پەڕەی ویکیی {community}"
     },
@@ -262,6 +288,9 @@
       "description": "پەڕەی ویکیی {community}"
     },
     "uk-london-wiki": {
+      "description": "پەڕەی ویکیی {community}"
+    },
+    "vn-wiki": {
       "description": "پەڕەی ویکیی {community}"
     }
   }

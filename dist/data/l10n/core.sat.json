@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.921Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.713Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.sat.json",
-    "hash": "08395bb1368c75ecfb6e0cc660c8b7db"
+    "hash": "9f9e224ec4bc0be8d15b2eeab083a785"
   },
   "sat": {
     "icons": {
@@ -28,20 +28,16 @@
     },
     "modes": {
       "add_area": {
-        "title": "ᱴᱚᱴᱷᱟ",
-        "filter_tooltip": "ᱴᱚᱴᱷᱟ"
+        "title": "ᱴᱚᱴᱷᱟ"
       },
       "add_line": {
-        "title": "ᱜᱟᱨ",
-        "filter_tooltip": "ᱜᱟᱨ"
+        "title": "ᱜᱟᱨ"
       },
       "add_point": {
-        "title": "ᱵᱤᱸᱫᱩ",
-        "filter_tooltip": "ᱵᱤᱸᱫᱩ ᱠᱚ"
+        "title": "ᱵᱤᱸᱫᱩ"
       },
       "add_note": {
-        "title": "ᱱᱚᱴ",
-        "key": "ᱩ"
+        "title": "ᱱᱚᱴ"
       },
       "add_preset": {
         "title": "{feature} ᱥᱮᱞᱮᱫ ᱢᱮ"
@@ -65,17 +61,8 @@
       "paste": {
         "title": "ᱞᱟᱴᱷᱟ"
       },
-      "straighten": {
-        "too_bendy": {
-          "single": "ᱱᱚᱶᱟ ᱫᱚ ᱵᱟᱭ ᱥᱤᱫᱷᱟᱫ ᱜᱟᱸᱚᱜ-ᱟ  ᱪᱮᱫᱟᱜ ᱱᱚᱣᱟ ᱫᱚ ᱟᱹᱰᱤ ᱠᱟᱹᱲᱵᱝ ᱠᱟᱱᱟ ᱾",
-          "multiple": "ᱱᱚᱶᱟ ᱫᱚ ᱵᱟᱭ ᱥᱤᱫᱷᱟᱹ ᱜᱟᱸᱚᱜ-ᱟ ᱪᱮᱫᱟᱜ ᱱᱚᱶᱟ ᱫᱚ ᱟᱹᱰᱤ ᱠᱟᱹᱲᱵᱩᱝ ᱠᱟᱱᱟ ᱾"
-        }
-      },
       "delete": {
         "title": "ᱜᱮᱫ ᱜᱤᱰᱤ"
-      },
-      "extract": {
-        "key": "ᱯ"
       }
     },
     "translate": {
@@ -152,15 +139,13 @@
           "title": "OpenStreetMap ᱥᱟᱹᱠᱷᱤᱭᱟᱹᱛ"
         },
         "notes": {
-          "title": "OpenStreetMap ᱠᱷᱟᱴᱚ ᱵᱤᱪᱟᱹᱨ",
-          "key": "ᱩ"
+          "title": "OpenStreetMap ᱠᱷᱟᱴᱚ ᱵᱤᱪᱟᱹᱨ"
         },
         "maproulette": {
           "detail_title": "ᱵᱤᱵᱨᱚᱱ",
           "cancel": "ᱵᱟ.ᱲᱨᱟᱹ"
         }
-      },
-      "map_features": "ᱱᱚᱠᱥᱟ ᱨᱮᱭᱟᱜ ᱜᱩᱱᱠᱚ"
+      }
     },
     "photo_overlays": {
       "photo_type": {
@@ -180,17 +165,12 @@
         "title": "ᱵᱮᱵᱷᱟᱨᱤᱡ ᱧᱩᱛᱩᱢ"
       }
     },
-    "feature": {
+    "filters": {
       "boundaries": {
         "description": "ᱜᱷᱮᱨᱟᱠᱚ"
       },
       "others": {
         "description": "ᱮᱴᱟᱜ-ᱟ ᱜᱩᱱᱠᱚ"
-      }
-    },
-    "area_fill": {
-      "wireframe": {
-        "key": "ᱯᱚ"
       }
     },
     "settings": {
@@ -234,10 +214,8 @@
     "splash": {
       "start": "ᱱᱤᱛᱟᱹᱜ ᱥᱟᱯᱲᱟᱣ ᱢᱮ"
     },
-    "rapid_feature_toggle": {
-      "esri": {
-        "remove": "ᱚᱪᱚᱜ ᱢᱮ"
-      }
+    "rapid_menu": {
+      "remove": "ᱚᱪᱚᱜ ᱢᱮ"
     },
     "tag_reference": {
       "description": "ᱵᱤᱵᱨᱚᱱ"
@@ -307,12 +285,8 @@
       }
     },
     "issues": {
-      "errors": {
-        "list_title": "ᱵᱷᱩᱞᱠᱚ"
-      },
-      "warnings": {
-        "list_title": "ᱪᱮᱛᱟᱣᱠᱚ"
-      },
+      "errors": "ᱵᱷᱩᱞᱠᱚ",
+      "warnings": "ᱪᱮᱛᱟᱣᱠᱚ",
       "options": {
         "what": {
           "edited": "ᱤᱧᱟᱜ ᱥᱟᱯᱲᱟᱣᱠᱚ"
@@ -339,18 +313,29 @@
         "home": "ᱚᱲᱟᱜ",
         "menu": "ᱢᱮᱱᱩ"
       },
-      "browsing": {
-        "help": {
-          "title": "ᱜᱚᱲᱚ"
+      "help": "ᱜᱚᱲᱚ",
+      "command": {
+        "add_note": {
+          "key": "ᱩ"
+        },
+        "save": {
+          "label": "ᱵᱚᱫᱚᱞᱠᱚ ᱥᱟᱺᱪᱟᱣ ᱢᱮ"
+        },
+        "extract": {
+          "key": "ᱯ"
+        },
+        "straighten": {
+          "key": "ᱫ"
+        },
+        "wireframe": {
+          "key": "ᱯᱚ"
+        },
+        "toggle_osm_notes": {
+          "key": "ᱩ"
+        },
+        "toggle_streetside": {
+          "key": "ᱫ"
         }
-      },
-      "editing": {
-        "commands": {
-          "save": "ᱵᱚᱫᱚᱞᱠᱚ ᱥᱟᱺᱪᱟᱣ ᱢᱮ"
-        }
-      },
-      "tools": {
-        "title": "ᱴᱩᱞᱠᱚ"
       }
     },
     "units": {

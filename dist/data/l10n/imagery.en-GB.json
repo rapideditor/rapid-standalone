@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.861Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.695Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.en-GB.json",
-    "hash": "58d567f1eeb6a0bc7d0f6c45f43423d5"
+    "hash": "4d870ef3cb4829573b92939c1847cecc"
   },
   "en-GB": {
     "imagery": {
@@ -23,6 +23,21 @@
         }
       },
       "Bytom-2014": {
+        "attribution": {
+          "text": "Bytom City Council"
+        }
+      },
+      "Bytom-2016": {
+        "attribution": {
+          "text": "Bytom City Council"
+        }
+      },
+      "Bytom-2018": {
+        "attribution": {
+          "text": "Bytom City Council"
+        }
+      },
+      "Bytom-2021": {
         "attribution": {
           "text": "Bytom City Council"
         }
@@ -48,6 +63,21 @@
         }
       },
       "Czestochowa-2015": {
+        "attribution": {
+          "text": "Częstochowa City Council"
+        }
+      },
+      "Czestochowa-2016": {
+        "attribution": {
+          "text": "Częstochowa City Council"
+        }
+      },
+      "Czestochowa-2017": {
+        "attribution": {
+          "text": "Częstochowa City Council"
+        }
+      },
+      "Czestochowa-buildings": {
         "attribution": {
           "text": "Częstochowa City Council"
         }

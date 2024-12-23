@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:27.110Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.772Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.fi.json",
-    "hash": "0f42f1a2fabcb427dc583d6a10807983"
+    "hash": "347ce8945511331fb8a1d050c0f7a8c0"
   },
   "fi": {
     "_communities": {
@@ -21,14 +21,15 @@
       "openstreetmapcanada": "OpenStreetMap Kanada",
       "openstreetmapchad": "OpenStreetMap Tšad",
       "openstreetmapchina": "OpenStreetMap Kiina",
-      "openstreetmapcolombia": "OpenStreetMap Kolumbia",
       "openstreetmapcotedivoire": "OpenStreetMap Norsunluurannikko",
       "openstreetmapcroatia": "OpenStreetMap Kroatia",
       "openstreetmapcuba": "OpenStreetMap Kuuba",
+      "openstreetmapcyprus": "OpenStreetMap Kypros",
       "openstreetmapdenmark": "OpenStreetMap Tanska",
       "openstreetmapdominicanrepublic": "OpenStreetMap Dominikaaninen tasavalta",
       "openstreetmapegypt": "OpenStreetMap Egypti",
       "openstreetmapespana": "OpenStreetMap Espanja",
+      "openstreetmapestonia": "OpenStreetMap Viro",
       "openstreetmapethiopia": "OpenStreetMap Etiopia",
       "openstreetmapfinland": "OpenStreetMap Suomi",
       "openstreetmapfrance": "OpenStreetMap Ranska",
@@ -64,6 +65,16 @@
       "linkedin": {
         "description": "Liity yhteisöömme LinkedIn:ssä"
       }
+    },
+    "cape-coast-youthmappers": {
+      "description": "Seuraa Twitter-tiliämme osoitteessa {url}"
+    },
+    "co-github": {
+      "name": "{community}projektit GitHubissa",
+      "description": "Yhteisön kehittämät koodiprojektit"
+    },
+    "Galicia-Xeoinquedos-Twitter": {
+      "description": "Seuraa Twitter-tiliämme osoitteessa {url}"
     },
     "OSM-Facebook": {
       "description": "Pysy ajan tasalla tuoreimmista OpenStreetMap-uutisista tykkäämällä meistä Facebookissa."

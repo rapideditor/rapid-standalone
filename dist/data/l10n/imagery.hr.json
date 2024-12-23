@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.4.2",
-    "generated": "2024-09-16T15:06:26.849Z",
+    "version": "2.5.0",
+    "generated": "2024-12-23T18:54:02.693Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.hr.json",
-    "hash": "bcb386367be4932f2f527d2d3c1ee066"
+    "hash": "a0b3427f0eb11cde10bd5b8548361168"
   },
   "hr": {
     "imagery": {
@@ -14,6 +14,7 @@
         "attribution": {
           "text": "Uvjeti i povratne informacije"
         },
+        "description": "Esri World snimke",
         "name": "Esri World snimke"
       },
       "EsriWorldImageryClarity": {
@@ -130,6 +131,11 @@
         }
       },
       "tf-landscape": {
+        "attribution": {
+          "text": "Karte © Thunderforest, Podaci © OpenStreetMap doprinositelji"
+        }
+      },
+      "tf-outdoors": {
         "attribution": {
           "text": "Karte © Thunderforest, Podaci © OpenStreetMap doprinositelji"
         }
