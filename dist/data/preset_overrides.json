@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.523Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.608Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/preset_overrides.json",
-    "hash": "0d14251c4a7ad4f3a6667bae02b5a35f"
+    "hash": "ad2a5e7e6a24b895fbcb4f6bc6c2408c"
   },
   "categories": {},
   "defaults": {},

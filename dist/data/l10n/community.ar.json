@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.780Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.969Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.ar.json",
-    "hash": "3ba471834ca8116e13d10325449fe4bf"
+    "hash": "f514e8c4f86c76ad2d4ab9f97dc731f2"
   },
   "ar": {
     "_communities": {
@@ -254,7 +254,7 @@
       "twitter": {
         "description": "تابعنا على 𝕏"
       },
-      "website": {
+      "url": {
         "name": "{مجتمع}"
       },
       "wiki": {

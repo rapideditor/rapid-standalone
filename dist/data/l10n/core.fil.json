@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.738Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.901Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.fil.json",
-    "hash": "5d46c25388e152c84f5ae6f0c9d2360c"
+    "hash": "e2225572eb6ac74dfe94d249972337d1"
   },
   "fil": {
     "icons": {
@@ -233,7 +233,7 @@
     "translate": {
       "localized_translation_name": "Pangalan"
     },
-    "osm_api_status": {
+    "status": {
       "retry": "Ulitin"
     },
     "commit": {

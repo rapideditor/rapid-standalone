@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.640Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.758Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.he.json",
-    "hash": "cc937dc382993a430c661661363ac1a0"
+    "hash": "6a30bbb776a0346f40b2aa01c0e7ba13"
   },
   "he": {
     "presets": {
@@ -1099,14 +1099,6 @@
             "no": {
               "description": "אין שביל אופניים",
               "title": "אין"
-            },
-            "opposite": {
-              "description": "נתיב אופניים דו־סטרי בכביש חד־סטרי",
-              "title": "נתיב אופניים נגד כיוון התנועה"
-            },
-            "opposite_lane": {
-              "description": "נתיב אופניים שכיוונו מנוגד לכיוון התנועה",
-              "title": "נתיב אופניים הופכי"
             },
             "separate": {
               "title": "שביל אופניים ממופה בנפרד"

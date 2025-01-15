@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.597Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.697Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.sr.json",
-    "hash": "e5539d81e97c585261e92cdc547ad5ce"
+    "hash": "38bdfd8c3c971ce6d5f2c0a5ba90ec7e"
   },
   "sr": {
     "presets": {
@@ -1162,14 +1162,6 @@
             "no": {
               "description": "Без бициклистичке траке",
               "title": "Нема"
-            },
-            "opposite": {
-              "description": "бициклистичка стаза у оба смера на једносмерном путу",
-              "title": "Бициклистичка трака у супротном смеру"
-            },
-            "opposite_lane": {
-              "description": "Трака за бицикле у супротном смеру саобраћаја",
-              "title": "Наспрамна бициклистичка трака"
             },
             "separate": {
               "description": "Индикује да је бициклистичка стаза била мапирана одвојено",

@@ -1,14 +1,30 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.746Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.912Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.de-AT.json",
-    "hash": "f8d98ae8c560c5103a0641e75d020187"
+    "hash": "9decf9dd16294d87b6e20bcd797f7787"
   },
   "de-AT": {
     "operations": {
+      "orthogonalize": {
+        "end_vertex": {
+          "one": "Diese Ecke kann nicht rechtwinklig gemacht werden, weil es ein Endpunkt ist.",
+          "other": "Diese Ecken können nicht rechtwinklig gemacht werden, weil es Endpunkte sind."
+        }
+      },
       "delete": {
-        "title": "Entf"
+        "title": "Entf",
+        "has_wikidata_tag": {
+          "one": "Dieses Objekt kann nicht gelöscht werden, weil es eine Wikidata-Eigenschaft hat.",
+          "other": "Diese Objekte können nicht gelöscht werden, weil einige eine Wikidata-Eigenschaft haben."
+        }
+      },
+      "extract": {
+        "connected_to_hidden": {
+          "one": "Dieser Punkt kann nicht entnommen werden, weil er mit einem versteckten Objekt verbunden ist.",
+          "other": "Die Punkte können nicht entnommen werden, weil manche mit versteckten Objekt verbunden sind."
+        }
       }
     },
     "restriction": {

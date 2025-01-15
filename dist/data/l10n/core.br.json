@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.751Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.919Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.br.json",
-    "hash": "7f40d2f5bf03c17f49e3cc1687519ec1"
+    "hash": "68816983857cb9cc48212b49f9d59ad3"
   },
   "br": {
     "icons": {
@@ -457,7 +457,7 @@
         "other": "{count} elfenn kuzhet"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "local_storage_full": "Kemmet ho peus ar gartenn betek re ha n'halloc'h ket o dizober holl. Enrollit ho kemmoù kerkent ha ma c'hallit."
       }

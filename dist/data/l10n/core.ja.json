@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.728Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.886Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.ja.json",
-    "hash": "523d17395a03b98a7a22c58bf1e16690"
+    "hash": "388160305cba8833c566a6bba1299283"
   },
   "ja": {
     "icons": {
@@ -404,7 +404,7 @@
     "feature_info": {
       "hidden_warning": "非表示の地物{count}件"
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "OpenStreetMap APIと通信できません。編集内容はローカルに安全に保管されています。",
         "offline": "OpenStreetMap APIがオフラインです。編集内容はローカルに安全に保管されています。後ほどやり直してください。",

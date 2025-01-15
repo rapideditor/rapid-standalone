@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.706Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.853Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.tr.json",
-    "hash": "c7278ce0247eff07330bf243ea6e89f4"
+    "hash": "363ae277a11746fb1d6bd4d66ff84ae3"
   },
   "tr": {
     "icons": {
@@ -503,7 +503,7 @@
         "other": "{count} adet gizli nesne"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "OpenStreetMap API erişim sağlanamadı. Düzenlemeleriniz yerel olarak güvenli. İnternet bağlantınızı kontrol edin.",
         "offline": "OpenStreetMap API çevrimdışı. Düzenlemeleriniz yerel olarak güvenli. Lütfen daha sonra deneyin.",

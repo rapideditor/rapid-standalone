@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.726Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.884Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.ko.json",
-    "hash": "127b5aaba4ba70602da9f3f91b92a5a7"
+    "hash": "2d82a5af3a559102fd7f5c9447103c2b"
   },
   "ko": {
     "icons": {
@@ -407,7 +407,7 @@
     "feature_info": {
       "hidden_warning": "숨겨진 지물 {count}개"
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "오픈스트리트맵 API에 접근할 수 없습니다. 편집은 기기에 저장됩니다. 인터넷 연결 상태를 확인하세요.",
         "offline": "오픈스트리트맵 API가 오프라인입니다. 편집은 기기에 저장됩니다. 나중에 다시 시도하세요.",

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.731Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.892Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.hu.json",
-    "hash": "d48b8ef676a9f87c498c6a8d450044b8"
+    "hash": "af4ef7b232301a9a8414bde1d5b97f03"
   },
   "hu": {
     "icons": {
@@ -506,7 +506,7 @@
         "other": "{count} térképelem kikapcsolt rétegen"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Nem érhető el az OpenStreetMap API. Szerkesztéseid biztonságban vannak a gépeden. Ellenőrizd a hálózati kapcsolatodat.",
         "offline": "Az OpenStreetMap API offline. Szerkesztéseid biztonságban vannak a gépeden. Kérjük, térj vissza később!",

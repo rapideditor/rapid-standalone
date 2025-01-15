@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.749Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.916Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.cs.json",
-    "hash": "06246cab5cd20dc77f40d2d0aed2cd35"
+    "hash": "9765c507bf550de4cf01981c300f2eec"
   },
   "cs": {
     "icons": {
@@ -568,7 +568,7 @@
         "other": "{count} skrytých prvků"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Nelze se spojit s OpenStreetMap API. Vaše úpravy jsou uloženy místně. Zkontrolujte připojení k síti.",
         "offline": "OpenStreetMap API je offline. Vaše úpravy jsou uloženy místně. Zkuste to prosím později.",

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.777Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.962Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.de-AT.json",
-    "hash": "c3a7d095e5e9b182010c951d2c7af0be"
+    "hash": "eeb7f1ca7590d913e0ed050aef586d9a"
   },
   "de-AT": {
     "Bahia-telegram": {

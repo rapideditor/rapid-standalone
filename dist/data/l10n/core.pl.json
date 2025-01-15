@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.717Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.871Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.pl.json",
-    "hash": "ecd2e27093ca9e29fb0dba2506795f27"
+    "hash": "7ac19ef4142c6443238cbd924c98c741"
   },
   "pl": {
     "icons": {
@@ -572,7 +572,7 @@
         "other": "{count} ukrytego obiektu"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Nie można nawiązać połączenia z API. Twoje edycje są zapisane lokalnie. Sprawdź swoje połączenie.",
         "offline": "API jest offline. Twoje edycje są zapisane lokalnie. Spróbuj później.",

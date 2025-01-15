@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.617Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.723Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.nl.json",
-    "hash": "24f0b322603c0bfab6865aeb1b71229e"
+    "hash": "67b999552ae5d99ed9901a70ef419117"
   },
   "nl": {
     "presets": {
@@ -1070,14 +1070,6 @@
               "description": "Geen fietsstrook",
               "title": "Geen"
             },
-            "opposite": {
-              "description": "Een fietspad in beide richtingen op een eenrichtingsweg",
-              "title": "Fietsen toegestaan in tegengestelde richting"
-            },
-            "opposite_lane": {
-              "description": "Een fietspad in de andere richting dan de hoofdweg",
-              "title": "Fietsstrook in tegengestelde richting"
-            },
             "separate": {
               "description": "Geeft aan dat het fietspad los is uitgetekend",
               "title": "Fietspad apart in kaart gebracht"
@@ -2088,7 +2080,7 @@
           }
         },
         "lock": {
-          "label": "Slot"
+          "label": "Sluis"
         },
         "lockable": {
           "label": "Vergrendelbaar",
@@ -4287,7 +4279,7 @@
           "terms": "fietsenrek,fietsrek,fietsenparking,fietsenkelder"
         },
         "amenity/bicycle_parking/building": {
-          "name": "Overdekte fietsenstalling",
+          "name": "Fietsparkeergebouw",
           "terms": "fietsengarage,fietsenschuur,fietsenflat,parkeren,fiets"
         },
         "amenity/bicycle_parking/lockers": {
@@ -7886,14 +7878,14 @@
           "terms": "ravijn,talud"
         },
         "natural/scrub": {
-          "name": "Scrubland",
-          "terms": "kreupelhout,ruigte,savanne,prairie,pampa"
+          "name": "Kreupelhout",
+          "terms": "kreupelhout,ruigte,savanne,prairie,pampa,scrubland,struweel"
         },
         "natural/shingle": {
           "name": "Kiezelstrand"
         },
         "natural/shrub": {
-          "name": "Scrubland"
+          "name": "Struik"
         },
         "natural/sinkhole": {
           "name": "Zinkgat"

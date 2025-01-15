@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.633Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.745Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.is.json",
-    "hash": "5ef0fd20c5386432dd8dc22a19a1bb9e"
+    "hash": "796e86d37613b756cd2c2ee3b6b5cba6"
   },
   "is": {
     "presets": {
@@ -762,12 +762,6 @@
             "no": {
               "description": "Engin hjólabraut",
               "title": "Ekkert"
-            },
-            "opposite": {
-              "description": "Hjólabraut sem stefnir í báðar áttir á einstefnugötu"
-            },
-            "opposite_lane": {
-              "description": "Hjólabraut sem stefnir í gagnstæða átt við umferð"
             },
             "share_busway": {
               "description": "Hjólabraut sem deilt er með strætisvagnaleið"

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.735Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.898Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.ga.json",
-    "hash": "d4b701267c1579a6b907e11e9f19ee50"
+    "hash": "93bc706a576513da2661e4d9e2a86c48"
   },
   "ga": {
     "icons": {
@@ -235,7 +235,7 @@
     "loading_auth": "Ag ceangail le OpenStreetMap...",
     "report_a_bug": "Fabht a thuairisciú",
     "help_translate": "Cabhraigh le haistrigh",
-    "osm_api_status": {
+    "status": {
       "retry": "Atriail"
     },
     "commit": {

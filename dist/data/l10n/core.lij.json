@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.724Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.882Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.lij.json",
-    "hash": "b8e651bf1bc801137cc76c2b2126660e"
+    "hash": "0e8c37b7063c0e6bc262d5fd479ef83b"
   },
   "lij": {
     "help": {

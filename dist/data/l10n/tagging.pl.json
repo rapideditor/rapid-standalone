@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.612Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.717Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.pl.json",
-    "hash": "37272b45b2ec2142cd3d6019177bdb5b"
+    "hash": "f963f3c685fecf49230bce41ce620a5c"
   },
   "pl": {
     "presets": {
@@ -1173,12 +1173,12 @@
               "title": "Brak"
             },
             "opposite": {
-              "description": "Ruch rowerowy dopuszczony \"pod prąd\" na drodze jednokierunkowej, bez wyznaczonego pasa",
-              "title": "Kontraruch"
+              "description": "Zastąp tagami oneway=yes, oneway:bicycle=no, cycleway:both=no itd.",
+              "title": "(Wycofane z użycia) Kontraruch"
             },
             "opposite_lane": {
-              "description": "Wyznaczony pas rowerowy prowadzący \"pod prąd\" na drodze jednokierunkowej",
-              "title": "Kontrapas"
+              "description": "Zastąp tagami oneway, oneway:bicycle, cycleway:left/right=lane itd.",
+              "title": "(Wycofane z użycia) Kontrapas"
             },
             "separate": {
               "description": "Droga dla rowerów fizycznie oddzielona od jezdni, zaznaczona na mapie jako osobna ścieżka",
@@ -1972,7 +1972,7 @@
             "pillory": "Pręgierz",
             "railway": "Linia kolejowa",
             "ruins": "Ruiny",
-            "tomb": "Grób",
+            "tomb": "Grobowiec",
             "wayside_cross": "Krzyż przydrożny",
             "wayside_shrine": "Kapliczka przydrożna",
             "wreck": "Wrak statku"
@@ -6081,7 +6081,7 @@
           "terms": "ekrany akustyczne, ekran akustyczny, ekran dźwiękochłonny, bariera"
         },
         "barrier/wicket_gate": {
-          "name": "Furtka (towarzysząca głównej bramie)",
+          "name": "Furtka",
           "terms": "furtka, furta"
         },
         "barrier/yes": {
@@ -6987,6 +6987,14 @@
           "name": "Łącznik dla motorowerów",
           "terms": "łącznik dla motorowerów"
         },
+        "highway/cycleway/traffic_island": {
+          "name": "Droga rowerowa na wyspie azylu",
+          "terms": "droga rowerowa na wyspie azylu, wyspa azylu"
+        },
+        "highway/cycleway/traffic_island_shared": {
+          "name": "Ciąg pieszo-rowerowy na wyspie azylu",
+          "terms": "ciąg pieszo-rowerowy na wyspie azylu, wyspa azylu"
+        },
         "highway/cyclist_waiting_aid": {
           "name": "Podpórka dla rowerzystów",
           "terms": "podpórka dla rowerzystów, podpórka rowerowa, spocznik dla rowerzystów, spocznik rowerowy"
@@ -7338,8 +7346,8 @@
           "terms": "ruiny, ruina"
         },
         "historic/tomb": {
-          "name": "Grób",
-          "terms": "grób, grobowiec, mogiła, tumulus, kurhan, mauzoleum, kolumbarium, piramida, sarkofag, nagrobek"
+          "name": "Grobowiec",
+          "terms": "grobowiec, grób, mogiła, tumulus, kurhan, mauzoleum, kolumbarium, piramida, sarkofag, nagrobek"
         },
         "historic/wayside_cross": {
           "name": "Krzyż przydrożny",

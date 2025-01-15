@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.635Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.748Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.hy.json",
-    "hash": "4c593cf6e895e1f44b2a277b37e1cecd"
+    "hash": "6db223b5116251dc5d3efbb5c394345d"
   },
   "hy": {
     "presets": {
@@ -314,12 +314,6 @@
             "no": {
               "description": "Հեծանուային ուղի չկայ",
               "title": "Ոչ մի"
-            },
-            "opposite": {
-              "description": "Հեծանուային ուղի երկու ուղղութեամբ էլ, միակողմանի ճանապարհի վրայ"
-            },
-            "opposite_lane": {
-              "description": "Հեծանուային ուղի, որ տանում է երթեւեկութեանը հակառակ ուղղութեամբ"
             },
             "share_busway": {
               "description": "Հեծանուային ուղին օգտագործւում է աւտոբուսների հետ միասին"

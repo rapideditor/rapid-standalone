@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.741Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.905Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.et.json",
-    "hash": "878f66e9645bbc1f6a046a109c9f448b"
+    "hash": "d1066b2853a691c6c2ce4be5c77268a0"
   },
   "et": {
     "icons": {
@@ -421,7 +421,7 @@
         "other": "{count} peidetud objekti"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "OpenStreetMapi API on kättesaadamatu. Sinu muudatused on salvestatud kohalikult. Kontrolli internetiühendust.",
         "offline": "OpenStreetMapi API on ühenduseta. Sinu muudatused on salvestatud kohalikult. Proovi hiljem uuesti.",

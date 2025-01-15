@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.752Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.921Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.bg.json",
-    "hash": "3ddf3ace7f292b272906b100ad2a51e6"
+    "hash": "91ea4df1161385981e1219cf5adf3869"
   },
   "bg": {
     "icons": {
@@ -501,7 +501,7 @@
         "other": "{count} скрити обекти"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Не мога да достигна OpenStreetMap API. Промените ви са запазени локално. Проверете връзката с мрежата.",
         "offline": "OpenStreetMap API не е в мрежата. Промените ви са запазени локално. Моля опитайте по-късно.",

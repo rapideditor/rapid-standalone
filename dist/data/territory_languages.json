@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.523Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.607Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/territory_languages.json",
-    "hash": "63bf895367fc4ab4272ec2603e87cf38"
+    "hash": "c89a75b24fc581eb127f3a275cbfada2"
   },
   "territoryLanguages": {
     "ac": ["en"],
@@ -63,7 +63,7 @@
     "cv": ["kea", "pt"],
     "cw": ["pap", "nl", "es"],
     "cx": ["en"],
-    "cy": ["el", "en", "tr", "fr", "hy", "ar"],
+    "cy": ["el", "en", "tr", "fr", "hy", "ar", "ecy"],
     "cz": ["cs", "en", "sk", "de", "pl"],
     "de": ["de", "en", "fr", "bar", "nds", "nl", "it", "es", "ru", "vmf", "tr", "gsw", "da", "swg", "hr", "ku", "el", "ksh", "pl", "hsb", "frr", "dsb", "frs", "stq", "pfl"],
     "dg": ["en"],
@@ -99,7 +99,7 @@
     "gn": ["fr", "ff", "man-Nkoo", "sus", "nqo", "kpe", "ff-Adlm"],
     "gp": ["fr"],
     "gq": ["es", "fan", "fr", "bvb", "pt"],
-    "gr": ["el", "en", "fr", "de", "pnt", "mk", "tr", "bg", "sq", "tsd"],
+    "gr": ["el", "en", "fr", "de", "pnt", "mk", "tr", "bg", "sq", "tsd", "gmy", "grc"],
     "gs": ["und"],
     "gt": ["es", "quc"],
     "gu": ["en", "ch"],
@@ -112,7 +112,7 @@
     "ht": ["ht", "fr"],
     "hu": ["hu", "en", "de", "fr", "ro", "hr", "sk", "sl"],
     "ic": ["es"],
-    "id": ["id", "jv", "su", "mad", "ms", "min", "bew", "ban", "bug", "bjn", "ace", "ms-Arab", "sas", "bbc", "zh-Hant", "mak", "ljp", "rej", "gor", "nij", "kge", "aoz", "kvr", "lbw", "gay", "rob", "mdr", "sxn", "sly", "mwv"],
+    "id": ["id", "jv", "su", "mad", "ms", "min", "bew", "ban", "bug", "bjn", "ace", "ms-Arab", "sas", "bbc", "zh-Hant", "mak", "ljp", "rej", "gor", "nij", "kge", "aoz", "kvr", "lbw", "gay", "rob", "mdr", "sxn", "sly", "mwv", "ban-Bali", "kaw"],
     "ie": ["en", "ga", "fr"],
     "il": ["he", "en", "ar", "apc", "ru", "ro", "yi", "pl", "lad", "hu", "am", "ti", "ml"],
     "im": ["en", "gv"],

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.597Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.697Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.sq.json",
-    "hash": "e9823d688fccb7c9a9872459d32ed0bf"
+    "hash": "f9cfe2eaec7361578e97d8c6e067a7ce"
   },
   "sq": {
     "presets": {
@@ -226,12 +226,6 @@
             "no": {
               "description": "Pa korsi biçikletash",
               "title": "Asnjë"
-            },
-            "opposite": {
-              "description": "Korsi biçikletash dydrejtimshe në një rrugë njëdrejtimshe"
-            },
-            "opposite_lane": {
-              "description": "Korsi biçikletash ne drejtim të kundërt me trafikun"
             },
             "share_busway": {
               "description": "Korsi e përbashkët për biçikleta dhe autobuzë"

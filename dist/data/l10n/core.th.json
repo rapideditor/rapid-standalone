@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.707Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.854Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.th.json",
-    "hash": "d588b44e33e57a5037b5058104daaf32"
+    "hash": "f4849319d7c600bef7b2926532901c4c"
   },
   "th": {
     "icons": {
@@ -297,7 +297,7 @@
     "feature_info": {
       "hidden_warning": "{count} คุณสมบัติที่ซ่อนอยู่"
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "local_storage_full": "คุณได้ทำการแก้ไขเกินกว่าที่จะสำรองข้อมูลได้ กรุณาพิจารณาบันทึกการเปลี่ยนแปลงตอนนี้"
       },

@@ -3798,7 +3798,7 @@
       "format": "esm"
     },
     "modules/core/lib/Graph.js": {
-      "bytes": 16554,
+      "bytes": 16572,
       "imports": [
         {
           "path": "node_modules/@rapid-sdk/util/built/util.mjs",
@@ -21471,7 +21471,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiEvents.js": {
-      "bytes": 18146,
+      "bytes": 18136,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -21986,13 +21986,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/defaults/default2.mjs": {
-      "bytes": 741,
+    "node_modules/pixi-filters/lib/defaults/default.mjs": {
+      "bytes": 740,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/defaults/default.mjs": {
-      "bytes": 1362,
+    "node_modules/pixi-filters/lib/defaults/default2.mjs": {
+      "bytes": 1363,
       "imports": [],
       "format": "esm"
     },
@@ -22015,14 +22015,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/adjustment/adjustment2.mjs",
@@ -22037,13 +22037,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/kawase-blur/kawase-blur.mjs": {
-      "bytes": 836,
+    "node_modules/pixi-filters/lib/kawase-blur/kawase-blur2.mjs": {
+      "bytes": 837,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/kawase-blur/kawase-blur2.mjs": {
-      "bytes": 1098,
+    "node_modules/pixi-filters/lib/kawase-blur/kawase-blur.mjs": {
+      "bytes": 1097,
       "imports": [],
       "format": "esm"
     },
@@ -22066,24 +22066,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/kawase-blur/kawase-blur.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./kawase-blur.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/kawase-blur/kawase-blur2.mjs",
           "kind": "import-statement",
           "original": "./kawase-blur2.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/kawase-blur/kawase-blur.mjs",
+          "kind": "import-statement",
+          "original": "./kawase-blur.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/kawase-blur/kawase-blur-clamp.mjs",
@@ -22108,13 +22108,13 @@
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/advanced-bloom/extract-brightness2.mjs": {
-      "bytes": 690,
+    "node_modules/pixi-filters/lib/advanced-bloom/extract-brightness.mjs": {
+      "bytes": 689,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/advanced-bloom/extract-brightness.mjs": {
-      "bytes": 916,
+    "node_modules/pixi-filters/lib/advanced-bloom/extract-brightness2.mjs": {
+      "bytes": 917,
       "imports": [],
       "format": "esm"
     },
@@ -22127,24 +22127,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/advanced-bloom/extract-brightness2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./extract-brightness2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/advanced-bloom/extract-brightness.mjs",
           "kind": "import-statement",
           "original": "./extract-brightness.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/advanced-bloom/extract-brightness2.mjs",
+          "kind": "import-statement",
+          "original": "./extract-brightness2.mjs"
         }
       ],
       "format": "esm"
@@ -22158,14 +22158,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/kawase-blur/KawaseBlurFilter.mjs",
@@ -22190,13 +22190,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/ascii/ascii2.mjs": {
-      "bytes": 1950,
+    "node_modules/pixi-filters/lib/ascii/ascii.mjs": {
+      "bytes": 1949,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/ascii/ascii.mjs": {
-      "bytes": 3001,
+    "node_modules/pixi-filters/lib/ascii/ascii2.mjs": {
+      "bytes": 3002,
       "imports": [],
       "format": "esm"
     },
@@ -22209,35 +22209,35 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/ascii/ascii2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./ascii2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/ascii/ascii.mjs",
           "kind": "import-statement",
           "original": "./ascii.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/ascii/ascii2.mjs",
+          "kind": "import-statement",
+          "original": "./ascii2.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/backdrop-blur/backdrop-blur-blend.mjs": {
-      "bytes": 522,
+    "node_modules/pixi-filters/lib/backdrop-blur/backdrop-blur-blend2.mjs": {
+      "bytes": 523,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/backdrop-blur/backdrop-blur-blend2.mjs": {
-      "bytes": 716,
+    "node_modules/pixi-filters/lib/backdrop-blur/backdrop-blur-blend.mjs": {
+      "bytes": 715,
       "imports": [],
       "format": "esm"
     },
@@ -22250,35 +22250,35 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/backdrop-blur/backdrop-blur-blend.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./backdrop-blur-blend.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/backdrop-blur/backdrop-blur-blend2.mjs",
           "kind": "import-statement",
           "original": "./backdrop-blur-blend2.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/backdrop-blur/backdrop-blur-blend.mjs",
+          "kind": "import-statement",
+          "original": "./backdrop-blur-blend.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/bevel/bevel2.mjs": {
-      "bytes": 898,
+    "node_modules/pixi-filters/lib/bevel/bevel.mjs": {
+      "bytes": 897,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/bevel/bevel.mjs": {
-      "bytes": 1596,
+    "node_modules/pixi-filters/lib/bevel/bevel2.mjs": {
+      "bytes": 1597,
       "imports": [],
       "format": "esm"
     },
@@ -22291,24 +22291,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/bevel/bevel2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./bevel2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/bevel/bevel.mjs",
           "kind": "import-statement",
           "original": "./bevel.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/bevel/bevel2.mjs",
+          "kind": "import-statement",
+          "original": "./bevel2.mjs"
         }
       ],
       "format": "esm"
@@ -22324,13 +22324,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/bulge-pinch/bulge-pinch2.mjs": {
-      "bytes": 1172,
+    "node_modules/pixi-filters/lib/bulge-pinch/bulge-pinch.mjs": {
+      "bytes": 1171,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/bulge-pinch/bulge-pinch.mjs": {
-      "bytes": 1992,
+    "node_modules/pixi-filters/lib/bulge-pinch/bulge-pinch2.mjs": {
+      "bytes": 1993,
       "imports": [],
       "format": "esm"
     },
@@ -22343,39 +22343,39 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/bulge-pinch/bulge-pinch2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./bulge-pinch2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/bulge-pinch/bulge-pinch.mjs",
           "kind": "import-statement",
           "original": "./bulge-pinch.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/bulge-pinch/bulge-pinch2.mjs",
+          "kind": "import-statement",
+          "original": "./bulge-pinch2.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/color-gradient/color-gradient2.mjs": {
-      "bytes": 3968,
-      "imports": [],
-      "format": "esm"
-    },
     "node_modules/pixi-filters/lib/color-gradient/color-gradient.mjs": {
-      "bytes": 840,
+      "bytes": 3967,
       "imports": [],
       "format": "esm"
     },
     "node_modules/pixi-filters/lib/color-gradient/color-gradient3.mjs": {
+      "bytes": 841,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/pixi-filters/lib/color-gradient/color-gradient2.mjs": {
       "bytes": 6141,
       "imports": [],
       "format": "esm"
@@ -22410,11 +22410,6 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/color-gradient/color-gradient2.mjs",
-          "kind": "import-statement",
-          "original": "./color-gradient2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/color-gradient/color-gradient.mjs",
           "kind": "import-statement",
           "original": "./color-gradient.mjs"
@@ -22423,6 +22418,11 @@
           "path": "node_modules/pixi-filters/lib/color-gradient/color-gradient3.mjs",
           "kind": "import-statement",
           "original": "./color-gradient3.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/color-gradient/color-gradient2.mjs",
+          "kind": "import-statement",
+          "original": "./color-gradient2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/color-gradient/CssGradientParser.mjs",
@@ -22451,14 +22451,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/color-map/color-map2.mjs",
@@ -22492,14 +22492,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/color-overlay/color-overlay2.mjs",
@@ -22514,13 +22514,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/color-replace/color-replace2.mjs": {
-      "bytes": 591,
+    "node_modules/pixi-filters/lib/color-replace/color-replace.mjs": {
+      "bytes": 590,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/color-replace/color-replace.mjs": {
-      "bytes": 954,
+    "node_modules/pixi-filters/lib/color-replace/color-replace2.mjs": {
+      "bytes": 955,
       "imports": [],
       "format": "esm"
     },
@@ -22533,24 +22533,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/color-replace/color-replace2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./color-replace2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/color-replace/color-replace.mjs",
           "kind": "import-statement",
           "original": "./color-replace.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/color-replace/color-replace2.mjs",
+          "kind": "import-statement",
+          "original": "./color-replace2.mjs"
         }
       ],
       "format": "esm"
@@ -22574,14 +22574,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/convolution/convolution.mjs",
@@ -22615,14 +22615,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/cross-hatch/crosshatch.mjs",
@@ -22637,13 +22637,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/crt/crt.mjs": {
-      "bytes": 2494,
+    "node_modules/pixi-filters/lib/crt/crt2.mjs": {
+      "bytes": 2495,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/crt/crt2.mjs": {
-      "bytes": 3405,
+    "node_modules/pixi-filters/lib/crt/crt.mjs": {
+      "bytes": 3404,
       "imports": [],
       "format": "esm"
     },
@@ -22656,35 +22656,35 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/crt/crt.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./crt.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/crt/crt2.mjs",
           "kind": "import-statement",
           "original": "./crt2.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/crt/crt.mjs",
+          "kind": "import-statement",
+          "original": "./crt.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/dot/dot2.mjs": {
-      "bytes": 844,
+    "node_modules/pixi-filters/lib/dot/dot.mjs": {
+      "bytes": 843,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/dot/dot.mjs": {
-      "bytes": 1483,
+    "node_modules/pixi-filters/lib/dot/dot2.mjs": {
+      "bytes": 1484,
       "imports": [],
       "format": "esm"
     },
@@ -22697,24 +22697,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/dot/dot2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./dot2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/dot/dot.mjs",
           "kind": "import-statement",
           "original": "./dot.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/dot/dot2.mjs",
+          "kind": "import-statement",
+          "original": "./dot2.mjs"
         }
       ],
       "format": "esm"
@@ -22738,14 +22738,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/kawase-blur/KawaseBlurFilter.mjs",
@@ -22765,13 +22765,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/emboss/emboss.mjs": {
-      "bytes": 661,
+    "node_modules/pixi-filters/lib/emboss/emboss2.mjs": {
+      "bytes": 662,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/emboss/emboss2.mjs": {
-      "bytes": 1198,
+    "node_modules/pixi-filters/lib/emboss/emboss.mjs": {
+      "bytes": 1197,
       "imports": [],
       "format": "esm"
     },
@@ -22784,35 +22784,35 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/emboss/emboss.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./emboss.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/emboss/emboss2.mjs",
           "kind": "import-statement",
           "original": "./emboss2.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/emboss/emboss.mjs",
+          "kind": "import-statement",
+          "original": "./emboss.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/glitch/glitch2.mjs": {
-      "bytes": 3161,
+    "node_modules/pixi-filters/lib/glitch/glitch.mjs": {
+      "bytes": 3160,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/glitch/glitch.mjs": {
-      "bytes": 4488,
+    "node_modules/pixi-filters/lib/glitch/glitch2.mjs": {
+      "bytes": 4489,
       "imports": [],
       "format": "esm"
     },
@@ -22825,35 +22825,35 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/glitch/glitch2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./glitch2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/glitch/glitch.mjs",
           "kind": "import-statement",
           "original": "./glitch.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/glitch/glitch2.mjs",
+          "kind": "import-statement",
+          "original": "./glitch2.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/glow/glow.mjs": {
-      "bytes": 2293,
+    "node_modules/pixi-filters/lib/glow/glow2.mjs": {
+      "bytes": 2294,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/glow/glow2.mjs": {
-      "bytes": 2833,
+    "node_modules/pixi-filters/lib/glow/glow.mjs": {
+      "bytes": 2832,
       "imports": [],
       "format": "esm"
     },
@@ -22866,35 +22866,35 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/glow/glow.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./glow.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/glow/glow2.mjs",
           "kind": "import-statement",
           "original": "./glow2.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/glow/glow.mjs",
+          "kind": "import-statement",
+          "original": "./glow.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/godray/god-ray2.mjs": {
-      "bytes": 1517,
+    "node_modules/pixi-filters/lib/godray/god-ray.mjs": {
+      "bytes": 1516,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/godray/god-ray.mjs": {
-      "bytes": 2057,
+    "node_modules/pixi-filters/lib/godray/god-ray2.mjs": {
+      "bytes": 2058,
       "imports": [],
       "format": "esm"
     },
@@ -22917,24 +22917,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/godray/god-ray2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./god-ray2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/godray/god-ray.mjs",
           "kind": "import-statement",
           "original": "./god-ray.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/godray/god-ray2.mjs",
+          "kind": "import-statement",
+          "original": "./god-ray2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/godray/perlin.mjs",
@@ -22968,14 +22968,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/grayscale/grayscale.mjs",
@@ -22990,13 +22990,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/hsl-adjustment/hsladjustment2.mjs": {
-      "bytes": 1754,
+    "node_modules/pixi-filters/lib/hsl-adjustment/hsladjustment.mjs": {
+      "bytes": 1753,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/hsl-adjustment/hsladjustment.mjs": {
-      "bytes": 1909,
+    "node_modules/pixi-filters/lib/hsl-adjustment/hsladjustment2.mjs": {
+      "bytes": 1910,
       "imports": [],
       "format": "esm"
     },
@@ -23009,35 +23009,35 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/hsl-adjustment/hsladjustment2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./hsladjustment2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/hsl-adjustment/hsladjustment.mjs",
           "kind": "import-statement",
           "original": "./hsladjustment.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/hsl-adjustment/hsladjustment2.mjs",
+          "kind": "import-statement",
+          "original": "./hsladjustment2.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/motion-blur/motion-blur2.mjs": {
-      "bytes": 1118,
+    "node_modules/pixi-filters/lib/motion-blur/motion-blur.mjs": {
+      "bytes": 1117,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/motion-blur/motion-blur.mjs": {
-      "bytes": 1477,
+    "node_modules/pixi-filters/lib/motion-blur/motion-blur2.mjs": {
+      "bytes": 1478,
       "imports": [],
       "format": "esm"
     },
@@ -23050,35 +23050,35 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/motion-blur/motion-blur2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./motion-blur2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/motion-blur/motion-blur.mjs",
           "kind": "import-statement",
           "original": "./motion-blur.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/motion-blur/motion-blur2.mjs",
+          "kind": "import-statement",
+          "original": "./motion-blur2.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/multi-color-replace/multi-color-replace2.mjs": {
-      "bytes": 943,
+    "node_modules/pixi-filters/lib/multi-color-replace/multi-color-replace.mjs": {
+      "bytes": 942,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/multi-color-replace/multi-color-replace.mjs": {
-      "bytes": 1482,
+    "node_modules/pixi-filters/lib/multi-color-replace/multi-color-replace2.mjs": {
+      "bytes": 1483,
       "imports": [],
       "format": "esm"
     },
@@ -23091,24 +23091,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/multi-color-replace/multi-color-replace2.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./multi-color-replace2.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/multi-color-replace/multi-color-replace.mjs",
           "kind": "import-statement",
           "original": "./multi-color-replace.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/multi-color-replace/multi-color-replace2.mjs",
+          "kind": "import-statement",
+          "original": "./multi-color-replace2.mjs"
         }
       ],
       "format": "esm"
@@ -23132,14 +23132,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/old-film/old-film2.mjs",
@@ -23173,14 +23173,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/outline/outline.mjs",
@@ -23214,14 +23214,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/pixelate/pixelate2.mjs",
@@ -23236,13 +23236,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/radial-blur/radial-blur.mjs": {
-      "bytes": 1880,
+    "node_modules/pixi-filters/lib/radial-blur/radial-blur2.mjs": {
+      "bytes": 1881,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/radial-blur/radial-blur2.mjs": {
-      "bytes": 2636,
+    "node_modules/pixi-filters/lib/radial-blur/radial-blur.mjs": {
+      "bytes": 2635,
       "imports": [],
       "format": "esm"
     },
@@ -23255,35 +23255,35 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/radial-blur/radial-blur.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./radial-blur.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/radial-blur/radial-blur2.mjs",
           "kind": "import-statement",
           "original": "./radial-blur2.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/radial-blur/radial-blur.mjs",
+          "kind": "import-statement",
+          "original": "./radial-blur.mjs"
         }
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/reflection/reflection.mjs": {
-      "bytes": 1459,
+    "node_modules/pixi-filters/lib/reflection/reflection2.mjs": {
+      "bytes": 1460,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/reflection/reflection2.mjs": {
-      "bytes": 2307,
+    "node_modules/pixi-filters/lib/reflection/reflection.mjs": {
+      "bytes": 2306,
       "imports": [],
       "format": "esm"
     },
@@ -23296,24 +23296,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/reflection/reflection.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./reflection.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/reflection/reflection2.mjs",
           "kind": "import-statement",
           "original": "./reflection2.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/reflection/reflection.mjs",
+          "kind": "import-statement",
+          "original": "./reflection.mjs"
         }
       ],
       "format": "esm"
@@ -23337,14 +23337,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/rgb-split/rgb-split.mjs",
@@ -23378,14 +23378,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/shockwave/shockwave2.mjs",
@@ -23400,13 +23400,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/simple-lightmap/simple-lightmap.mjs": {
-      "bytes": 710,
+    "node_modules/pixi-filters/lib/simple-lightmap/simple-lightmap2.mjs": {
+      "bytes": 711,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/simple-lightmap/simple-lightmap2.mjs": {
-      "bytes": 1494,
+    "node_modules/pixi-filters/lib/simple-lightmap/simple-lightmap.mjs": {
+      "bytes": 1493,
       "imports": [],
       "format": "esm"
     },
@@ -23419,24 +23419,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/simple-lightmap/simple-lightmap.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./simple-lightmap.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/simple-lightmap/simple-lightmap2.mjs",
           "kind": "import-statement",
           "original": "./simple-lightmap2.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/simple-lightmap/simple-lightmap.mjs",
+          "kind": "import-statement",
+          "original": "./simple-lightmap.mjs"
         }
       ],
       "format": "esm"
@@ -23460,14 +23460,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/tilt-shift/tilt-shift2.mjs",
@@ -23498,13 +23498,13 @@
       ],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/twist/twist.mjs": {
-      "bytes": 1162,
+    "node_modules/pixi-filters/lib/twist/twist2.mjs": {
+      "bytes": 1163,
       "imports": [],
       "format": "esm"
     },
-    "node_modules/pixi-filters/lib/twist/twist2.mjs": {
-      "bytes": 1848,
+    "node_modules/pixi-filters/lib/twist/twist.mjs": {
+      "bytes": 1847,
       "imports": [],
       "format": "esm"
     },
@@ -23517,24 +23517,24 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/twist/twist.mjs",
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
           "kind": "import-statement",
-          "original": "./twist.mjs"
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/twist/twist2.mjs",
           "kind": "import-statement",
           "original": "./twist2.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/twist/twist.mjs",
+          "kind": "import-statement",
+          "original": "./twist.mjs"
         }
       ],
       "format": "esm"
@@ -23558,14 +23558,14 @@
           "original": "pixi.js"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "../defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "../defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "../defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/zoom-blur/zoom-blur.mjs",
@@ -23659,14 +23659,14 @@
           "original": "./crt/CRTFilter.mjs"
         },
         {
-          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
-          "kind": "import-statement",
-          "original": "./defaults/default2.mjs"
-        },
-        {
           "path": "node_modules/pixi-filters/lib/defaults/default.mjs",
           "kind": "import-statement",
           "original": "./defaults/default.mjs"
+        },
+        {
+          "path": "node_modules/pixi-filters/lib/defaults/default2.mjs",
+          "kind": "import-statement",
+          "original": "./defaults/default2.mjs"
         },
         {
           "path": "node_modules/pixi-filters/lib/dot/DotFilter.mjs",
@@ -23787,12 +23787,12 @@
       "format": "esm"
     },
     "modules/pixi/AbstractLayer.js": {
-      "bytes": 16596,
+      "bytes": 16868,
       "imports": [],
       "format": "esm"
     },
     "modules/pixi/PixiLayerBackgroundTiles.js": {
-      "bytes": 14494,
+      "bytes": 14463,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -23891,7 +23891,7 @@
       "format": "esm"
     },
     "modules/pixi/lib/DashLine.js": {
-      "bytes": 12232,
+      "bytes": 12614,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -23923,7 +23923,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiFeatureLine.js": {
-      "bytes": 11367,
+      "bytes": 11418,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -23954,7 +23954,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiFeaturePoint.js": {
-      "bytes": 13696,
+      "bytes": 13675,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -23980,7 +23980,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiFeaturePolygon.js": {
-      "bytes": 17463,
+      "bytes": 17625,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -24016,7 +24016,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerCustomData.js": {
-      "bytes": 20979,
+      "bytes": 21281,
       "imports": [
         {
           "path": "node_modules/@tmcw/togeojson/dist/togeojson.es.mjs",
@@ -24067,7 +24067,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerEditBlocks.js": {
-      "bytes": 4000,
+      "bytes": 4122,
       "imports": [
         {
           "path": "modules/pixi/AbstractLayer.js",
@@ -24083,7 +24083,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerKartaPhotos.js": {
-      "bytes": 7702,
+      "bytes": 7856,
       "imports": [
         {
           "path": "modules/pixi/AbstractLayer.js",
@@ -24104,7 +24104,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerKeepRight.js": {
-      "bytes": 2735,
+      "bytes": 2889,
       "imports": [
         {
           "path": "modules/pixi/AbstractLayer.js",
@@ -24120,7 +24120,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerLabels.js": {
-      "bytes": 33277,
+      "bytes": 33375,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -24151,7 +24151,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerMapillaryDetections.js": {
-      "bytes": 4048,
+      "bytes": 4202,
       "imports": [
         {
           "path": "modules/pixi/AbstractLayer.js",
@@ -25236,7 +25236,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerMapillaryPhotos.js": {
-      "bytes": 10631,
+      "bytes": 10761,
       "imports": [
         {
           "path": "node_modules/d3-scale/src/index.js",
@@ -25262,7 +25262,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerMapillarySigns.js": {
-      "bytes": 3899,
+      "bytes": 4042,
       "imports": [
         {
           "path": "modules/pixi/AbstractLayer.js",
@@ -25278,7 +25278,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerMapRoulette.js": {
-      "bytes": 2914,
+      "bytes": 3068,
       "imports": [
         {
           "path": "modules/pixi/AbstractLayer.js",
@@ -25294,7 +25294,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerMapUI.js": {
-      "bytes": 7078,
+      "bytes": 7494,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -25320,7 +25320,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerOsm.js": {
-      "bytes": 28854,
+      "bytes": 29279,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -25361,7 +25361,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerOsmNotes.js": {
-      "bytes": 3413,
+      "bytes": 3567,
       "imports": [
         {
           "path": "modules/pixi/AbstractLayer.js",
@@ -25377,7 +25377,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerOsmose.js": {
-      "bytes": 2841,
+      "bytes": 2995,
       "imports": [
         {
           "path": "modules/pixi/AbstractLayer.js",
@@ -25393,7 +25393,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerRapid.js": {
-      "bytes": 16080,
+      "bytes": 16524,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -25434,7 +25434,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerRapidOverlay.js": {
-      "bytes": 3899,
+      "bytes": 4278,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -25450,7 +25450,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerStreetsidePhotos.js": {
-      "bytes": 9036,
+      "bytes": 9166,
       "imports": [
         {
           "path": "node_modules/d3-scale/src/index.js",
@@ -25476,7 +25476,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiLayerGeoScribble.js": {
-      "bytes": 7419,
+      "bytes": 7888,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -25502,7 +25502,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiScene.js": {
-      "bytes": 10776,
+      "bytes": 11172,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -25619,12 +25619,17 @@
       "format": "esm"
     },
     "modules/pixi/lib/AtlasAllocator.js": {
-      "bytes": 10683,
+      "bytes": 9238,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
           "kind": "import-statement",
           "original": "pixi.js"
+        },
+        {
+          "path": "node_modules/@rapid-sdk/math/built/math.mjs",
+          "kind": "import-statement",
+          "original": "@rapid-sdk/math"
         },
         {
           "path": "modules/pixi/lib/GuilloteneAllocator.js",
@@ -25635,7 +25640,7 @@
       "format": "esm"
     },
     "modules/pixi/PixiTextures.js": {
-      "bytes": 24549,
+      "bytes": 26126,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -25651,7 +25656,7 @@
       "format": "esm"
     },
     "modules/core/GraphicsSystem.js": {
-      "bytes": 24771,
+      "bytes": 31212,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -26035,7 +26040,7 @@
       "format": "esm"
     },
     "modules/core/MapSystem.js": {
-      "bytes": 33396,
+      "bytes": 33383,
       "imports": [
         {
           "path": "node_modules/d3-selection/src/index.js",
@@ -26985,7 +26990,7 @@
       "format": "esm"
     },
     "modules/ui/UiApiStatus.js": {
-      "bytes": 4885,
+      "bytes": 5725,
       "imports": [
         {
           "path": "node_modules/d3-selection/src/index.js",
@@ -27142,7 +27147,7 @@
       "format": "esm"
     },
     "modules/ui/sections/changes.js": {
-      "bytes": 4520,
+      "bytes": 4243,
       "imports": [
         {
           "path": "node_modules/d3-selection/src/index.js",
@@ -27317,7 +27322,7 @@
       "format": "esm"
     },
     "modules/ui/conflicts.js": {
-      "bytes": 9003,
+      "bytes": 8731,
       "imports": [
         {
           "path": "node_modules/d3-dispatch/src/index.js",
@@ -28032,7 +28037,7 @@
       "format": "esm"
     },
     "modules/ui/intro/helper.js": {
-      "bytes": 11944,
+      "bytes": 11898,
       "imports": [
         {
           "path": "node_modules/@rapid-sdk/math/built/math.mjs",
@@ -28434,7 +28439,7 @@
       "format": "esm"
     },
     "modules/ui/cards/UiHistoryCard.js": {
-      "bytes": 10734,
+      "bytes": 11410,
       "imports": [
         {
           "path": "node_modules/d3-selection/src/index.js",
@@ -28452,6 +28457,11 @@
           "original": "./AbstractUiCard.js"
         },
         {
+          "path": "modules/osm/index.js",
+          "kind": "import-statement",
+          "original": "../../osm/index.js"
+        },
+        {
           "path": "modules/ui/icon.js",
           "kind": "import-statement",
           "original": "../icon.js"
@@ -28465,7 +28475,7 @@
       "format": "esm"
     },
     "modules/ui/cards/UiLocationCard.js": {
-      "bytes": 4737,
+      "bytes": 4927,
       "imports": [
         {
           "path": "node_modules/d3-selection/src/index.js",
@@ -28963,7 +28973,7 @@
       "format": "esm"
     },
     "node_modules/marked/lib/marked.esm.js": {
-      "bytes": 95408,
+      "bytes": 96065,
       "imports": [],
       "format": "esm"
     },
@@ -30210,7 +30220,7 @@
       "format": "esm"
     },
     "modules/ui/UiMinimap.js": {
-      "bytes": 14364,
+      "bytes": 15420,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -30458,7 +30468,7 @@
       "format": "esm"
     },
     "modules/ui/UiRapidDatasetToggle.js": {
-      "bytes": 13176,
+      "bytes": 13175,
       "imports": [
         {
           "path": "node_modules/d3-selection/src/index.js",
@@ -30854,7 +30864,7 @@
       "format": "esm"
     },
     "modules/ui/UiSpector.js": {
-      "bytes": 4885,
+      "bytes": 5508,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -32072,7 +32082,7 @@
       "format": "esm"
     },
     "modules/validations/curb_nodes.js": {
-      "bytes": 11474,
+      "bytes": 11243,
       "imports": [
         {
           "path": "node_modules/@rapid-sdk/math/built/math.mjs",
@@ -34172,7 +34182,7 @@
       "format": "esm"
     },
     "node_modules/pmtiles/dist/esm/index.js": {
-      "bytes": 14066,
+      "bytes": 14214,
       "imports": [
         {
           "path": "node_modules/fflate/esm/browser.js",
@@ -36100,25 +36110,25 @@
           "bytesInOutput": 683
         },
         "node_modules/wkt/index.js": {
-          "bytesInOutput": 3714
+          "bytesInOutput": 3712
         },
         "node_modules/tinyqueue/index.js": {
-          "bytesInOutput": 907
+          "bytesInOutput": 905
         },
         "node_modules/@mapbox/polylabel/polylabel.js": {
-          "bytesInOutput": 1613
+          "bytesInOutput": 1603
         },
         "node_modules/which-polygon/node_modules/quickselect/quickselect.js": {
           "bytesInOutput": 749
         },
         "node_modules/which-polygon/node_modules/rbush/index.js": {
-          "bytesInOutput": 5839
+          "bytesInOutput": 5831
         },
         "node_modules/lineclip/index.js": {
-          "bytesInOutput": 951
+          "bytesInOutput": 949
         },
         "node_modules/which-polygon/index.js": {
-          "bytesInOutput": 1358
+          "bytesInOutput": 1348
         },
         "node_modules/wgs84/index.js": {
           "bytesInOutput": 126
@@ -36265,7 +36275,7 @@
           "bytesInOutput": 535
         },
         "node_modules/@rapid-sdk/math/built/math.mjs": {
-          "bytesInOutput": 10893
+          "bytesInOutput": 10895
         },
         "modules/osm/entity.js": {
           "bytesInOutput": 2667
@@ -36565,7 +36575,7 @@
           "bytesInOutput": 2372
         },
         "modules/core/lib/Graph.js": {
-          "bytesInOutput": 4179
+          "bytesInOutput": 4151
         },
         "modules/core/lib/Preset.js": {
           "bytesInOutput": 4986
@@ -37249,7 +37259,7 @@
           "bytesInOutput": 353
         },
         "node_modules/lodash-es/debounce.js": {
-          "bytesInOutput": 953
+          "bytesInOutput": 947
         },
         "modules/ui/icon.js": {
           "bytesInOutput": 369
@@ -37267,13 +37277,13 @@
           "bytesInOutput": 7749
         },
         "modules/pixi/PixiEvents.js": {
-          "bytesInOutput": 5622
+          "bytesInOutput": 5612
         },
         "node_modules/d3-color/src/define.js": {
           "bytesInOutput": 145
         },
         "node_modules/d3-color/src/color.js": {
-          "bytesInOutput": 7142
+          "bytesInOutput": 7120
         },
         "node_modules/d3-color/src/index.js": {
           "bytesInOutput": 0
@@ -37288,10 +37298,10 @@
           "bytesInOutput": 16
         },
         "node_modules/d3-interpolate/src/color.js": {
-          "bytesInOutput": 306
+          "bytesInOutput": 302
         },
         "node_modules/d3-interpolate/src/rgb.js": {
-          "bytesInOutput": 511
+          "bytesInOutput": 509
         },
         "node_modules/d3-interpolate/src/numberArray.js": {
           "bytesInOutput": 217
@@ -37309,7 +37319,7 @@
           "bytesInOutput": 211
         },
         "node_modules/d3-interpolate/src/string.js": {
-          "bytesInOutput": 626
+          "bytesInOutput": 622
         },
         "node_modules/d3-interpolate/src/value.js": {
           "bytesInOutput": 273
@@ -37330,12 +37340,12 @@
           "bytesInOutput": 1029
         },
         "node_modules/d3-interpolate/src/zoom.js": {
-          "bytesInOutput": 731
-        },
-        "node_modules/pixi-filters/lib/defaults/default2.mjs": {
-          "bytesInOutput": 638
+          "bytesInOutput": 725
         },
         "node_modules/pixi-filters/lib/defaults/default.mjs": {
+          "bytesInOutput": 638
+        },
+        "node_modules/pixi-filters/lib/defaults/default2.mjs": {
           "bytesInOutput": 1230
         },
         "node_modules/pixi-filters/lib/adjustment/adjustment2.mjs": {
@@ -37345,118 +37355,10 @@
           "bytesInOutput": 1092
         },
         "node_modules/pixi-filters/lib/adjustment/AdjustmentFilter.mjs": {
-          "bytesInOutput": 1565
+          "bytesInOutput": 1561
         },
         "node_modules/pixi-filters/lib/index.mjs": {
           "bytesInOutput": 0
-        },
-        "node_modules/pixi-filters/lib/kawase-blur/kawase-blur.mjs": {
-          "bytesInOutput": 726
-        },
-        "node_modules/pixi-filters/lib/kawase-blur/kawase-blur2.mjs": {
-          "bytesInOutput": 990
-        },
-        "node_modules/pixi-filters/lib/kawase-blur/kawase-blur-clamp.mjs": {
-          "bytesInOutput": 933
-        },
-        "node_modules/pixi-filters/lib/kawase-blur/kawase-blur-clamp2.mjs": {
-          "bytesInOutput": 1428
-        },
-        "node_modules/pixi-filters/lib/kawase-blur/KawaseBlurFilter.mjs": {
-          "bytesInOutput": 2848
-        },
-        "node_modules/pixi-filters/lib/advanced-bloom/advanced-bloom.mjs": {
-          "bytesInOutput": 412
-        },
-        "node_modules/pixi-filters/lib/advanced-bloom/advanced-bloom2.mjs": {
-          "bytesInOutput": 790
-        },
-        "node_modules/pixi-filters/lib/advanced-bloom/extract-brightness2.mjs": {
-          "bytesInOutput": 577
-        },
-        "node_modules/pixi-filters/lib/advanced-bloom/extract-brightness.mjs": {
-          "bytesInOutput": 807
-        },
-        "node_modules/pixi-filters/lib/advanced-bloom/ExtractBrightnessFilter.mjs": {
-          "bytesInOutput": 757
-        },
-        "node_modules/pixi-filters/lib/advanced-bloom/AdvancedBloomFilter.mjs": {
-          "bytesInOutput": 2097
-        },
-        "node_modules/pixi-filters/lib/ascii/ascii2.mjs": {
-          "bytesInOutput": 1792
-        },
-        "node_modules/pixi-filters/lib/ascii/ascii.mjs": {
-          "bytesInOutput": 2810
-        },
-        "node_modules/pixi-filters/lib/ascii/AsciiFilter.mjs": {
-          "bytesInOutput": 1362
-        },
-        "node_modules/pixi-filters/lib/bevel/bevel2.mjs": {
-          "bytesInOutput": 797
-        },
-        "node_modules/pixi-filters/lib/bevel/bevel.mjs": {
-          "bytesInOutput": 1483
-        },
-        "node_modules/pixi-filters/lib/bevel/BevelFilter.mjs": {
-          "bytesInOutput": 2164
-        },
-        "node_modules/pixi-filters/lib/bloom/BloomFilter.mjs": {
-          "bytesInOutput": 2439
-        },
-        "node_modules/pixi-filters/lib/bulge-pinch/bulge-pinch2.mjs": {
-          "bytesInOutput": 1049
-        },
-        "node_modules/pixi-filters/lib/bulge-pinch/bulge-pinch.mjs": {
-          "bytesInOutput": 1850
-        },
-        "node_modules/pixi-filters/lib/bulge-pinch/BulgePinchFilter.mjs": {
-          "bytesInOutput": 1425
-        },
-        "node_modules/pixi-filters/lib/color-gradient/color-gradient2.mjs": {
-          "bytesInOutput": 3741
-        },
-        "node_modules/pixi-filters/lib/color-gradient/color-gradient.mjs": {
-          "bytesInOutput": 729
-        },
-        "node_modules/pixi-filters/lib/color-gradient/color-gradient3.mjs": {
-          "bytesInOutput": 5857
-        },
-        "node_modules/pixi-filters/lib/external/gradient-parser/build/node.mjs": {
-          "bytesInOutput": 5139
-        },
-        "node_modules/pixi-filters/lib/color-gradient/CssGradientParser.mjs": {
-          "bytesInOutput": 1991
-        },
-        "node_modules/pixi-filters/lib/color-gradient/ColorGradientFilter.mjs": {
-          "bytesInOutput": 2318
-        },
-        "node_modules/pixi-filters/lib/color-map/color-map2.mjs": {
-          "bytesInOutput": 1157
-        },
-        "node_modules/pixi-filters/lib/color-map/color-map.mjs": {
-          "bytesInOutput": 1713
-        },
-        "node_modules/pixi-filters/lib/color-map/ColorMapFilter.mjs": {
-          "bytesInOutput": 2406
-        },
-        "node_modules/pixi-filters/lib/color-overlay/color-overlay2.mjs": {
-          "bytesInOutput": 260
-        },
-        "node_modules/pixi-filters/lib/color-overlay/color-overlay.mjs": {
-          "bytesInOutput": 557
-        },
-        "node_modules/pixi-filters/lib/color-overlay/ColorOverlayFilter.mjs": {
-          "bytesInOutput": 1243
-        },
-        "node_modules/pixi-filters/lib/color-replace/color-replace2.mjs": {
-          "bytesInOutput": 490
-        },
-        "node_modules/pixi-filters/lib/color-replace/color-replace.mjs": {
-          "bytesInOutput": 851
-        },
-        "node_modules/pixi-filters/lib/color-replace/ColorReplaceFilter.mjs": {
-          "bytesInOutput": 2445
         },
         "node_modules/pixi-filters/lib/convolution/convolution.mjs": {
           "bytesInOutput": 1281
@@ -37465,196 +37367,28 @@
           "bytesInOutput": 1773
         },
         "node_modules/pixi-filters/lib/convolution/ConvolutionFilter.mjs": {
-          "bytesInOutput": 1305
-        },
-        "node_modules/pixi-filters/lib/crt/crt.mjs": {
-          "bytesInOutput": 2335
-        },
-        "node_modules/pixi-filters/lib/crt/crt2.mjs": {
-          "bytesInOutput": 3221
-        },
-        "node_modules/pixi-filters/lib/crt/CRTFilter.mjs": {
-          "bytesInOutput": 2076
-        },
-        "node_modules/pixi-filters/lib/dot/dot2.mjs": {
-          "bytesInOutput": 734
-        },
-        "node_modules/pixi-filters/lib/dot/dot.mjs": {
-          "bytesInOutput": 1365
-        },
-        "node_modules/pixi-filters/lib/dot/DotFilter.mjs": {
-          "bytesInOutput": 1245
-        },
-        "node_modules/pixi-filters/lib/drop-shadow/drop-shadow.mjs": {
-          "bytesInOutput": 433
-        },
-        "node_modules/pixi-filters/lib/drop-shadow/drop-shadow2.mjs": {
-          "bytesInOutput": 953
-        },
-        "node_modules/pixi-filters/lib/drop-shadow/DropShadowFilter.mjs": {
-          "bytesInOutput": 3556
-        },
-        "node_modules/pixi-filters/lib/glitch/glitch2.mjs": {
-          "bytesInOutput": 2983
-        },
-        "node_modules/pixi-filters/lib/glitch/glitch.mjs": {
-          "bytesInOutput": 4284
-        },
-        "node_modules/pixi-filters/lib/glitch/GlitchFilter.mjs": {
-          "bytesInOutput": 3833
-        },
-        "node_modules/pixi-filters/lib/glow/glow.mjs": {
-          "bytesInOutput": 2153
+          "bytesInOutput": 1301
         },
         "node_modules/pixi-filters/lib/glow/glow2.mjs": {
+          "bytesInOutput": 2153
+        },
+        "node_modules/pixi-filters/lib/glow/glow.mjs": {
           "bytesInOutput": 2680
         },
         "node_modules/pixi-filters/lib/glow/GlowFilter.mjs": {
-          "bytesInOutput": 1883
-        },
-        "node_modules/pixi-filters/lib/godray/god-ray2.mjs": {
-          "bytesInOutput": 1383
-        },
-        "node_modules/pixi-filters/lib/godray/god-ray.mjs": {
-          "bytesInOutput": 1916
-        },
-        "node_modules/pixi-filters/lib/godray/perlin.mjs": {
-          "bytesInOutput": 3215
-        },
-        "node_modules/pixi-filters/lib/godray/perlin2.mjs": {
-          "bytesInOutput": 5427
-        },
-        "node_modules/pixi-filters/lib/godray/GodrayFilter.mjs": {
-          "bytesInOutput": 2096
-        },
-        "node_modules/pixi-filters/lib/hsl-adjustment/hsladjustment2.mjs": {
-          "bytesInOutput": 1608
-        },
-        "node_modules/pixi-filters/lib/hsl-adjustment/hsladjustment.mjs": {
-          "bytesInOutput": 1770
-        },
-        "node_modules/pixi-filters/lib/hsl-adjustment/HslAdjustmentFilter.mjs": {
-          "bytesInOutput": 1221
-        },
-        "node_modules/pixi-filters/lib/motion-blur/motion-blur2.mjs": {
-          "bytesInOutput": 992
-        },
-        "node_modules/pixi-filters/lib/motion-blur/motion-blur.mjs": {
-          "bytesInOutput": 1354
-        },
-        "node_modules/pixi-filters/lib/motion-blur/MotionBlurFilter.mjs": {
-          "bytesInOutput": 1823
-        },
-        "node_modules/pixi-filters/lib/multi-color-replace/multi-color-replace2.mjs": {
-          "bytesInOutput": 814
-        },
-        "node_modules/pixi-filters/lib/multi-color-replace/multi-color-replace.mjs": {
-          "bytesInOutput": 1348
-        },
-        "node_modules/pixi-filters/lib/multi-color-replace/MultiColorReplaceFilter.mjs": {
-          "bytesInOutput": 2264
-        },
-        "node_modules/pixi-filters/lib/old-film/old-film2.mjs": {
-          "bytesInOutput": 3508
-        },
-        "node_modules/pixi-filters/lib/old-film/old-film.mjs": {
-          "bytesInOutput": 4348
-        },
-        "node_modules/pixi-filters/lib/old-film/OldFilmFilter.mjs": {
-          "bytesInOutput": 2051
-        },
-        "node_modules/pixi-filters/lib/outline/outline.mjs": {
-          "bytesInOutput": 1259
-        },
-        "node_modules/pixi-filters/lib/outline/outline2.mjs": {
-          "bytesInOutput": 1845
-        },
-        "node_modules/pixi-filters/lib/outline/OutlineFilter.mjs": {
-          "bytesInOutput": 2257
-        },
-        "node_modules/pixi-filters/lib/radial-blur/radial-blur.mjs": {
-          "bytesInOutput": 1725
-        },
-        "node_modules/pixi-filters/lib/radial-blur/radial-blur2.mjs": {
-          "bytesInOutput": 2467
-        },
-        "node_modules/pixi-filters/lib/radial-blur/RadialBlurFilter.mjs": {
-          "bytesInOutput": 1804
-        },
-        "node_modules/pixi-filters/lib/reflection/reflection.mjs": {
-          "bytesInOutput": 1331
-        },
-        "node_modules/pixi-filters/lib/reflection/reflection2.mjs": {
-          "bytesInOutput": 2164
-        },
-        "node_modules/pixi-filters/lib/reflection/ReflectionFilter.mjs": {
-          "bytesInOutput": 2364
-        },
-        "node_modules/pixi-filters/lib/rgb-split/rgb-split.mjs": {
-          "bytesInOutput": 508
-        },
-        "node_modules/pixi-filters/lib/rgb-split/rgb-split2.mjs": {
-          "bytesInOutput": 1228
-        },
-        "node_modules/pixi-filters/lib/rgb-split/RGBSplitFilter.mjs": {
-          "bytesInOutput": 1669
-        },
-        "node_modules/pixi-filters/lib/shockwave/shockwave2.mjs": {
-          "bytesInOutput": 1919
-        },
-        "node_modules/pixi-filters/lib/shockwave/shockwave.mjs": {
-          "bytesInOutput": 2722
-        },
-        "node_modules/pixi-filters/lib/shockwave/ShockwaveFilter.mjs": {
-          "bytesInOutput": 1911
-        },
-        "node_modules/pixi-filters/lib/simple-lightmap/simple-lightmap.mjs": {
-          "bytesInOutput": 602
-        },
-        "node_modules/pixi-filters/lib/simple-lightmap/simple-lightmap2.mjs": {
-          "bytesInOutput": 1371
-        },
-        "node_modules/pixi-filters/lib/simple-lightmap/SimpleLightmapFilter.mjs": {
-          "bytesInOutput": 1799
-        },
-        "node_modules/pixi-filters/lib/tilt-shift/tilt-shift2.mjs": {
-          "bytesInOutput": 1125
-        },
-        "node_modules/pixi-filters/lib/tilt-shift/tilt-shift.mjs": {
-          "bytesInOutput": 1749
-        },
-        "node_modules/pixi-filters/lib/tilt-shift/TiltShiftAxisFilter.mjs": {
-          "bytesInOutput": 1372
-        },
-        "node_modules/pixi-filters/lib/twist/twist.mjs": {
-          "bytesInOutput": 1031
-        },
-        "node_modules/pixi-filters/lib/twist/twist2.mjs": {
-          "bytesInOutput": 1707
-        },
-        "node_modules/pixi-filters/lib/twist/TwistFilter.mjs": {
-          "bytesInOutput": 1094
-        },
-        "node_modules/pixi-filters/lib/zoom-blur/zoom-blur.mjs": {
-          "bytesInOutput": 2440
-        },
-        "node_modules/pixi-filters/lib/zoom-blur/zoom-blur2.mjs": {
-          "bytesInOutput": 2936
-        },
-        "node_modules/pixi-filters/lib/zoom-blur/ZoomBlurFilter.mjs": {
-          "bytesInOutput": 1481
+          "bytesInOutput": 1879
         },
         "modules/pixi/AbstractLayer.js": {
           "bytesInOutput": 3652
         },
         "modules/pixi/PixiLayerBackgroundTiles.js": {
-          "bytesInOutput": 4496
+          "bytesInOutput": 4488
         },
         "node_modules/@tmcw/togeojson/dist/togeojson.es.mjs": {
-          "bytesInOutput": 10008
+          "bytesInOutput": 9956
         },
         "modules/pixi/PixiLayerCustomData.js": {
-          "bytesInOutput": 6864
+          "bytesInOutput": 6886
         },
         "modules/pixi/PixiGeometry.js": {
           "bytesInOutput": 3644
@@ -37663,34 +37397,34 @@
           "bytesInOutput": 2454
         },
         "modules/pixi/lib/DashLine.js": {
-          "bytesInOutput": 4262
+          "bytesInOutput": 4369
         },
         "modules/pixi/helpers.js": {
           "bytesInOutput": 1902
         },
         "modules/pixi/PixiFeatureLine.js": {
-          "bytesInOutput": 4192
+          "bytesInOutput": 4277
         },
         "modules/pixi/PixiFeaturePoint.js": {
-          "bytesInOutput": 5277
+          "bytesInOutput": 5284
         },
         "modules/pixi/PixiFeaturePolygon.js": {
-          "bytesInOutput": 5611
+          "bytesInOutput": 5720
         },
         "modules/pixi/PixiLayerEditBlocks.js": {
-          "bytesInOutput": 1368
+          "bytesInOutput": 1405
         },
         "modules/pixi/PixiLayerKartaPhotos.js": {
-          "bytesInOutput": 2728
+          "bytesInOutput": 2744
         },
         "modules/pixi/PixiLayerKeepRight.js": {
-          "bytesInOutput": 910
+          "bytesInOutput": 930
         },
         "modules/pixi/PixiLayerLabels.js": {
-          "bytesInOutput": 8915
+          "bytesInOutput": 8958
         },
         "modules/pixi/PixiLayerMapillaryDetections.js": {
-          "bytesInOutput": 1365
+          "bytesInOutput": 1381
         },
         "node_modules/d3-scale/src/init.js": {
           "bytesInOutput": 132
@@ -37702,7 +37436,7 @@
           "bytesInOutput": 24
         },
         "node_modules/d3-scale/src/continuous.js": {
-          "bytesInOutput": 1516
+          "bytesInOutput": 1508
         },
         "node_modules/d3-format/src/formatDecimal.js": {
           "bytesInOutput": 277
@@ -37717,7 +37451,7 @@
           "bytesInOutput": 88
         },
         "node_modules/d3-format/src/formatSpecifier.js": {
-          "bytesInOutput": 976
+          "bytesInOutput": 974
         },
         "node_modules/d3-format/src/formatTrim.js": {
           "bytesInOutput": 201
@@ -37756,58 +37490,58 @@
           "bytesInOutput": 439
         },
         "node_modules/d3-scale/src/linear.js": {
-          "bytesInOutput": 579
+          "bytesInOutput": 577
         },
         "node_modules/d3-scale/src/index.js": {
           "bytesInOutput": 0
         },
         "modules/pixi/PixiLayerMapillaryPhotos.js": {
-          "bytesInOutput": 3748
+          "bytesInOutput": 3760
         },
         "modules/pixi/PixiLayerMapillarySigns.js": {
-          "bytesInOutput": 1306
+          "bytesInOutput": 1367
         },
         "modules/pixi/PixiLayerMapRoulette.js": {
-          "bytesInOutput": 949
+          "bytesInOutput": 969
         },
         "modules/pixi/PixiLayerMapUI.js": {
-          "bytesInOutput": 2560
+          "bytesInOutput": 2806
         },
         "modules/pixi/PixiLayerOsm.js": {
-          "bytesInOutput": 9128
+          "bytesInOutput": 9276
         },
         "modules/pixi/PixiLayerOsmNotes.js": {
-          "bytesInOutput": 1074
+          "bytesInOutput": 1094
         },
         "modules/pixi/PixiLayerOsmose.js": {
-          "bytesInOutput": 942
+          "bytesInOutput": 962
         },
         "modules/pixi/PixiLayerRapid.js": {
-          "bytesInOutput": 4680
+          "bytesInOutput": 4823
         },
         "modules/pixi/PixiLayerRapidOverlay.js": {
-          "bytesInOutput": 1277
+          "bytesInOutput": 1404
         },
         "modules/pixi/PixiLayerStreetsidePhotos.js": {
-          "bytesInOutput": 3228
+          "bytesInOutput": 3240
         },
         "modules/pixi/PixiLayerGeoScribble.js": {
-          "bytesInOutput": 2340
+          "bytesInOutput": 2505
         },
         "modules/pixi/PixiScene.js": {
-          "bytesInOutput": 1969
+          "bytesInOutput": 2094
         },
         "modules/pixi/lib/GuilloteneAllocator.js": {
           "bytesInOutput": 4186
         },
         "modules/pixi/lib/AtlasAllocator.js": {
-          "bytesInOutput": 3318
+          "bytesInOutput": 2624
         },
         "modules/pixi/PixiTextures.js": {
-          "bytesInOutput": 8026
+          "bytesInOutput": 8632
         },
         "modules/core/GraphicsSystem.js": {
-          "bytesInOutput": 6782
+          "bytesInOutput": 8806
         },
         "modules/core/ImagerySystem.js": {
           "bytesInOutput": 7321
@@ -37816,16 +37550,16 @@
           "bytesInOutput": 10163
         },
         "node_modules/@rapideditor/country-coder/dist/country-coder.mjs": {
-          "bytesInOutput": 605942
+          "bytesInOutput": 605922
         },
         "node_modules/bignumber.js/bignumber.mjs": {
-          "bytesInOutput": 18794
+          "bytesInOutput": 18790
         },
         "node_modules/splaytree-ts/dist/esm/index.js": {
-          "bytesInOutput": 5777
+          "bytesInOutput": 5769
         },
         "node_modules/polyclip-ts/dist/esm/index.js": {
-          "bytesInOutput": 17724
+          "bytesInOutput": 17718
         },
         "node_modules/@rapideditor/location-conflation/index.mjs": {
           "bytesInOutput": 3806
@@ -37840,7 +37574,7 @@
           "bytesInOutput": 9000
         },
         "modules/core/MapSystem.js": {
-          "bytesInOutput": 10277
+          "bytesInOutput": 10265
         },
         "modules/core/PhotoSystem.js": {
           "bytesInOutput": 7925
@@ -37945,7 +37679,7 @@
           "bytesInOutput": 0
         },
         "modules/ui/UiApiStatus.js": {
-          "bytesInOutput": 1745
+          "bytesInOutput": 2139
         },
         "modules/ui/UiAttribution.js": {
           "bytesInOutput": 1708
@@ -37972,7 +37706,7 @@
           "bytesInOutput": 880
         },
         "modules/ui/sections/changes.js": {
-          "bytesInOutput": 1865
+          "bytesInOutput": 1777
         },
         "modules/ui/commit_warnings.js": {
           "bytesInOutput": 910
@@ -37984,7 +37718,7 @@
           "bytesInOutput": 469
         },
         "modules/ui/conflicts.js": {
-          "bytesInOutput": 4092
+          "bytesInOutput": 4004
         },
         "modules/ui/UiContributors.js": {
           "bytesInOutput": 1398
@@ -38062,7 +37796,7 @@
           "bytesInOutput": 752
         },
         "modules/ui/intro/helper.js": {
-          "bytesInOutput": 6534
+          "bytesInOutput": 6536
         },
         "modules/ui/intro/UiCurtain.js": {
           "bytesInOutput": 5491
@@ -38101,10 +37835,10 @@
           "bytesInOutput": 3501
         },
         "modules/ui/cards/UiHistoryCard.js": {
-          "bytesInOutput": 5019
+          "bytesInOutput": 5184
         },
         "modules/ui/cards/UiLocationCard.js": {
-          "bytesInOutput": 2023
+          "bytesInOutput": 2083
         },
         "modules/ui/cards/UiMeasurementCard.js": {
           "bytesInOutput": 3959
@@ -38158,7 +37892,7 @@
           "bytesInOutput": 1854
         },
         "node_modules/marked/lib/marked.esm.js": {
-          "bytesInOutput": 38137
+          "bytesInOutput": 38331
         },
         "modules/ui/settings/custom_background.js": {
           "bytesInOutput": 1881
@@ -38335,7 +38069,7 @@
           "bytesInOutput": 0
         },
         "modules/ui/UiMinimap.js": {
-          "bytesInOutput": 5960
+          "bytesInOutput": 6404
         },
         "modules/ui/maproulette_details.js": {
           "bytesInOutput": 2367
@@ -38365,7 +38099,7 @@
           "bytesInOutput": 8607
         },
         "modules/ui/UiRapidDatasetToggle.js": {
-          "bytesInOutput": 5972
+          "bytesInOutput": 5971
         },
         "modules/ui/UiRapidPowerUserFeatures.js": {
           "bytesInOutput": 3842
@@ -38410,7 +38144,7 @@
           "bytesInOutput": 2740
         },
         "modules/ui/UiSpector.js": {
-          "bytesInOutput": 1621
+          "bytesInOutput": 1824
         },
         "modules/ui/UiOvermap.js": {
           "bytesInOutput": 758
@@ -38509,7 +38243,7 @@
           "bytesInOutput": 1022
         },
         "modules/validations/curb_nodes.js": {
-          "bytesInOutput": 3040
+          "bytesInOutput": 2865
         },
         "modules/validations/mismatched_geometry.js": {
           "bytesInOutput": 5905
@@ -38545,7 +38279,7 @@
           "bytesInOutput": 2512
         },
         "modules/operations/downgrade.js": {
-          "bytesInOutput": 1674
+          "bytesInOutput": 1670
         },
         "modules/operations/extract.js": {
           "bytesInOutput": 1440
@@ -38710,7 +38444,7 @@
           "bytesInOutput": 4710
         },
         "node_modules/pmtiles/dist/esm/index.js": {
-          "bytesInOutput": 13768
+          "bytesInOutput": 13916
         },
         "modules/services/WikidataService.js": {
           "bytesInOutput": 2606
@@ -38752,7 +38486,7 @@
           "bytesInOutput": 353
         }
       },
-      "bytes": 2983241
+      "bytes": 2817275
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.674Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.802Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.cs.json",
-    "hash": "f57a87d561a7dd3e0c2744bddab7c058"
+    "hash": "054253a6e3c369d0fbf447cef2eaf382"
   },
   "cs": {
     "presets": {
@@ -1183,12 +1183,10 @@
               "title": "Žádné"
             },
             "opposite": {
-              "description": "Cyklopruh, kterým cyklisté mohou jet v jednosměrce oběma směry",
-              "title": "Obousměrný cyklopruh"
+              "description": "Aktualizujte prosím pomocí oneway=yes, oneway:bicycle=no a cycleway:both=no atd."
             },
             "opposite_lane": {
-              "description": "Cykloobousměrka - cyklopruh v opačném směru než ostatní provoz",
-              "title": "Protisměrný cyklopruh"
+              "description": "Aktualizujte prosím pomocí oneway, oneway:bicycle, a cycleway:left/right=lane atd."
             },
             "separate": {
               "description": "Označuje, která cyklostezka byla zmapována jako samostatná geometrie",

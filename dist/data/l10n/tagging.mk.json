@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.621Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.728Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.mk.json",
-    "hash": "d1e346d4233627714e695c77ea363b2a"
+    "hash": "3be8e32c78be98015d24f92aeedc8dcf"
   },
   "mk": {
     "presets": {
@@ -1196,12 +1196,12 @@
               "title": "Ништо"
             },
             "opposite": {
-              "description": "Велосипедска патека што оди во две насоки во еднонасочна улица",
-              "title": "Спротивозна велосипедска лента"
+              "description": "Изменете со oneway=yes, oneway:bicycle=no и cycleway:both=no итн.",
+              "title": "(Застарено) Спротивозна велосипедска лента"
             },
             "opposite_lane": {
-              "description": "Велосипедска патека што оди спротивно од сообраќајот",
-              "title": "Спротивна велосипедска лента"
+              "description": "Изменете со oneway, oneway:bicycle и cycleway:left/right=lane итн.",
+              "title": "(Застарено) Спротивна велосипедска лента"
             },
             "separate": {
               "description": "Укажува дека целосипедската патека е исцртана како посебна геометрија",
@@ -6748,6 +6748,14 @@
         },
         "highway/cycleway/moped_link-NL": {
           "name": "Мопедска патека"
+        },
+        "highway/cycleway/traffic_island": {
+          "name": "Велосипедски остров",
+          "terms": "<преведете со истозначници или сродни поими на „Велосипедски остров“, одделени со запирки>"
+        },
+        "highway/cycleway/traffic_island_shared": {
+          "name": "Велосипедско-пешачки остров",
+          "terms": "<преведете со истозначници или сродни поими на „Велосипедско-пешачки остров“, одделени со запирки>"
         },
         "highway/cyclist_waiting_aid": {
           "name": "Семафорски потпирач за велосипедисти",

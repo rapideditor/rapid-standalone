@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.646Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.767Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.ga.json",
-    "hash": "804dbe1c9764fc01facce91b94dc9ddb"
+    "hash": "2838b3c951caf1fb1fc421e985b7b7ae"
   },
   "ga": {
     "presets": {
@@ -623,9 +623,6 @@
             "no": {
               "description": "Níl aon lána rothar",
               "title": "Ceann ar bith"
-            },
-            "opposite": {
-              "title": "Lána Rothar in aghaidh an tsrutha"
             },
             "share_busway": {
               "description": "Lána rothar roinnte le lána bus",

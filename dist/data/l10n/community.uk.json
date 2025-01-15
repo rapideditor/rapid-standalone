@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.759Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.931Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.uk.json",
-    "hash": "324e6abf10bb3286080d2929cd2d934b"
+    "hash": "2e2ef06a079e7e52b7f2c4e17b90bfb3"
   },
   "uk": {
     "_communities": {
@@ -204,6 +204,10 @@
       "aparat": {
         "name": "{community} на Aparat",
         "description": "Підпишіться на наш канал Aparat"
+      },
+      "bluesky": {
+        "name": "{community} у Bluesky",
+        "description": "Слідкуйте за нами у Bluesky"
       },
       "discord": {
         "description": "Спілкуйтеся з іншими маперами у Discord"

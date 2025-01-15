@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.669Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.796Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.de-AT.json",
-    "hash": "0613cf00e1c1adfc0d540ddfbb12e52f"
+    "hash": "bba8ad7bb540c699c8405fd07b148a19"
   },
   "de-AT": {
     "presets": {
@@ -1092,6 +1092,12 @@
         },
         "highway/cycleway/crossing/bicycle_foot": {
           "name": "Rad- und Gehwegquerung"
+        },
+        "highway/cycleway/traffic_island": {
+          "name": "Fahrradinsel"
+        },
+        "highway/cycleway/traffic_island_shared": {
+          "name": "Fahrrad- und Fußgängerinsel"
         },
         "highway/footway/crossing": {
           "name": "Fußgänger­kreuzung"

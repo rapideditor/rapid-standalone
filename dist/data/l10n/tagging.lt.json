@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.624Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.735Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.lt.json",
-    "hash": "806f733509799e6374c0d2bdcc22c378"
+    "hash": "f12ff4f61a92dad4ca460f8f2c6c6f02"
   },
   "lt": {
     "presets": {
@@ -569,12 +569,6 @@
             "no": {
               "description": "Nėra dviračių juostos",
               "title": "Nėra"
-            },
-            "opposite": {
-              "description": "Abiejų krypčių dviračių juosta vienpusėje gatvėje"
-            },
-            "opposite_lane": {
-              "description": "Dviračių juosta, kuria eismas vyksta priešinga kryptimi."
             },
             "share_busway": {
               "description": "Dviračių juosta yra kartu su autobusų juosta"

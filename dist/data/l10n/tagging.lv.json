@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.624Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.734Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.lv.json",
-    "hash": "9da150a3af5df540c388bcdbf36fc886"
+    "hash": "664a81461f31f7eb257174d1c56f3125"
   },
   "lv": {
     "presets": {
@@ -649,9 +649,6 @@
             "no": {
               "description": "Nav velosipēdu celiņa",
               "title": "Nav"
-            },
-            "opposite": {
-              "description": "Riteņbraucēju celiņš kas iet abos vienvirziena ceļa virzienos"
             },
             "share_busway": {
               "description": "Velosipēdu celiņš kopā ar ar autobusu ceļu"

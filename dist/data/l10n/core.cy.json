@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.748Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.914Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.cy.json",
-    "hash": "011e326c814304c604d7f40a0ebc7cd2"
+    "hash": "a93d15d6a97556a489aae65a94acb093"
   },
   "cy": {
     "icons": {
@@ -506,7 +506,7 @@
         "other": "{count} nodwedd cudd"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Ni ellir cyrraedd API OpenStreetMap. Mae eich golygiadau'n ddiogel yn leol. Gwiriwch eich cysylltiad gwe.",
         "offline": "Mae'r API OpenStreetMap yn all-lein. Mae eich golygiadau'n ddiogel yn leol. Ceisiwch eto'n nes ymlaen.",

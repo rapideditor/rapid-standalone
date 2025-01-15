@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.763Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.939Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.pt.json",
-    "hash": "809b97e4b22da71bf554269dac3ac41d"
+    "hash": "6dcd4c71d78ca945ced6200e2dc91344"
   },
   "pt": {
     "_communities": {
@@ -151,12 +151,16 @@
       "openstreetmapwesternsahara": "OpenStreetMap Sara Ocidental",
       "openstreetmapzambia": "OpenStreetMap Zâmbia",
       "openstreetmapzimbabwe": "OpenStreetMap Zimbabué",
+      "osmcolombia": "OSM Colômbia",
       "swissopenstreetmap": "OpenStreetMap Suíça"
     },
     "_defaults": {
       "aparat": {
         "name": "{community} no Aparat",
         "description": "Subscreve o nosso canal Aparat"
+      },
+      "bluesky": {
+        "description": "Siga-nos no Bluesky"
       },
       "discord": {
         "name": "Discord {community}",
@@ -364,6 +368,9 @@
     },
     "cl-telegram": {
       "extendedDescription": "Entre na comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar dos nossos encontros. Todos são bem-vindos!"
+    },
+    "co-facebook": {
+      "description": "Grupo de conversação sobre problemas do OSM na Colômbia"
     },
     "czech-community": {
       "description": "Mapa, site e contactos em membros da OSM na República Checa"

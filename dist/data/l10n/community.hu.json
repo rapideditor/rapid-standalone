@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.768Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.950Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.hu.json",
-    "hash": "035da7ea8d9b417a3a5c58e3832d3319"
+    "hash": "ed9724aeddfc925897ce096fff0ad95f"
   },
   "hu": {
     "_communities": {

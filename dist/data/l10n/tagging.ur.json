@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.582Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.678Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.ur.json",
-    "hash": "e43ab78bd7d206f55b3ec08118a93d1f"
+    "hash": "7ec3f6f4c5d7baa0f19710cfdc357e2b"
   },
   "ur": {
     "presets": {
@@ -641,7 +641,7 @@
           "label": "قسم"
         },
         "lanes": {
-          "label": "پتی",
+          "label": "لینز",
           "terms": "پتّی,پتیاں,پتّیاں,پٹی,پٹّی,پٹیاں,پٹّیاں"
         },
         "language_multi": {

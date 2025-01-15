@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.745Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.910Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.el.json",
-    "hash": "5d787c7740c4ebc348bf1c8165f8fd97"
+    "hash": "626e50bb3d615138f1e1533bbacf2fb6"
   },
   "el": {
     "icons": {
@@ -503,7 +503,7 @@
         "other": "{count} κρυφά χαρακτηριστικά"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Η επικοινωνία με το API του OpenStreetMap δεν ήταν δυνατή. Οι αλλαγές σου είναι ασφαλής στο τοπικό δίκτυο. Έλεγξε τη σύνδεση σου στο διαδίκτυο.",
         "offline": "Το API του OpenStreetMap είναι εκτός σύνδεσης. Οι αλλαγές σου είναι ασφαλείς στο τοπικό δίκτυο. Παρακαλώ επέστρεψε αργότερα.",

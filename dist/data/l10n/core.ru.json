@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.714Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.866Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.ru.json",
-    "hash": "5b99a9bb35ee4575c4be913e6112f3d8"
+    "hash": "917d1f38b34526f0d2739c4e0ec405db"
   },
   "ru": {
     "icons": {
@@ -569,7 +569,7 @@
         "other": "{count} скрытых объектов"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Нет связи с сервером API OpenStreetMap. Ваши правки сохранены локально. Проверьте подключение к сети.",
         "offline": "В настоящий момент OpenStreetMap API недоступен. Ваши изменения сохранены локально, на вашем устройстве. Сохраните их позже, пожалуйста.",

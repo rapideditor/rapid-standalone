@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.694Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.834Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/imagery.fr.json",
-    "hash": "7c2c9a054536f6a730e3ab1296364626"
+    "hash": "0017d80718ae87a60c2c3fb8ee993a65"
   },
   "fr": {
     "imagery": {
@@ -697,7 +697,8 @@
       "geoscribble-latest": {
         "attribution": {
           "text": "Contributeurs GeoScribble"
-        }
+        },
+        "name": "Dernières notes GeoScribble"
       },
       "gothenburg-citymap": {
         "attribution": {

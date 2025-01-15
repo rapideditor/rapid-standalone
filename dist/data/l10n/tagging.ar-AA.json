@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.684Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.816Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.ar-AA.json",
-    "hash": "829e65fddce3c2d29c635025ee27419b"
+    "hash": "6b1ddb7d862b54b7aad091778ae0c7d7"
   },
   "ar-AA": {
     "presets": {

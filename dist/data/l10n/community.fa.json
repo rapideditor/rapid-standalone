@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.773Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.955Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.fa.json",
-    "hash": "81527b3d1ec85c9ece5fc446684230c0"
+    "hash": "54331c8cd8511a26cb21cf32fc78ad7a"
   },
   "fa": {
     "_communities": {
@@ -255,7 +255,7 @@
         "name": "تلگرام {community}",
         "description": "به گپ تلگرامی انجمن ما بپیوندید"
       },
-      "website": {
+      "url": {
         "name": "{انجمن}"
       },
       "wiki": {

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.756Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.927Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.zh-TW.json",
-    "hash": "b18f9de912ba0cecf5339c158f05887b"
+    "hash": "01647ccdaab21819af15876ed84d4bf2"
   },
   "zh-TW": {
     "_communities": {
@@ -16,7 +16,7 @@
       "openstreetmap": "開放街圖",
       "openstreetmapafghanistan": "開放街圖阿富汗",
       "openstreetmapafrica": "開放街圖非洲",
-      "openstreetmapalba": "開放街圖阿爾巴",
+      "openstreetmapalba": "開放街圖蘇格蘭",
       "openstreetmapalbania": "開放街圖阿爾巴尼亞",
       "openstreetmapargentina": "開放街圖阿根廷",
       "openstreetmaparmenia": "開放街圖亞美尼亞",

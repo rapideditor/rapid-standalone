@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.638Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.752Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.hr.json",
-    "hash": "92362ea92775b7059837fce215e1d93a"
+    "hash": "b4d40cf5d26a4c4d67666de9ac242112"
   },
   "hr": {
     "presets": {
@@ -1014,12 +1014,6 @@
             "no": {
               "description": "Nema biciklističke trake",
               "title": "Nema"
-            },
-            "opposite": {
-              "description": "Biciklistička traka za kretanje u oba smjera u jednosmjernoj ulici"
-            },
-            "opposite_lane": {
-              "description": "Biciklistička traka suprotnog smjera kretanja u odnosu na promet"
             },
             "share_busway": {
               "description": "Biciklistička traka dijeljena s autobusnom trakom"

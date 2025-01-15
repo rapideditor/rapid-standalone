@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.600Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.701Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.sl.json",
-    "hash": "7a9b007ea35178c780ba0196e42d9fb5"
+    "hash": "8601946aac920b77c7508da861b06dc2"
   },
   "sl": {
     "presets": {
@@ -550,12 +550,6 @@
             "no": {
               "description": "Brez pasu za kolesarje",
               "title": "Brez"
-            },
-            "opposite": {
-              "description": "Obojesmerni kolesarski pas v enosmerni ulici"
-            },
-            "opposite_lane": {
-              "description": "Kolesarski pas, ki poteka v nasprotni smeri prometa"
             },
             "share_busway": {
               "description": "Pas za kolesarje, ki je deljen z voznim pasom za avtobuse"

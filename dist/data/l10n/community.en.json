@@ -1,15 +1,16 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.775Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.959Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.en.json",
-    "hash": "8c4ff1738b5c01f066e0d9ee9345af8d"
+    "hash": "e864f40ace59ab4d81f788657d4483ba"
   },
   "en": {
     "_communities": {
       "freelibreopensourcesoftwarekosovaflossk": "Free Libre Open Source Software Kosova (FLOSSK)",
       "geolibres": "GeoLibres",
       "kiribatiwomeninmapping": "Kiribati Women in Mapping",
+      "mapeadoresivides": "Mapeadores IVIDES",
       "mappingbotswana": "Mapping Botswana",
       "maptimebogota": "MaptimeBogota",
       "maptimehrva": "MaptimeHRVA",
@@ -214,7 +215,8 @@
       "osmnelson": "OSM Nelson",
       "swissopenstreetmap": "Swiss OpenStreetMap",
       "tadeomappers": "TadeoMappers",
-      "youthmappersasu": "YouthMappersASU"
+      "youthmappersasu": "YouthMappersASU",
+      "youthmappersufrj": "YouthMappers UFRJ"
     },
     "_defaults": {
       "aparat": {
@@ -333,7 +335,7 @@
         "description": "Follow us on 𝕏",
         "url": "https://twitter.com/{account}"
       },
-      "website": {
+      "url": {
         "name": "{community}"
       },
       "wiki": {
@@ -595,6 +597,9 @@
     "de-mainz-mailinglist": {
       "description": "OpenStreetMap in Mainz und Umgebung"
     },
+    "de-mainz-signal": {
+      "description": "OpenStreetMap in Mainz, Wiesbaden und Umgebung"
+    },
     "de-mainz-telegram": {
       "description": "OpenStreetMap in Mainz und Umgebung"
     },
@@ -764,6 +769,9 @@
     },
     "it-discourse": {
       "description": "Il forum dove poter discutere di OpenStreetMap"
+    },
+    "ivides_website": {
+      "description": "We are focused on sustainable development, mapping, and support of the OpenStreetMap community."
     },
     "ko-facebook": {
       "description": "Mappers and OpenStreetMap users in Korea"
@@ -1286,6 +1294,9 @@
     },
     "rs-wiki": {
       "description": "Wikiproject page for Serbia"
+    },
+    "scandinavia-discord": {
+      "name": "Scandinavian channel on OpenStreetMap World Discord"
     },
     "sg-wiki": {
       "description": "{community} Wiki page"

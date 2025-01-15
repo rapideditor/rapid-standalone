@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.615Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.720Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.no.json",
-    "hash": "75aab0199beeea04dafeab3496e71512"
+    "hash": "3dca37347de998635dd6d8daa0504183"
   },
   "no": {
     "presets": {
@@ -975,14 +975,6 @@
             "no": {
               "description": "Ingen sykkelfelt",
               "title": "Ingen"
-            },
-            "opposite": {
-              "description": "Sykkelfelt som går i begge retninger i en enveiskjørt gate",
-              "title": "Motstrøms sykkelfelt"
-            },
-            "opposite_lane": {
-              "description": "Et sykkelfelt som går i motsatte retning av trafikken.",
-              "title": "Motsatt sykkelfelt"
             },
             "separate": {
               "description": "Indikerer at sykkelveien var kartlagt som en egen geometri",

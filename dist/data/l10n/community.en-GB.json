@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.775Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.959Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.en-GB.json",
-    "hash": "bfcfe1ae4ee6593f6319423c2e8ede8a"
+    "hash": "1a6730d449b335c052f3b63d0fa55459"
   },
   "en-GB": {
     "al-maptime-tirana": {

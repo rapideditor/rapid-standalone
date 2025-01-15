@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.733Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.894Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.he.json",
-    "hash": "add63a257306cd952cc8dd48096bff62"
+    "hash": "4141f20afe0598850afce6c814a749bd"
   },
   "he": {
     "icons": {
@@ -518,7 +518,7 @@
         "other": "{count} תכונות נסתרות"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "לא ניתן להגיע ל־API של OpenStreetMap. העריכות שלך נשמרות מקומית. נא לבדוק את החיבור שלך לאינטרנט.",
         "offline": "ה־API של OpenStreetMap אינו זמין. העריכות שלך נשמרות באופן מקומי. נא לחזור בהמשך.",

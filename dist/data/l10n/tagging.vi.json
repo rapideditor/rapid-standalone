@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.581Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.677Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.vi.json",
-    "hash": "db17c3d105230796eaa449860192eb38"
+    "hash": "dd7eeec1731adee11bb0effd08e7ab68"
   },
   "vi": {
     "presets": {
@@ -1056,14 +1056,6 @@
             "no": {
               "description": "Không có làn xe đạp",
               "title": "Không có"
-            },
-            "opposite": {
-              "description": "Làn xe đạp hai chiều trên đường một chiều",
-              "title": "Làn xe đạp ngược chiều giao thông"
-            },
-            "opposite_lane": {
-              "description": "Làn xe đạp chạy ngược chiều giao thông",
-              "title": "Làn xe đạp ngược chiều lối"
             },
             "separate": {
               "description": "Đã vẽ lối đi xe đạp như một đường kẻ riêng",

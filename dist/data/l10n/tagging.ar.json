@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.683Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.815Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.ar.json",
-    "hash": "e50b081742d1601abbe62482e08a8423"
+    "hash": "2b3269c590919e13e0a1320559949426"
   },
   "ar": {
     "presets": {
@@ -1022,12 +1022,6 @@
             "no": {
               "description": "لا يوجد مسار للدراجات",
               "title": "لا شيء"
-            },
-            "opposite": {
-              "description": "مسار دراجات للسير في كلا الاتجاهين على طريق باتجاه واحد"
-            },
-            "opposite_lane": {
-              "description": "مسار دراجات يسير في الاتجاه المعاكس لحركة مرور السيارات"
             },
             "separate": {
               "description": "للإشارة إلى أنه قد تم تخطيط مسار الدراجات باعتباره شكلًا هندسيًا منفصلاً"

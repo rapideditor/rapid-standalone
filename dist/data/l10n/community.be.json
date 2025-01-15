@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.779Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.967Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.be.json",
-    "hash": "5d194fc3457120a8e7f460a736d24f92"
+    "hash": "5636102602e8e64aebcb27146be876bb"
   },
   "be": {
     "_communities": {
@@ -285,7 +285,7 @@
         "name": "{community} у 𝕏",
         "description": "Падпішыцеся на нас у 𝕏"
       },
-      "website": {
+      "url": {
         "name": "{супольнасць}"
       },
       "wiki": {

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.722Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.878Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.mk.json",
-    "hash": "c30002fcb3b03981d68eab015b809800"
+    "hash": "f1280db9ad045635840bd26fc49dcf92"
   },
   "mk": {
     "icons": {
@@ -421,7 +421,7 @@
         "other": "{count} скриени елементи"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Не можев да го добијам извршникот на OpenStreetMap. Уредувањата се зачувани месно. Проверете си ја линијата.",
         "offline": "Извршникот на OpenStreetMap не е на линија. Уредувањата се зачувани месно. Навратете се подоцна.",

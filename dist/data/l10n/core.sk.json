@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.712Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.861Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.sk.json",
-    "hash": "ff12a910c0f6e68c5b47063eca30eb38"
+    "hash": "451c20c8b120dcac09a61a55e1d028ee"
   },
   "sk": {
     "icons": {
@@ -569,7 +569,7 @@
         "other": "{count} objektov skrytých"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Nie je možné pristupovať k OpenStreetMap API. Vaše úpravy sú v bezpečí lokálne u vás. Skontrolujte vaše internetové pripojenie.",
         "offline": "OpenStreetMap API je odpojené. Vaše úpravy sú v bezpečí lokálne u vás. Prosím vráťte sa neskôr.",

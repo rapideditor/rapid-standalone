@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.728Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.888Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.it.json",
-    "hash": "e314563f29b09938808060ec90291d3f"
+    "hash": "78997304f7a8b0ae285189802a6aebbe"
   },
   "it": {
     "icons": {
@@ -530,7 +530,7 @@
         "other": "{count} elementi nascosti"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Impossibile raggiungere le API di OpenStreetMap. Le tue modifiche sono al sicuro in locale. Verifica la tua connessione.",
         "offline": "Le API OpenStreetMap sono offline. Le tue modifiche sono al sicuro in locale. Per favore riprova più tardi.",

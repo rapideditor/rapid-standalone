@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.618Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.725Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.ms.json",
-    "hash": "8f72aa0453e26634142b183fd44f84b2"
+    "hash": "ac806088433cdc90f7d8ed8990ec16ba"
   },
   "ms": {
     "presets": {
@@ -489,12 +489,6 @@
             "no": {
               "description": "Tiada lorong basikal",
               "title": "Tiada"
-            },
-            "opposite": {
-              "description": "Lorong basikal yang mempunyai dua arah pada jalan satu hala"
-            },
-            "opposite_lane": {
-              "description": "Lorong basikal pada lalu lintas yang berlawan arah"
             },
             "share_busway": {
               "description": "Lorong basikal yang berkongsi dengan lorong bas"

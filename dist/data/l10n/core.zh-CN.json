@@ -1,13 +1,12 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.701Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.845Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.zh-CN.json",
-    "hash": "c88d33d9e05dc088552dc8dbea95aaa6"
+    "hash": "cdf1137916a9edb02c775ae3da3e12e1"
   },
   "zh-CN": {
     "icons": {
-      "download": "下載",
       "information": "信息",
       "remove": "删除",
       "undo": "撤销",
@@ -97,7 +96,7 @@
       },
       "paste": {
         "title": "粘贴",
-        "description": "在此处添加 {n} 个重复的 {feature} 。",
+        "description": "在此处添加 {n} 个重复的要素。",
         "annotation": "粘贴 {n} 个要素。",
         "nothing_copied": "没有要素已被复制。"
       },
@@ -401,7 +400,7 @@
     "feature_info": {
       "hidden_warning": "{count} 个隐藏要素"
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "无法连接到 OpenStreetMap API。你的编辑在本地是安全的。请检查你的网络连接。",
         "offline": "OpenStreetMap API 当前离线。你的编辑在本地是安全的。请稍后再来。",
@@ -838,9 +837,6 @@
       "just_edited": "您刚刚编辑了 OpenStreetMap！",
       "thank_you": "感谢您改进地图。",
       "thank_you_location": "感谢您改进 {where} 周边的地图。",
-      "thank_you_where": {
-        "separator": " "
-      },
       "help_link_text": "详情",
       "view_on_osm": "在 OSM 上查看更改",
       "like_osm": "喜欢 OpenStreetMap 吗？不妨与更多人联系：",
@@ -860,6 +856,9 @@
       "dev": "製作之中",
       "live": "实况模式",
       "lose_changes": "您有尚未保存的编辑，切换地图服务器会失去这些编辑。您是否确定要切换服务器？"
+    },
+    "rapid_first_edit": {
+      "exploring": "我只是在探索"
     },
     "rapid_inspector": {
       "tags": "标签"
@@ -1220,6 +1219,13 @@
     },
     "mapillary_signs": {
       "title": "交通标志"
+    },
+    "mapillary_detections": {
+      "object": {
+        "traffic-light": {
+          "general-upright": "交通信号灯 - 普通型（垂直式）"
+        }
+      }
     },
     "kartaview": {
       "tooltip": "来自KartaView的街景照片"
@@ -1884,8 +1890,6 @@
       "ok": "确定",
       "graph": {
         "city": "叁泉市",
-        "district": "朝阳区",
-        "province": "密歇根省",
         "name": {
           "1st-avenue": "甲子路",
           "2nd-avenue": "乙丑路",
@@ -2007,6 +2011,7 @@
       "navigation": {
         "title": "导览",
         "map_info": "主地图区域在背景之上显示OpenStreetMap数据。",
+        "pan_the_map": "**试试平移地图！**",
         "features": "我们使用 *要素* 一词来描述在地图上出现的东西。现实世界上的任何东西都可以在 OpenStreetMap 中描绘成要素。",
         "points_lines_areas": "地图要素以 *点、线、区域* 的形式呈现。",
         "nodes_ways": "在 OpenStreetMap 中，点有时被称为 *节点* ，线和区域有时被称为 *路径* 。",
@@ -2126,19 +2131,22 @@
       "title": "快捷键",
       "tooltip": "显示键盘快捷键界面",
       "key": {
-        "delete": "刪",
-        "menu": "目录"
+        "menu": "目录",
+        "option": "选项",
+        "pause": "暂停"
       },
       "gesture": {
         "drag": "拖动"
       },
       "browsing": "浏览",
       "editing": "编辑",
+      "tools": "工具 / 显示",
       "navigation": "导览",
       "selecting_features": "选择要素",
       "with_features_selected": "对选中的要素",
       "with_node_selected": "对选中的节点",
       "with_way_selected": "对选中的路径",
+      "with_photo_selected": "选择照片",
       "drawing": "绘制",
       "commands": "命令",
       "help": "指南",

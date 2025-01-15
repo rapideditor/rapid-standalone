@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.524Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.609Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/languages.json",
-    "hash": "4390dfce7ab215264edfbf04058cd0a5"
+    "hash": "903a9461f5a6747b975229db6aa8b1d2"
   },
   "languages": {
     "aa": {},

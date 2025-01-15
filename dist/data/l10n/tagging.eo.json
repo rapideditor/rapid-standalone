@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.660Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.783Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.eo.json",
-    "hash": "3a75db076fd0a6e39d485fef794ec13f"
+    "hash": "5fc8b2b3a87450f3bf792ad79cf149a0"
   },
   "eo": {
     "presets": {
@@ -935,12 +935,6 @@
             "no": {
               "description": "Neniu bicikl-koridoro",
               "title": "Neniu"
-            },
-            "opposite": {
-              "description": "Bicikla koridoro, kiu ebligas moviĝi en ambaŭ direktoj sur unudirekta strato"
-            },
-            "opposite_lane": {
-              "description": "Bicikla koridoro, kiu ebligas moviĝi en kontraŭa direkto ol direkto de koridoro ĉe kiu ĝi troviĝas"
             },
             "separate": {
               "description": "Bicikla koridoro mapigita kiel aparta linio"

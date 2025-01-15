@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.588Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.686Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.tl.json",
-    "hash": "1e03521b2e96dd336223a390f5061ac9"
+    "hash": "602e4401a3f53b71f857eb106bd946ea"
   },
   "tl": {
     "presets": {
@@ -396,12 +396,6 @@
             "no": {
               "description": "Walang linya ng bisikleta",
               "title": "Wala"
-            },
-            "opposite": {
-              "description": "Isang linya ng bisikleta ay nakakonekta sa parehong direksyon sa iisang linyang kalye"
-            },
-            "opposite_lane": {
-              "description": "Isang linya ng bisikleta ay nakakonekta sa kabilang direksyon ng trapiko"
             },
             "share_busway": {
               "description": "Isang linya ng bisikleta ay naisama sa isang linya ng bus"

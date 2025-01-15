@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.634Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.746Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.id.json",
-    "hash": "53ada9db63bcfaba9c2b71c2bdbf27ce"
+    "hash": "bec39d212ecb574bcca7fdbbff8375e8"
   },
   "id": {
     "presets": {
@@ -613,12 +613,6 @@
             "no": {
               "description": "Tidak ada jalur sepeda",
               "title": "Tidak ada"
-            },
-            "opposite": {
-              "description": "Jalur sepeda yang melintas dua arah pada jalan satu arah"
-            },
-            "opposite_lane": {
-              "description": "Jalur sepeda yang melintas berlawanan arah dengan lalu lintas"
             },
             "share_busway": {
               "description": "Jalur sepeda berbagi dengan jalur bus"

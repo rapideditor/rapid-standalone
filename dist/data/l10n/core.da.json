@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.747Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.913Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.da.json",
-    "hash": "b8f9675ec9ff333d42a2f7fa9e41b410"
+    "hash": "3fbe9c5eaa49f63ace60d1730f5f00ea"
   },
   "da": {
     "icons": {
@@ -499,7 +499,7 @@
         "other": "{count} skjulte objekter"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "OpenStreetMap-API'et kan ikke kontaktes. Dine redigeringer er sikret lokalt. Kontroller din netværksforbindelse. ",
         "offline": "OpenStreetMap-API'et er ikke online. Dine redigeringer er sikret lokalt. Kom tilbage senere og prøv igen.",

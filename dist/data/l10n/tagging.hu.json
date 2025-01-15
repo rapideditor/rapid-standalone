@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.636Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.750Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.hu.json",
-    "hash": "d35cfb55a054d5813d98d82f4a650e71"
+    "hash": "794e1deb3848c6bce23e4a59859a9f69"
   },
   "hu": {
     "presets": {
@@ -1169,14 +1169,6 @@
             "no": {
               "description": "Nincs kerékpársáv",
               "title": "Nincs"
-            },
-            "opposite": {
-              "description": "Olyan kerékpársáv, amelyen egy egyirányú utcában mindkét irányba közlekedhetünk",
-              "title": "Forgalommal szembe vezető kerékpársáv"
-            },
-            "opposite_lane": {
-              "description": "Olyan kerékpársáv, amely a forgalommal ellentétes irányba vezet",
-              "title": "Ellentétes kerékpársáv"
             },
             "separate": {
               "description": "Azt jelzi, hogy a kerékpárút különálló alakzatként lett felrajzolva a térképre",

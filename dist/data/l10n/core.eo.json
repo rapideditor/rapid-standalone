@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.742Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.907Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.eo.json",
-    "hash": "793985919dc620104a2c8da6e108521d"
+    "hash": "80ba8046c251f17366f35feaa856e6b3"
   },
   "eo": {
     "icons": {
@@ -503,7 +503,7 @@
         "other": "{count} kaŝitaj objektoj"
       }
     },
-    "osm_api_status": {
+    "status": {
       "message": {
         "error": "Ne eblas konekti kun la API OpenStreetMap. Viaj redaktoj estas sekure konservitaj loke. Kontrolu vian interretan konekton.",
         "offline": "La API OpenStreetMap estas eksterrete. Viaj redaktoj estas sekure konservitaj loke. Bonvolu reprovi poste.",

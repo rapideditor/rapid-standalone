@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.587Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.685Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.tr.json",
-    "hash": "1a84902b207c97056e210652a9207f95"
+    "hash": "670fd3f10e194ee34a835dba204f2beb"
   },
   "tr": {
     "presets": {
@@ -939,12 +939,6 @@
             },
             "no": {
               "description": "Bisiklet yolu değil"
-            },
-            "opposite": {
-              "description": "Tek yön yolda her iki yönde kullanılabilen bisiklet şeridi"
-            },
-            "opposite_lane": {
-              "description": "Trafiğin tersi yönde ilerleyen bisiklet şeridi"
             },
             "share_busway": {
               "description": "Otobüs şeridini kullanan bisiklet şeridi"

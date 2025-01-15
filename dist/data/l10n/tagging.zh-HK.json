@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "2.5.0",
-    "generated": "2024-12-23T18:54:02.574Z",
+    "version": "2.5.1",
+    "generated": "2025-01-15T22:40:39.668Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.zh-HK.json",
-    "hash": "d72fd76c71ebfa042fc9d822c56800f1"
+    "hash": "da2bc9e37f4552ef4cff5d36b6f39094"
   },
   "zh-HK": {
     "presets": {
@@ -599,12 +599,6 @@
             "no": {
               "description": "沒有單車徑",
               "title": "無"
-            },
-            "opposite": {
-              "description": "單程路提供雙程行車單車徑"
-            },
-            "opposite_lane": {
-              "description": "與行車方向相反的單車徑"
             },
             "share_busway": {
               "description": "與巴士綫共享的單車徑"
