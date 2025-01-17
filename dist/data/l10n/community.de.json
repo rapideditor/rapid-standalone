@@ -1,14 +1,15 @@
 {
   "_meta": {
     "version": "2.5.1",
-    "generated": "2025-01-15T22:40:39.961Z",
+    "generated": "2025-01-17T20:06:38.667Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.de.json",
-    "hash": "e55237ceaceebdd293ef4a64cfbb14f2"
+    "hash": "47e132161c2059955effe578245fd864"
   },
   "de": {
     "_communities": {
       "freelibreopensourcesoftwarekosovaflossk": "Free Libre Open Source Software Kosovo (FLOSSK)",
       "kiribatiwomeninmapping": "Kiribati Frauen beim Mappen",
+      "mapeadoresivides": "IVIDES-Mapper",
       "mappingbotswana": "Mappen in Botswana",
       "openstreetmapafrica": "OpenStreetMap Afrika",
       "openstreetmapalbania": "OpenStreetMap Albanien",
@@ -566,6 +567,9 @@
     "it-discourse": {
       "description": "Das italienische Forum, in dem Sie über OpenStreetMap diskutieren können"
     },
+    "ivides_website": {
+      "description": "Wir konzentrieren uns auf nachhaltige Entwicklung, Kartierung und Unterstützung der OpenStreetMap-Community."
+    },
     "ko-facebook": {
       "description": "Mapper und OpenStreetMap Nutzende in Korea"
     },
@@ -1043,6 +1047,9 @@
     },
     "rs-wiki": {
       "description": "Wikiproject Seite für Serbien"
+    },
+    "scandinavia-discord": {
+      "name": "Skandinavischer Kanal auf OpenStreetMap World Discord"
     },
     "sg-wiki": {
       "description": "{community} Wiki Seite"

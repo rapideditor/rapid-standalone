@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "2.5.1",
-    "generated": "2025-01-15T22:40:39.927Z",
+    "generated": "2025-01-17T20:06:38.646Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.zh-TW.json",
-    "hash": "01647ccdaab21819af15876ed84d4bf2"
+    "hash": "b82b8fcb8e34167c62b8498a64be8327"
   },
   "zh-TW": {
     "_communities": {
@@ -607,6 +607,9 @@
     },
     "RS-telegram": {
       "extendedDescription": "加入社群以得知更多關於開放街圖的資訊，也可以問問題或是參與我們的會面。每個人都很歡迎加入！"
+    },
+    "scandinavia-discord": {
+      "name": "開放街圖世界 Discord 的斯堪的納維亞語頻道"
     },
     "sg-wiki": {
       "description": "{community} 的維基頁面"

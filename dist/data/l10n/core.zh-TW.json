@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "2.5.1",
-    "generated": "2025-01-15T22:40:39.843Z",
+    "generated": "2025-01-17T20:06:38.588Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/core.zh-TW.json",
-    "hash": "e7a30e4ed0e01038ff9ba1b8443825c5"
+    "hash": "920e6e00b8adc88b962cc6b397508197"
   },
   "zh-TW": {
     "icons": {
@@ -497,6 +497,7 @@
       "tell_us": "告訴我們！"
     },
     "confirm": {
+      "okay": "瞭解",
       "cancel": "唔做"
     },
     "splash": {
@@ -773,6 +774,7 @@
     },
     "intro": {
       "done": "完成",
+      "ok": "瞭解",
       "graph": {
         "state": "臺灣",
         "countrycode": "tw",

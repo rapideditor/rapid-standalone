@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "2.5.1",
-    "generated": "2025-01-15T22:40:39.737Z",
+    "generated": "2025-01-17T20:06:38.512Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/tagging.ko.json",
-    "hash": "a935919016af23a935e73a8103a3a4ed"
+    "hash": "3982e32a685620078c420cd832fac466"
   },
   "ko": {
     "presets": {
@@ -165,7 +165,7 @@
             "floor": "층",
             "hamlet": "반",
             "housename": "집이름",
-            "housenumber!jp": "주거 번호<br>",
+            "housenumber!jp": "주거 번호",
             "neighbourhood": "동",
             "neighbourhood!jp": "마치/초메/아자/코아자",
             "place": "장소",

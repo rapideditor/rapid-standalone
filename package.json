@@ -1,6 +1,6 @@
 {
   "name": "@rapideditor/rapid-standalone",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "Rapid, but packaged with all dependencies included",
   "repository": "github:rapideditor/rapid-standalone",
   "homepage": "https://rapideditor.org",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@openstreetmap/id-tagging-schema": "~6.6.0",
-    "@rapideditor/rapid": "2.5.1",
+    "@rapideditor/rapid": "2.5.2",
     "mapillary-js": "^4.1.2",
     "maplibre-gl": "^3.6.2",
     "name-suggestion-index": "~6.0.20250112",

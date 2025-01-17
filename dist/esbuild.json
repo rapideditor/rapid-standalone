@@ -28053,7 +28053,7 @@
       "format": "esm"
     },
     "modules/ui/intro/UiCurtain.js": {
-      "bytes": 15453,
+      "bytes": 16482,
       "imports": [
         {
           "path": "node_modules/@rapid-sdk/math/built/math.mjs",
@@ -37799,7 +37799,7 @@
           "bytesInOutput": 6536
         },
         "modules/ui/intro/UiCurtain.js": {
-          "bytesInOutput": 5491
+          "bytesInOutput": 5703
         },
         "modules/ui/intro/welcome.js": {
           "bytesInOutput": 1309
@@ -38486,7 +38486,7 @@
           "bytesInOutput": 353
         }
       },
-      "bytes": 2817275
+      "bytes": 2817487
     }
   }
 }

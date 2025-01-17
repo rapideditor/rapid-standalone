@@ -1,15 +1,16 @@
 {
   "_meta": {
     "version": "2.5.1",
-    "generated": "2025-01-15T22:40:39.951Z",
+    "generated": "2025-01-17T20:06:38.661Z",
     "url": "https://raw.githubusercontent.com/facebook/rapid/main/dist/data/l10n/community.he.json",
-    "hash": "d5fc66381403cdb59dd756f404f02cee"
+    "hash": "aec5754ebda22a170c0e91eb4c533da9"
   },
   "he": {
     "_communities": {
       "freelibreopensourcesoftwarekosovaflossk": "תוכנה חופשית בקוד פתוח קוסובו (FLOSSK)",
       "kiribatiwomeninmapping": "נשים מקיריבטי במיפוי",
       "mappingbotswana": "מיפוי בוטסואנה",
+      "opensourcesanjose": "Open Source סן חוזה",
       "openstreetmapaachen": "OpenStreetMap אאכן",
       "openstreetmapafghanistan": "OpenStreetMap אפגניסטן",
       "openstreetmapafrica": "OpenStreetMap אפריקה",
@@ -25,6 +26,7 @@
       "openstreetmapbelarus": "OpenStreetMap בלרוס",
       "openstreetmapbelgium": "OpenStreetMap בלגיה",
       "openstreetmapbelize": "OpenStreetMap בליז",
+      "openstreetmapbengaluru": "OpenStreetMap בנגלור",
       "openstreetmapbenin": "OpenStreetMap בנין",
       "openstreetmapberlin": "OpenStreetMap ברלין",
       "openstreetmapbivccvl": "OpenStreetMap ביאלה-קנבסה-ורצ׳לי",
@@ -55,9 +57,11 @@
       "openstreetmapcroatia": "OpenStreetMap קרואטיה",
       "openstreetmapcuba": "OpenStreetMap קובה",
       "openstreetmapcuneo": "OpenStreetMap קונאו",
+      "openstreetmapcyprus": "OpenStreetMap קפריסין",
       "openstreetmapcz": "OpenStreetMap צ׳כיה",
       "openstreetmapde": "OpenStreetMap גרמניה",
       "openstreetmapdeepsouth": "OpenStreetMap הדרום העמוק",
+      "openstreetmapdelhi": "OpenStreetMap דלהי",
       "openstreetmapdenmark": "OpenStreetMap דנמרק",
       "openstreetmapdjibouti": "OpenStreetMap ג׳יבוטי",
       "openstreetmapdominicanrepublic": "OpenStreetMap הרפובליקה הדומיניקנית",
@@ -170,6 +174,7 @@
       "openstreetmapserbia": "OpenStreetMap סרביה",
       "openstreetmapseychelles": "OpenStreetMap איי סיישל",
       "openstreetmapsierraleone": "OpenStreetMap סיירה לאון",
+      "openstreetmapsingapore": "OpenStreetMap סינגפור",
       "openstreetmapslovenia": "OpenStreetMap סלובניה",
       "openstreetmapsomalia": "OpenStreetMap סומליה",
       "openstreetmapsouthafrica": "OpenStreetMap דרום אפריקה",
@@ -199,6 +204,7 @@
       "openstreetmapwesternsahara": "OpenStreetMap סהרה המערבית",
       "openstreetmapzambia": "OpenStreetMap זמביה",
       "openstreetmapzimbabwe": "OpenStreetMap זימבבואה",
+      "osmcolombia": "OSM קולומביה",
       "youthmappersasu": "YouthMappersASU (ממפים צעירים מאוניברסיטת אריזונה)"
     },
     "_defaults": {
